@@ -262,7 +262,7 @@
     "team_photo_caption": "Moritz, Christoph, Monika and Johannes (from left to right)",
     "sections": [
       {
-        "heading": "Floquet topological phases & topological edge modes",
+        "heading": "Anomalous Floquet topological phases",
         "subs": [
           {
             "title": "",
@@ -270,7 +270,47 @@
             "caption": "Schematic of the periodically-driven honeycomb lattice, where the tunneling bonds are varied in strength.",
             "paragraphs": [
               "Floquet engineering not only enables the realization of model Hamiltonians beyond static systems, but also the creation of novel phases of matter with no static analog. A striking example is 2D systems with zero Chern numbers that still host topologically protected chiral edge modes — known as anomalous Floquet topological systems. These are described by a generalized bulk-boundary correspondence that extends the static case, linking bulk topology to edge mode structure.",
-              "We developed a periodic driving protocol in hexagonal optical lattices by modulating the three tunnel couplings over time. This scheme hosts a variety of distinct Floquet topological regimes, including conventional and anomalous Floquet topological phases. To reveal their anomalous nature we developed a protocol to directly probe topological edge modes. To this end, we generate a topological interface by projecting a repulsive potential into the atomic plane. A tweezer trap, positioned near the interface, hosts a localized BEC, which after switching off the tweezer populates the edge mode, revealing the chiral dynamics characteristic of topological edge modes. Unlike in solid-state systems, we can precisely control boundary shape and sharpness, which allows for precise studies of edge mode properties. By combining edge-mode observations with bulk measurements, such as Chern numbers, we were able to directly demonstrate the existence of anomalous Floquet topological phases."
+              "We developed a periodic driving protocol in hexagonal optical lattices by modulating the three tunnel couplings over time. This scheme hosts a variety of distinct Floquet topological regimes, including conventional and anomalous Floquet topological phases. By tracking the closing of the quasienergy gaps at high-symmetry points as a function of the drive parameters, we mapped out the phase diagram and realized a regime in which all Chern numbers vanish while chiral edge modes persist — the hallmark of the anomalous Floquet topological phase."
+            ],
+            "links": [
+              {
+                "label": "Realization of anomalous Floquet topological systems with ultracold atoms, K. Wintersperger et al., Nature Physics 16, 1058–1063 (2020)",
+                "url": "https://doi.org/10.1038/s41567-020-0949-y"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Real-space detection and manipulation of topological edge modes",
+        "subs": [
+          {
+            "title": "",
+            "paragraphs": [
+              "To reveal the anomalous nature of these phases we developed a protocol to directly probe topological edge modes in real space. We generate a topological interface by projecting a repulsive potential into the atomic plane. A tweezer trap, positioned near the interface, hosts a localized BEC, which after switching off the tweezer populates the edge mode, revealing the chiral dynamics characteristic of topological edge modes. Unlike in solid-state systems, we can precisely control boundary shape and sharpness, which allows for precise studies of edge mode properties. By combining edge-mode observations with bulk measurements, such as Chern numbers, we were able to directly demonstrate the existence of anomalous Floquet topological phases."
+            ],
+            "links": [
+              {
+                "label": "Real-space detection and manipulation of topological edge modes with ultracold atoms, C. Braun et al., Nature Physics 20, 1306–1312 (2024)",
+                "url": "https://doi.org/10.1038/s41567-024-02506-z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Disorder-driven topological phase transitions",
+        "subs": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Anomalous Floquet topological phases are predicted to be exceptionally robust against disorder: unlike in static systems, their chiral edge modes are expected to survive even when all bulk states become localized, giving rise to the anomalous Floquet Anderson insulator. In our most recent work we study this interplay of topology and disorder experimentally. We implement precisely controlled, programmable disorder in the driven honeycomb lattice and use our real-space edge-mode probe to track how the topological phases evolve as the disorder strength is increased, allowing us to directly observe disorder-driven topological phase transitions."
+            ],
+            "links": [
+              {
+                "label": "Probing disorder-driven topological phase transitions via topological edge modes, A. Hesse et al., arXiv:2508.20154 (2025)",
+                "url": "https://arxiv.org/abs/2508.20154"
+              }
             ]
           }
         ]
