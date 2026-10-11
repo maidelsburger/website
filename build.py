@@ -101,8 +101,11 @@ def build():
     env.filters["pretty_date"] = pretty_date
     env.filters["obfuscate"] = obfuscate
     env.filters["supsub"] = supsub
+    import hashlib
+    css_v = hashlib.md5((ROOT / "static/css/style.css").read_bytes()).hexdigest()[:10]
+    common_css_v = css_v
     common = dict(site=site, research=research, research_by_id=research_by_id,
-                  people_by_id=people_by_id, year=datetime.date.today().year)
+                  people_by_id=people_by_id, year=datetime.date.today().year, css_v=css_v)
 
     def render(template, path, page_id, **ctx):
         depth = path.count("/")
