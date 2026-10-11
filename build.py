@@ -71,6 +71,21 @@ def build():
     research_by_id = {r["id"]: r for r in research}
     members = people["members"]
     alumni = people.get("alumni", [])
+
+    def alumni_rank(a):
+        role = a.get("role", "").lower()
+        for rank, key in enumerate(["postdoc", "phd", "research assistant", "master",
+                                    "bachelor", "intern", "student assistant"]):
+            if key in role:
+                break
+        else:
+            rank = 99
+        import unicodedata
+        last = a.get("name", "").split()[-1].lower()
+        last = unicodedata.normalize("NFKD", last).encode("ascii", "ignore").decode()
+        return (rank, last)
+
+    alumni.sort(key=alumni_rank)
     people_by_id = {m["id"]: m for m in members}
 
     # Validate references early so typos in JSON show up as clear errors.
