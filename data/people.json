@@ -765,14 +765,15 @@
     },
     {
       "id": "cesar-cabrera",
-      "name": "Cesar Cabrera",
+      "name": "César Cabrera",
       "degree": "Dr.",
       "role": "Postdoc",
       "projects": [
         "cs-microscope"
       ],
       "left": "",
-      "now": ""
+      "now": "IGFAE, Universidade de Santiago de Compostela",
+      "link": "https://igfae.usc.es/igfae/en/cesar-cabrera-starting-grant-quantum-simulation/"
     },
     {
       "id": "christian-schweizer",
