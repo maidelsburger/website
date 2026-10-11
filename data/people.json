@@ -951,7 +951,7 @@
         "ryd-yb"
       ],
       "left": "",
-      "now": ""
+      "now": "PhD student in the group of Jacob Covey"
     },
     {
       "id": "johannes-obermeyer",
@@ -1063,7 +1063,8 @@
       "role": "Master student",
       "projects": [
         "yb-hybrid"
-      ]
+      ],
+      "now": "PhD student, MPQ"
     },
     {
       "name": "David Gröters",
@@ -1123,7 +1124,8 @@
       "projects": [
         "k-hexagonal"
       ],
-      "now": "Research Scientist Quantum Computing at Siemens"
+      "now": "Research Scientist Quantum Computing, Siemens AG",
+      "link": "https://aidaq.berlin/speaker/karen_wintersperger"
     },
     {
       "name": "Jakob Näger",
