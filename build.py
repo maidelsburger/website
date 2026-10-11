@@ -154,6 +154,9 @@ def build():
     render("positions.html", "positions.html", "positions", positions=positions)
     render("contact.html", "contact.html", "contact")
     render("funding.html", "funding.html", "funding", funding=funding)
+    for fp in funding["projects"]:
+        if fp.get("slug") and fp.get("paragraphs"):
+            render("funding_project.html", f"funding/{fp['slug']}.html", "funding", p=fp)
     render("simple.html", "imprint.html", "imprint", title="Imprint",
            paragraphs=["Responsible for content: " + site["pi"]["name"] + ".", "Please replace this text with the legally required imprint of your institution."])
     render("simple.html", "privacy.html", "privacy", title="Privacy policy",

@@ -1,0 +1,16 @@
+{% extends "base.html" %}{% import "_macros.html" as m with context %}
+{% block title %}{{ p.name }}{% endblock %}
+{% block description %}{{ p.teaser }}{% endblock %}
+{% block content %}
+<p class="breadcrumb"><a href="{{ rel }}funding.html">Funding</a> › {{ p.name.split(':')[0] }}</p>
+<h1>{{ p.name }}</h1>
+{% if p.logo %}<img class="fund-logo" src="{{ rel }}{{ p.logo }}" alt="{{ p.name }} logo">{% endif %}
+{% if p.imagefile and p.imagefile != p.logo %}<img class="fund-img" src="{{ rel }}{{ p.imagefile }}" alt="{{ p.name }}">{% endif %}
+{% for par in p.paragraphs %}<p>{{ par }}</p>{% endfor %}
+{% if p.url or p.links %}
+<p class="refs">
+{% if p.url %}<a href="{{ p.url }}" rel="noopener">Project website</a>{% if p.links %}<br>{% endif %}{% endif %}
+{% for l in p.links %}<a href="{{ l.url }}" rel="noopener">{{ l.label }}</a>{% if not loop.last %}<br>{% endif %}{% endfor %}
+</p>
+{% endif %}
+{% endblock %}

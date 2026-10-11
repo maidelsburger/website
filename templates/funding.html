@@ -7,9 +7,9 @@
 {% for f in funding.projects if not f.completed %}
 <div class="card">
   {% if f.logo %}<img class="logo" src="{{ rel }}{{ f.logo }}" alt="{{ f.name }}">{% endif %}
-  <h2>{% if f.url %}<a href="{{ f.url }}" rel="noopener">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}</h2>
-  <p>{{ f.description }}</p>
-  {% if f.links %}<p class="refs">{% for l in f.links %}<a href="{{ l.url }}" rel="noopener">{{ l.label }}</a>{% if not loop.last %}<br>{% endif %}{% endfor %}</p>{% endif %}
+  <h2>{% if f.slug and f.paragraphs %}<a href="{{ rel }}funding/{{ f.slug }}.html">{{ f.name }}</a>{% elif f.url %}<a href="{{ f.url }}" rel="noopener">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}</h2>
+  <p>{{ f.teaser or f.description }}</p>
+  {% if f.slug and f.paragraphs %}<p><a href="{{ rel }}funding/{{ f.slug }}.html">more →</a></p>{% endif %}
 </div>
 {% endfor %}
 </div>
@@ -19,9 +19,9 @@
 {% for f in funding.projects if f.completed %}
 <div class="card">
   {% if f.logo %}<img class="logo" src="{{ rel }}{{ f.logo }}" alt="{{ f.name }}">{% endif %}
-  <h2>{% if f.url %}<a href="{{ f.url }}" rel="noopener">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}</h2>
-  <p>{{ f.description }}</p>
-  {% if f.links %}<p class="refs">{% for l in f.links %}<a href="{{ l.url }}" rel="noopener">{{ l.label }}</a>{% if not loop.last %}<br>{% endif %}{% endfor %}</p>{% endif %}
+  <h2>{% if f.slug and f.paragraphs %}<a href="{{ rel }}funding/{{ f.slug }}.html">{{ f.name }}</a>{% elif f.url %}<a href="{{ f.url }}" rel="noopener">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}</h2>
+  <p>{{ f.teaser or f.description }}</p>
+  {% if f.slug and f.paragraphs %}<p><a href="{{ rel }}funding/{{ f.slug }}.html">more →</a></p>{% endif %}
 </div>
 {% endfor %}
 </div>

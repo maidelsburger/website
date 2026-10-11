@@ -6,8 +6,19 @@
       "description": "// DigiAnaQsim aims to make quantum simulators more powerful, flexible, and useful for understanding complex quantum systems. Many important materials and molecules are governed by quantum effects that are extremely difficult to calculate with conventional computers. Quantum simulators offer an alternative route: they realize key quantum behaviour in a controlled laboratory system, such as ultracold atoms…",
       "url": "",
       "links": [],
-      "logo": "assets/funding/digianaqsim.jpg",
-      "completed": false
+      "logo": "assets/funding/digianaqsim-logo.jpg",
+      "completed": false,
+      "slug": "digianaqsim",
+      "paragraphs": [
+        "DigiAnaQsim aims to make quantum simulators more powerful, flexible, and useful for understanding complex quantum systems. Many important materials and molecules are governed by quantum effects that are extremely difficult to calculate with conventional computers. Quantum simulators offer an alternative route: they realize key quantum behaviour in a controlled laboratory system, such as ultracold atoms arranged in optical lattices.",
+        "The main objective of DigiAnaQsim is to develop new digital methods that enhance the power of analog quantum simulation. In practice, this means combining the strengths of two approaches. Analog quantum simulators naturally reproduce the collective behaviour of many interacting particles, while digital quantum methods provide precise tools for controlling, preparing, and measuring quantum states. By bringing these ideas together, the project will expand what cold-atom quantum simulators can do.",
+        "The project will focus on three broad goals. First, it will make it possible to study a wider range of quantum models, including models that are currently hard to realize directly in experiments. Second, it will develop better strategies for preparing useful quantum states, including states that resemble those found in quantum materials. Third, it will improve how information is extracted from experiments, so that quantities such as correlations, energies, and signs of entanglement can be measured more accurately.",
+        "DigiAnaQsim brings together theoretical and experimental teams from across Europe. The theory teams will design new methods and test them through numerical simulations, while the experimental teams will implement and refine them in state-of-the-art cold-atom platforms. This feedback loop between theory and experiment is central to the project.",
+        "By the end of the project, DigiAnaQsim aims to provide a practical toolbox for next-generation analog quantum simulators. These developed techniques will help researchers explore quantum matter in regimes that are difficult to access otherwise, supporting progress toward a deeper understanding of complex materials, quantum technologies, and the foundations of many-particle quantum physics.",
+        "The project is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – Projektnummer: 583931419"
+      ],
+      "teaser": "DigiAnaQsim aims to make quantum simulators more powerful, flexible, and useful for understanding complex quantum systems.",
+      "imagefile": "assets/funding/digianaqsim.jpg"
     },
     {
       "name": "QUASIMODO",
@@ -20,7 +31,19 @@
         }
       ],
       "logo": "",
-      "completed": false
+      "completed": false,
+      "slug": "quasimodo",
+      "paragraphs": [
+        "QUASIMODO is a QuantERA project that brings together six leading research groups across Europe: the University of Konstanz, the Max Planck Institute of Quantum Optics, Vilnius University, ICFO Barcelona, IF PAN Warsaw, and LKB Paris.",
+        "QUASIMODO studies new forms of matter using \"building blocks\" made from multilevel ultracold atoms such as dysprosium (Dy), potassium (K), and ytterbium (Yb). When atoms are cooled to temperatures just a tiny fraction above absolute zero, they begin to behave in unusual and fascinating ways as they interact and organize themselves according to the laws of quantum mechanics. Furthermore, using lasers, we can nowadays create \"synthetic forces\" that act like magnetic fields or make atoms behave as if they are moving in extra dimensions that do not exist in everyday life.",
+        "With these tools, the team plans to assemble entirely new quantum block structures that do not occur naturally. The main objective of the QUASIMODO project is creating and understanding strongly correlated and topological quantum phases. These are special states of matter in which many atoms act together in a highly coordinated way, producing collective behaviors that are extremely stable and difficult to disturb. A useful analogy is a knotted rope: once tied, the knot is hard to undo unless the rope is cut. Similarly, in topologically protected quantum states, it is the overall pattern of the system, not the precise position of each individual atom, that provides stability. This built-in robustness is crucial for future quantum technologies, where even tiny errors can have major consequences.",
+        "To explore these exotic states, QUASIMODO combines two approaches. Experimentally, it will build finely controlled quantum simulators, small atomic \"laboratories\" where they can test how new forms of matter behave. We will use advanced techniques such as Raman coupling, Floquet engineering, and optical lattices to shape how atoms move and interact. Theoretically, we will develop mathematical models that connect the microscopic rules governing these systems to the measurable properties observed in the laboratory. These models will help explain how phenomena such as long-lived quantum coherence arise.",
+        "In short, QUASIMODO aims to create quantum building-block platforms made of atoms, engineered with light, and structured to entirely new, naturally robust forms of matter. The expected outcome is a deeper understanding of how to create and stabilize topological quantum matter with implications to future quantum technologies.The project is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – Projektnummer: 583931725",
+        "Here you can find the link to the project side from University Konstanz Home – QUASIMODO",
+        "Here you can find the link to the press release of the Vilnius University: https://www.vu.lt/en/all-news/vu-scientists-and-partners-to-develop-next-generation-quantum-simulators"
+      ],
+      "teaser": "QUASIMODO studies new forms of matter using \"building blocks\" made from multilevel ultracold atoms such as dysprosium (Dy), potassium (K), and ytterbium (Yb).",
+      "imagefile": "assets/funding/quasimodo.jpg"
     },
     {
       "name": "ISF-DFG: Extremely sub-wavelength arrays with Yb atoms in optical lattices",
@@ -28,7 +51,10 @@
       "url": "",
       "links": [],
       "logo": "",
-      "completed": false
+      "completed": false,
+      "teaser": "Joint Israel Science Foundation / DFG project on extremely sub-wavelength atomic arrays with Yb atoms in optical lattices, in collaboration with the Hebrew University of Jerusalem.",
+      "slug": "",
+      "paragraphs": []
     },
     {
       "name": "FOR5919: Machine Learning for Complex Quantum States",
@@ -36,7 +62,14 @@
       "url": "https://for5919.github.io/",
       "links": [],
       "logo": "",
-      "completed": false
+      "completed": false,
+      "slug": "for5919-machine-learning-for-complex-qua",
+      "paragraphs": [
+        "“Machine Learning for Complex Quantum States” is a DFG-funded Research Unit (FOR 5919), coordinated by Dr. Markus Schmitt (University of Regensburg). The consortium brings together experimental and theoretical researchers from Augsburg, Dortmund, Erlangen, Jena, Cologne, Lausanne, Munich, Regensburg, and Zurich.Within this framework, our group contributes to two subprojects: \"Machine Learning for Qutrit-Based Quantum Computing and Simulations with Rydberg Atoms\" and \"Optimal Readout of Quantum Simulators\".https://for5919.github.io/",
+        "This project is funded via the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) via Research Unit FOR5919 under project number 550495627 and 550495627."
+      ],
+      "teaser": "“Machine Learning for Complex Quantum States” is a DFG-funded Research Unit (FOR 5919), coordinated by Dr.",
+      "imagefile": "assets/funding/for5919-machine-learning-for-complex-qua.jpg"
     },
     {
       "name": "FOR5688: Driven-dissipative many-body systems of ultracold atoms",
@@ -44,7 +77,18 @@
       "url": "https://www.tu.berlin/quantum/for-5688/for-5688",
       "links": [],
       "logo": "",
-      "completed": false
+      "completed": false,
+      "slug": "for5688-driven-dissipative-many-body-sys",
+      "paragraphs": [
+        "This Research Unit is dedicated towards developing a better understanding of driven-dissipative quantum many-body systems with the goal of using dissipation as a novel tool for engineering complex low-entropy many-body states via cooling or projective measurements.",
+        "Open quantum systems are ubiquitous in nature. Whatever strong efforts an experimentalist may do to isolate a quantum system from its environment, a careful attention has to be paid to dissipation, in particular in view of applications in quantum science and technology. Fundamentally, dissipation results from the exchange of information, energy, and particles with the environment. These processes can play a detrimental role; however, the coupling to engineered reservoirs can also be a powerful tool for controlling a quantum system. Of special interest are so-called driven-dissipative systems, which approach a non-equilibrium steady state (NESS). Different from a thermal state, characterized by a few thermodynamic variables (like temperature) only, such NESSs depend on the details of the environment, opening ample opportunities for tailoring their properties.",
+        "Whether dissipation is a resource or a reality to be dealt with, it is crucial to have an accurate description of an open many-body system. However, theoretical modeling and simulation are challenging and rely on approximations. It is, therefore, highly desirable to build quantum simulators for open systems, with a well characterized and tunable environment. We will pursue this goal using ultracold atoms. This will allow us to deepen our understanding also of other open systems, to design novel control schemes, and to test and develop suitable theoretical approaches.",
+        "Ultracold atoms offer many opportunities. They are clean and can be manipulated and probed with high resolution both in space and time. Their high degree of isolation makes them excellent quantum simulators for closed systems. In close collaboration between theory and experiment, we will extend, explore, and exploit various possibilities for the controlled engineering of dissipation in these systems.",
+        "More information about our Research Unit, its members and planned events can be found on our website",
+        "This project is funded via the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) via Research Unit FOR5688 under project number 521530974."
+      ],
+      "teaser": "This Research Unit is dedicated towards developing a better understanding of driven-dissipative quantum many-body systems with the goal of using dissipation as a novel tool for…",
+      "imagefile": "assets/funding/for5688-driven-dissipative-many-body-sys.jpg"
     },
     {
       "name": "FOR5522: Quantum thermalization, localization, and constrained dynamics with interacting ultracold atoms",
@@ -52,7 +96,14 @@
       "url": "https://www.uni-goettingen.de/en/675761.html",
       "links": [],
       "logo": "",
-      "completed": false
+      "completed": false,
+      "slug": "for5522-quantum-thermalization-localizat",
+      "paragraphs": [
+        "More information about our Research Unit, its members and planned events can be found on our website.",
+        "This project is funded via the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) via Research Unit FOR5522 under project number 499180199."
+      ],
+      "teaser": "DFG Research Unit on quantum thermalization, localization, and constrained dynamics with interacting ultracold atoms.",
+      "imagefile": "assets/funding/for5522-quantum-thermalization-localizat.jpg"
     },
     {
       "name": "PASQuanS2.1: Programmable atomic large-scale quantum simulation",
@@ -65,7 +116,16 @@
         }
       ],
       "logo": "",
-      "completed": false
+      "completed": false,
+      "slug": "pasquans2-1-programmable-atomic-large-sc",
+      "paragraphs": [
+        "Funding program for the development of programmable quantum simulators. Regarding the development of optical-lattice quantum simulators, the goal is to increase the programmabiliy, stability and size of current experimental platforms and to identify pathways towards demonstrating practical quantum advantage with analog quantum simulators.",
+        "On the technological side, we are going to develop new experimental techniques in order to increase the fidelity of the initial-state preparation, enhance the data rate, achieve local control over tunnel couplings and improve the precision of applied local potentials.",
+        "To find out more please visit the Pasquans website or connect with us via twitter or LinkedIn.",
+        "This project is funded by the European Research Council (ERC) under the Horizon Europe programme HORIZON-CL4-2022-QUANTUM-02-SGA via the project 101113690 (PASQuanS2.1)."
+      ],
+      "teaser": "Funding program for the development of programmable quantum simulators.",
+      "imagefile": "assets/funding/pasquans2-1-programmable-atomic-large-sc.jpg"
     },
     {
       "name": "DYNAMITE: Next Generation Quantum Simulators: From Dynamical Gauge Fields to Lattice Gauge Theory",
@@ -78,7 +138,14 @@
         }
       ],
       "logo": "",
-      "completed": false
+      "completed": false,
+      "slug": "dynamite-next-generation-quantum-simulat",
+      "paragraphs": [
+        "Quantum Simulators can address and deepen our understanding of complex quantum many-body systems with applications ranging from condensed matter physics to nuclear physics, high energy physics and material science. Within this projects, we will develop novel methods for the realization of lattice gauge theories using present-day capabilities of cold-atom quantum simulators. Starting with implementations of Abelian gauge theories we will work towards the realization of more complex non-Abelian lattice gauge theories.More information can be found on the DYNAMITE and Quantera website.",
+        "This project has received funding from the European Union's Horizon 2020 Research and Innovation Programme under Grant Agreement no. 731473 and 101017733."
+      ],
+      "teaser": "Quantum Simulators can address and deepen our understanding of complex quantum many-body systems with applications ranging from condensed matter physics to nuclear physics, high energy physics and material science.",
+      "imagefile": "assets/funding/dynamite-next-generation-quantum-simulat.jpg"
     },
     {
       "name": "Munich Quantum Valley: Trapped Atom Quantum Computer (TAQC)",
@@ -86,7 +153,15 @@
       "url": "https://www.munich-quantum-valley.de/",
       "links": [],
       "logo": "",
-      "completed": false
+      "completed": false,
+      "slug": "munich-quantum-valley-trapped-atom-quant",
+      "paragraphs": [
+        "Neutral atoms trapped in optical lattices are a promising quantum-computing platform. Its main advantage is the potential of scaling to larger numbers of qubits already in the coming years.",
+        "In this approach, qubits are encoded in individual addressable atoms cooled and trapped in an optical potential which is generated by crossed laser beams. Quantum gates can be realized by coupling to highly excited Rydberg states, whose strong, long-range interactions allow for entangling two or more atoms in the system. The single qubits can be addressed and coherently manipulated through local laser pulses. Within this project we are working towards realizing a first-generation neutral-atom quantum computing platform with ultracold ytterbium atoms.",
+        "This project is funded via the Initiative \"Munich Quantum Valley\" from the State Ministry for Science and the Arts as part of the High-Tech Agenda Plus of the Bavarian State Government"
+      ],
+      "teaser": "Neutral atoms trapped in optical lattices are a promising quantum-computing platform.",
+      "imagefile": "assets/funding/munich-quantum-valley-trapped-atom-quant.jpg"
     },
     {
       "name": "MCQST: Munich Center for Quantum Science and Technology",
@@ -94,7 +169,15 @@
       "url": "https://www.mcqst.de/",
       "links": [],
       "logo": "",
-      "completed": false
+      "completed": false,
+      "slug": "mcqst-munich-center-for-quantum-science",
+      "paragraphs": [
+        "The cluster of excellence MCQST comprises seven research units within disciplines such as physics, mathematics, computer science, electrical engineering, material science, and chemistry, covering all areas of Quantum Science and Technology (QST) from basic research to applications. We are contributing to two research units: RU-B on Quantum Simulation and RU-G on Explorative Research Directions.",
+        "One of the exciting goals of RU-G is to connect concepts from quantum simulation of many-body systems and quantum information to other research areas ranging from quantum chemistry to cosmology and high-energy physics.",
+        "We acknowledge funding from the Deutsche Forschungsgemeinschaft (DFG) under Germany’s Excellence Strategy – EXC-2111 – 390814868"
+      ],
+      "teaser": "The cluster of excellence MCQST comprises seven research units within disciplines such as physics, mathematics, computer science, electrical engineering, material science, and…",
+      "imagefile": "assets/funding/mcqst-munich-center-for-quantum-science.jpg"
     },
     {
       "name": "FermiQP: Joint Project on Fermion Quantum Processors",
@@ -102,7 +185,14 @@
       "url": "",
       "links": [],
       "logo": "",
-      "completed": true
+      "completed": true,
+      "slug": "fermiqp-joint-project-on-fermion-quantum",
+      "paragraphs": [
+        "This project aims at realizing a new and scalable hybrid platform for analogue quantum simulation and digital quantum computing with ultracold fermion, thus combining the advantages of both concepts in one machine. Within this project we are developing new techniques for improving the coherence time, data rate and initial-state fidelity, which will boost both analogue and digital applications of this hybrid platform.",
+        "This project is funded via the German Federal Ministry of Education and Research via the funding program quantum technologies – from basic research to market (contract number 13N15895 FermiQP)"
+      ],
+      "teaser": "This project aims at realizing a new and scalable hybrid platform for analogue quantum simulation and digital quantum computing with ultracold fermion, thus combining the advantages of both concepts in one machine.",
+      "imagefile": "assets/funding/fermiqp-joint-project-on-fermion-quantum.jpg"
     },
     {
       "name": "LaGaTYb: Exploring lattice gauge theories with fermionic Ytterbium atoms",
@@ -110,7 +200,14 @@
       "url": "",
       "links": [],
       "logo": "",
-      "completed": true
+      "completed": true,
+      "slug": "lagatyb-exploring-lattice-gauge-theories",
+      "paragraphs": [
+        "Gauge theories establish a connection between seemingly different physical areas, ranging from high-energy to condensed matter physics. Very often gauge theories are difficult to study theoretically in particular in the strongly-interacting regime, where perturbative methods are not reliable. This motivates the search for alternative approaches using quantum simulation. Ultracold atoms in optical lattices have proven powerful in studying important condensed matter models and intriguing results have been achieved in simulating static background gauge fields. This establishes a link to more general gauge theories, yet these are out-of-reach due to complex requirements e.g. regarding the implementation of gauge and matter field degrees of freedom. Within this project, we are going to develop a novel experimental platform that combines two unique features: precise local control and scalability to generate advanced optical lattices with locally controllable tunnel couplings. It will facilitate the implementation of a broad class of gauge theories, so-called quantum link models, with fermionic atoms, where matter and gauge fields are interpreted as different lattice sites.",
+        "This project is funded via the European Union’s Horizon 2020 research and innovation program (grant agreement No. 803047)"
+      ],
+      "teaser": "Gauge theories establish a connection between seemingly different physical areas, ranging from high-energy to condensed matter physics.",
+      "imagefile": "assets/funding/lagatyb-exploring-lattice-gauge-theories.jpg"
     },
     {
       "name": "FOR2414: Artificial Gauge Fields and Interacting Topological Phases in Ultracold Atoms",
@@ -123,7 +220,14 @@
         }
       ],
       "logo": "",
-      "completed": true
+      "completed": true,
+      "slug": "for2414-artificial-gauge-fields-and-inte",
+      "paragraphs": [
+        "Gauge fields can dramatically change the properties of a material. A seminal example is the one of electrons subjected to an external magnetic field, leading to the quantum Hall effect. Here, a variety of exotic quantum phenomena arise, where topology plays a fundamental role: from the existence of topological invariants and topologically protected edge currents to the emergence of quasiparticles with exotic braiding statistics. These fascinating effects are at the focus of current theoretical and experimental research. Within this Research Unit we are developing experimental techniques for quantum simulation of topological phases of matter including paradigmatic condensed matter Hamilonians, such as the Hofstadter and Haldane model. Moreover, we are investigating genuine out-of-equilibrium phases without any static analogue, so-called anomalous Floquet topological systems.More information about this Research Unit can be found on our website.",
+        "This project has received funding from the Deutsche Forschungsgemeinschaft (DFG) via Research Unit FOR 2414 under project number 277974659."
+      ],
+      "teaser": "Gauge fields can dramatically change the properties of a material.",
+      "imagefile": "assets/funding/for2414-artificial-gauge-fields-and-inte.jpg"
     }
   ],
   "acknowledgements": [
