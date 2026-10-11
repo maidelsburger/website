@@ -85,7 +85,7 @@
         "Ultracold atoms offer many opportunities. They are clean and can be manipulated and probed with high resolution both in space and time. Their high degree of isolation makes them excellent quantum simulators for closed systems. In close collaboration between theory and experiment, we will extend, explore, and exploit various possibilities for the controlled engineering of dissipation in these systems.",
         "More information about our Research Unit, its members and planned events can be found on our website"
       ],
-      "teaser": "“Driven-dissipative many-body systems of ultracold atoms” is a DFG-funded Research Unit (FOR 5688), dedicated to developing a better understanding of driven-dissipative quantum many-body systems, using dissipation as a novel tool for engineering complex low-entropy many-body states.",
+      "teaser": "“Driven-dissipative many-body systems of ultracold atoms” is a DFG-funded Research Unit (FOR 5688), developing dissipation into a tool for engineering complex low-entropy many-body states.",
       "imagefile": "assets/funding/for5688-driven-dissipative-many-body-sys.jpg",
       "funding_note": "This project is funded via the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) via Research Unit FOR5688 under project number 521530974."
     },
@@ -94,7 +94,7 @@
       "description": "More information about our Research Unit, its members and planned events can be found on our website.",
       "url": "https://www.uni-goettingen.de/en/675761.html",
       "links": [],
-      "logo": "",
+      "logo": "assets/funding/for5522-icon.jpg",
       "completed": false,
       "slug": "for5522-quantum-thermalization-localizat",
       "paragraphs": [
@@ -105,7 +105,7 @@
       "funding_note": "This project is funded via the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) via Research Unit FOR5522 under project number 499180199."
     },
     {
-      "name": "PASQuanS2.1: Programmable atomic large-scale quantum simulation",
+      "name": "PASQuanS2.1",
       "description": "// Funding program for the development of programmable quantum simulators. Regarding the development of optical-lattice quantum simulators, the goal is to increase the programmabiliy, stability and size of current experimental platforms and to identify pathways towards demonstrating practical quantum advantage with analog quantum simulators.",
       "url": "https://www.pasquans2.eu/",
       "links": [
@@ -122,12 +122,12 @@
         "On the technological side, we are going to develop new experimental techniques in order to increase the fidelity of the initial-state preparation, enhance the data rate, achieve local control over tunnel couplings and improve the precision of applied local potentials.",
         "To find out more please visit the Pasquans website or connect with us via twitter or LinkedIn."
       ],
-      "teaser": "Funding program for the development of programmable quantum simulators.",
+      "teaser": "“Programmable Atomic Large-Scale Quantum Simulation” (PASQuanS 2.1) is an EU Quantum Flagship project advancing the development of programmable quantum simulators.",
       "imagefile": "assets/funding/pasquans2-1-programmable-atomic-large-sc.jpg",
       "funding_note": "This project is funded by the European Research Council (ERC) under the Horizon Europe programme HORIZON-CL4-2022-QUANTUM-02-SGA via the project 101113690 (PASQuanS2.1)."
     },
     {
-      "name": "DYNAMITE: Next Generation Quantum Simulators: From Dynamical Gauge Fields to Lattice Gauge Theory",
+      "name": "DYNAMITE",
       "description": "// Quantum Simulators can address and deepen our understanding of complex quantum many-body systems with applications ranging from condensed matter physics to nuclear physics, high energy physics and material science. Within this projects, we will develop novel methods for the realization of lattice gauge theories using present-day capabilities of cold-atom quantum simulators. Starting with implementations of…",
       "url": "https://dynamite-project.eu/",
       "links": [
@@ -143,11 +143,11 @@
         "Quantum Simulators can address and deepen our understanding of complex quantum many-body systems with applications ranging from condensed matter physics to nuclear physics, high energy physics and material science. Within this projects, we will develop novel methods for the realization of lattice gauge theories using present-day capabilities of cold-atom quantum simulators. Starting with implementations of Abelian gauge theories we will work towards the realization of more complex non-Abelian lattice gauge theories.More information can be found on the DYNAMITE and Quantera website.",
         "This project has received funding from the European Union's Horizon 2020 Research and Innovation Programme under Grant Agreement no. 731473 and 101017733."
       ],
-      "teaser": "Quantum Simulators can address and deepen our understanding of complex quantum many-body systems with applications ranging from condensed matter physics to nuclear physics, high energy physics and material science.",
+      "teaser": "“Next Generation Quantum Simulators: From Dynamical Gauge Fields to Lattice Gauge Theory” (DYNAMITE) developed quantum simulators for complex many-body systems, from condensed matter to high-energy physics.",
       "imagefile": "assets/funding/dynamite-next-generation-quantum-simulat.jpg"
     },
     {
-      "name": "Munich Quantum Valley: Trapped Atom Quantum Computer (TAQC)",
+      "name": "Munich Quantum Valley",
       "description": "// Neutral atoms trapped in optical lattices are a promising quantum-computing platform. Its main advantage is the potential of scaling to larger numbers of qubits already in the coming years.",
       "url": "https://www.munich-quantum-valley.de/",
       "links": [],
@@ -158,12 +158,12 @@
         "Neutral atoms trapped in optical lattices are a promising quantum-computing platform. Its main advantage is the potential of scaling to larger numbers of qubits already in the coming years.",
         "In this approach, qubits are encoded in individual addressable atoms cooled and trapped in an optical potential which is generated by crossed laser beams. Quantum gates can be realized by coupling to highly excited Rydberg states, whose strong, long-range interactions allow for entangling two or more atoms in the system. The single qubits can be addressed and coherently manipulated through local laser pulses. Within this project we are working towards realizing a first-generation neutral-atom quantum computing platform with ultracold ytterbium atoms."
       ],
-      "teaser": "Neutral atoms trapped in optical lattices are a promising quantum-computing platform.",
+      "teaser": "Within the Munich Quantum Valley initiative, the “Trapped Atom Quantum Computer” (TAQC) project develops neutral atoms in optical lattices into a scalable quantum-computing platform.",
       "imagefile": "assets/funding/munich-quantum-valley-trapped-atom-quant.jpg",
       "funding_note": "This project is funded via the Initiative \"Munich Quantum Valley\" from the State Ministry for Science and the Arts as part of the High-Tech Agenda Plus of the Bavarian State Government"
     },
     {
-      "name": "MCQST: Munich Center for Quantum Science and Technology",
+      "name": "MCQST",
       "description": "// The cluster of excellence MCQST comprises seven research units within disciplines such as physics, mathematics, computer science, electrical engineering, material science, and chemistry, covering all areas of Quantum Science and Technology (QST) from basic research to applications. We are contributing to two research units: RU-B on Quantum Simulation and RU-G on Explorative Research Directions.",
       "url": "https://www.mcqst.de/",
       "links": [],
@@ -175,11 +175,11 @@
         "One of the exciting goals of RU-G is to connect concepts from quantum simulation of many-body systems and quantum information to other research areas ranging from quantum chemistry to cosmology and high-energy physics.",
         "We acknowledge funding from the Deutsche Forschungsgemeinschaft (DFG) under Germany’s Excellence Strategy – EXC-2111 – 390814868"
       ],
-      "teaser": "The cluster of excellence MCQST comprises seven research units within disciplines such as physics, mathematics, computer science, electrical engineering, material science, and…",
+      "teaser": "The cluster of excellence “Munich Center for Quantum Science and Technology” (MCQST) brings together seven research units across physics, mathematics, computer science, chemistry and materials science.",
       "imagefile": "assets/funding/mcqst-munich-center-for-quantum-science.jpg"
     },
     {
-      "name": "FermiQP: Joint Project on Fermion Quantum Processors",
+      "name": "FermiQP",
       "description": "// This project aims at realizing a new and scalable hybrid platform for analogue quantum simulation and digital quantum computing with ultracold fermion, thus combining the advantages of both concepts in one machine. Within this project we are developing new techniques for improving the coherence time, data rate and initial-state fidelity, which will boost both analogue and digital applications of this hybrid…",
       "url": "",
       "links": [],
@@ -189,12 +189,12 @@
       "paragraphs": [
         "This project aims at realizing a new and scalable hybrid platform for analogue quantum simulation and digital quantum computing with ultracold fermion, thus combining the advantages of both concepts in one machine. Within this project we are developing new techniques for improving the coherence time, data rate and initial-state fidelity, which will boost both analogue and digital applications of this hybrid platform."
       ],
-      "teaser": "This project aims at realizing a new and scalable hybrid platform for analogue quantum simulation and digital quantum computing with ultracold fermion, thus combining the advantages of both concepts in one machine.",
+      "teaser": "The “Fermion Quantum Processor” (FermiQP) joint project aimed at a new scalable hybrid platform combining analog quantum simulation and digital quantum computing with fermionic atoms.",
       "imagefile": "assets/funding/fermiqp-joint-project-on-fermion-quantum.jpg",
       "funding_note": "This project is funded via the German Federal Ministry of Education and Research via the funding program quantum technologies – from basic research to market (contract number 13N15895 FermiQP)"
     },
     {
-      "name": "LaGaTYb: Exploring lattice gauge theories with fermionic Ytterbium atoms",
+      "name": "LaGaTYb",
       "description": "// Gauge theories establish a connection between seemingly different physical areas, ranging from high-energy to condensed matter physics. Very often gauge theories are difficult to study theoretically in particular in the strongly-interacting regime, where perturbative methods are not reliable. This motivates the search for alternative approaches using quantum simulation. Ultracold atoms in optical lattices have…",
       "url": "",
       "links": [],
@@ -204,7 +204,7 @@
       "paragraphs": [
         "Gauge theories establish a connection between seemingly different physical areas, ranging from high-energy to condensed matter physics. Very often gauge theories are difficult to study theoretically in particular in the strongly-interacting regime, where perturbative methods are not reliable. This motivates the search for alternative approaches using quantum simulation. Ultracold atoms in optical lattices have proven powerful in studying important condensed matter models and intriguing results have been achieved in simulating static background gauge fields. This establishes a link to more general gauge theories, yet these are out-of-reach due to complex requirements e.g. regarding the implementation of gauge and matter field degrees of freedom. Within this project, we are going to develop a novel experimental platform that combines two unique features: precise local control and scalability to generate advanced optical lattices with locally controllable tunnel couplings. It will facilitate the implementation of a broad class of gauge theories, so-called quantum link models, with fermionic atoms, where matter and gauge fields are interpreted as different lattice sites."
       ],
-      "teaser": "Gauge theories establish a connection between seemingly different physical areas, ranging from high-energy to condensed matter physics.",
+      "teaser": "The ERC project “Exploring Lattice Gauge Theories with Fermionic Ytterbium Atoms” (LaGaTYb) developed quantum simulators for gauge theories, which connect physics from high-energy to condensed matter.",
       "imagefile": "assets/funding/lagatyb-exploring-lattice-gauge-theories.jpg",
       "funding_note": "This project is funded via the European Union’s Horizon 2020 research and innovation program (grant agreement No. 803047)"
     },
