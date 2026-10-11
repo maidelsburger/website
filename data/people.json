@@ -872,6 +872,17 @@
       ],
       "left": "",
       "now": ""
+    },
+    {
+      "id": "lorenzo-matteini",
+      "name": "Lorenzo Matteini",
+      "degree": "",
+      "role": "Research Assistant",
+      "projects": [
+        "ryd-yb"
+      ],
+      "left": "2026",
+      "now": ""
     }
   ]
 }
