@@ -167,7 +167,7 @@
       "description": "// The cluster of excellence MCQST comprises seven research units within disciplines such as physics, mathematics, computer science, electrical engineering, material science, and chemistry, covering all areas of Quantum Science and Technology (QST) from basic research to applications. We are contributing to two research units: RU-B on Quantum Simulation and RU-G on Explorative Research Directions.",
       "url": "https://www.mcqst.de/",
       "links": [],
-      "logo": "",
+      "logo": "assets/funding/mcqst-icon.jpg",
       "completed": false,
       "slug": "mcqst-munich-center-for-quantum-science",
       "paragraphs": [
