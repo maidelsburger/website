@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%" r="80%">
+<stop offset="0%" stop-color="#1d3a6e"/><stop offset="70%" stop-color="#122548"/><stop offset="100%" stop-color="#0b1830"/>
+</radialGradient>
+<radialGradient id="at" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#ffffff" stop-opacity=".95"/><stop offset="45%" stop-color="#9fd4ff" stop-opacity=".8"/><stop offset="100%" stop-color="#4a90d9" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#f2b24a" stop-opacity=".25"/><stop offset="35%" stop-color="#ffc85e"/><stop offset="70%" stop-color="#ffde9b"/><stop offset="100%" stop-color="#f2b24a" stop-opacity=".25"/>
+</linearGradient>
+</defs>
+<rect width="240" height="240" rx="52" fill="url(#bg)"/>
+<!-- one long optical wavelength sweeping across -->
+<path d="M14 118 C 54 62, 90 62, 120 118 S 196 174, 226 118" fill="none" stroke="url(#wave)" stroke-width="10" stroke-linecap="round"/>
+<path d="M14 118 C 54 62, 90 62, 120 118 S 196 174, 226 118" fill="none" stroke="#ffe9c2" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+<!-- densely spaced sub-wavelength atom array -->
+<g>
+<line x1="26" y1="178" x2="214" y2="178" stroke="#3a5a8c" stroke-width="2"/>
+<circle cx="30" cy="178" r="13" fill="url(#at)"/><circle cx="50" cy="178" r="13" fill="url(#at)"/>
+<circle cx="70" cy="178" r="13" fill="url(#at)"/><circle cx="90" cy="178" r="13" fill="url(#at)"/>
+<circle cx="110" cy="178" r="13" fill="url(#at)"/><circle cx="130" cy="178" r="13" fill="url(#at)"/>
+<circle cx="150" cy="178" r="13" fill="url(#at)"/><circle cx="170" cy="178" r="13" fill="url(#at)"/>
+<circle cx="190" cy="178" r="13" fill="url(#at)"/><circle cx="210" cy="178" r="13" fill="url(#at)"/>
+<g fill="#eaf4ff">
+<circle cx="30" cy="178" r="3.4"/><circle cx="50" cy="178" r="3.4"/><circle cx="70" cy="178" r="3.4"/>
+<circle cx="90" cy="178" r="3.4"/><circle cx="110" cy="178" r="3.4"/><circle cx="130" cy="178" r="3.4"/>
+<circle cx="150" cy="178" r="3.4"/><circle cx="170" cy="178" r="3.4"/><circle cx="190" cy="178" r="3.4"/>
+<circle cx="210" cy="178" r="3.4"/>
+</g>
+</g>
+<!-- collectively emitted photon -->
+<path d="M156 92 q10 -12 20 -24 q4 -5 10 -8" fill="none" stroke="#9fd4ff" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 7"/>
+<circle cx="190" cy="56" r="5" fill="#cfe9ff"/>
+</svg>
