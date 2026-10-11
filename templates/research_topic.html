@@ -22,7 +22,7 @@
 
     {% if r.theses %}
     <h2>PhD theses from our team</h2>
-    <ul class="theses">{% for t in r.theses %}<li><strong>{{ t.name }}</strong> ({{ t.year }}): <em>{{ t.title }}</em></li>{% endfor %}</ul>
+    <ul class="theses">{% for t in r.theses %}<li><strong>{{ t.name }}</strong> ({{ t.year }}): {% if t.url %}<a href="{{ t.url }}" rel="noopener"><em>{{ t.title }}</em></a>{% else %}<em>{{ t.title }}</em>{% endif %}</li>{% endfor %}</ul>
     {% endif %}
 
     {% if topic_pubs %}
