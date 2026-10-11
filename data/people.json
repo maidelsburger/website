@@ -67,7 +67,9 @@
       "office": "",
       "lab_phone": "",
       "lab": "",
-      "projects": [],
+      "projects": [
+        "ryd-yb"
+      ],
       "photo": "",
       "education": "",
       "origin": "",
