@@ -9,7 +9,6 @@
   {% if f.logo %}<img class="logo" src="{{ rel }}{{ f.logo }}" alt="{{ f.name }}">{% endif %}
   <h2>{% if f.slug and f.paragraphs %}<a href="{{ rel }}funding/{{ f.slug }}.html">{{ f.name }}</a>{% elif f.url %}<a href="{{ f.url }}" rel="noopener">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}</h2>
   <p>{{ f.teaser or f.description }}</p>
-  {% if f.slug and f.paragraphs %}<p><a href="{{ rel }}funding/{{ f.slug }}.html">more →</a></p>{% endif %}
 </div>
 {% endfor %}
 </div>
@@ -21,7 +20,6 @@
   {% if f.logo %}<img class="logo" src="{{ rel }}{{ f.logo }}" alt="{{ f.name }}">{% endif %}
   <h2>{% if f.slug and f.paragraphs %}<a href="{{ rel }}funding/{{ f.slug }}.html">{{ f.name }}</a>{% elif f.url %}<a href="{{ f.url }}" rel="noopener">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}</h2>
   <p>{{ f.teaser or f.description }}</p>
-  {% if f.slug and f.paragraphs %}<p><a href="{{ rel }}funding/{{ f.slug }}.html">more →</a></p>{% endif %}
 </div>
 {% endfor %}
 </div>
