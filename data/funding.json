@@ -6,7 +6,7 @@
       "description": "// DigiAnaQsim aims to make quantum simulators more powerful, flexible, and useful for understanding complex quantum systems. Many important materials and molecules are governed by quantum effects that are extremely difficult to calculate with conventional computers. Quantum simulators offer an alternative route: they realize key quantum behaviour in a controlled laboratory system, such as ultracold atoms…",
       "url": "",
       "links": [],
-      "logo": "",
+      "logo": "assets/funding/digianaqsim.jpg",
       "completed": false
     },
     {
