@@ -702,7 +702,11 @@
         "ryd-yb"
       ],
       "left": "2026",
-      "now": ""
+      "now": "",
+      "roles": {
+        "cs-microscope": "Bachelor student",
+        "ryd-yb": "PhD student"
+      }
     },
     {
       "id": "cesar-cabrera",

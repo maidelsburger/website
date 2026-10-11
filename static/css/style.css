@@ -216,5 +216,6 @@ table.courses { width: 100%; border-collapse: collapse; margin-top: 1.25rem; }
   .sub-fig { float: right; clear: right; width: min(420px, 48%); margin: .3rem 0 1rem 1.6rem; }
   .sub-fig.wide { float: none; clear: both; width: auto; max-width: 540px; margin: 1.25rem auto; }
   .sub-fig.full { float: none; clear: both; width: auto; max-width: none; margin: 1.25rem 0; }
+  .sub-fig.left { float: left; clear: left; width: min(440px, 48%); margin: .3rem 1.6rem 1rem 0; }
   .news-full .feature { max-height: 400px; margin-left: auto; margin-right: auto; }
 }

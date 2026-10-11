@@ -172,8 +172,8 @@
             ],
             "image": "assets/research/cs-srp.png",
             "caption": "Illustration of the initial state |*{ψ}_{0}⟩ and time-evolved state |*{ψ}(*{t})⟩. The SRP measures the probability of finding the initial state bitstring of length *{N} in the time-evolved state snapshots.",
-            "wide": true,
-            "width": 440
+            "width": 440,
+            "align": "left"
           },
           {
             "title": "Arbitrary nearest-neighbor orbital operators",

@@ -139,7 +139,10 @@ def build():
     for r in research:
         render("research_topic.html", f"research/{r['id']}.html", "research", r=r,
                topic_people=[m for m in members if r["id"] in m.get("projects", [])],
-               topic_alumni=[a for a in alumni if r["id"] in a.get("projects", [])],
+               topic_alumni=sorted(
+                   [dict(a, role=(a.get("roles") or {}).get(r["id"], a.get("role", "")))
+                    for a in alumni if r["id"] in a.get("projects", [])],
+                   key=alumni_rank),
                topic_pubs=[p for p in pubs if r["id"] in p.get("topics", [])],
                topic_news=[n for n in news if r["id"] in n.get("topics", [])])
 
