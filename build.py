@@ -165,8 +165,14 @@ def build():
                    news_by_year=sorted(t_by_year.items(), reverse=True), topic=r)
 
     # Group
+    def last_name_key(m):
+        import unicodedata
+        last = m.get("name", "").split()[-1].lower()
+        return unicodedata.normalize("NFKD", last).encode("ascii", "ignore").decode()
+
     cats = site["people_categories"]
-    grouped = [(c, [m for m in members if m["category"] == c and m.get("group_page", True)]) for c in cats]
+    grouped = [(c, sorted([m for m in members if m["category"] == c and m.get("group_page", True)],
+                          key=last_name_key)) for c in cats]
     grouped = [(c, ms) for c, ms in grouped if ms]
     unknown = [m["name"] for m in members if m["category"] not in cats]
     assert not unknown, f"members with unknown category: {unknown}"
