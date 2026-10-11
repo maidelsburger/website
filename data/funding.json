@@ -151,7 +151,7 @@
       "description": "// Neutral atoms trapped in optical lattices are a promising quantum-computing platform. Its main advantage is the potential of scaling to larger numbers of qubits already in the coming years.",
       "url": "https://www.munich-quantum-valley.de/",
       "links": [],
-      "logo": "",
+      "logo": "assets/funding/mqv-icon.jpg",
       "completed": false,
       "slug": "munich-quantum-valley-trapped-atom-quant",
       "paragraphs": [
