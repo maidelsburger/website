@@ -4,8 +4,8 @@
 {% block content %}
 <p class="breadcrumb"><a href="{{ rel }}funding.html">Funding</a> › {{ p.name.split(':')[0] }}</p>
 <h1>{{ p.name }}</h1>
-{% if p.logo %}<img class="fund-logo" src="{{ rel }}{{ p.logo }}" alt="{{ p.name }} logo">{% endif %}
-{% if p.imagefile and p.imagefile != p.logo %}<img class="fund-img" src="{{ rel }}{{ p.imagefile }}" alt="{{ p.name }}">{% endif %}
+{% set fig = p.imagefile or p.logo %}
+{% if fig %}<img class="fund-fig" src="{{ rel }}{{ fig }}" alt="{{ p.name }}">{% endif %}
 {% for par in p.paragraphs %}<p>{{ par }}</p>{% endfor %}
 {% if p.url or p.links %}
 <p class="refs">
