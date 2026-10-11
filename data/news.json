@@ -14,7 +14,8 @@
     "people": [
       "nikolas-liebster"
     ],
-    "link": ""
+    "link": "",
+    "thumb": "assets/news/2026-07-23-liebster-haxel-thumb.jpg"
   },
   {
     "id": "2026-04-28-spin-liquid",
@@ -61,7 +62,8 @@
       "yb-hybrid"
     ],
     "people": [],
-    "link": ""
+    "link": "",
+    "thumb": "assets/news/2025-11-07-yb-microscope-thumb.jpg"
   },
   {
     "id": "2025-09-22-first-yb-mot",
@@ -236,7 +238,8 @@
       "yb-hybrid"
     ],
     "people": [],
-    "link": ""
+    "link": "",
+    "thumb": "assets/news/2025-06-10-clock-sideband-cooling-of-neutral-yb-atoms-in-magi-thumb.jpg"
   },
   {
     "id": "2025-06-05-alex-successfully-defended-his-phd-thesis",
@@ -420,7 +423,8 @@
     "image": "assets/news/2024-11-04-new-group-member-irene-prieto-rodriguez.jpg",
     "topics": [],
     "people": [],
-    "link": ""
+    "link": "",
+    "thumb": "assets/news/2024-11-04-new-group-member-irene-prieto-rodriguez-thumb.jpg"
   },
   {
     "id": "2024-10-17-flux-attachment-for-bosons-on-a-lattice",
@@ -454,7 +458,8 @@
     "image": "assets/news/2024-09-23-quanta-challenging-our-perception-of-reality.jpg",
     "topics": [],
     "people": [],
-    "link": ""
+    "link": "",
+    "thumb": "assets/news/2024-09-23-quanta-challenging-our-perception-of-reality-thumb.jpg"
   },
   {
     "id": "2024-09-10-tim-successfully-defended-his-phd-thesis",
@@ -590,7 +595,8 @@
       "ydfc"
     ],
     "people": [],
-    "link": ""
+    "link": "",
+    "thumb": "assets/news/2024-07-05-new-group-member-dr-fan-jia-thumb.jpg"
   },
   {
     "id": "2024-07-01-podcast-on-exzellent-erklart",
@@ -606,7 +612,8 @@
     "image": "assets/news/2024-07-01-podcast-on-exzellent-erklart.jpg",
     "topics": [],
     "people": [],
-    "link": ""
+    "link": "",
+    "thumb": "assets/news/2024-07-01-podcast-on-exzellent-erklart-thumb.jpg"
   },
   {
     "id": "2024-06-20-etienne-successfully-defended-his-phd-thesis",
@@ -689,7 +696,8 @@
       "ydfc"
     ],
     "people": [],
-    "link": ""
+    "link": "",
+    "thumb": "assets/news/2024-06-04-new-group-member-zhichao-yuan-thumb.jpg"
   },
   {
     "id": "2024-05-17-julian-successfully-defended-his-phd-thesis",
@@ -856,7 +864,8 @@
       "ydfc"
     ],
     "people": [],
-    "link": ""
+    "link": "",
+    "thumb": "assets/news/2024-03-04-new-group-member-kunal-singh-thumb.jpg"
   },
   {
     "id": "2024-02-15-our-new-group-assistant-annika-herlitzek",
@@ -905,7 +914,8 @@
       "theory"
     ],
     "people": [],
-    "link": ""
+    "link": "",
+    "thumb": "assets/news/2023-06-15-quantum-simulation-of-u-1-lgts-thumb.jpg"
   },
   {
     "id": "2023-06-05-review-topological-pumping-mcqst",
@@ -955,7 +965,8 @@
     "image": "assets/news/2023-05-25-david-groters-wins-mcqst-master-s-award.jpg",
     "topics": [],
     "people": [],
-    "link": ""
+    "link": "",
+    "thumb": "assets/news/2023-05-25-david-groters-wins-mcqst-master-s-award-thumb.jpg"
   },
   {
     "id": "2023-05-24-proposal-for-studying-chiral-spin-liquids",
@@ -990,7 +1001,8 @@
       "k-hexagonal"
     ],
     "people": [],
-    "link": ""
+    "link": "",
+    "thumb": "assets/news/2023-04-04-real-space-detection-of-topological-edge-modes-thumb.jpg"
   },
   {
     "id": "2023-03-30-solitons-in-the-sine-gordon-model",
