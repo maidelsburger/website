@@ -257,7 +257,9 @@
       "Periodic driving (Floquet engineering) allows us to realize topological band structures that have no static counterpart, such as anomalous Floquet topological insulators. Using fermionic potassium in a hexagonal optical lattice we study their bulk and edge properties."
     ],
     "location": "LMU",
-    "teaser": "We are developing novel experimental techniques to study genuine out-of-equilibrium topological phases of matter in periodically-driven optical lattices."
+    "teaser": "We are developing novel experimental techniques to study genuine out-of-equilibrium topological phases of matter in periodically-driven optical lattices.",
+    "team_photo": "assets/research/k-team.jpg",
+    "team_photo_caption": "The K lattice team: Moritz, Christoph, Monika and Johannes (from left to right)"
   },
   {
     "id": "ryd-yb",
