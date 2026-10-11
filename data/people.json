@@ -508,7 +508,9 @@
       "office": "A 0.28, MPQ",
       "lab_phone": "",
       "lab": "",
-      "projects": [],
+      "projects": [
+        "ydfc"
+      ],
       "photo": "assets/people/krishna-balaji-sogathur.jpg",
       "education": "",
       "origin": "",
