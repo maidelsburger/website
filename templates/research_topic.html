@@ -32,7 +32,8 @@
 
     {% if topic_news %}
     <h2>News</h2>
-    <div class="news-grid">{% for n in topic_news %}{{ m.news_card(n, show_topics=False) }}{% endfor %}</div>
+    <div class="news-grid">{% for n in topic_news[:3] %}{{ m.news_card(n, show_topics=False) }}{% endfor %}</div>
+    {% if topic_news|length > 3 %}<p><a href="{{ rel }}news.html">More news →</a></p>{% endif %}
     {% endif %}
   </div>
   <aside class="topic-side">
