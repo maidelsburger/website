@@ -29,7 +29,5 @@
 <circle cx="210" cy="178" r="3.4"/>
 </g>
 </g>
-<!-- collectively emitted photon -->
-<path d="M156 92 q10 -12 20 -24 q4 -5 10 -8" fill="none" stroke="#9fd4ff" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 7"/>
-<circle cx="190" cy="56" r="5" fill="#cfe9ff"/>
+
 </svg>

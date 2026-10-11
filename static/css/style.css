@@ -172,10 +172,10 @@ table.courses { width: 100%; border-collapse: collapse; margin-top: 1.25rem; }
 .courses th, .courses td { text-align: left; padding: .7rem .5rem; border-bottom: 1px solid var(--border); vertical-align: top; }
 .courses th { color: var(--accent-dark); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
 .contact-grid, .funding-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 1.75rem; margin-top: 1.25rem; }
-.fund-body { display: flex; gap: 1rem; align-items: flex-start; }
+.fund-body { overflow: hidden; }
 .fund-body p { margin: 0; }
-.funding-grid .logo { flex: 0 0 72px; width: 72px; height: 72px; object-fit: contain;
-  background: #fff; border-radius: 10px; }
+.funding-grid .logo { float: left; width: 72px; height: 72px; object-fit: contain;
+  margin: .15rem 1rem .4rem 0; background: #fff; border-radius: 10px; }
 .fund-fig { float: right; width: min(300px, 45%); height: auto; margin: .3rem 0 1rem 1.5rem; border-radius: var(--radius); }
 @media (max-width: 600px) { .fund-fig { float: none; width: 100%; margin: 0 0 1rem; } }
 .inst-logo { max-height: 48px; max-width: 100%; width: auto; margin-bottom: 1rem; background: #fff; padding: .4rem .6rem; border-radius: 6px; }
