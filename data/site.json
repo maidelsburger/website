@@ -151,7 +151,7 @@
       "href": "privacy.html"
     }
   ],
-  "copyright_holder": "Aidelsburger Group, LMU München / MPQ",
+  "copyright_holder": "Aidelsburger Group, MPQ / LMU München",
   "rsync_target": "user@webserver:/path/to/htdocs/",
   "announcement": {
     "text": "The group is moving to Stanford!",
