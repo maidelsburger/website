@@ -200,10 +200,12 @@ table.courses { width: 100%; border-collapse: collapse; margin-top: 1.25rem; }
 .funder-logos { display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; }
 .funder-logos img { height: 46px; width: auto; max-width: 100%; object-fit: contain; }
 
-/* desktop: keep figures from dominating the text */
+/* desktop: denser, magazine-like layout — keep figures beside the text */
 @media (min-width: 801px) {
+  html { font-size: 16px; }
   .topic-main > .feature { float: right; width: min(380px, 45%); margin: .3rem 0 1.1rem 1.6rem; }
-  .topic-main h2 { clear: both; }
-  .sub-fig { max-width: 620px; margin-left: auto; margin-right: auto; }
+  .topic-main h2, .topic-main h3 { clear: both; }
+  .sub-fig { float: right; clear: right; width: min(420px, 48%); margin: .3rem 0 1rem 1.6rem; }
+  .sub-fig.wide { float: none; clear: both; width: auto; max-width: 680px; margin: 1.25rem auto; }
   .news-full .feature { max-height: 400px; margin-left: auto; margin-right: auto; }
 }

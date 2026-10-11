@@ -11,7 +11,112 @@
     ],
     "location": "LMU",
     "team_photo": "assets/research/yb-team.jpg",
-    "team_photo_caption": "The Yb hybrid team: Fabian, Aki (Er Zu), Monika and Michael (from left to right)"
+    "team_photo_caption": "The Yb hybrid team: Fabian, Aki (Er Zu), Monika and Michael (from left to right)",
+    "sections": [
+      {
+        "heading": "Quantum simulation of lattice gauge theories",
+        "subs": [
+          {
+            "title": "",
+            "image": "assets/research/yb-lgt-scheme.jpg",
+            "caption": "Schematic illustration of the lattice potential for the 2D scheme envisioned to simulate U(1) quantum link models with fermionic Yb atoms.",
+            "paragraphs": [
+              "Gauge theories play a fundamental role for our understanding of nature, ranging from high-energy physics to condensed matter. Their formulation on a regularized periodic lattice geometry, so-called lattice gauge theories (LGTs), has proven invaluable for theoretical studies.",
+              "However, there exist severe limitations regarding the simulation of real-time dynamics and of systems with finite chemical potential, leaving many important questions unanswered. Recent advances in the controllability of quantum many-body systems have sparked increased interest in quantum simulation of LGTs. In these systems, non-equilibrium phenomena and real-time dynamics are routinely studied over a wide range of parameters. Despite their success, significant progress in simulating LGTs is hindered by the lack of local gauge invariance, which does not naturally occur in these systems. In order to overcome this challenge, we propose to combine ultracold atoms in optical lattices with tweezer arrays, thus uniting global defect-free lattices with precise local control, which in turn allows us to impose local gauge invariance via energy penalties. More specifically, our platform will enable the study of U(1) lattice gauge theories coupled to fermionic matter in one and two dimensions. We are further interested in extending these ideas towards quantum simulation of non-Abelian symmetries. One way to do this would be to make use of the SU(N)-symmetric interactions of fermionic Yb atoms."
+            ],
+            "links": [
+              {
+                "label": "Review: Cold-atom quantum simulators of gauge theories, J. C. Halimeh, M. Aidelsburger, F. Grusdt, P. Hauke, B. Yang, Nature Physics 21, 25–36 (2025)",
+                "url": "https://www.nature.com/articles/s41567-024-02721-8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Ytterbium atoms",
+        "subs": [
+          {
+            "title": "",
+            "image": "assets/research/yb-levels.jpg",
+            "caption": "Simplified energy-level spectrum of neutral Yb atoms (left). Clock-spectroscopy signal obtained after loading a laser-cooled cloud of ¹⁷⁴Yb atoms into a 1D magic-wavelength optical lattice at 759 nm (right).",
+            "paragraphs": [
+              "Alkaline-earth(-like) atoms such as Yb offer unique opportunities for state-dependent potentials with low scattering rates, high-precision spectroscopy techniques using the ultra-narrow optical clock transition and exotic SU(N)-symmetric interactions.",
+              "Yb offers several convenient isotopes. We work with the bosonic isotope ¹⁷⁴Yb and the two fermionic isotopes ¹⁷¹Yb and ¹⁷³Yb. While the bosonic isotopes have a nuclear spin I=0, the two fermionic ones have I=1/2 and I=5/2, respectively, which offer unique opportunities for quantum simulation. Yb has two valence electrons, so the internal level structure splits into singlet- and triplet-energy states as shown in the simplified spectrum. The broad transition at 399 nm, which connects the states ¹S₀ and ¹P₁, is used for slowing the atoms and transverse cooling in a 2D magneto-optical trap. The narrow intercombination line ¹S₀–³P₁ at 556 nm is used to cool the atoms further in a 3D magneto-optical trap. Since this transition is rather narrow, we use additional slowing beams at 399 nm to increase the number of atoms that can be cooled in the green 3D MOT. The excited clock state ³P₀ has an extremely long lifetime on the order of 20 s, which enables a variety of quantum simulation schemes, where the ³P₀ state plays the role of a second species that can experience largely different optical potentials compared to the ground state ¹S₀. The two states are connected by an ultra-narrow clock transition at 578 nm."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Experimental setup",
+        "subs": [
+          {
+            "title": "",
+            "image": "assets/research/yb-setup.jpg",
+            "caption": "Schematic of the main experimental setup.",
+            "paragraphs": [
+              "The main source for our experimental setup is a commercial oven from AOSense with an integrated Zeeman slower and a 2D magneto-optical trap (MOT). The Zeeman-slowed atoms pass through a differential pumping section and enter the science cell, which is fully made of glass. In the glass cell the atoms are loaded into a 3D MOT that operates on the narrow ¹S₀–³P₁ transition. The capture efficiency of the MOT is enhanced using a set of crossed slowing beams on the ¹S₀–¹P₁ transition. We then load the atoms from the MOT directly into a 3D optical lattice at the clock-magic wavelength of 759.3 nm and cool them further using sideband cooling on the ultranarrow optical clock transition to reach the absolute ground state on each lattice site. We demonstrated efficient cooling for both ¹⁷¹Yb and ¹⁷⁴Yb via chirping the sideband frequency. This is required due to spatial inhomogeneities in 2D and 3D lattices, which persist even in lattices generated at a magic wavelength. With this chirped clock sideband cooling we reach an ultra-low average motional occupation of 0.015 for ¹⁷¹Yb and comparable performance for ¹⁷⁴Yb in 2D. We are currently extending this technique to a single plane in the 3D lattice for high-resolution imaging."
+            ],
+            "links": [
+              {
+                "label": "Isotope-agnostic motional ground-state cooling of neutral Yb atoms, R. M. Kroeze, R. A. Villela, E. Zu, T. O. Höhn, M. Aidelsburger, Phys. Rev. Res. 7, L042061 (2025)",
+                "url": "https://journals.aps.org/prresearch/abstract/10.1103/dts5-kxsx"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Atom-by-atom assembly in optical lattices",
+        "subs": [
+          {
+            "title": "",
+            "image": "assets/research/yb-array.jpg",
+            "caption": "Averaged fluorescence image of a 10×10 array of single ¹⁷⁴Yb atoms generated with 532 nm tweezers.",
+            "paragraphs": [
+              "Traditionally, quantum simulation experiments with ultracold atoms start by preparing degenerate quantum gases in optical dipole traps, which are then adiabatically transferred into optical lattices. Typically, this results in rather long cycle times on the order of several tens of seconds. In our experiment we combine optical tweezer technology with optical lattices to load the atoms directly from the magneto-optical trap into the lattice, thereby reducing the cycle time by at least one order of magnitude. Moreover, the study of real-time dynamics in lattice gauge theories requires the preparation of certain initial states with specific local density distributions, which can be prepared directly with high fidelity using the assembly technique."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "State-(in)dependent wavelengths for neutral Yb atoms",
+        "subs": [
+          {
+            "title": "",
+            "image": "assets/research/yb-polarizability.jpg",
+            "caption": "Empirical model of the AC polarizability of the two clock states ¹S₀ and ³P₀. Special points, such as magic and tune-out wavelengths, are highlighted.",
+            "paragraphs": [
+              "A key ingredient for the quantum simulation experiments planned with Yb atoms is the large variety of state-dependent manipulations that can be realized with rather low scattering rates. However, since the AC polarizabilities for the ¹S₀–³P₀ clock transition are not easy to predict using ab-initio theoretical calculations, measurements of distinctive points greatly aid the accuracy of theoretical models.",
+              "We performed several measurements to determine the precise location of distinctive state-(in)dependent wavelengths for ¹⁷⁴Yb atoms. Specifically, we determined two magic wavelengths at 652.281(21) THz and 542.50205(19) THz, where the differential light shift on the ¹S₀–³P₀ clock transition vanishes, and one tune-out wavelength at 541.8325(4) THz, where the polarizability of the ¹S₀ ground state exhibits a zero crossing. The two new magic wavelengths were identified by spectroscopically interrogating cold ¹⁷⁴Yb atoms on the clock transition in a one-dimensional optical lattice. The ground-state tune-out wavelength was determined via a parametric heating scheme. With a simple empirical model, we then extrapolated the ground- and excited-state polarizability over a broad range of wavelengths in the visible spectrum. This model now allows us to predict other wavelengths of interest, such as the location of the ³P₀ excited-state tune-out, which is relevant for realizing our proposal on lattice gauge theories."
+            ],
+            "links": [
+              {
+                "label": "State-dependent potentials for the ¹S₀ and ³P₀ clock states of neutral ytterbium atoms, T. O. Höhn*, E. Staub*, G. Brochier, N. Darkwah Oppong, M. Aidelsburger (* equal contribution), Phys. Rev. A 108, 053325 (2023)",
+                "url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.108.053325"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Excited-state tune-out wavelength",
+        "subs": [
+          {
+            "title": "",
+            "paragraphs": [
+              "The measurement of a tune-out wavelength for the metastable excited state ³P₀ had remained elusive so far, as it was hindered by inelastic collisions and Raman losses. In a recent work we demonstrated the first such measurement by determining this tune-out wavelength for ¹⁷⁴Yb at 576.6 nm. This was achieved by isolating individual atoms in a clock-magic lattice at 759 nm and implementing resolved sideband cooling to extend atom lifetimes beyond 5 s. We further enhanced the measurement precision using fluorescence imaging in a triple-magic configuration by identifying a new magic angle for the ³P₁ state. Moreover, we have used all these results to refine our empirical model for the AC polarizability of all three states ¹S₀, ³P₀ and ³P₁."
+            ],
+            "links": [
+              {
+                "label": "Determining the ³P₀ excited-state tune-out wavelength of ¹⁷⁴Yb in a triple-magic lattice, T. O. Höhn, R. A. Villela, E. Zu, L. Bezzo, R. M. Kroeze, M. Aidelsburger, PRX Quantum 7, 010303 (2026)",
+                "url": "https://journals.aps.org/prxquantum/abstract/10.1103/32q9-j82c"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "cs-microscope",
@@ -35,7 +140,8 @@
               "We explore the intersection of quantum information science and analog quantum simulation — an exciting frontier for studying complex quantum many-body systems, both in and out of equilibrium. By integrating digital control elements into our analog quantum simulator, we are developing new experimental techniques that allow us to probe novel observables and prepare advanced initial states beyond simple product states in the occupation basis."
             ],
             "links": [],
-            "image": "assets/research/cs-digital-analog.png"
+            "image": "assets/research/cs-digital-analog.png",
+            "wide": true
           },
           {
             "title": "Subsystem return probabilities",
@@ -50,7 +156,8 @@
               }
             ],
             "image": "assets/research/cs-srp.png",
-            "caption": "Illustration of the initial state |*{ψ}_{0}⟩ and time-evolved state |*{ψ}(*{t})⟩. The SRP measures the probability of finding the initial state bitstring of length *{N} in the time-evolved state snapshots."
+            "caption": "Illustration of the initial state |*{ψ}_{0}⟩ and time-evolved state |*{ψ}(*{t})⟩. The SRP measures the probability of finding the initial state bitstring of length *{N} in the time-evolved state snapshots.",
+            "wide": true
           },
           {
             "title": "Arbitrary nearest-neighbor orbital operators",
@@ -90,7 +197,8 @@
               }
             ],
             "image": "assets/research/cs-flux-ladder.jpg",
-            "caption": "!{a} Schematic of the flux ladder; !{b} Phase diagram"
+            "caption": "!{a} Schematic of the flux ladder; !{b} Phase diagram",
+            "wide": true
           }
         ]
       }
