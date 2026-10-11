@@ -693,6 +693,17 @@
       ],
       "left": "2026",
       "now": ""
+    },
+    {
+      "id": "bodo-kaiser",
+      "name": "Bodo Kaiser",
+      "degree": "Dr.",
+      "role": "PhD Student",
+      "projects": [
+        "ryd-yb"
+      ],
+      "left": "2026",
+      "now": ""
     }
   ]
 }
