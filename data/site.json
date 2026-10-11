@@ -1,0 +1,158 @@
+{
+  "base_url": "https://aidelsburgerlab.com",
+  "output_dir": "_site",
+  "group_name": "Aidelsburger Lab",
+  "group_short": "Aidelsburger Lab",
+  "tagline": "Quantum simulation with ultracold atoms in optical lattices and tweezer arrays",
+  "pi": {
+    "name": "Prof. Dr. Monika Aidelsburger",
+    "id": "monika-aidelsburger"
+  },
+  "about": [
+    "We are an experimental team developing quantum simulators based on ultracold atoms in optical lattices and optical tweezer arrays. Our research focuses on topological physics, lattice gauge theories and out-of-equilibrium dynamics of strongly-interacting quantum many-body systems.",
+    "The group is jointly located at the Faculty of Physics of the Ludwig-Maximilians-Universität München (LMU) and the Max Planck Institute of Quantum Optics (MPQ) in Garching."
+  ],
+  "hero_image": "assets/research/hero.jpg",
+  "nav": [
+    {
+      "id": "home",
+      "label": "Home",
+      "href": "index.html"
+    },
+    {
+      "id": "research",
+      "label": "Research",
+      "href": "research.html"
+    },
+    {
+      "id": "news",
+      "label": "News",
+      "href": "news.html"
+    },
+    {
+      "id": "group",
+      "label": "The Group",
+      "href": "group.html"
+    },
+    {
+      "id": "publications",
+      "label": "Publications",
+      "href": "publications.html"
+    },
+    {
+      "id": "teaching",
+      "label": "Teaching",
+      "href": "teaching.html"
+    },
+    {
+      "id": "positions",
+      "label": "Positions",
+      "href": "positions.html"
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "href": "contact.html"
+    },
+    {
+      "id": "funding",
+      "label": "Funding",
+      "href": "funding.html"
+    }
+  ],
+  "people_categories": [
+    "Research Group Leader",
+    "Senior Scientists",
+    "PostDocs",
+    "PhD Students",
+    "Master Students",
+    "Bachelor Students",
+    "Student Assistants",
+    "Guests",
+    "Engineers",
+    "Technicians",
+    "Project Coordinator",
+    "Team Assistant"
+  ],
+  "news_on_homepage": 4,
+  "affiliations": {
+    "LMU": {
+      "name": "Ludwig-Maximilians-Universität München",
+      "address": [
+        "Fakultät für Physik",
+        "Schellingstr. 4",
+        "80799 München"
+      ],
+      "email_domain": "physik.uni-muenchen.de"
+    },
+    "MPQ": {
+      "name": "Max Planck Institute of Quantum Optics",
+      "address": [
+        "Hans-Kopfermann-Str. 1",
+        "85748 Garching"
+      ],
+      "email_domain": "mpq.mpg.de"
+    },
+    "MQV": {
+      "name": "Munich Quantum Valley",
+      "address": [],
+      "email_domain": ""
+    }
+  },
+  "contact": {
+    "intro": "Feel free to get in touch with us. The group is located at both LMU (Munich city centre) and MPQ (Garching).",
+    "locations": [
+      {
+        "key": "LMU",
+        "phone": "+49 89 2180-6143",
+        "email": "monika.aidelsburger@physik.uni-muenchen.de",
+        "directions": "By underground (U-Bahn): lines U3 and U6, exit Universität."
+      },
+      {
+        "key": "MPQ",
+        "phone": "+49 89 32905-199",
+        "email": "monika.aidelsburger@mpq.mpg.de",
+        "directions": "By underground (U-Bahn): line U6 to Garching-Forschungszentrum."
+      }
+    ],
+    "assistant": {
+      "name": "Dana Dacian-Vladoianu",
+      "phone": "+49 89 32905-260",
+      "email": "dana.dacian@mpq.mpg.de"
+    }
+  },
+  "external_links": [
+    {
+      "label": "LMU Faculty of Physics",
+      "url": "https://www.physik.lmu.de"
+    },
+    {
+      "label": "MPQ",
+      "url": "https://www.mpq.mpg.de"
+    },
+    {
+      "label": "MCQST",
+      "url": "https://www.mcqst.de"
+    },
+    {
+      "label": "Munich Quantum Valley",
+      "url": "https://www.munich-quantum-valley.de"
+    }
+  ],
+  "footer_links": [
+    {
+      "label": "Imprint",
+      "href": "imprint.html"
+    },
+    {
+      "label": "Privacy",
+      "href": "privacy.html"
+    }
+  ],
+  "copyright_holder": "Aidelsburger Group, LMU München / MPQ",
+  "rsync_target": "user@webserver:/path/to/htdocs/",
+  "announcement": {
+    "text": "The group is moving to Stanford!",
+    "link": ""
+  }
+}

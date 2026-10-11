@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Teaching{% endblock %}
+{% block content %}
+<h1>Teaching</h1>
+<p class="lead">{{ teaching.intro }}</p>
+<table class="courses">
+<thead><tr><th>Semester</th><th>Type</th><th>Course</th></tr></thead>
+<tbody>
+{% for c in teaching.courses %}<tr><td>{{ c.semester }}</td><td>{{ c.type }}</td><td>{% if c.link %}<a href="{{ c.link }}">{{ c.title }}</a>{% else %}<strong>{{ c.title }}</strong>{% endif %}{% if c.description %}<br><span class="muted">{{ c.description }}</span>{% endif %}</td></tr>{% endfor %}
+</tbody></table>
+{% endblock %}

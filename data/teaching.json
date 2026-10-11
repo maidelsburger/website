@@ -1,0 +1,40 @@
+{
+  "intro": "We regularly offer lectures, seminars and lab courses at the LMU Faculty of Physics. Students interested in Bachelor or Master theses in our labs are welcome to contact us at any time.",
+  "courses": [
+    {
+      "semester": "SoSe 2025",
+      "type": "Lecture",
+      "title": "Quantum computing and quantum simulation with atoms",
+      "description": "Applications of ultracold neutral atoms for quantum technologies. For Master students and IMPRS-QST students.",
+      "link": ""
+    },
+    {
+      "semester": "ongoing",
+      "type": "Lab course",
+      "title": "Laser cooling of rubidium atoms in a magneto-optical trap",
+      "description": "Advanced practical course open to Master and Bachelor physics students.",
+      "link": ""
+    },
+    {
+      "semester": "WS 2024/25",
+      "type": "Lecture",
+      "title": "Quantum Optics",
+      "description": "For Master students from TU and LMU, plus IMPRS-QST students.",
+      "link": ""
+    },
+    {
+      "semester": "SoSe 2023",
+      "type": "Lecture",
+      "title": "Quantum computing and quantum simulation with atoms",
+      "description": "",
+      "link": ""
+    },
+    {
+      "semester": "WS 2022/23",
+      "type": "Lecture",
+      "title": "Experimental Techniques in Quantum Optics",
+      "description": "",
+      "link": ""
+    }
+  ]
+}

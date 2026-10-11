@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Website admin</title>
+<style>
+body{font-family:-apple-system,system-ui,sans-serif;margin:0;background:#f4f6f9;color:#222}
+header{background:#083f73;color:#fff;padding:1rem 2rem;display:flex;gap:2rem;align-items:center}
+header a{color:#fff;font-weight:600;cursor:pointer;opacity:.7}header a.on{opacity:1;text-decoration:underline}
+main{max-width:900px;margin:2rem auto;background:#fff;padding:2rem;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,.1)}
+form{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+label{display:flex;flex-direction:column;font-size:.9rem;gap:.25rem}
+label.full{grid-column:1/-1}
+input,select,textarea{font:inherit;padding:.45rem;border:1px solid #ccd;border-radius:4px}
+.checks{display:flex;flex-wrap:wrap;gap:.6rem}.checks label{flex-direction:row;align-items:center}
+.drop{border:2px dashed #aab;border-radius:6px;padding:1rem;text-align:center;color:#667;cursor:pointer;background:#fafbfd}
+.drop.over{border-color:#0b5aa2;background:#eef4fb}.drop.ok{border-color:#2a8;color:#2a8}
+.cropper{display:none;grid-column:1/-1;gap:1rem;align-items:start}
+.cropper.show{display:grid;grid-template-columns:auto 1fr}
+canvas{border:1px solid #ccd;cursor:grab;touch-action:none;max-width:100%}
+button{font:inherit;padding:.6rem 1.2rem;background:#0b5aa2;color:#fff;border:0;border-radius:4px;cursor:pointer;font-weight:600}
+button:disabled{opacity:.5}
+#msg{grid-column:1/-1;white-space:pre-wrap;font-family:monospace;font-size:.85rem;background:#f4f6f9;padding:.75rem;border-radius:4px;display:none}
+h2{margin-top:0}.hint{color:#667;font-size:.85rem}
+</style></head><body>
+<header><strong>Website admin</strong><a id="tab-member" class="on">Add group member</a><a id="tab-paper">Add paper</a></header>
+<main>
+
+<form id="member" autocomplete="off">
+  <h2 class="full" style="grid-column:1/-1">New group member</h2>
+  <label>Full name *<input name="name" required></label>
+  <label>Degree (Dr., Prof. Dr., …)<input name="degree"></label>
+  <label>Role *<select name="role" id="role"></select></label>
+  <label>Affiliation<select name="affiliation" id="affiliation"></select></label>
+  <label>Email<input name="email" type="email"></label>
+  <label>Start date<input name="joined" type="date"></label>
+  <label>Office phone<input name="phone" placeholder="+49 89 2180-…"></label>
+  <label>Office (room)<input name="office" placeholder="H230"></label>
+  <label>Lab phone<input name="lab_phone"></label>
+  <label>Lab (room)<input name="lab"></label>
+  <label class="full">Where do they come from academically? <span class="hint">e.g. "ETH Zürich, where she did her Master thesis on …" – used in the welcome news</span><input name="origin"></label>
+  <label class="full">Education (short)<input name="education" placeholder="M.Sc. Physics, ETH Zürich (2025)"></label>
+  <label>Google Scholar URL<input name="google_scholar"></label>
+  <label>ORCID<input name="orcid" placeholder="0000-0000-0000-0000"></label>
+  <label>Personal website<input name="website"></label>
+  <label class="full">Experiments <div class="checks" id="member-projects"></div></label>
+  <label class="full">Short bio (optional)<textarea name="bio" rows="2"></textarea></label>
+  <div class="full" style="grid-column:1/-1">
+    <div class="drop" data-img="photo">Drop a photo here (or click) — you can then zoom &amp; drag to crop it 3:4</div>
+    <div class="cropper" id="crop-photo"><canvas width="240" height="320"></canvas>
+      <div><label>Zoom <input type="range" min="1" max="4" step="0.01" value="1"></label><p class="hint">Drag the image to centre it. This is exactly how it will appear on the site.</p></div></div>
+  </div>
+  <div class="drop" data-file="thesis_pdf" data-accept="application/pdf">Drop thesis PDF (optional)</div>
+  <div class="drop" data-file="cv_pdf" data-accept="application/pdf">Drop CV PDF (optional)</div>
+  <label class="full checks"><input type="checkbox" name="add_news" checked> Also post a "Welcome …" news item</label>
+  <div class="full" style="grid-column:1/-1"><button>Add member and rebuild site</button></div>
+  <pre id="msg"></pre>
+</form>
+
+<form id="paper" autocomplete="off" style="display:none">
+  <h2 style="grid-column:1/-1">New publication</h2>
+  <label class="full">Title *<input name="title" required></label>
+  <label class="full">Authors * <span class="hint">comma separated, e.g. "A. Impertro, S. Karch, M. Aidelsburger"</span><input name="authors" required></label>
+  <label>Year *<input name="year" type="number" required value=""></label>
+  <label>Type<select name="type"><option value="journal">Journal article</option><option value="preprint">Preprint</option><option value="other">Other</option></select></label>
+  <label>Journal<input name="journal" placeholder="Physical Review Letters"></label>
+  <label>Volume<input name="volume"></label>
+  <label>Pages / article no.<input name="pages"></label>
+  <label>DOI<input name="doi" placeholder="10.1103/…"></label>
+  <label>arXiv ID<input name="arxiv" placeholder="2312.13268"></label>
+  <label>Other URL<input name="url"></label>
+  <label class="full">Research topics <div class="checks" id="paper-projects"></div></label>
+  <div class="full" style="grid-column:1/-1">
+    <div class="drop" data-img="image">Drop a figure / teaser image (or click) — crop 1:1</div>
+    <div class="cropper" id="crop-image"><canvas width="300" height="300"></canvas>
+      <div><label>Zoom <input type="range" min="1" max="4" step="0.01" value="1"></label><p class="hint">Drag to pan. Use the zoom to select a detail of the figure.</p></div></div>
+  </div>
+  <div class="drop full" data-file="pdf" data-accept="application/pdf" style="grid-column:1/-1">Drop paper PDF (optional)</div>
+  <label class="checks"><input type="checkbox" name="highlight"> Show as "selected publication" on the homepage</label>
+  <label class="checks"><input type="checkbox" name="add_news"> Also post a "New paper" news item</label>
+  <label class="full">News text (optional, used if the box above is ticked)<textarea name="news_text" rows="2"></textarea></label>
+  <div class="full" style="grid-column:1/-1"><button>Add paper and rebuild site</button></div>
+  <pre id="msg2"></pre>
+</form>
+</main>
+<script>
+const files = {};   // field -> dataURL (pdf) ; images are read from cropper canvases
+const croppers = {};
+
+// ---- tabs
+document.getElementById('tab-member').onclick = () => show('member');
+document.getElementById('tab-paper').onclick = () => show('paper');
+function show(id){ for (const f of ['member','paper']) { document.getElementById(f).style.display = f===id?'grid':'none'; document.getElementById('tab-'+f).classList.toggle('on', f===id);} }
+
+// ---- config
+fetch('/config.json').then(r=>r.json()).then(c=>{
+  const role=document.getElementById('role'); c.roles.forEach(r=>role.add(new Option(r,r))); role.value='PhD Student';
+  const aff=document.getElementById('affiliation'); c.affiliations.forEach(a=>aff.add(new Option(a,a)));
+  for (const id of ['member-projects','paper-projects']) document.getElementById(id).innerHTML =
+    c.research.map(r=>`<label><input type="checkbox" value="${r.id}"> ${r.title}</label>`).join('');
+  document.querySelector('#paper [name=year]').value = new Date().getFullYear();
+});
+
+// ---- drag & drop zones
+document.querySelectorAll('.drop').forEach(z=>{
+  const inp=document.createElement('input'); inp.type='file'; inp.style.display='none';
+  inp.accept = z.dataset.accept || 'image/*'; z.appendChild(inp);
+  z.onclick=()=>inp.click(); inp.onchange=()=>handle(z, inp.files[0]);
+  z.ondragover=e=>{e.preventDefault(); z.classList.add('over');};
+  z.ondragleave=()=>z.classList.remove('over');
+  z.ondrop=e=>{e.preventDefault(); z.classList.remove('over'); handle(z, e.dataTransfer.files[0]);};
+});
+function handle(zone, file){
+  if(!file) return;
+  const rd=new FileReader();
+  rd.onload=()=>{
+    if(zone.dataset.img){ startCrop(zone.dataset.img, rd.result); zone.classList.add('ok'); zone.textContent='✓ '+file.name; }
+    else { files[zone.dataset.file]=rd.result; zone.classList.add('ok'); zone.textContent='✓ '+file.name; }
+  };
+  rd.readAsDataURL(file);
+}
+
+// ---- cropper: pan by dragging, zoom with slider or wheel; export = canvas content
+function startCrop(field, src){
+  const box=document.getElementById('crop-'+field), cv=box.querySelector('canvas'), zoom=box.querySelector('input[type=range]');
+  const ctx=cv.getContext('2d'), img=new Image();
+  const st={img, scale:1, base:1, x:0, y:0, drag:null};
+  img.onload=()=>{ st.base=Math.max(cv.width/img.width, cv.height/img.height); zoom.value=1; st.scale=1;
+    st.x=(cv.width-img.width*st.base)/2; st.y=(cv.height-img.height*st.base)/2; draw(); box.classList.add('show'); };
+  img.src=src;
+  function s(){return st.base*st.scale;}
+  function clamp(){ st.x=Math.min(0,Math.max(cv.width-img.width*s(),st.x)); st.y=Math.min(0,Math.max(cv.height-img.height*s(),st.y)); }
+  function draw(){ clamp(); ctx.fillStyle='#fff'; ctx.fillRect(0,0,cv.width,cv.height); ctx.drawImage(img,st.x,st.y,img.width*s(),img.height*s()); }
+  zoom.oninput=()=>{ const old=s(); st.scale=+zoom.value; const n=s(); // zoom around centre
+    st.x=cv.width/2-(cv.width/2-st.x)*n/old; st.y=cv.height/2-(cv.height/2-st.y)*n/old; draw(); };
+  cv.onpointerdown=e=>{ st.drag=[e.clientX-st.x,e.clientY-st.y]; cv.setPointerCapture(e.pointerId); };
+  cv.onpointermove=e=>{ if(!st.drag) return; const r=cv.width/cv.getBoundingClientRect().width; st.x=(e.clientX*1-st.drag[0]); st.y=(e.clientY-st.drag[1]); draw(); };
+  cv.onpointerup=cv.onpointercancel=()=>st.drag=null;
+  cv.onwheel=e=>{ e.preventDefault(); zoom.value=Math.min(4,Math.max(1,+zoom.value*(e.deltaY<0?1.05:0.95))); zoom.oninput(); };
+  croppers[field]=()=>{ // export at higher resolution
+    const out=document.createElement('canvas'); out.width=cv.width*3; out.height=cv.height*3;
+    const c=out.getContext('2d'); c.fillStyle='#fff'; c.fillRect(0,0,out.width,out.height);
+    c.drawImage(img,st.x*3,st.y*3,img.width*s()*3,img.height*s()*3); return out.toDataURL('image/png'); };
+}
+
+// ---- submit
+function collect(form){
+  const d={}; new FormData(form).forEach((v,k)=>d[k]=v);
+  form.querySelectorAll('input[type=checkbox][name]').forEach(c=>d[c.name]=c.checked);
+  const proj=form.querySelector('.checks[id]'); if(proj) d[form.id==='member'?'projects':'topics']=[...proj.querySelectorAll('input:checked')].map(c=>c.value);
+  for(const [k,fn] of Object.entries(croppers)) if(form.querySelector(`[data-img=${k}]`)) d[k]=fn();
+  for(const [k,v] of Object.entries(files)) if(form.querySelector(`[data-file=${k}]`)) d[k]=v;
+  return d;
+}
+for (const [id,url,msg] of [['member','/add-member','msg'],['paper','/add-paper','msg2']]) {
+  document.getElementById(id).onsubmit=async e=>{
+    e.preventDefault(); const btn=e.target.querySelector('button'), out=document.getElementById(msg);
+    btn.disabled=true; out.style.display='block'; out.textContent='Saving and rebuilding…';
+    const r=await fetch(url,{method:'POST',body:JSON.stringify(collect(e.target))}).then(r=>r.json());
+    out.textContent = r.ok ? `✓ Added "${r.id}".\n${r.log}\nPreview: python3 build.py --serve  →  http://localhost:8000` : '✗ '+r.error;
+    btn.disabled=false; if(r.ok){ e.target.reset(); }
+  };
+}
+</script></body></html>

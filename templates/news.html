@@ -1,0 +1,9 @@
+{% extends "base.html" %}{% import "_macros.html" as m with context %}
+{% block title %}News{% endblock %}
+{% block content %}
+<h1>News</h1>
+{% for y, items in news_by_year %}
+<h2 class="year">{{ y }}</h2>
+<div class="news-list">{% for n in items %}{{ m.news_card(n) }}{% endfor %}</div>
+{% endfor %}
+{% endblock %}

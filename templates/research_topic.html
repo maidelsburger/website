@@ -1,0 +1,32 @@
+{% extends "base.html" %}{% import "_macros.html" as m with context %}
+{% block title %}{{ r.title }}{% endblock %}
+{% block description %}{{ r.summary }}{% endblock %}
+{% block content %}
+<p class="breadcrumb"><a href="{{ rel }}research.html">Research</a> › {{ r.title }}</p>
+<h1>{{ r.title }}</h1>
+<div class="topic-layout">
+  <div class="topic-main">
+    {{ m.img(r.image, r.title, 'feature') }}
+    <p class="lead">{{ r.summary }}</p>
+    {% for p in r.body %}<p>{{ p }}</p>{% endfor %}
+    {% if r.location %}<p class="muted">Location: {{ site.affiliations[r.location].name }}</p>{% endif %}
+
+    {% if topic_pubs %}
+    <h2>Publications</h2>
+    {% for p in topic_pubs %}{{ m.pub_entry(p, show_image=False) }}{% endfor %}
+    {% endif %}
+
+    {% if topic_news %}
+    <h2>News</h2>
+    <div class="news-grid">{% for n in topic_news %}{{ m.news_card(n, show_topics=False) }}{% endfor %}</div>
+    {% endif %}
+  </div>
+  <aside class="topic-side">
+    <h2>Team</h2>
+    <ul class="plain team-list">
+    {% for mem in topic_people %}<li><a href="{{ rel }}group.html#{{ mem.id }}">{{ mem.name }}</a><br><span class="muted">{{ mem.role }}</span></li>{% endfor %}
+    </ul>
+    {% if topic_alumni %}<h3>Alumni</h3><ul class="plain">{% for a in topic_alumni %}<li>{{ a.name }}</li>{% endfor %}</ul>{% endif %}
+  </aside>
+</div>
+{% endblock %}

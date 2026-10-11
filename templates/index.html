@@ -1,0 +1,38 @@
+{% extends "base.html" %}{% import "_macros.html" as m with context %}
+{% block content %}
+<section class="hero">
+  {{ m.img(site.hero_image, site.group_name, 'hero-img', 'static/img/hero-default.svg') }}
+  <div class="hero-text">
+    <h1>{{ site.group_name }}</h1>
+    <p class="lead">{{ site.tagline }}</p>
+  </div>
+</section>
+
+<section class="two-col">
+  <div>
+    <h2>About us</h2>
+    {% for p in site.about %}<p>{{ p }}</p>{% endfor %}
+    <p><a class="btn" href="{{ rel }}research.html">Our research</a> <a class="btn btn-secondary" href="{{ rel }}group.html">Meet the group</a></p>
+  </div>
+  <aside class="research-list">
+    <h2>Research directions</h2>
+    <ul class="plain">
+    {% for r in research %}<li><a href="{{ rel }}research/{{ r.id }}.html">{{ r.title }}</a></li>{% endfor %}
+    </ul>
+  </aside>
+</section>
+
+<section>
+  <div class="section-head"><h2>Latest news</h2><a href="{{ rel }}news.html">All news →</a></div>
+  <div class="news-grid">
+  {% for n in news[:site.news_on_homepage] %}{{ m.news_card(n) }}{% endfor %}
+  </div>
+</section>
+
+{% if highlights %}
+<section>
+  <div class="section-head"><h2>Selected publications</h2><a href="{{ rel }}publications.html">All publications →</a></div>
+  {% for p in highlights[:3] %}{{ m.pub_entry(p) }}{% endfor %}
+</section>
+{% endif %}
+{% endblock %}

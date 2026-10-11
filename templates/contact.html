@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Contact{% endblock %}
+{% block content %}
+<h1>Contact</h1>
+<p class="lead">{{ site.contact.intro }}</p>
+<div class="contact-grid">
+{% for loc in site.contact.locations %}{% set a = site.affiliations[loc.key] %}
+<div class="card">
+  <h2>{{ a.name }}</h2>
+  <p>{{ site.pi.name }}<br>{% for line in a.address %}{{ line }}<br>{% endfor %}</p>
+  <p>Phone: {{ loc.phone }}<br>Email: <a href="mailto:{{ loc.email }}">{{ loc.email | obfuscate }}</a></p>
+  {% if loc.directions %}<p class="muted">{{ loc.directions }}</p>{% endif %}
+</div>
+{% endfor %}
+</div>
+{% if site.contact.assistant %}
+<h2>Team assistant</h2>
+<p>{{ site.contact.assistant.name }}<br>Phone: {{ site.contact.assistant.phone }}<br>Email: <a href="mailto:{{ site.contact.assistant.email }}">{{ site.contact.assistant.email | obfuscate }}</a></p>
+{% endif %}
+{% endblock %}

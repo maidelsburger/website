@@ -1,0 +1,22 @@
+{
+  "intro": "We are always looking for motivated students and postdocs to join our labs. Please do not hesitate to contact us if you are interested in joining any one of our research projects.",
+  "contact_email": "monika.aidelsburger@lmu.de",
+  "openings": [
+    {
+      "title": "PhD position",
+      "project": "cs-microscope",
+      "description": "PhD position at the Cs quantum gas microscope."
+    },
+    {
+      "title": "PhD and postdoc positions",
+      "project": "ryd-yb",
+      "description": "PhD and postdoc positions at the Ryd-Yb tweezer array."
+    },
+    {
+      "title": "PhD and postdoc positions",
+      "project": "yb-hybrid",
+      "description": "PhD and postdoc positions at the Yb hybrid lattice-tweezer experiment."
+    }
+  ],
+  "theses": "Bachelor and Master theses are available in all of our experiments. Please contact the respective project leaders or Monika Aidelsburger directly."
+}

@@ -1,0 +1,55 @@
+{% macro img(src, alt, cls='', placeholder='static/img/placeholder-wide.svg') -%}
+<img class="{{ cls }}" src="{{ rel }}{{ src if src else placeholder }}" alt="{{ alt }}" loading="lazy">
+{%- endmacro %}
+
+{% macro news_card(n, show_topics=True) -%}
+<article class="news-card">
+  <a class="news-thumb" href="{{ rel }}news/{{ n.id }}.html">{{ img(n.image, n.title, 'thumb') }}</a>
+  <div class="news-body">
+    <time datetime="{{ n.date }}">{{ n.date | pretty_date }}</time>
+    <h3><a href="{{ rel }}news/{{ n.id }}.html">{{ n.title }}</a></h3>
+    <p>{{ n.summary }}</p>
+    {% if show_topics and n.topics %}<p class="tags">{% for t in n.topics %}<a class="tag" href="{{ rel }}research/{{ t }}.html">{{ research_by_id[t].short }}</a>{% endfor %}</p>{% endif %}
+  </div>
+</article>
+{%- endmacro %}
+
+{% macro pub_entry(p, show_image=True) -%}
+<article class="pub" id="{{ p.id }}">
+  {% if show_image %}<div class="pub-img">{{ img(p.image, p.title, 'thumb', 'static/img/placeholder-square.svg') }}</div>{% endif %}
+  <div class="pub-body">
+    <h3 class="pub-title">{% if p.url or p.doi or p.arxiv %}<a href="{{ p.url or ('https://doi.org/' ~ p.doi if p.doi else 'https://arxiv.org/abs/' ~ p.arxiv) }}" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+    <p class="pub-authors">{{ p.authors }}</p>
+    <p class="pub-ref">{% if p.journal %}<em>{{ p.journal }}</em>{% if p.volume %} <strong>{{ p.volume }}</strong>{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %} ({{ p.year }}){% elif p.arxiv %}arXiv:{{ p.arxiv }} ({{ p.year }}){% else %}({{ p.year }}){% endif %}</p>
+    <p class="pub-links">
+      {% if p.doi %}<a href="https://doi.org/{{ p.doi }}" rel="noopener">DOI</a>{% endif %}
+      {% if p.arxiv %}<a href="https://arxiv.org/abs/{{ p.arxiv }}" rel="noopener">arXiv</a>{% endif %}
+      {% if p.pdf %}<a href="{{ rel }}{{ p.pdf }}">PDF</a>{% endif %}
+      {% for t in p.topics %}<a class="tag" href="{{ rel }}research/{{ t }}.html">{{ research_by_id[t].short }}</a>{% endfor %}
+    </p>
+  </div>
+</article>
+{%- endmacro %}
+
+{% macro person_card(m) -%}
+<article class="person" id="{{ m.id }}">
+  {{ img(m.photo, m.name, 'portrait', 'static/img/placeholder-person.svg') }}
+  <div class="person-body">
+    <h3>{% if m.degree %}<span class="degree">{{ m.degree }}</span> {% endif %}{{ m.name }}</h3>
+    <p class="role">{{ m.role }}{% if m.affiliation %} ({{ m.affiliation }}){% endif %}</p>
+    {% if m.projects %}<p class="tags">{% for t in m.projects %}<a class="tag" href="{{ rel }}research/{{ t }}.html">{{ research_by_id[t].short }}</a>{% endfor %}</p>{% endif %}
+    <ul class="contact-list">
+      {% if m.email %}<li><a href="mailto:{{ m.email }}">{{ m.email | obfuscate }}</a></li>{% endif %}
+      {% if m.phone or m.office %}<li>{% if m.phone %}{{ m.phone }}{% endif %}{% if m.office %} (Office {{ m.office }}){% endif %}</li>{% endif %}
+      {% if m.lab_phone or m.lab %}<li>{% if m.lab_phone %}{{ m.lab_phone }}{% endif %}{% if m.lab %} (Lab {{ m.lab }}){% endif %}</li>{% endif %}
+    </ul>
+    <p class="person-links">
+      {% if m.google_scholar %}<a href="{{ m.google_scholar }}" rel="noopener">Scholar</a>{% endif %}
+      {% if m.orcid %}<a href="https://orcid.org/{{ m.orcid }}" rel="noopener">ORCID</a>{% endif %}
+      {% if m.website %}<a href="{{ m.website }}" rel="noopener">Website</a>{% endif %}
+      {% if m.cv_pdf %}<a href="{{ rel }}{{ m.cv_pdf }}">CV</a>{% endif %}
+      {% if m.thesis_pdf %}<a href="{{ rel }}{{ m.thesis_pdf }}">Thesis</a>{% endif %}
+    </p>
+  </div>
+</article>
+{%- endmacro %}

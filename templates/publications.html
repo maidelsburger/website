@@ -1,0 +1,11 @@
+{% extends "base.html" %}{% import "_macros.html" as m with context %}
+{% block title %}Publications{% endblock %}
+{% block content %}
+<h1>Publications</h1>
+<p class="muted">Filter by topic: <a href="#all">all</a>{% for r in research %} · <a href="{{ rel }}research/{{ r.id }}.html#publications">{{ r.short }}</a>{% endfor %}</p>
+{% if preprints %}<h2 class="year">Preprints</h2>{% for p in preprints %}{{ m.pub_entry(p) }}{% endfor %}{% endif %}
+{% for y, items in pubs_by_year %}
+<h2 class="year">{{ y }}</h2>
+{% for p in items %}{{ m.pub_entry(p) }}{% endfor %}
+{% endfor %}
+{% endblock %}

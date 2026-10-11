@@ -1,0 +1,17 @@
+{% extends "base.html" %}{% import "_macros.html" as m with context %}
+{% block title %}Funding{% endblock %}
+{% block content %}
+<h1>Funding</h1>
+<p class="lead">{{ funding.intro }}</p>
+<div class="funding-grid">
+{% for f in funding.projects %}
+<div class="card">
+  {% if f.logo %}<img class="logo" src="{{ rel }}{{ f.logo }}" alt="{{ f.name }}">{% endif %}
+  <h2>{% if f.url %}<a href="{{ f.url }}" rel="noopener">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}</h2>
+  <p>{{ f.description }}</p>
+</div>
+{% endfor %}
+</div>
+<h2>We also gratefully acknowledge support from</h2>
+<ul>{% for a in funding.acknowledgements %}<li>{{ a }}</li>{% endfor %}</ul>
+{% endblock %}

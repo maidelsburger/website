@@ -1,0 +1,16 @@
+{% extends "base.html" %}{% import "_macros.html" as m with context %}
+{% block title %}Research{% endblock %}
+{% block content %}
+<h1>Research</h1>
+<p class="lead">Our experiments use ultracold atoms to build controllable quantum many-body systems.</p>
+<div class="research-grid">
+{% for r in research %}
+<article class="research-card">
+  <a href="{{ rel }}research/{{ r.id }}.html">{{ m.img(r.image, r.title, 'thumb') }}</a>
+  <h2><a href="{{ rel }}research/{{ r.id }}.html">{{ r.title }}</a></h2>
+  <p>{{ r.summary }}</p>
+  <p><a href="{{ rel }}research/{{ r.id }}.html">more →</a></p>
+</article>
+{% endfor %}
+</div>
+{% endblock %}

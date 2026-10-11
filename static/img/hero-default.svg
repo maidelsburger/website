@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640">
+<defs>
+<radialGradient id="g" cx="50%" cy="40%" r="75%">
+<stop offset="0%" stop-color="#3a1414"/><stop offset="60%" stop-color="#241010"/><stop offset="100%" stop-color="#160a0a"/>
+</radialGradient>
+<radialGradient id="atom" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#ffb3a7" stop-opacity=".95"/><stop offset="45%" stop-color="#d95f4e" stop-opacity=".55"/><stop offset="100%" stop-color="#8C1515" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<rect width="1600" height="640" fill="url(#g)"/>
+<g opacity=".5" stroke="#8C1515" stroke-width="1">
+<path d="M0 160 H1600 M0 320 H1600 M0 480 H1600" opacity=".5"/>
+<path d="M200 0 V640 M400 0 V640 M600 0 V640 M800 0 V640 M1000 0 V640 M1200 0 V640 M1400 0 V640" opacity=".5"/>
+</g>
+<g>
+<circle cx="400" cy="160" r="46" fill="url(#atom)"/><circle cx="800" cy="160" r="34" fill="url(#atom)"/>
+<circle cx="1200" cy="160" r="52" fill="url(#atom)"/><circle cx="200" cy="320" r="30" fill="url(#atom)"/>
+<circle cx="600" cy="320" r="56" fill="url(#atom)"/><circle cx="1000" cy="320" r="40" fill="url(#atom)"/>
+<circle cx="1400" cy="320" r="48" fill="url(#atom)"/><circle cx="400" cy="480" r="38" fill="url(#atom)"/>
+<circle cx="800" cy="480" r="50" fill="url(#atom)"/><circle cx="1200" cy="480" r="32" fill="url(#atom)"/>
+</g>
+</svg>

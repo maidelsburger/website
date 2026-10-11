@@ -1,0 +1,70 @@
+[
+  {
+    "id": "yb-hybrid",
+    "title": "Yb hybrid tweezer-lattice",
+    "short": "Yb hybrid",
+    "image": "assets/research/yb-hybrid.jpg",
+    "summary": "We are developing a novel experimental platform for quantum simulation with ultracold fermionic Yb atoms. Our main goal is to realize novel techniques for local control in optical lattices by combining optical lattices with optical tweezer arrays.",
+    "body": [
+      "Alkaline-earth-like atoms such as ytterbium offer a rich internal structure, including a long-lived metastable clock state and SU(N)-symmetric interactions, which make them a versatile resource for quantum simulation of lattice gauge theories and multi-orbital physics.",
+      "By combining a large-scale optical lattice with programmable optical tweezer arrays we aim at site-resolved preparation, control and detection of fermionic many-body states."
+    ],
+    "location": "LMU"
+  },
+  {
+    "id": "cs-microscope",
+    "title": "Cs Quantum Gas Microscope",
+    "short": "Cs QGM",
+    "image": "assets/research/cs-microscope.jpg",
+    "summary": "Quantum gas microscope with bosonic caesium atoms to study topological many-body phases of matter and out-of-equilibrium dynamics of strongly-interacting quantum systems. We have developed techniques to measure local kinetic operators to go beyond simple occupation measurements.",
+    "body": [
+      "Caesium features a broad Feshbach resonance at low magnetic fields, allowing us to tune the interaction strength over a wide range. Combined with single-site resolved imaging this gives access to strongly-correlated phases in 2D optical superlattices.",
+      "Recent highlights include local readout and control of current and kinetic-energy operators, and the preparation of non-equilibrium quantum spin liquids."
+    ],
+    "location": "LMU"
+  },
+  {
+    "id": "k-hexagonal",
+    "title": "K hexagonal lattice",
+    "short": "K hexagonal",
+    "image": "assets/research/k-hexagonal.jpg",
+    "summary": "We are developing novel experimental techniques to study genuine out-of-equilibrium topological phases of matter in periodically-driven optical lattices.",
+    "body": [
+      "Periodic driving (Floquet engineering) allows us to realize topological band structures that have no static counterpart, such as anomalous Floquet topological insulators. Using fermionic potassium in a hexagonal optical lattice we study their bulk and edge properties."
+    ],
+    "location": "LMU"
+  },
+  {
+    "id": "ryd-yb",
+    "title": "Ryd-Yb tweezer array",
+    "short": "Ryd-Yb",
+    "image": "assets/research/ryd-yb.jpg",
+    "summary": "Neutral-atom arrays have gained increasing importance in the development of quantum computing architectures. Alkaline-earth(-like) atoms such as Yb offer unique opportunities for high-fidelity detection via shelving, trapping of Rydberg states and high-fidelity single-photon Rydberg excitations.",
+    "body": [
+      "In this project we build a programmable array of individually trapped Yb atoms and use Rydberg interactions to implement high-fidelity entangling gates and analog quantum simulation of spin models."
+    ],
+    "location": "LMU"
+  },
+  {
+    "id": "ydfc",
+    "title": "Yb double-frequency clock",
+    "short": "YDFC",
+    "image": "assets/research/ydfc.jpg",
+    "summary": "We launched a new project in March 2024, where we aim to combine neutral atom quantum technologies with high precision spectroscopy to study fundamental physics.",
+    "body": [
+      "The experiment is located at MPQ in Garching and combines optical-lattice clock technology with tweezer-based control to search for physics beyond the Standard Model."
+    ],
+    "location": "MPQ"
+  },
+  {
+    "id": "theory",
+    "title": "Theory collaborations",
+    "short": "Theory",
+    "image": "assets/research/theory.jpg",
+    "summary": "Alongside our experiments we collaborate closely with theory groups on quantum simulation, lattice gauge theories, topological phases and out-of-equilibrium dynamics.",
+    "body": [
+      "This page collects joint theory works and proposals that are not tied to one specific experimental platform in the lab."
+    ],
+    "location": ""
+  }
+]

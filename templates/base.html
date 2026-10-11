@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site.group_name }}{% endblock %} · {{ site.group_short }}</title>
+<meta name="description" content="{% block description %}{{ site.tagline }}{% endblock %}">
+<link rel="canonical" href="{{ site.base_url }}/{{ page_path }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ rel }}static/css/style.css">
+<link rel="icon" href="{{ rel }}static/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ rel }}index.html">
+      <span class="brand-name">{{ site.group_name }}</span>
+      <span class="brand-sub">{{ site.pi.name }} · LMU München &amp; MPQ</span>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+    <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+    <nav class="site-nav" aria-label="Main">
+      {% for item in site.nav %}
+      <a href="{{ rel }}{{ item.href }}"{% if item.id == page_id %} class="active" aria-current="page"{% endif %}>{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+{% if site.announcement and site.announcement.text %}
+<div class="announce" role="status"><div class="wrap">{% if site.announcement.link %}<a href="{{ site.announcement.link }}">{{ site.announcement.text }}</a>{% else %}{{ site.announcement.text }}{% endif %}</div></div>
+{% endif %}
+
+<main id="main" class="wrap">
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-col">
+      <strong>{{ site.group_name }}</strong><br>
+      {{ site.pi.name }}<br>
+      {% for loc in site.contact.locations %}{{ site.affiliations[loc.key].name }}{% if not loop.last %}<br>{% endif %}{% endfor %}
+    </div>
+    <div class="footer-col">
+      <strong>Links</strong><br>
+      {% for l in site.external_links %}<a href="{{ l.url }}" rel="noopener">{{ l.label }}</a><br>{% endfor %}
+    </div>
+    <div class="footer-col">
+      <strong>Sitemap</strong><br>
+      {% for item in site.nav %}<a href="{{ rel }}{{ item.href }}">{{ item.label }}</a><br>{% endfor %}
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© {{ year }} {{ site.copyright_holder }}</span>
+    <span>{% for l in site.footer_links %}<a href="{{ rel }}{{ l.href }}">{{ l.label }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</span>
+  </div>
+</footer>
+</body>
+</html>

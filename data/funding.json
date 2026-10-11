@@ -1,0 +1,89 @@
+{
+  "intro": "Our research is made possible by generous support from national and European funding agencies and foundations.",
+  "projects": [
+    {
+      "name": "DigiAnaQsim",
+      "description": "Aims to make quantum simulators more powerful, flexible and useful for understanding complex quantum systems.",
+      "url": "",
+      "logo": ""
+    },
+    {
+      "name": "QUASIMODO",
+      "description": "QuantERA project studying novel forms of matter using ultracold atoms (dysprosium, potassium, ytterbium) across six European institutions.",
+      "url": "",
+      "logo": ""
+    },
+    {
+      "name": "ISF-DFG Program",
+      "description": "Joint Israel Science Foundation / DFG grant on sub-wavelength atomic arrays in optical lattices (collaboration with Hebrew University).",
+      "url": "",
+      "logo": ""
+    },
+    {
+      "name": "FOR5919",
+      "description": "DFG Research Unit on machine-learning applications to complex quantum states, coordinated by the University of Regensburg.",
+      "url": "",
+      "logo": ""
+    },
+    {
+      "name": "FOR5688",
+      "description": "DFG Research Unit on driven-dissipative quantum systems to engineer low-entropy many-body states.",
+      "url": "",
+      "logo": ""
+    },
+    {
+      "name": "FOR5522",
+      "description": "DFG Research Unit on out-of-equilibrium quantum many-body physics and thermalization with ultracold atoms.",
+      "url": "",
+      "logo": ""
+    },
+    {
+      "name": "PASQuanS2.1",
+      "description": "EU Quantum Flagship project developing programmable quantum simulators with enhanced optical-lattice capabilities.",
+      "url": "",
+      "logo": ""
+    },
+    {
+      "name": "DYNAMITE",
+      "description": "Next-generation quantum simulators for lattice gauge theories.",
+      "url": "",
+      "logo": ""
+    },
+    {
+      "name": "Munich Quantum Valley (TAQC)",
+      "description": "Trapped-atom quantum computer development using Rydberg states.",
+      "url": "https://www.munich-quantum-valley.de",
+      "logo": ""
+    },
+    {
+      "name": "MCQST",
+      "description": "Munich Center for Quantum Science and Technology – excellence cluster spanning physics, mathematics, computer science and materials science.",
+      "url": "https://www.mcqst.de",
+      "logo": ""
+    },
+    {
+      "name": "FermiQP",
+      "description": "Hybrid platform combining analogue quantum simulation with digital quantum computing.",
+      "url": "",
+      "logo": ""
+    },
+    {
+      "name": "LaGaTYb",
+      "description": "ERC project on lattice gauge theories with fermionic ytterbium atoms.",
+      "url": "",
+      "logo": ""
+    },
+    {
+      "name": "FOR2414",
+      "description": "DFG Research Unit on artificial gauge fields and topological phases in ultracold atoms.",
+      "url": "",
+      "logo": ""
+    }
+  ],
+  "acknowledgements": [
+    "Alfried Krupp von Bohlen und Halbach Foundation",
+    "Max Planck Institute of Quantum Optics",
+    "Ludwig-Maximilians-Universität München",
+    "Munich Quantum Center"
+  ]
+}

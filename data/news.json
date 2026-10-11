@@ -1,0 +1,81 @@
+[
+  {
+    "id": "2026-07-23-liebster-haxel",
+    "date": "2026-07-23",
+    "title": "Nikolas Liebster receives Otto-Haxel-Award for Physics",
+    "summary": "Congratulations Nikolas! The Otto-Haxel-Award for Physics was presented for his outstanding doctoral thesis.",
+    "body": [
+      "Congratulations Nikolas! The Otto-Haxel-Award for Physics was presented for his outstanding doctoral thesis."
+    ],
+    "image": "",
+    "topics": [
+      "cs-microscope"
+    ],
+    "people": [
+      "nikolas-liebster"
+    ],
+    "link": ""
+  },
+  {
+    "id": "2026-04-28-spin-liquid",
+    "date": "2026-04-28",
+    "title": "Our new paper on non-equilibrium quantum spin liquids is online!",
+    "summary": "In this work we prepare and study quantum spin liquids in 2D optical superlattices.",
+    "body": [
+      "In this work we prepare and study quantum spin liquids in 2D optical superlattices using our caesium quantum gas microscope."
+    ],
+    "image": "",
+    "topics": [
+      "cs-microscope"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2026-03-03-liebster-dpg",
+    "date": "2026-03-03",
+    "title": "Nikolas Liebster has received the DPG SAMOP Dissertation Prize",
+    "summary": "Congratulations to Nikolas from our Cs team on his award!",
+    "body": [
+      "Congratulations to Nikolas from our Cs team on his award!"
+    ],
+    "image": "",
+    "topics": [
+      "cs-microscope"
+    ],
+    "people": [
+      "nikolas-liebster"
+    ],
+    "link": ""
+  },
+  {
+    "id": "2025-11-07-yb-microscope",
+    "date": "2025-11-07",
+    "title": "Fast microscopy of cold Yb at LMU!",
+    "summary": "We obtained our first microscope images with 171Yb.",
+    "body": [
+      "We obtained our first microscope images with 171Yb in the hybrid tweezer-lattice experiment."
+    ],
+    "image": "",
+    "topics": [
+      "yb-hybrid"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2025-09-22-first-yb-mot",
+    "date": "2025-09-22",
+    "title": "First Yb MOT at MPQ!",
+    "summary": "YDFC just got their first 3D MOT after moving into the new lab space!",
+    "body": [
+      "YDFC just got their first 3D MOT after moving into the new lab space!"
+    ],
+    "image": "",
+    "topics": [
+      "ydfc"
+    ],
+    "people": [],
+    "link": ""
+  }
+]
