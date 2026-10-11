@@ -2,6 +2,8 @@
 {% block title %}The Group{% endblock %}
 {% block content %}
 <h1>The Group</h1>
+{% if site.group_photo %}<figure class="group-photo">{{ m.img(site.group_photo, 'Group photo', 'feature') }}{% if site.group_photo_caption %}<figcaption class="muted">{{ site.group_photo_caption }}</figcaption>{% endif %}</figure>
+{% endif %}
 {% for cat, members in grouped %}
 <h2 class="cat">{{ cat }}</h2>
 <div class="people-grid">{% for mem in members %}{{ m.person_card(mem) }}{% endfor %}</div>

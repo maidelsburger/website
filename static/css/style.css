@@ -146,6 +146,8 @@ ul.theses li { margin-bottom: .4rem; }
 .contact-list { list-style: none; padding: 0; margin: 0; font-size: .84rem; color: var(--muted); }
 .person-links a { font-size: .85rem; margin-right: .6rem; font-weight: 600; }
 .alumni li { margin-bottom: .5rem; }
+.group-photo { margin: 0 0 2rem; }
+.group-photo figcaption { margin-top: .5rem; }
 
 /* ---------- Publications ---------- */
 .pub { display: grid; grid-template-columns: 110px 1fr; gap: 1.5rem; padding: 1.25rem 0; border-bottom: 1px solid var(--border); scroll-margin-top: 100px; }
