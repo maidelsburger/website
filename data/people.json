@@ -698,11 +698,177 @@
       "id": "bodo-kaiser",
       "name": "Bodo Kaiser",
       "degree": "",
-      "role": "PhD Student",
+      "role": "Bachelor student, later PhD student",
       "projects": [
+        "cs-microscope",
         "ryd-yb"
       ],
       "left": "2026",
+      "now": ""
+    },
+    {
+      "id": "cesar-cabrera",
+      "name": "Cesar Cabrera",
+      "degree": "Dr.",
+      "role": "PostDoc",
+      "projects": [
+        "cs-microscope"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "christian-schweizer",
+      "name": "Christian Schweizer",
+      "degree": "Dr.",
+      "role": "PostDoc",
+      "projects": [
+        "cs-microscope"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "hendrik-von-raven",
+      "name": "Hendrik von Raven",
+      "degree": "",
+      "role": "PhD student",
+      "projects": [
+        "cs-microscope"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "till-klostermann",
+      "name": "Till Klostermann",
+      "degree": "",
+      "role": "PhD student",
+      "projects": [
+        "cs-microscope"
+      ],
+      "left": "",
+      "now": "Menlo Systems"
+    },
+    {
+      "id": "andreas-reetz",
+      "name": "Andreas Reetz",
+      "degree": "",
+      "role": "Master student",
+      "projects": [
+        "cs-microscope"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "jingjing-chen",
+      "name": "Jingjing Chen",
+      "degree": "",
+      "role": "Master student",
+      "projects": [
+        "cs-microscope"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "julian-wienand",
+      "name": "Julian Wienand",
+      "degree": "",
+      "role": "Master student, later PhD student",
+      "projects": [
+        "cs-microscope"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "scott-hubele",
+      "name": "Scott Hubele",
+      "degree": "",
+      "role": "Master student",
+      "projects": [
+        "cs-microscope"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "sophie-hafele",
+      "name": "Sophie Häfele",
+      "degree": "",
+      "role": "Master student",
+      "projects": [
+        "cs-microscope"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "ignacio-perez-ramos",
+      "name": "Ignacio Pérez Ramos",
+      "degree": "",
+      "role": "Master student",
+      "projects": [
+        "cs-microscope"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "nicola-reiter",
+      "name": "Nicola Reiter",
+      "degree": "",
+      "role": "Bachelor student",
+      "projects": [
+        "cs-microscope"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "emma-cussenot",
+      "name": "Emma Cussenot",
+      "degree": "",
+      "role": "Internship student",
+      "projects": [
+        "cs-microscope"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "friederike-horn",
+      "name": "Friederike Horn",
+      "degree": "",
+      "role": "Internship student",
+      "projects": [
+        "cs-microscope"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "andres-duran-hernandez",
+      "name": "Andrés Durán Hernández",
+      "degree": "",
+      "role": "Internship student",
+      "projects": [
+        "cs-microscope"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "juan-yi-pon",
+      "name": "Juan-Yi Pon",
+      "degree": "",
+      "role": "Student assistant",
+      "projects": [
+        "cs-microscope"
+      ],
+      "left": "",
       "now": ""
     }
   ]
