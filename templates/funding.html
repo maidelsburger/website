@@ -5,10 +5,10 @@
 <p class="lead">{{ funding.intro }}</p>
 <div class="funding-grid">
 {% for f in funding.projects if not f.completed %}
-<div class="card">
-  {% if f.logo %}<img class="logo" src="{{ rel }}{{ f.logo }}" alt="{{ f.name }}">{% endif %}
+<div class="card fund-card">
   <h2>{% if f.slug and f.paragraphs %}<a href="{{ rel }}funding/{{ f.slug }}.html">{{ f.name }}</a>{% elif f.url %}<a href="{{ f.url }}" rel="noopener">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}</h2>
   <p>{{ f.teaser or f.description }}</p>
+  {% if f.logo %}<img class="logo" src="{{ rel }}{{ f.logo }}" alt="{{ f.name }} logo">{% endif %}
 </div>
 {% endfor %}
 </div>
@@ -16,10 +16,10 @@
 <h2 class="cat">Completed projects</h2>
 <div class="funding-grid">
 {% for f in funding.projects if f.completed %}
-<div class="card">
-  {% if f.logo %}<img class="logo" src="{{ rel }}{{ f.logo }}" alt="{{ f.name }}">{% endif %}
+<div class="card fund-card">
   <h2>{% if f.slug and f.paragraphs %}<a href="{{ rel }}funding/{{ f.slug }}.html">{{ f.name }}</a>{% elif f.url %}<a href="{{ f.url }}" rel="noopener">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}</h2>
   <p>{{ f.teaser or f.description }}</p>
+  {% if f.logo %}<img class="logo" src="{{ rel }}{{ f.logo }}" alt="{{ f.name }} logo">{% endif %}
 </div>
 {% endfor %}
 </div>
