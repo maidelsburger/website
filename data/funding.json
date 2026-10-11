@@ -183,7 +183,7 @@
       "description": "// This project aims at realizing a new and scalable hybrid platform for analogue quantum simulation and digital quantum computing with ultracold fermion, thus combining the advantages of both concepts in one machine. Within this project we are developing new techniques for improving the coherence time, data rate and initial-state fidelity, which will boost both analogue and digital applications of this hybrid…",
       "url": "",
       "links": [],
-      "logo": "",
+      "logo": "assets/funding/fermiqp-icon.jpg",
       "completed": true,
       "slug": "fermiqp-joint-project-on-fermion-quantum",
       "paragraphs": [
