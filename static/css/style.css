@@ -113,6 +113,8 @@ h2.year::after, h2.cat::after { content: ""; position: absolute; left: 0; bottom
 .news-thumb:hover { box-shadow: var(--shadow-lift); }
 .news-thumb .thumb { transition: transform .35s ease; }
 .news-thumb:hover .thumb { transform: scale(1.04); }
+.news-card .thumb, .news-thumb .thumb { object-position: center 25%; }
+.news-full .feature { aspect-ratio: auto; max-height: 520px; width: auto; max-width: 100%; }
 .news-card time { font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; font-weight: 600; }
 .news-card h3 { margin: .35rem 0 .35rem; }
 .news-card h3 a { color: var(--text); }
