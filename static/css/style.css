@@ -161,6 +161,12 @@ ul.theses li { margin-bottom: .4rem; }
 .pub-links a { margin-right: .7rem; font-size: .85rem; font-weight: 600; }
 @media (max-width: 500px) { .pub { grid-template-columns: 1fr; } .pub-img .thumb { width: 110px; } }
 
+.filterbar { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 1.5rem; }
+.fbtn { font: inherit; font-size: .85rem; font-weight: 600; padding: .35rem .9rem; border-radius: 99px;
+  border: 1px solid var(--border); background: #fff; color: var(--accent-dark); cursor: pointer; transition: all .15s; }
+.fbtn:hover { border-color: var(--accent); }
+.fbtn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
 /* ---------- Tables, misc pages ---------- */
 table.courses { width: 100%; border-collapse: collapse; margin-top: 1.25rem; }
 .courses th, .courses td { text-align: left; padding: .7rem .5rem; border-bottom: 1px solid var(--border); vertical-align: top; }

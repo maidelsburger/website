@@ -2,10 +2,35 @@
 {% block title %}Publications{% endblock %}
 {% block content %}
 <h1>Publications</h1>
-<p class="muted">Filter by topic: <a href="#all">all</a>{% for r in research %} · <a href="{{ rel }}research/{{ r.id }}.html#publications">{{ r.short }}</a>{% endfor %}</p>
-{% if preprints %}<h2 class="year">Preprints</h2>{% for p in preprints %}{{ m.pub_entry(p) }}{% endfor %}{% endif %}
+<div class="filterbar"><button class="fbtn active" data-f="all">All</button>{% for r in research %}<button class="fbtn" data-f="{{ r.id }}">{{ r.short }}</button>{% endfor %}</div>
+{% if preprints %}<section class="pub-group"><h2 class="year">Preprints</h2>{% for p in preprints %}{{ m.pub_entry(p) }}{% endfor %}</section>{% endif %}
 {% for y, items in pubs_by_year %}
-<h2 class="year">{{ y }}</h2>
-{% for p in items %}{{ m.pub_entry(p) }}{% endfor %}
+<section class="pub-group"><h2 class="year">{{ y }}</h2>
+{% for p in items %}{{ m.pub_entry(p) }}{% endfor %}</section>
 {% endfor %}
+<p class="muted" id="no-match" hidden>No publications for this topic yet.</p>
+<script>
+(function(){
+  var btns=document.querySelectorAll('.fbtn');
+  function apply(f){
+    btns.forEach(function(b){b.classList.toggle('active',b.dataset.f===f);});
+    var any=false;
+    document.querySelectorAll('.pub-group').forEach(function(g){
+      var vis=0;
+      g.querySelectorAll('.pub').forEach(function(p){
+        var show=(f==='all')||((p.dataset.topics||'').split(' ').indexOf(f)>=0);
+        p.hidden=!show; if(show)vis++;
+      });
+      g.hidden=(vis===0); any=any||vis>0;
+    });
+    document.getElementById('no-match').hidden=any;
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){
+    apply(b.dataset.f);
+    history.replaceState(null,'',b.dataset.f==='all'?location.pathname:'#'+b.dataset.f);
+  });});
+  var h=location.hash.replace('#','');
+  if(h&&document.querySelector('.fbtn[data-f="'+h+'"]'))apply(h);
+})();
+</script>
 {% endblock %}
