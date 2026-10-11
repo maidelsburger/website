@@ -423,7 +423,9 @@
       "Irene will start as a Phd student in our Cs lab, where we are going to study quantum many-body systems in and out-of-equilibrium with local resolution."
     ],
     "image": "assets/news/2024-11-04-new-group-member-irene-prieto-rodriguez.jpg",
-    "topics": [],
+    "topics": [
+      "cs-microscope"
+    ],
     "people": [],
     "link": "",
     "thumb": "assets/news/2024-11-04-new-group-member-irene-prieto-rodriguez-thumb.jpg"
