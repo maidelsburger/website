@@ -1194,6 +1194,15 @@
       ],
       "now": "DGIST, South Korea",
       "link": "https://scholar.dgist.ac.kr/researcher/16b0484e-5f7c-4b87-936c-1652e0a672fc"
+    },
+    {
+      "name": "Ronen Kroeze",
+      "role": "Postdoc",
+      "projects": [
+        "yb-hybrid"
+      ],
+      "now": "QuEra Computing",
+      "link": "https://www.quera.com/"
     }
   ]
 }
