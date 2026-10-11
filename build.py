@@ -32,6 +32,7 @@ def supsub(text):
     t = str(escape(text))
     t = re.sub(r"\^\{([^}]+)\}", r"<sup>\1</sup>", t)
     t = re.sub(r"_\{([^}]+)\}", r"<sub>\1</sub>", t)
+    t = re.sub(r"\*\{([^}]+)\}", r"<em>\1</em>", t)
     return Markup(t)
 
 
