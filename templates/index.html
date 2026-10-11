@@ -1,7 +1,14 @@
 {% extends "base.html" %}{% import "_macros.html" as m with context %}
 {% block content %}
 <section class="hero">
-  {{ m.img(site.hero_image, site.group_name, 'hero-img', 'static/img/hero-default.svg') }}
+  {% if site.hero_images|length > 1 %}
+  {% for h in site.hero_images %}<img class="hero-img{% if loop.first %} active{% endif %}" src="{{ rel }}{{ h }}" alt="{{ site.group_name }}">{% endfor %}
+  <script>(function(){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  addEventListener('DOMContentLoaded',function(){var im=document.querySelectorAll('.hero-img');if(im.length<2)return;var i=0;
+  setInterval(function(){im[i].classList.remove('active');i=(i+1)%im.length;im[i].classList.add('active');},8000);});})();</script>
+  {% else %}
+  {{ m.img(site.hero_images[0] if site.hero_images else '', site.group_name, 'hero-img active', 'static/img/hero-default.svg') }}
+  {% endif %}
   <div class="hero-text">
     <h1>{{ site.group_name }}</h1>
     <p class="lead">{{ site.tagline }}</p>
