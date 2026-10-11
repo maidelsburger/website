@@ -164,5 +164,863 @@
     "topics": [],
     "people": [],
     "link": ""
+  },
+  {
+    "id": "2025-08-29-our-new-paper-on-disorder-driven-topological-phase",
+    "date": "2025-08-29",
+    "title": "Our new paper on disorder-driven topological phase transitions is online!",
+    "summary": "In this work we observe topological phase transitions in the presence of disorder via mode-matching between the chiral edge mode and a localized BEC.",
+    "body": [
+      "In this work we observe topological phase transitions in the presence of disorder via mode-matching between the chiral edge mode and a localized BEC.",
+      "Left: Schematic drawing of the bandstructure in the Anomalous Floquet and Haldane regime. Right: Observation of chiral edge modes and its tunability with regards to the initial-state properties.",
+      "One of the most fascinating properties of topological phases of matter is their robustness to disorder and imperfections. Although several experimental techniques have been developed to probe the geometric properties of engineered topological Bloch bands with cold atoms, they almost exclusively rely on the translational invariance of the underlying lattice. This prevents direct studies of topology in the presence of disorder, further hindering an extension to disordered interacting topological phases. Here, we identify disorder-driven phase transitions between two distinct Floquet topological phases using the characteristic properties of topological edge modes with ultracold atoms in periodically-driven two-dimensional (2D) optical lattices. Our results constitute an important step towards studying the rich interplay between topology and disorder with cold atoms. Moreover, our measurements confirm that disorder indeed favors the anomalous Floquet topological regime over conventional Hall systems, indicating an enhanced robustness and paving the way towards observing exotic out-of-equilibrium phases such as the anomalous Floquet Anderson insulator.",
+      "Original publication:Probing disorder-driven topological phase transitions via topological edge modes with ultracold atoms in Floquet-engineered honeycomb latticesAlexander Hesse, Johannes Arceri, Moritz Hornung, Christoph Braun, Monika AidelsburgerarXiv:2508.20154"
+    ],
+    "image": "assets/news/2025-08-29-our-new-paper-on-disorder-driven-topological-phase.jpg",
+    "topics": [
+      "k-hexagonal"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2025-08-08-ydfc-move-completed",
+    "date": "2025-08-08",
+    "title": "YDFC move completed!",
+    "summary": "We just finished moving our vacuum chamber to our new lab space D0.33!",
+    "body": [
+      "We just finished moving our vacuum chamber to our new lab space D0.33!",
+      "Our newly renovated lab D 0.33 is now home to our vacuum chamber and laser systems. After careful transport and setup, the heart of our experiment is beating again. We look forward to building up and realizing an atomic array in the coming months.",
+      "In the pictures, you can catch a glimpse of the new lab space, vacuum chamber and the glass cell, which will soon host our ultracold Yb atoms.",
+      "Picture of the newly renovated lab space D0.33!"
+    ],
+    "image": "assets/news/2025-08-08-ydfc-move-completed.jpg",
+    "topics": [
+      "ydfc"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2025-06-17-new-proposal-for-realizing-non-abelian-quantum-lin",
+    "date": "2025-06-17",
+    "title": "New proposal for realizing non-Abelian quantum link models!",
+    "summary": "Together with our theory colleagues we developed a new scheme for realizing non-Abelian lattice gauge theories with Alkaline-earth(-like) atoms or via Rydberg excitation.",
+    "body": [
+      "Together with our theory colleagues we developed a new scheme for realizing non-Abelian lattice gauge theories with Alkaline-earth(-like) atoms or via Rydberg excitation.",
+      "Schematic of the 2D lattice implementation",
+      "Recent advancements in the field of quantum simulation have significantly expanded the potential for applications, particularly in the context of lattice gauge theories (LGTs). Maintaining gauge invariance throughout a simulation remains a central challenge, especially for large-scale non-Abelian LGTs with dynamical matter, which are particularly complex in terms of engineering for experiments. Gauge-symmetry breaking is inevitable in established rishon-based schemes for alkaline-earth-like atoms (AELAs) and controlling the magnitude of its effect is an open challenge. Here, we first construct a minimal model to quantum simulate non-Abelian LGTs ensuring that the gauge constraints are met and explicitly derive their unambiguous non-Abelian nature. Second, we present a proposal for a novel gauge protection scheme using native interactions in AELAs enabling the simulation of toy models of non-Abelian U(2) LGTs with dynamical fermionic matter in (2+1) dimensions on large scales. Due to the simplicity of the gauge protection mechanism, based on a Zeeman shift in combination with superexchange interactions, our scheme can be naturally included in other rishon-based quantum simulation protocols. Third, we extend our approach to a fully scalable, hybrid digital-analog simulator for U(N) LGTs based on Rydberg AELA with variable rishon number. The proposed general mechanism for gauge protection provides a promising path towards the long-awaited simulation of non-Abelian LGTs relevant to particle physics.",
+      "Original publication:Quantum simulation of fermionic non-Abelian lattice gauge theories in (2+1)D with built-in gauge protectionGaia De Paciani, Lukas Homeier, Jad C. Halimeh, Monika Aidelsburger, Fabian Grusdt"
+    ],
+    "image": "assets/news/2025-06-17-new-proposal-for-realizing-non-abelian-quantum-lin.jpg",
+    "topics": [
+      "theory"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2025-06-10-clock-sideband-cooling-of-neutral-yb-atoms-in-magi",
+    "date": "2025-06-10",
+    "title": "Clock-sideband cooling of neutral Yb atoms in magic lattices",
+    "summary": "We have demonstrated cooling to the absolute motional ground state of Yb in 2D and 3D optical lattices, utilizing the ultranarrow optical clock transition. The study has appeared o…",
+    "body": [
+      "We have demonstrated cooling to the absolute motional ground state of Yb in 2D and 3D optical lattices, utilizing the ultranarrow optical clock transition. The study has appeared online in our latest preprint.",
+      "Our 3D lattice setup (a) with three clock beams and a repumper beam to effect cooling. Clock sideband spectroscopy (b) reveals ultra-low motional occupation along both horizontal directions.",
+      "Reaching ultralow temperatures is critical for applications in quantum simulation, computing and metrology. Alkaline-earth(-like) atoms are ideally suited for many such applications, but achieving efficient and rapid cooling to the absolute motional ground state remains a significant challenge. We demonstrate how both ¹⁷¹Yb and ¹⁷⁴Yb can be cooled to the motional ground state using resolved sideband cooling on the ultranarrow optical clock transition pervasive to alkaline-earth(-like) atoms. Effective operation of this technique in 2D and 3D optical lattice requires chirping the sideband frequency, despite a magic trapping wavelength. With this chirped clock sideband cooling we reach ultra-low average motional occupation of 0.015 for ¹⁷¹Yb and comparable performance in ¹⁷⁴Yb. We show straightforward extension of the technique to 3D. The experimental results are underpinned by a robust theory describing sideband spectroscopy using ultranarrow transitions in higher-dimensional lattices. These results open exciting new possibilities for rapid assembly of ultracold neutral atoms in optical lattices for quantum simulation of itinerant particles. Additionally, an efficient path towards high ground-state fractions opens the door for realizing 3D lattice clocks of ¹⁷⁴Yb for applications in quantum information and metrology.",
+      "Original publication:Isotope-agnostic motional ground-state cooling of neutral Yb atomsRonen M. Kroeze, René A. Villela, Er Zu, Tim O. Höhn, Monika Aidelsburger"
+    ],
+    "image": "assets/news/2025-06-10-clock-sideband-cooling-of-neutral-yb-atoms-in-magi.jpg",
+    "topics": [
+      "yb-hybrid"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2025-06-05-alex-successfully-defended-his-phd-thesis",
+    "date": "2025-06-05",
+    "title": "Alex successfully defended his PhD thesis!!",
+    "summary": "Alex did his PhD on our Cs quantum gas microscope.",
+    "body": [
+      "Alex did his PhD on our Cs quantum gas microscope.",
+      "// Alex worked on our Cs quantum gas microscope. When he started there was no single-atom imaging in our group. One of the main challenges was the tiny lattice constant of only 383.5nm, which is extremely challenging to resolve even with a high-NA imaging objective with numerical aperture NA=0.8. His first main result was the development of an unsupervised machine learning algorithm for single-site reconstruction in this challenging regime, which enabled high-fidelity detection in this challenging regime (Commun. Phys. 2023)!",
+      "// Moreover, using superlattice potentials, Alex and the Cs team implemented arbitrary measurements of nearest-neighbor orbital operators, which enables local measurements of currents in a quantum many-body system (Phys. Rev. Lett. 2024). Not only does this method offer unique possibilities for initial state preparation and read-out, it provides a path towards measurements of complex correlators via local z-rotations, which we can realized via our high-NA objective.",
+      "The local current-measurement technique was finally applied to study strongly-interacting Meissner phases in optical ladders with artificial magnetic field (Nature Physics 2025). We managed to realize a low-temperature phase with ~24 strongly-interacting particles, marking a significant milestone for realizing large many-body systems in the presence of magnetic fields."
+    ],
+    "image": "assets/news/2025-06-05-alex-successfully-defended-his-phd-thesis.jpg",
+    "topics": [
+      "cs-microscope"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2025-06-02-moritz-joined-the-ydfc-team",
+    "date": "2025-06-02",
+    "title": "Moritz joined the YDFC team!",
+    "summary": "// Moritz Berngruber joined our new team at MPQ as a postdoc. Moritz did his PhD in Stuttgart in the group of Prof. Tilman Pfau.",
+    "body": [
+      "// Moritz Berngruber joined our new team at MPQ as a postdoc. Moritz did his PhD in Stuttgart in the group of Prof. Tilman Pfau."
+    ],
+    "image": "assets/news/2025-06-02-moritz-joined-the-ydfc-team.jpg",
+    "topics": [
+      "ydfc"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2025-05-19-new-quantum-phase-realised-in-a-cold-atom-quantum",
+    "date": "2025-05-19",
+    "title": "New quantum phase realised in a cold-atom quantum simulator",
+    "summary": "For the first time, scientists have realised the Mott-Meissner quantum phase – implemented in an unprecedentedly large system.",
+    "body": [
+      "For the first time, scientists have realised the Mott-Meissner quantum phase – implemented in an unprecedentedly large system.",
+      "Researchers at MPQ and LMU Munich, led by Monika Aidelsburger and Immanuel Bloch, have experimentally demonstrated a strongly interacting quantum phase – known as the Mott-Meissner phase. This phase emerges from the combined influence of strong interactions and an artificial magnetic field. Using a novel platform based on a cesium quantum gas microscope, the team prepared and observed many-body states with more than 24 particles in a 48-site flux ladder. Their results mark a major breakthrough: Previous experimental studies of interacting particles in artificial magnetic fields had been limited to system sizes involving only two particles. The study opens the door to investigating other quantum phenomena, such as the fractional quantum Hall effect, with microscopic precision and control. [...]",
+      "Read the full article: New quantum phase realised in a cold-atom quantum simulator",
+      "Part of the experimental setup for the quantum gas microscope. With the apparatus, researchers can manipulate and observe individual ultracold cesium atoms in optical lattices with single-lattice-site resolution."
+    ],
+    "image": "assets/news/2025-05-19-new-quantum-phase-realised-in-a-cold-atom-quantum.jpg",
+    "topics": [
+      "cs-microscope"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2025-04-24-physik-erkenntnisse-und-perspektiven",
+    "date": "2025-04-24",
+    "title": "Physik: Erkenntnisse und Perspektiven",
+    "summary": "Digital book published by the German Physical Society",
+    "body": [
+      "Digital book published by the German Physical Society",
+      "// This digital book presents the multifaceted world of physics through contributions from a wide range of disciplines. Over 200 physicists contributed between autumn 2022 and winter 2024/25, selecting key content and authoring articles in their areas of expertise. The range is vast: from the study of the tiniest building blocks of matter to the expanses of the universe; from the search for new, functional materials to the understanding of biological cells; from the dynamics of swarms and traffic flows to the production of ever more powerful microchips, climate research, and energy supply.",
+      "Edited by Joachim Ullrich, Ulrich Bleyer, Sarah Köster,Claus Lämmerzahl, Dieter Meschede, and Lutz SchröterGerman Physical Society (DPG)",
+      "Here is a link to the pdf (in german). Don’t forget to check-out page 212 :) !!"
+    ],
+    "image": "assets/news/2025-04-24-physik-erkenntnisse-und-perspektiven.jpg",
+    "topics": [],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2025-02-04-probing-quantum-many-body-dynamics-using-subsystem",
+    "date": "2025-02-04",
+    "title": "Probing quantum many-body dynamics using subsystem Loschmidt echos",
+    "summary": "Using a caesium quantum gas microscope (a), we obtain snapshots of the time-evolved wavefunction from which we calculate the subsystem Loschmidt echo (b). We then probe its short- …",
+    "body": [
+      "Using a caesium quantum gas microscope (a), we obtain snapshots of the time-evolved wavefunction from which we calculate the subsystem Loschmidt echo (b). We then probe its short- and long-time dynamics (c, d).",
+      "The Loschmidt echo is a fundamental concept in statistical physics, capturing the probability of a system returning to its initial state following a time evolution. It generally contains key information about a quantum many-body system, relevant across various scientific fields including quantum chaos, quantum many-body physics, or high-energy physics. While widely used in theoretical studies, direct experimental measurements of the Loschmidt echo are typically infeasible since it is exponentially small in system size.",
+      "In our work, we demonstrate how this challenge can be overcome by experimentally studying the subsystem Loschmidt echo — a powerful and experimentally accessible probe of quantum many-body dynamics.",
+      "Utilizing our caesium quantum gas microscope, we study the short- and long-time dynamics of the subsystem Loschmidt echo following a sudden quench in a one-dimensional Bose-Hubbard model. In the short-time regime, we use the subsystem Loschmidt echo to observe a dynamical quantum phase transition and show that it arises due to genuine higher-order correlations in the system. In the long-time regime, the subsystem Loschmidt echo allows us to quantify the effective dimension and structure of the accessible Hilbert space in the thermodynamic limit. By measuring the steady-state value of the subsystem Loschmidt echo in an ergodic model and in the presence of emergent kinetic constraints, we provide direct experimental evidence for ergodicity breaking due to fragmentation of the Hilbert space."
+    ],
+    "image": "assets/news/2025-02-04-probing-quantum-many-body-dynamics-using-subsystem.jpg",
+    "topics": [
+      "cs-microscope"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2025-01-15-cold-atom-quantum-simulators-of-gauge-theories",
+    "date": "2025-01-15",
+    "title": "Cold-atom quantum simulators of gauge theories",
+    "summary": "Our experimental results have been published in Nature Physics!",
+    "body": [
+      "Our experimental results have been published in Nature Physics!",
+      "// Gauge theories constitute the basis of the Standard Model and provide useful descriptions of various phenomena in condensed matter. Realizing gauge theories on tunable tabletop quantum devices such as cold-atom quantum simulators offers the possibility to study their dynamics from first principles and to probe effects that are out of reach of dedicated particle colliders, such as deviations from gauge invariance. These quantum simulators can potentially provide insights into high-energy and nuclear physics questions, while also serving as a versatile tool for the exploration of topological phases and ergodicity-breaking mechanisms relevant to low-energy many-body physics. Recent years have seen substantial progress in the implementation of (1 + 1)D Abelian gauge theories using ultracold atoms. In this Review, we chronicle these advances, highlighting key developments in stabilizing gauge invariance and scaling up from basic building blocks to large-scale realizations where gauge-theory phenomena can be probed. We offer an outlook on future directions and the requirements for advancing this technology to the next level.",
+      "Original publication:Cold-atom quantum simulators of gauge theoriesJad C. Halimeh, Monika Aidelsburger, Fabian Grusdt, Philipp Hauke & Bing Yang"
+    ],
+    "image": "assets/news/2025-01-15-cold-atom-quantum-simulators-of-gauge-theories.jpg",
+    "topics": [
+      "theory"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2025-01-15-ronen-kroeze-is-awarded-humboldt-fellowship",
+    "date": "2025-01-15",
+    "title": "Ronen Kroeze is awarded Humboldt Fellowship",
+    "summary": "// Ronen Kroeze, PostDoc in our Yb hybrid lattice-tweezer lab, has been awarded a Research Fellowship by the Alexander von Humboldt Stiftung. He will continue our work towards quan…",
+    "body": [
+      "// Ronen Kroeze, PostDoc in our Yb hybrid lattice-tweezer lab, has been awarded a Research Fellowship by the Alexander von Humboldt Stiftung. He will continue our work towards quantum simulation of lattice gauge theories."
+    ],
+    "image": "assets/news/2025-01-15-ronen-kroeze-is-awarded-humboldt-fellowship.jpg",
+    "topics": [
+      "yb-hybrid"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-12-19-determining-the-3p0excited-state-tune-out-waveleng",
+    "date": "2024-12-19",
+    "title": "Determining the ³P₀ excited-state tune-out wavelength of ¹⁷⁴Yb in a triple-magic lattice",
+    "summary": "In our latest preprint from the Yb hybrid tweezer-lattice experiment we illustrate the first measurement of a tune-out wavelength for a metastable excited state, utilizing novel mo…",
+    "body": [
+      "In our latest preprint from the Yb hybrid tweezer-lattice experiment we illustrate the first measurement of a tune-out wavelength for a metastable excited state, utilizing novel molasses and sideband cooling techniques in ¹⁷⁴Yb.",
+      "Our 3D lattice setup (a) and the relevant transitions (b) to realize a multitude of state-dependent potentials for the lowest states in Yb (c).",
+      "Precise control of optical potentials is crucial for cold atom experiments and plays a key role in quantum computing and simulation. In particular, tune-out wavelengths for alkaline-earth(-like) atoms such as Yb allow for highly state-selective trapping, offering exciting prospects for new approaches in quantum technologies. While several ground-state tune-out wavelengths have been determined already, a measurement of such a wavelength for a metastable excited state has remained elusive so far, as it has been hindered by inelastic collisions and Raman losses. In our work we demonstrate the first such measurement by determining a tune-out wavelength for the metastable ³P₀​ clock state in ¹⁷⁴Yb at 576.6 nm. This was achieved by isolating individual atoms in a clock-magic lattice at 759 nm and implementing resolved sideband cooling to extend atom lifetimes beyond 5 s. We further enhanced measurement precision using fluorescence imaging in a triple-magic configuration by identifying a new magic angle for the ³P₁ state and implementing molasses cooling on this intercombination line. These results pave the way for more precise control over cold atom systems, driving progress in quantum information science.",
+      "Original publication:Determining the ³P₀ excited-state tune-out wavelength of ¹⁷⁴Yb in a triple-magic latticeTim O. Höhn, René A. Villela, Er Zu, Leonardo Bezzo, Ronen M. Kroeze, and Monika Aidelsburger"
+    ],
+    "image": "assets/news/2024-12-19-determining-the-3p0excited-state-tune-out-waveleng.jpg",
+    "topics": [
+      "yb-hybrid"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-12-13-realization-of-strongly-interacting-meissner-phase",
+    "date": "2024-12-13",
+    "title": "Realization of strongly-interacting Meissner phases in large bosonic flux ladders",
+    "summary": "In our newest preprint from the cesium microscope, we present an experimental realization of a strongly-interacting Meissner phase in bosonic ladders with a synthetically engineere…",
+    "body": [
+      "In our newest preprint from the cesium microscope, we present an experimental realization of a strongly-interacting Meissner phase in bosonic ladders with a synthetically engineered gauge field.",
+      "Implementation of the Hofstadter-Bose-Hubbard model on two-leg ladders (a), and experimental measurement of local particle currents using superlattice basis rotations (b).",
+      "Periodically driving a quantum system, also known as Floquet engineering, can be used to realize novel phases of matter that are not present in time-independent Hamiltonians. One important application of this is the engineering of synthetic gauge fields, which allows to break time-reversal-symmetry in neutral atom quantum simulators. By combining artificial gauge fields with strong inter-particle interactions, a promising path towards the controlled study of topologically ordered matter is established. However, experimental studies of many-body systems have so far remained elusive, primarily due to significant heating arising from the interplay between periodic driving and interactions.",
+      "In our work, we demonstrate that - through careful engineering of adiabatic preparation paths and selection of parameter regimes - we are able to prepare the strongly-interacting Mott-Meissner phase on flux ladders with 48 sites at half filling. By combining quantum gas microscopy with local basis rotations, we reveal the emerging equilibrium particle currents with local resolution across large systems. We find chiral currents exhibiting a characteristic interaction scaling, providing direct experimental evidence of the interacting Mott-Meissner phase. Moreover, we benchmark density correlations with numerical simulations and find that the effective temperature of the system is on the order of the tunnel coupling. Our results demonstrate the feasibility of scaling periodically driven quantum systems to large, strongly correlated phases, paving the way for exploring topological quantum matter with single-atom resolution and control."
+    ],
+    "image": "assets/news/2024-12-13-realization-of-strongly-interacting-meissner-phase.jpg",
+    "topics": [
+      "cs-microscope",
+      "k-hexagonal"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-11-26-workshop-simulating-far-from-equilibrium-quantum-m",
+    "date": "2024-11-26",
+    "title": "Workshop: Simulating far-from-equilibrium quantum many-body dynamics (SimQuDyn)",
+    "summary": "// Simulation of far-from-equilibrium quantum many-body dynamics (SimQuDyn) is a conference bringing together researchers and students in the fields of numerical and quantum simula…",
+    "body": [
+      "// Simulation of far-from-equilibrium quantum many-body dynamics (SimQuDyn) is a conference bringing together researchers and students in the fields of numerical and quantum simulation of far-from-equilibrium quantum many-body dynamics. The goal of this conference is the discussion and exchange of ideas related to the latest advances in these fields and to chart a path forward that includes collaborative efforts between them. A main point of discussion will be using far-from-equilibrium quantum many-body dynamics as a venue to achieve practical quantum advantage.",
+      "For further details click the link below:SimQuDyn",
+      "Monika Aidelsburger (MPQ, LMU), Jad C. Halimeh (MPQ, LMU), and Pablo Sala (Caltech)",
+      "Arnold Sommerfeld Center for Theoretical PhysicsTheresienstr. 3780333 München"
+    ],
+    "image": "assets/news/2024-11-26-workshop-simulating-far-from-equilibrium-quantum-m.jpg",
+    "topics": [],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-11-04-new-group-member-irene-prieto-rodriguez",
+    "date": "2024-11-04",
+    "title": "New group member Irene Prieto Rodriguez",
+    "summary": "Irene joined our team in November 2024. Welcome Irene!",
+    "body": [
+      "Irene joined our team in November 2024. Welcome Irene!",
+      "Irene will start as a Phd student in our Cs lab, where we are going to study quantum many-body systems in and out-of-equilibrium with local resolution."
+    ],
+    "image": "assets/news/2024-11-04-new-group-member-irene-prieto-rodriguez.jpg",
+    "topics": [],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-10-17-flux-attachment-for-bosons-on-a-lattice",
+    "date": "2024-10-17",
+    "title": "Flux attachment for bosons on a lattice",
+    "summary": "Our recent study on flux attachment in Cold Atomic Systems has been published!",
+    "body": [
+      "Our recent study on flux attachment in Cold Atomic Systems has been published!",
+      "Flux attachment provides a powerful conceptual framework for understanding certain forms of topological order, including most notably the fractional quantum Hall effect. Despite its ubiquitous use as a theoretical tool, directly realizing flux attachment in a microscopic setting remains an open challenge. Here, we propose a simple approach to realizing flux attachment in a periodically driven (Floquet) system of either spins or hard-core bosons. We demonstrate that such a system naturally realizes correlated hopping interactions and provides a sharp connection between such interactions and flux attachment. Starting with a simple, nearest-neighbor, free boson model, we find evidence—from both a coupled-wire analysis and large-scale density matrix renormalization group simulations—that Floquet flux attachment stabilizes the bosonic integer quantum Hall state at 1/4 filling (on a square lattice), and the Halperin-221 fractional quantum Hall state at 1/6 filling (on a honeycomb lattice). At 1/2 filling on the square lattice, time-reversal symmetry is instead spontaneously broken and bosonic integer quantum Hall states with opposite Hall conductances are degenerate. Finally, we propose an optical-lattice-based implementation of our model on a square lattice and discuss prospects for adiabatic preparation as well as effects of Floquet heating.",
+      "Schematic illustration of a square-lattice (a) with corre-lated-hopping for two species of hard-core bosons and an analogous honeycomb model (b). Phase diagram (c) of the square-lattice model at half filling.",
+      "Original publication:Floquet Flux Attachment in Cold Atomic SystemsHelia Kamal, Jack Kemp, Yin-Chen He, Yohei Fuji, Monika Aidelsburger, Peter Zoller, and Norman Y. Yao"
+    ],
+    "image": "assets/news/2024-10-17-flux-attachment-for-bosons-on-a-lattice.jpg",
+    "topics": [
+      "theory"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-09-23-quanta-challenging-our-perception-of-reality",
+    "date": "2024-09-23",
+    "title": "Quanta: challenging our perception of reality",
+    "summary": "Monika Aidelsburger and Ignacio Cirac on ARTE",
+    "body": [
+      "Monika Aidelsburger and Ignacio Cirac on ARTE",
+      "As contradictory quantum phenomena may be to our current understanding of the world we live in, as difficult it is to imagine our lives without it. If it weren’t for quantum physics, most of the technologies we have become so accustomed to wouldn’t exist. Riddles need yet to be solved, however, in order to exploit the full potential of quanta for future applications.",
+      "Source: ARTE “Verändern Quanten unsere Realität? 42 - Die Antwort auf fast alles” (https://www.arte.tv/de/videos/115511-004-A/veraendern-quanten-unsere-realitaet/)",
+      "The mind-blowing and complex concepts of the quantum world are illuminated in the episode of 22 September 2024 on ARTE’s programme ‘42: The Answer to Almost Everything’, featuring Prof Monika Aidelsburger and Prof Ignacio Cirac."
+    ],
+    "image": "assets/news/2024-09-23-quanta-challenging-our-perception-of-reality.jpg",
+    "topics": [],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-09-10-tim-successfully-defended-his-phd-thesis",
+    "date": "2024-09-10",
+    "title": "Tim successfully defended his PhD thesis!!",
+    "summary": "Tim did his PhD in our Yb hybrid tweezer-lattice experiment. Together with Etienne he started in an empty lab. Now we have a working machine where we can use the optical clock tran…",
+    "body": [
+      "Tim did his PhD in our Yb hybrid tweezer-lattice experiment. Together with Etienne he started in an empty lab. Now we have a working machine where we can use the optical clock transition to cool atoms in a magic-wavelength optical lattice to the absolute ground state. We are excited to now demonstrate similar capabilities for fermions and integrate the tweezer array(s) for rearrangement and local control!",
+      "Thank you so much for all the hard work and building such a great machine!",
+      "Congratulations and all the best for your future!"
+    ],
+    "image": "assets/news/2024-09-10-tim-successfully-defended-his-phd-thesis.jpg",
+    "topics": [
+      "yb-hybrid"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-09-08-emergent-topology-in-bose-hubbard-ladders",
+    "date": "2024-09-08",
+    "title": "Emergent topology in Bose-Hubbard ladders",
+    "summary": "Our recent study on emergent interaction-induced topology in a two-leg ladder is online!",
+    "body": [
+      "Our recent study on emergent interaction-induced topology in a two-leg ladder is online!",
+      "We investigate the quantum many-body dynamics of bosonic atoms hopping in a two-leg ladder with strong on-site contact interactions. We observe that when the atoms are prepared in a staggered pattern with pairs of atoms on every other rung, singlon defects, i.e. rungs with only one atom, can localize due to an emergent topological model, even though the underlying model in the absence of interactions admits only topologically trivial states. This emergent topological localization results from the formation of a zero-energy edge mode in an effective lattice formed by two adjacent chains with alternating strong and weak hoping links (Su-Schrieffer-Heeger chains) and opposite staggering which interface at the defect position. Our findings open the opportunity to dynamically generate non-trivial topological behaviors without the need for complex Hamiltonian engineering.",
+      "Bose-Hubbard ladder with rung (leg) hopping.",
+      "Original Publication:Emergent interaction-induced topology in Bose-Hubbard laddersDavid Wellnitz, Gustavo A. Domínguez-Castro, Thomas Bilitewski, Monika Aidelsburger, Ana Maria Rey, and Luis Santos"
+    ],
+    "image": "assets/news/2024-09-08-emergent-topology-in-bose-hubbard-ladders.jpg",
+    "topics": [
+      "theory"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-08-12-investigating-the-role-of-fluctuating-hydrodynamic",
+    "date": "2024-08-12",
+    "title": "Investigating the role of fluctuating hydrodynamics (FHD) in chaotic quantum systems",
+    "summary": "Our experimental results on the application of FHD to describe chaotic quantum systems have been published in Nature Physics!",
+    "body": [
+      "Our experimental results on the application of FHD to describe chaotic quantum systems have been published in Nature Physics!",
+      "A fundamental principle of chaotic quantum dynamics is that local subsystems eventually approach a thermal equilibrium state. The corresponding timescales increase with subsystem size as equilibration is limited by the hydrodynamic build-up of fluctuations on extended length scales. We perform large-scale quantum simulations that monitor particle-number fluctuations in tunable ladders of hard-core bosons and explore how the build-up of fluctuations changes as the system crosses over from integrable to fully chaotic dynamics. Our results indicate that the growth of large-scale fluctuations in chaotic, far-from-equilibrium systems is quantitatively determined by equilibrium transport coefficients, in agreement with the predictions of fluctuating hydrodynamics. This emergent hydrodynamic behaviour of subsystem fluctuations provides a test of fluctuation–dissipation relations far from equilibrium and allows the accurate determination of equilibrium transport coefficients using far-from-equilibrium quantum dynamics.",
+      "Snapshot of the density distribution of Cs atoms after time evolution.",
+      "Original publication:Emergence of fluctuating hydrodynamics in chaotic quantum systemsJulian F. Wienand, Simon Karch, Alexander Impertro,Christian Schweizer, Ewan McCulloch, Romain Vasseur, Sarang Gopalakrishnan, Monika Aidelsburger & Immanuel Bloch"
+    ],
+    "image": "assets/news/2024-08-12-investigating-the-role-of-fluctuating-hydrodynamic.jpg",
+    "topics": [
+      "cs-microscope"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-08-05-local-readout-and-control-of-current-and-kinetic-e",
+    "date": "2024-08-05",
+    "title": "Local Readout and Control of Current and Kinetic Energy Operators in Optical Lattices",
+    "summary": "Our recent study on measuring off-diagonal observables has been published!",
+    "body": [
+      "Our recent study on measuring off-diagonal observables has been published!",
+      "Double wells in an optical superlattice realize local two-level systems using which programmable rotations can be applied.",
+      "Using quantum gas microscopes, the wavefunction of a quantum system can be probed with microscopic resolution through projective measurements. By nature of the optical imaging techniques that are used to implement these measurements, the observable that is probed is the local density operator -- each atom in the underlying lattice geometry appears as a bright dot in the recorded image. Even though such density measurements can already reveal many properties governing the system at hand, a wealth of further information is hidden in observables that cannot be derived from mere densities. Prominent examples for this are local particle currents or kinetic energies, which appear in the context of nonequilibrium dynamics, topological matter as well as exotic phases including unconventional superconductors.",
+      "In this recent work from our cesium quantum gas microscope, we demonstrate how optical superlattices allow a measurement and manipulation of off-diagonal observables in a robust and scalable way. Optical superlattices, created by superimposing two optical lattices of different wavelength, can be used to realize periodic arrays of double wells. The key idea of the measurement scheme is to project the system into such an array of isolated double wells before recording an image. Each individual double well forms an isolated two-level system, which allows to apply programmable two-site operations. In particular, these operations can be used to rotate the measurement basis from density to orthogonal bases that encode for example kinetic energy or local current. This can be done either in parallel everywhere in the system, or - as we show - spatially selective using an additional digital micromirror device. Furthermore, the programmable superlattice rotations can also be used to precisely manipulate a quantum state, for example to engineer initial states featuring a complex spatial pattern."
+    ],
+    "image": "assets/news/2024-08-05-local-readout-and-control-of-current-and-kinetic-e.jpg",
+    "topics": [
+      "cs-microscope"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-07-29-annual-group-retreat",
+    "date": "2024-07-29",
+    "title": "Annual Group Retreat",
+    "summary": "This year’s group retreat in Obermarchtal",
+    "body": [
+      "This year’s group retreat in Obermarchtal",
+      "For our group retreat this year, we were staying at the monastery in Oberemarchtal.",
+      "Together with the Quantum Many Body Systems group, we were honoured to be joined by Prof Wolfgang Ketterle, winner of the 2001 Nobel Prize, and Prof Adam Kaufmann of the University of Colorado Boulder.",
+      "It was a great opportunity to learn more about everyone’s projects and research, engage in lively discussions as well as building team spirit."
+    ],
+    "image": "assets/news/2024-07-29-annual-group-retreat.jpg",
+    "topics": [],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-07-18-new-optical-tables-for-the-ydfc-experiment",
+    "date": "2024-07-18",
+    "title": "New optical tables for the YDFC experiment",
+    "summary": "Today, our optical tables arrived and were installed, marking the beginning of our journey as a new experimental group(Ytterbium Double-Frequency Clock - YDFC) at MPQ led by Prof. …",
+    "body": [
+      "Today, our optical tables arrived and were installed, marking the beginning of our journey as a new experimental group(Ytterbium Double-Frequency Clock - YDFC) at MPQ led by Prof. Dr. Monika Aidelsburger. We are thrilled to start setting up our experiment!",
+      "Stay tuned as we share more updates on our progress!"
+    ],
+    "image": "assets/news/2024-07-18-new-optical-tables-for-the-ydfc-experiment.jpg",
+    "topics": [
+      "ydfc"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-07-12-quantum-transport-from-wave-function-snapshots",
+    "date": "2024-07-12",
+    "title": "Quantum transport from wave function snapshots",
+    "summary": "Our recent study on quantum transport is online!",
+    "body": [
+      "Our recent study on quantum transport is online!",
+      "We study nonequilibrium quantum dynamics of spin chains by employing principal component analysis (PCA) on data sets of wave function snapshots and examine how information propagates within these data sets. The quantities we employ are derived from the spectrum of the sample second moment matrix, built directly from data sets. Our investigations on several interacting spin chains featuring distinct spin or energy transport reveal that the growth of data information spreading follows the same dynamical exponents as that of the underlying quantum transport of spin or energy. Specifically, our approach enables an easy, data-driven, and importantly interpretable diagnostic to track energy transport with a limited number of samples, which is usually challenging without any assumption on the Hamiltonian form. These observations are obtained at a modest finite size and evolution time, which aligns with experimental and numerical constraints. Our framework directly applies to experimental quantum simulator data sets of dynamics in higher-dimensional systems, where classical simulation methods usually face significant limitations and apply equally to both near- and far-from-equilibrium quenches.",
+      "Original Publication:Diagnosing quantum transport from wave function snapshotsDevendra Singh Bhakuni, Roberto Verdel, Cristiano Muzzi, Riccardo Andreoni, Monika Aidelsburger and Marcello Dalmonte"
+    ],
+    "image": "assets/news/2024-07-12-quantum-transport-from-wave-function-snapshots.jpg",
+    "topics": [
+      "theory"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-07-05-new-group-member-dr-fan-jia",
+    "date": "2024-07-05",
+    "title": "New group member Dr. Fan Jia",
+    "summary": "Fan joined our team on July 3rd 2024. Welcome Fan!",
+    "body": [
+      "Fan joined our team on July 3rd 2024. Welcome Fan!",
+      "Fan will work on the new project (Yb double-frequency clock) at MPQ, where we are going to build a new Yb experiment that will combine experimental techniques from tweezer arrays with high precision spectroscopy. You can find his contact details here: Dr. Fan Jia"
+    ],
+    "image": "assets/news/2024-07-05-new-group-member-dr-fan-jia.jpg",
+    "topics": [
+      "ydfc"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-07-01-podcast-on-exzellent-erklart",
+    "date": "2024-07-01",
+    "title": "Podcast on \"Exzellent Erklärt\"",
+    "summary": "Get some fascinating insights into Monika Aidelsburger and Fabian Grusdt’s research work in the field of quantum simulations",
+    "body": [
+      "Get some fascinating insights into Monika Aidelsburger and Fabian Grusdt’s research work in the field of quantum simulations",
+      "In the 45th episode of the podcast \"Exzellent Erklärt\", Monika Aidelsburger and Fabian Grusdt allow us a better understanding of their research into quantum simulations and the collaboration within the MCQST cluster.",
+      "High-temperature superconductors are one important issue in quantum simulation, one which Prof Aidelsburger and Prof Grusdt are specially enthusiatic about. They describe how their respective work, the experimental part in the labs as well as the theoretical part, both complete each other in their quest for the ideal material to superconductivity.",
+      "To listen to the podcast (in German), click here."
+    ],
+    "image": "assets/news/2024-07-01-podcast-on-exzellent-erklart.jpg",
+    "topics": [],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-06-20-etienne-successfully-defended-his-phd-thesis",
+    "date": "2024-06-20",
+    "title": "Etienne successfully defended his PhD thesis!!",
+    "summary": "Congratulations and all the best for your new PostDoc position!",
+    "body": [
+      "Congratulations and all the best for your new PostDoc position!",
+      "// Etienne did his PhD in our Yb hybrid tweezer-lattice experiment. Together with Tim he started in an empty lab. Now we have a working machine with cold Yb atoms in a magic optical lattice with narrow-line spectroscopy on the ultranarrow optical clock transition and a tweezer array at 532nm!",
+      "Congratulations and all the best for your new position!!!"
+    ],
+    "image": "assets/news/2024-06-20-etienne-successfully-defended-his-phd-thesis.jpg",
+    "topics": [
+      "yb-hybrid"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-06-20-max-weber-group-visits-our-lab",
+    "date": "2024-06-20",
+    "title": "Max-Weber group visits our lab!",
+    "summary": "We organized lab tours and discussions for our Max-Weber students!",
+    "body": [
+      "We organized lab tours and discussions for our Max-Weber students!",
+      "Max Weber group together with Tim Höhn (right) in the Yb hybrid tweezer-lattice lab.",
+      "Today the Max-Weber group visited our labs at LMU. We started the visit with a short introduction into the topic of quantum simulation, specifically with ultracold atoms in optical lattices. We discussed what quantum simulation can be useful for in order to understand quantum many-body systems, as well as differences and similarities with platforms that are being developed for digital quantum computing. After that we organized a lab tour in our Yb hybrid tweezer-lattice lab (see picture).",
+      "Thank you all for coming! And thank you Tim for the lab tour!"
+    ],
+    "image": "assets/news/2024-06-20-max-weber-group-visits-our-lab.jpg",
+    "topics": [],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-06-19-research-visit-of-prof-adam-kaufman",
+    "date": "2024-06-19",
+    "title": "Research visit of Prof. Adam Kaufman",
+    "summary": "Adam Kaufman from JILA is awarded the Friedrich Wilhelm Bessel Research Award",
+    "body": [
+      "Adam Kaufman from JILA is awarded the Friedrich Wilhelm Bessel Research Award",
+      "// JILA Fellow, NIST Physicist, and University of Colorado Boulder Physics Professor Adam Kaufman has been honored with a prestigious 2024 Friedrich Wilhelm Bessel Research Award by the Alexander von Humboldt Foundation.",
+      "The Friedrich Wilhelm Bessel Research Award, named after the esteemed German astronomer and mathematician, is awarded annually to around 20 internationally renowned academics. It includes a €45,000 grant and the opportunity to conduct a research project of the recipient's choice at a German research institution. Kaufman will collaborate with our group, furthering his innovative work in quantum optics.",
+      "Kaufman's research delves into manipulating individual particles, such as complex atoms, using the tools of atomic, molecular, and optical physics. Kaufman and his team utilize powerful beams of light called “optical tweezers” to hold and manipulate individual atoms with extreme precision. His work has profound implications for quantum simulation, information, and metrology."
+    ],
+    "image": "assets/news/2024-06-19-research-visit-of-prof-adam-kaufman.jpg",
+    "topics": [],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-06-10-observation-of-topological-edge-modes",
+    "date": "2024-06-10",
+    "title": "Observation of topological edge modes",
+    "summary": "Our experimental results on edge modes have been published in Nature Physics!",
+    "body": [
+      "Our experimental results on edge modes have been published in Nature Physics!",
+      "Experimental signal of a chiral edge mode. Here two opposite chiralities have been subtracted.",
+      "The bulk–boundary correspondence, a fundamental principle relating the topological invariants of the bulk to the presence of edge states, is modified in periodically driven systems. Conventional bulk topological invariants are insufficient to predict the existence of topological edge modes in such systems. Although ultracold atoms provide excellent settings for clean realizations of Floquet protocols, the observation of real-space edge modes has so far remained elusive. Here we demonstrate an experimental protocol for realizing chiral edge modes in optical lattices through the periodic modulation of the tunnelling rate between neighbouring sites. In particular, we show how to efficiently prepare particles in edge modes in three distinct Floquet topological regimes in a periodically driven honeycomb lattice. Controlling the height and amplitude of the potential step, we characterize the emergence of edge modes and the dependence of their group velocity on the sharpness of the potential step. Our direct observation of topological edge modes provides a tool to study topological phases of matter in the presence of disorder and interactions, where conventional bulk observables are not applicable.",
+      "Original publication:Real-space detection and manipulation of topological edge modes with ultracold atomsChristoph Braun, Raphaël Saint-Jalm, Alexander Hesse, Johannes Arceri, Immanuel Bloch, Monika AidelsburgerNature Physics 20, 1306-1312 (2024)pdf version"
+    ],
+    "image": "assets/news/2024-06-10-observation-of-topological-edge-modes.jpg",
+    "topics": [
+      "k-hexagonal"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-06-04-new-group-member-zhichao-yuan",
+    "date": "2024-06-04",
+    "title": "New group member Zhichao Yuan",
+    "summary": "Zhichao joined our team on June 1st 2024. Welcome Zhichao!",
+    "body": [
+      "Zhichao joined our team on June 1st 2024. Welcome Zhichao!",
+      "Zhichao will work on the new project (Yb double-frequency clock) at MPQ, where we are going to build a new Yb experiment that will combine experimental techniques from tweezer arrays with high precision spectroscopy. You can find his contact details here: Zhichao Yuan"
+    ],
+    "image": "assets/news/2024-06-04-new-group-member-zhichao-yuan.jpg",
+    "topics": [
+      "ydfc"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-05-17-julian-successfully-defended-his-phd-thesis",
+    "date": "2024-05-17",
+    "title": "Julian successfully defended his PhD thesis!!",
+    "summary": "Congratulations and thank you for the great time!",
+    "body": [
+      "Congratulations and thank you for the great time!",
+      "Julian did his PhD in our Cs quantum gas microscope experiment, studying out-of-equilibrium phenomena in ladder systems and higher-order symmetry-protected topological phases in 2D superlattices! Moreover, he played a significant role in building a great machine - thank you!"
+    ],
+    "image": "assets/news/2024-05-17-julian-successfully-defended-his-phd-thesis.jpg",
+    "topics": [
+      "cs-microscope"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-05-17-new-group-member-er-zu-aki",
+    "date": "2024-05-17",
+    "title": "New group member Er Zu (Aki)",
+    "summary": "Aki joined our team on May 15th 2024. Welcome Aki!",
+    "body": [
+      "Aki joined our team on May 15th 2024. Welcome Aki!",
+      "Aki will work on our Yb hybrid tweezer-lattice experiment, where we are going to develop new techniques for fast preparation and local control of ultracold fermions in optical lattices. Yb hybrid tweezer lattice"
+    ],
+    "image": "assets/news/2024-05-17-new-group-member-er-zu-aki.jpg",
+    "topics": [
+      "yb-hybrid"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-05-16-research-visit-prof-norman-yao",
+    "date": "2024-05-16",
+    "title": "Research visit Prof. Norman Yao",
+    "summary": "// Prof. Norman Yao from Harvard is visiting our and other teams in the Munich area this summer! He will be around until the beginning of August for discussions and lab tours! You …",
+    "body": [
+      "// Prof. Norman Yao from Harvard is visiting our and other teams in the Munich area this summer! He will be around until the beginning of August for discussions and lab tours! You can find him in our guest office or you can send him a message via e-mail to arrange a meeting!"
+    ],
+    "image": "assets/news/2024-05-16-research-visit-prof-norman-yao.jpg",
+    "topics": [],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-05-01-disorder-induced-topological-phase-transitions",
+    "date": "2024-05-01",
+    "title": "Disorder-induced topological phase transitions",
+    "summary": "Our recent study on disorder-induced Floquet topological phase transitions has been published!",
+    "body": [
+      "Our recent study on disorder-induced Floquet topological phase transitions has been published!",
+      "Calculated phase transition boundary between a Floquet topological insulator (FTI) and an Anomalous Floquet topological insulator (AFTI) for correlated and uncorrelated disorder.",
+      "The impact of weak disorder and its spatial correlation on the topology of a Floquet system is not wellunderstood so far. In this study, we investigate a model closely related to a two-dimensional Floquet system that has been realized in our K-hexagonal lattice experiment. In the absence of disorder, we determine the phase diagram and identify an exotic phase characterized by edge states with alternating chirality in adjacent gaps. When weak disorder is introduced, we examine the disorder-averaged Bott index and analyze why the anomalous Floquet topological insulator is favored by both uncorrelated and correlated disorder, with the latter having a stronger effect. For a system with a ring-shaped gap in the energy spectrum, the Born approximation fails to explain the topological phase transition, unlike for a system with a pointlike gap.",
+      "Original publication:Floquet topological phase transitions induced by uncorrelated or correlated disorderJun-Hui Zheng, Arijit Dutta, Monika Aidelsburger, Walter HofstetterPhys. Rev. B 109, 184201 (2024)"
+    ],
+    "image": "assets/news/2024-05-01-disorder-induced-topological-phase-transitions.jpg",
+    "topics": [
+      "theory"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-04-16-cold-atom-elevator",
+    "date": "2024-04-16",
+    "title": "Cold-atom elevator",
+    "summary": "Our recent study on reservoir-assisted preparation of topological states in published!",
+    "body": [
+      "Our recent study on reservoir-assisted preparation of topological states in published!",
+      "Schematic of the cold-atom elevator protocol. (a) Chiral edge-state injection (b) State preparation protocol: particles are injected until an insulating state is formed. (c) Cooling protocol for state preparation, which makes use of retrieving excitations (hot atoms) from the system.",
+      "The preparation of low-entropy topological states is often hindered by heating during adiabatic preparation, since the energy gaps vanish with increasing system size. One appealing alternative is offered by bath or reservoir-engineering techniques. In this work we study, how precisely conrolled reservoirs may be used to prepare states ranging from topological edge states to small fractional quantum Hall systems. The technique is based on the spatial and temporal control of optical box traps, as used in many of our quantum-gas experiments. This enables the engineering of system-reservoir configurations, in view of preparing and manipulating topological atomic states in optical lattices. First, we consider the injection of particles from the reservoir to the system: this scenario is shown to be particularly well suited to activating energy-selective chiral edge currents, but also to prepare fractional Chern insulating ground states. Then, we devise a practical evaporative-cooling scheme to effectively cool down atomic gases into topological ground states. Our open-system approach to optical-lattice settings provides a new path for the investigation of ultracold quantum matter, including strongly correlated and topological phases.",
+      "Cold-Atom Elevator: From Edge-State Injection to the Preparation of Fractional Chern InsulatorsBotao Wang, Monika Aidelsburger, Jean Dalibard, André Eckardt, and Nathan GoldmanPhys. Rev. Lett. 132, 163402"
+    ],
+    "image": "assets/news/2024-04-16-cold-atom-elevator.jpg",
+    "topics": [
+      "theory"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-04-08-frustrated-extended-bose-hubbard-models",
+    "date": "2024-04-08",
+    "title": "Frustrated extended Bose-Hubbard models",
+    "summary": "Our study on frustrated extended BHMs, which could be realized in an anti-magic wavelength lattice with Cs atoms was published in PRL!",
+    "body": [
+      "Our study on frustrated extended BHMs, which could be realized in an anti-magic wavelength lattice with Cs atoms was published in PRL!",
+      "Schematic illustration of the state-dependent optical lattice at the anti-magic-wavelength λ and Raman-assisted tunneling between neighboring sites. The state-dependent lattice can be seen as two shifted sub-lattices with an effective lattice spacing of λ/4.",
+      "The study of geometrically frustrated many-body quantum systems is of central importance to uncover novel quantum mechanical effects. We design a scheme where ultracold bosons trapped in a one-dimensional state-dependent optical lattice are modeled by a frustrated Bose-Hubbard Hamiltonian. A derivation of the Hamiltonian parameters based on Cesium atoms, further show large tunability of contact and nearest-neighbour interactions. For pure contact repulsion, we discover the presence of two phases peculiar to frustrated quantum magnets: the bond-order-wave insulator with broken inversion symmetry and a chiral superfluid. When the nearest-neighbour repulsion becomes sizeable, a further density-wave insulator with broken translational symmetry can appear. We show that the phase transition between the two spontaneously-symmetry-broken phases is continuous, thus representing a one-dimensional deconfined quantum critical point not captured by the Landau–Ginzburg-Wilson symmetry-breaking paradigm. Our results provide a solid ground to unveil the novel quantum physics induced by the interplay of non-local interactions, geometrical frustration, and quantum fluctuations.",
+      "Frustrated Extended Bose-Hubbard Model and Deconfined Quantum Critical Points with Optical Lattices at the Antimagic WavelengthNiccolò Baldelli, Cesar R. Cabrera, Sergi Julià-Farré, Monika Aidelsburger, and Luca BarbieroPhys. Rev. Lett. 132, 153401 (2024)"
+    ],
+    "image": "assets/news/2024-04-08-frustrated-extended-bose-hubbard-models.jpg",
+    "topics": [
+      "theory"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-04-05-new-group-member-moritz-hornung",
+    "date": "2024-04-05",
+    "title": "New group member Moritz Hornung",
+    "summary": "Moritz joined our team on April 2nd 2024. Welcome Moritz!",
+    "body": [
+      "Moritz joined our team on April 2nd 2024. Welcome Moritz!",
+      "Moritz will work on our K honeycomb optical lattice experiment, where we realize and study the physics of Floquet topological phases of matter. K hexagonal lattice"
+    ],
+    "image": "assets/news/2024-04-05-new-group-member-moritz-hornung.jpg",
+    "topics": [
+      "k-hexagonal"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-03-25-new-research-unit-for5688",
+    "date": "2024-03-25",
+    "title": "New Research Unit FOR5688!",
+    "summary": "The DFG approved our new Research Unit on “Driven-dissipative many-body systems of ultracold atoms”!",
+    "body": [
+      "The DFG approved our new Research Unit on “Driven-dissipative many-body systems of ultracold atoms”!",
+      "This Research Unit is dedicated towards developing a better understanding of driven-dissipative quantum many-body systems with the goal of using dissipation as a novel tool for engineering complex low-entropy many-body states via cooling or projective measurements.",
+      "Abstract: Open quantum systems are ubiquitous in nature. Whatever strong efforts an experimentalist may do to isolate a quantum system from its environment, a careful attention has to be paid to dissipation, in particular in view of applications in quantum science and technology. Fundamentally, dissipation results from the exchange of information, energy, and particles with the environment. These processes can play a detrimental role; however, the coupling to engineered reservoirs can also be a powerful tool for controlling a quantum system. Of special interest are so-called driven-dissipative systems, which approach a non-equilibrium steady state (NESS). Different from a thermal state, characterized by a few thermodynamic variables (like temperature) only, such NESSs depend on the details of the environment, opening ample opportunities for tailoring their properties. A paradigmatic example is a laser, where the interplay of pumping and loss stabilizes a non-equilibrium condensate of photons. Recently, also the dissipative preparation of a Mott-insulator and a fractional-quantum-Hall droplet have been achieved in engineered photonic quantum systems.",
+      "Whether dissipation is a resource or a reality to be dealt with, it is crucial to have an accurate descriptionof an open many-body system. However, theoretical modeling and simulation are challenging and relyon approximations. It is, therefore, highly desirable to build quantum simulators for open systems, with awell characterized and tunable environment. We will pursue this goal using ultracold atoms. This will allowus to deepen our understanding also of other open systems, to design novel control schemes, and to testand develop suitable theoretical approaches. Ultracold atoms offer many opportunities. They are clean and can be manipulated and probed with high resolution both in space and time. Their high degree of isolation makes them excellent quantum simulators for closed systems. In close collaboration between theory and experiment, we will extend, explore, and exploit various possibilities for the controlled engineering of dissipation in these systems. We will pursue three major goals: (i) the design and experimental implementation of engineered dissipation, using atomic reservoirs, controlled 1-, 2-, and 3-particle loss, optical tweezer arrays, clock transitions, the coupling to a driven-dissipative cavity mode, as well as measurements and feedback; (ii) capitalize on the fact that the engineered reservoirs and dissipation will be well characterized and controllable, in order to use our systems as quantum simulators for open systems, e.g. for benchmarking theory or studying the impact of dissipation on transport; (iii) investigate novel approaches for the dissipative preparation of interesting target states, such as fractional quantum Hall states, cluster states, defect free Mott insulators, spontaneously formed dynamical lattices, self-driven spin pumps, and non-equilibrium Bose condensates."
+    ],
+    "image": "assets/news/2024-03-25-new-research-unit-for5688.jpg",
+    "topics": [
+      "ryd-yb"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-03-15-anomalous-floquet-anderson-insulators",
+    "date": "2024-03-15",
+    "title": "Anomalous Floquet Anderson insulators",
+    "summary": "Our theoretical study on Anomalous Floquet Anderson insulators in periodically-driven honeycomb lattices was published in Physical Review B!",
+    "body": [
+      "Our theoretical study on Anomalous Floquet Anderson insulators in periodically-driven honeycomb lattices was published in Physical Review B!",
+      "Schematic illustration of the periodically-driven honeycomb lattice used in this work.",
+      "Periodically-driven systems can support phases of matter that are fundamentally different compared to static systems. One particularly intriguing example are so-called anomalous Floquet Anderson insulators, (AFAIs), which support a fully localized bulk that coexists with extended chiral edge modes. Anomalous Floquet Anderson insulators have been theoretically predicted in step-wise periodically-driven models, but its stability under more general driving protocols hasn't been determined and no experimental realizations have been reported so far. We show that adding disorder to the anomalous Floquet topological insulator realized in our K-lab with a continuous driving protocol, supports an AFAI phase, where, for a range of disorder strengths, all the time averaged bulk states become localized, while the pumped charge in a Laughlin pump setup remains quantized.",
+      "Anomalous Floquet Anderson insulator in a continuously driven optical lattice,Arijit Dutta, Efe Sen, Jun-Hui Zheng, Monika Aidelsburger and Walter HofstetterPhysical Review B 109, L121114 (2024)"
+    ],
+    "image": "assets/news/2024-03-15-anomalous-floquet-anderson-insulators.jpg",
+    "topics": [
+      "theory"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-03-04-new-group-member-kunal-singh",
+    "date": "2024-03-04",
+    "title": "New group member Kunal Singh",
+    "summary": "Kunal joined our team on March 1st 2024. Welcome Kunal!",
+    "body": [
+      "Kunal joined our team on March 1st 2024. Welcome Kunal!",
+      "Kunal will work on the new project (Yb double-frequency clock) at MPQ, where we are going to build a new Yb experiment that will combine experimental techniques from tweezer arrays with high precision spectroscopy. You can find his contact details here: Kunal Singh"
+    ],
+    "image": "assets/news/2024-03-04-new-group-member-kunal-singh.jpg",
+    "topics": [
+      "ydfc"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2024-02-15-our-new-group-assistant-annika-herlitzek",
+    "date": "2024-02-15",
+    "title": "Our new group assistant Annika Herlitzek",
+    "summary": "Annika joined our team on Feb 1st 2024. Welcome Annika!",
+    "body": [
+      "Annika joined our team on Feb 1st 2024. Welcome Annika!",
+      "Annika will support our team both at MPQ and LMU. You can find her contact details here Annika Herlitzek. On Feb 14th she visited our team and labs at LMU and we celebrated her arrival with pizza in the seminar room!"
+    ],
+    "image": "assets/news/2024-02-15-our-new-group-assistant-annika-herlitzek.jpg",
+    "topics": [],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2023-12-20-new-preprint-on-local-kinetic-operators",
+    "date": "2023-12-20",
+    "title": "New preprint on local kinetic operators!",
+    "summary": "We submitted our recent study on the detection of local kinetic operators!",
+    "body": [
+      "We submitted our recent study on the detection of local kinetic operators!",
+      "Schematic illustration of the projection of quantum many-body wave function onto isolated double wells for realizating basis rotations before readout.",
+      "Quantum gas microscopes have revolutionized quantum simulations with ultracold atoms, allowing to measure local observables and snapshots of quantum states. However, measurements so far were mostly carried out in the occupation basis. In this work, we demonstrate how all kinetic operators, such as kinetic energy or current operators, can be measured and manipulated with single bond resolution. Beyond simple expectation values of these observables, the single-shot measurements allow to access full counting statistics and complex correlation functions. Our work paves the way for the implementation of efficient quantum state tomography and hybrid quantum computing protocols for itinerant particles on a lattice. In addition, we demonstrate how site-resolved programmable potentials enable a spatially-selective, parallel readout in different bases as well as the engineering of arbitrary initial states.",
+      "Local readout and control of current and kinetic energy operators in optical latticesAlexander Impertro, Simon Karch, Julian F. Wienand, SeungJung Huh, Christian Schweizer, Immanuel Bloch, Monika AidelsburgerPreprint arXiv:2312.13268"
+    ],
+    "image": "assets/news/2023-12-20-new-preprint-on-local-kinetic-operators.jpg",
+    "topics": [
+      "cs-microscope"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2023-06-15-quantum-simulation-of-u-1-lgts",
+    "date": "2023-06-15",
+    "title": "Quantum simulation of U(1) LGTs",
+    "summary": "Our new proposal for the simulation of U(1) QLMs with Yb atoms was published in PRX Quantum!",
+    "body": [
+      "Our new proposal for the simulation of U(1) QLMs with Yb atoms was published in PRX Quantum!",
+      "// We introduce a method for quantum simulation of U(1) lattice gauge theories coupled to matter, utilizing alkaline-earth(-like) atoms in state-dependent optical lattices. The proposal enables the study of both gauge and fermionic matter fields without integrating out one of them in one and two dimensions. We focus on a realistic and robust implementation that utilizes the long-lived metastable clock state available in alkaline-earth(-like) atomic species. Starting from an ab initio modeling of the experimental setting, we systematically carry out a derivation of the target U(1) gauge theory. This approach allows us to identify and address conceptual and practical challenges for the implementation of lattice gauge theories that—while pivotal for a successful implementation—have never been rigorously addressed in the literature: those include the specific engineering of lattice potentials to achieve the desired structure of Wannier functions and the subtleties involved in realizing the proper separation of energy scales to enable gauge-invariant dynamics. We discuss realistic experiments that can be carried out within such a platform using the fermionic isotope 173Yb, addressing via simulations all key sources of imperfections, and provide concrete parameter estimates for relevant energy scales in both one- and two-dimensional settings.",
+      "Ab Initio Derivation of Lattice-Gauge-Theory Dynamics for Cold Gases in Optical LatticesFederica Maria Surace, Pierre Fromholz, Nelson Darkwah Oppong, Marcello Dalmonte, Monika Aidelsburger, PRX Quantum 4, 020330 (2023)"
+    ],
+    "image": "assets/news/2023-06-15-quantum-simulation-of-u-1-lgts.jpg",
+    "topics": [
+      "theory"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2023-06-05-review-topological-pumping-mcqst",
+    "date": "2023-06-05",
+    "title": "Review topological pumping MCQST",
+    "summary": "Our review on topological pumping was featured by MCQST!",
+    "body": [
+      "Our review on topological pumping was featured by MCQST!",
+      "Thouless pumping provides one of the simplest manifestations of topology in quantum systems and has attracted a lot of recent interest, both theoretically and experimentally. Since the seminal works by David Thouless and Qian Niu in 1983 and 1984, it has been argued that the quantization of the pumped charge is robust against weak disorder, but a clear characterization of the localization properties of the relevant states, and the breakdown of quantized transport in the presence of interaction or out of the adiabatic approximation, has long been debated. Thouless pumping is also the first example of a topological phase emerging in a periodically driven system. Driven systems can exhibit exotic topological phases without any static analogue and have been the subject of many recent proposals both in fermionic and in bosonic systems. Recent experimental studies have been performed in diverse platforms ranging from cold atoms to photonics and condensed-matter systems. This Review serves as a basis to understand the robustness of the topology of slowly driven systems and also highlights the rich properties of topological pumps and their diverse range of applications. Examples include systems with synthetic dimensions or work towards understanding higher-order topological phases, which underline the relevance of topological pumping for the fast-growing field of topological quantum matter.",
+      "Thouless pumping and topology,Roberta Citro, Monika Aidelsburger, Nature Reviews Physics 5, 87–101 (2023)"
+    ],
+    "image": "assets/news/2023-06-05-review-topological-pumping-mcqst.jpg",
+    "topics": [
+      "theory"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2023-05-31-state-dependent-potentials-for-neutral-yb-atoms",
+    "date": "2023-05-31",
+    "title": "State-dependent potentials for neutral Yb atoms",
+    "summary": "Our paper on state-dependent potentials for neutral Yb atoms was published!",
+    "body": [
+      "Our paper on state-dependent potentials for neutral Yb atoms was published!",
+      "Left: Schematic of the experimental setup. Right: Differential light shift introduced by the additional laser beam resolved via clock spectroscopy.",
+      "We present measurements of three distinctive state-(in)dependent wavelengths for the ¹S₀−³P₀ clock transition in ¹⁷⁴Yb atoms. Specifically, we determine two magic wavelengths at 652.281(21)THz and 542.50205(19)THz, where the differential light shift on the ¹S₀−³P₀ clock transition vanishes, and one tune-out wavelength at 541.8325(4)THz, where the polarizability of the ¹S₀ ground state exhibits a zero crossing. The two new magic wavelengths are identified by spectroscopically interrogating cold ¹⁷⁴Yb atoms on the clock transition in a one-dimensional optical lattice. The ground-state tune-out wavelength is determined via a parametric heating scheme. With a simple empirical model, we then extrapolate the ground and excited state polarizability over a broad range of wavelengths in the visible spectrum.",
+      "State-dependent potentials for the ¹S₀ and ³P₀ clock states of neutral ytterbium atoms,Tim O. Höhn*, Etienne Staub*, Guillaume Brochier, Nelson Darkwah Oppong, Monika Aidelsburger,Phys. Rev. A 108, 053325 (2023)"
+    ],
+    "image": "assets/news/2023-05-31-state-dependent-potentials-for-neutral-yb-atoms.jpg",
+    "topics": [
+      "yb-hybrid"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2023-05-25-david-groters-wins-mcqst-master-s-award",
+    "date": "2023-05-25",
+    "title": "David Gröters wins MCQST Master's Award!!",
+    "summary": "David has worked in our Yb hybrid tweezer-lattice lab at LMU on the realization of diffraction-limited tweezer arrays. At the end we even managed to trap individual Yb atoms in the…",
+    "body": [
+      "David has worked in our Yb hybrid tweezer-lattice lab at LMU on the realization of diffraction-limited tweezer arrays. At the end we even managed to trap individual Yb atoms in there!",
+      "Short description of the Master's project:",
+      "A new path for quantum gas experiments with high resolution is a combination of the advantages of highly uniform optical lattices with the flexibility offered by optical tweezer arrays. Those hybrid tweezer lattices require performant microscope objectives that can simultaneously image individual atoms in the optical lattice and generate diffraction-limited optical tweezers for single-site addressing. In this thesis, David characterized the imaging performance for two custom made high-resolution objectives at 399 and 532 nm as well as the tweezer-generation capabilities with 532 nm light. To this end, he built and optimized an optical test setup that can perform automated focus scans with sub-wavelength axial step size to test the point spread function of the objective and optical tweezer generation. He was able to confirm diffraction-limited operation in both cases for each objective and in a field of view of 100x100 μm. Furthermore he generated 2D tweezer arrays using two acousto-optical deflectors in a crossed configuration and characterized their shape in 3D. An in-depth discussion on the error estimates and various compensation techniques used for analysis is presented in the thesis as well. Finally, together with the team he successfully integrated the objective into the main setup including the trapping and imaging of ultracold ytterbium atoms in a 5x5 optical tweezer array."
+    ],
+    "image": "assets/news/2023-05-25-david-groters-wins-mcqst-master-s-award.jpg",
+    "topics": [],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2023-05-24-proposal-for-studying-chiral-spin-liquids",
+    "date": "2023-05-24",
+    "title": "Proposal for studying chiral spin liquids",
+    "summary": "Our paper on quantum simulation of chiral spin liquids has been published by PRX Quantum!",
+    "body": [
+      "Our paper on quantum simulation of chiral spin liquids has been published by PRX Quantum!",
+      "Prof. N. Goldman Illustration by H. Ritsch",
+      "We propose a scheme to implement Kitaev’s honeycomb model with cold atoms, based on a periodic (Floquet) drive, in view of realizing and probing non-Abelian chiral spin liquids using quantum simulators. We derive the effective Hamiltonian to leading order in the inverse-frequency expansion, and show that the drive opens up a topological gap in the spectrum without mixing the effective Majorana and vortex degrees of freedom. We address the challenge of probing the physics of Majorana fermions, while having access only to the original composite spin degrees of freedom. Specifically, we propose to detect the properties of the chiral spin liquid phase using gap spectroscopy and edge quenches in the presence of the Floquet drive. The resulting chiral edge signal, which relates to the thermal Hall effect associated with neutral Majorana currents, is found to be robust for realistically prepared states. By combining strong interactions with Floquet engineering, our work paves the way for future studies of non-Abelian excitations and quantized thermal transport using quantum simulators.Original publication:",
+      "Engineering and Probing Non-Abelian Chiral Spin Liquids Using Periodically Driven Ultracold Atoms,Bo-Ye Sun, Nathan Goldman, Monika Aidelsburger, and Marin Bukov, PRX Quantum 4, 020329 (2023)"
+    ],
+    "image": "assets/news/2023-05-24-proposal-for-studying-chiral-spin-liquids.jpg",
+    "topics": [
+      "theory"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2023-04-04-real-space-detection-of-topological-edge-modes",
+    "date": "2023-04-04",
+    "title": "Real-space detection of topological edge modes",
+    "summary": "Conventional topological insulators exhibit exotic gapless edge or surface states, as a result of non-trivial bulk topological properties. In periodically-driven systems the bulk-b…",
+    "body": [
+      "Conventional topological insulators exhibit exotic gapless edge or surface states, as a result of non-trivial bulk topological properties. In periodically-driven systems the bulk-boundary correspondence is fundamentally modified and knowledge about conventional bulk topological invariants is insufficient.",
+      "Conventional topological insulators exhibit exotic gapless edge or surface states, as a result of non-trivial bulk topological properties. In periodically-driven systems the bulk-boundary correspondence is fundamentally modified and knowledge about conventional bulk topological invariants is insufficient. While ultracold atoms provide excellent settings for clean realizations of Floquet protocols, the observation of real-space edge modes has so far remained elusive. Here we demonstrate an experimental protocol for realizing chiral edge modes in optical lattices, by creating a topological interface using a potential step that is generated with a programmable optical potential. We show how to efficiently prepare particles in these edge modes in three distinct Floquet topological regimes that are realized in a periodically-driven honeycomb lattice. Controlling the height and sharpness of the potential step, we study how edge modes emerge at the interface and how the group velocity of the particles is modified as the sharpness of the potential step is varied.",
+      "Real-space detection and manipulation of topological edge modes with ultracold atoms, Christoph Braun, Raphaël Saint-Jalm, Alexander Hesse, Johannes Arceri, Immanuel Bloch, Monika Aidelsburger, arXiv:2304.01980"
+    ],
+    "image": "assets/news/2023-04-04-real-space-detection-of-topological-edge-modes.jpg",
+    "topics": [
+      "k-hexagonal"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2023-03-30-solitons-in-the-sine-gordon-model",
+    "date": "2023-03-30",
+    "title": "Solitons in the sine-Gordon model",
+    "summary": "Our theoretical study on the sine-Gordon model was published in PRX Quantum!",
+    "body": [
+      "Our theoretical study on the sine-Gordon model was published in PRX Quantum!",
+      "The creation of solitons in coupled Bose-Hubbard chains. Top: The soliton can be created by applying a chemical-potential gradient between the two chains in one half of the system. Bottom: The resulting profile of the mean local current for one soliton.",
+      "The sine-Gordon model emerges as a low-energy theory in a plethora of quantum many-body systems. Here, we theoretically investigate tunnel-coupled Bose-Hubbard chains with strong repulsive interactions as a realization of the sine-Gordon model deep in the quantum regime. We propose protocols for quantum gas microscopes of ultracold atoms to prepare and analyze solitons, that are the fundamental topological excitations of the emergent sine-Gordon theory. With numerical simulations based on matrix product states we characterize the preparation and detection protocols and discuss the experimental requirements.",
+      "Original publication:Preparing and Analyzing Solitons in the sine-Gordon Model with Quantum Gas MicroscopesElisabeth Wybo, Alvise Bastianello, Monika Aidelsburger, Immanuel Bloch, Michael Knap,PRX Quantum 4, 030308 (2023)"
+    ],
+    "image": "assets/news/2023-03-30-solitons-in-the-sine-gordon-model.jpg",
+    "topics": [
+      "theory"
+    ],
+    "people": [],
+    "link": ""
+  },
+  {
+    "id": "2023-02-09-new-optical-table",
+    "date": "2023-02-09",
+    "title": "New Optical Table",
+    "summary": "Today our new optical table for the Ryd-Yb lab was delivered. We are excited to finally start setting up our new lab!Click on the images below to see how the table was moved into o…",
+    "body": [
+      "Today our new optical table for the Ryd-Yb lab was delivered. We are excited to finally start setting up our new lab!Click on the images below to see how the table was moved into our lab, which is located in the 2nd floor of the building.",
+      "Criss from MCQST also made a short video, which you can watch here, and MQV featured us on instagram!"
+    ],
+    "image": "assets/news/2023-02-09-new-optical-table.jpg",
+    "topics": [],
+    "people": [],
+    "link": ""
   }
 ]
