@@ -113,7 +113,8 @@ h2.year::after, h2.cat::after { content: ""; position: absolute; left: 0; bottom
 .team-list li { padding: .4rem 0; }
 .topic-main p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
 .topic-main p.refs, .topic-main .breadcrumb { text-align: left; }
-.topic-side h3 { margin-top: 2rem; }
+.topic-main h2 { border-top: 1px solid var(--border); padding-top: 1.75rem; margin-top: 2.75rem; }
+.topic-side h3 { margin-top: 2rem; border-top: 1px solid var(--border); padding-top: 1.25rem; }
 .team-list li, .alumni-list li { padding: .15rem 0; font-size: .92rem; }
 .team-list .muted, .alumni-list .muted { font-size: .85em; }
 .team-photo { margin: 0 0 1.25rem; }
