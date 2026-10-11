@@ -354,7 +354,55 @@
     "location": "LMU",
     "team_photo": "assets/research/ryd-yb-team.jpg",
     "team_photo_caption": "Back row: Amin, Yilong and Vincent; front row: Christoph, Monika and Lorenzo",
-    "teaser": "Neutral-atom arrays are a key quantum-computing platform. Yb atoms offer high-fidelity detection via shelving and single-photon Rydberg excitations."
+    "teaser": "Neutral-atom arrays are a key quantum-computing platform. Yb atoms offer high-fidelity detection via shelving and single-photon Rydberg excitations.",
+    "sections": [
+      {
+        "heading": "Quantum computing and quantum simulation with fermionic ¹⁷¹Yb",
+        "subs": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Neutral-atom arrays have gained increasing importance in the development of quantum computing architectures. More recently, high-fidelity single- and two-qubit operations have also been demonstrated with alkaline-earth(-like) atoms (AELA), which offer unique opportunities for high-fidelity detection via shelving, trapping of Rydberg states and high-fidelity single-photon Rydberg excitations. As part of the Munich Quantum Valley (MQV) we are currently building a new tweezer-array platform, where single fermionic ¹⁷¹Yb atoms are trapped in optical tweezers and interactions are induced via highly-excited Rydberg states."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Qubit encodings in ¹⁷¹Yb — the “omg” architecture",
+        "subs": [
+          {
+            "title": "",
+            "image": "assets/research/ryd-omg-levels.jpg",
+            "caption": "Possible qubit encodings in ¹⁷¹Yb: ground-state nuclear-spin qubit |g⟩, metastable qubit |m⟩, optical qubit |o⟩ and the Rydberg state |r⟩ used to induce interactions.",
+            "paragraphs": [
+              "Neutral Yb atoms have two valence electrons, hence the level structure decomposes into singlet and triplet states. The absolute ground state ¹S₀ is labeled |g⟩ and the excited clock state ³P₀ |m⟩. The optical transition connecting the two clock states is weakly allowed for the fermionic isotopes with an ultranarrow linewidth, which is used in optical lattice clocks, forming the optical qubit |o⟩. The unique feature of the fermionic isotope ¹⁷¹Yb is that it has a nuclear spin I=1/2, which supports multiple qubit encodings."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Our atom array of individual ¹⁷¹Yb atoms",
+        "subs": [
+          {
+            "title": "",
+            "image": "assets/research/ryd-pair-array.jpg",
+            "wide": true,
+            "caption": "Averaged fluorescence image of individual ¹⁷¹Yb atoms confined in a 2D array of 64 optical tweezers arranged in pairs, generated using crossed acousto-optic deflectors (AODs).",
+            "paragraphs": [
+              "In order to achieve high-fidelity control on the optical clock transition, we work with tweezer traps at the clock-magic wavelength of 759 nm, where the differential light shift for that transition vanishes. The atoms are loaded from a magneto-optical trap operating on the ¹S₀ → ³P₁ transition, with enhanced loading fidelities of about 80%."
+            ]
+          },
+          {
+            "title": "",
+            "image": "assets/research/ryd-rabi-beating.jpg",
+            "caption": "Rabi oscillations on the Rydberg transition for atom pairs: the characteristic beating pattern arises from singly and doubly occupied neighboring tweezers.",
+            "paragraphs": [
+              "We group the atoms into pairs to study Rydberg-mediated interactions between neighboring sites. When driving the excitation to a Rydberg state, we observe the first signatures of pair interactions. For neighboring pairs, the Rabi coupling is enhanced by a factor of √2, reflecting the strong interactions between atoms in the excited Rydberg level. The resulting signal exhibits a characteristic beating pattern arising from singly and doubly occupied neighboring tweezers."
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "ydfc",
