@@ -84,7 +84,8 @@
         "Schellingstr. 4",
         "80799 München"
       ],
-      "email_domain": "physik.uni-muenchen.de"
+      "email_domain": "physik.uni-muenchen.de",
+      "logo": "assets/logos/lmu.svg"
     },
     "MPQ": {
       "name": "Max Planck Institute of Quantum Optics",
@@ -92,7 +93,8 @@
         "Hans-Kopfermann-Str. 1",
         "85748 Garching"
       ],
-      "email_domain": "mpq.mpg.de"
+      "email_domain": "mpq.mpg.de",
+      "logo": "assets/logos/mpq.svg"
     },
     "MQV": {
       "name": "Munich Quantum Valley",

@@ -172,7 +172,8 @@ table.courses { width: 100%; border-collapse: collapse; margin-top: 1.25rem; }
 .courses th, .courses td { text-align: left; padding: .7rem .5rem; border-bottom: 1px solid var(--border); vertical-align: top; }
 .courses th { color: var(--accent-dark); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
 .contact-grid, .funding-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 1.75rem; margin-top: 1.25rem; }
-.funding-grid .logo { max-height: 60px; width: auto; margin-bottom: .75rem; }
+.funding-grid .logo { max-height: 60px; width: auto; max-width: 100%; margin-bottom: .75rem; }
+.inst-logo { max-height: 48px; max-width: 100%; width: auto; margin-bottom: 1rem; background: #fff; padding: .4rem .6rem; border-radius: 6px; }
 .openings li { margin-bottom: 1.1rem; }
 
 /* ---------- Footer ---------- */

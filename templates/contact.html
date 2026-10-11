@@ -6,6 +6,7 @@
 <div class="contact-grid">
 {% for loc in site.contact.locations %}{% set a = site.affiliations[loc.key] %}
 <div class="card">
+  {% if a.logo %}<img class="inst-logo" src="{{ rel }}{{ a.logo }}" alt="{{ a.name }} logo">{% endif %}
   <h2>{{ a.name }}</h2>
   <p>{{ site.pi.name }}<br>{% for line in a.address %}{{ line }}<br>{% endfor %}</p>
   <p>Phone: {{ loc.phone }}<br>Email: <a href="mailto:{{ loc.email }}">{{ loc.email | obfuscate }}</a></p>
