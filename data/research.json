@@ -415,7 +415,46 @@
       "The experiment is located at MPQ in Garching and combines optical-lattice clock technology with tweezer-based control to search for physics beyond the Standard Model."
     ],
     "location": "MPQ",
-    "teaser": "This new project combines neutral-atom quantum technologies with high-precision spectroscopy to study fundamental physics."
+    "teaser": "This new project combines neutral-atom quantum technologies with high-precision spectroscopy to study fundamental physics.",
+    "team_photo": "assets/research/ydfc-team.jpg",
+    "team_photo_caption": "Kunal, Zhichao, Monika and Fan (from left to right)",
+    "sections": [
+      {
+        "heading": "High-precision spectroscopy with neutral Yb atoms",
+        "subs": [
+          {
+            "title": "",
+            "image": "assets/research/ydfc-clock-states.jpg",
+            "caption": "Available clock states in neutral Yb.",
+            "paragraphs": [
+              "Alkaline-earth(-like) atoms, such as Yb, constitute the most precise optical clocks we have today. Combining high-precision spectroscopy with quantum information protocols opens exciting new ways for quantum metrology and sensing. At the same time Yb is a particularly interesting candidate for searches of new physics. This is enabled by a number of additional clock transitions that have been proposed for tests of local position invariance, local Lorentz invariance and α-variation, potentially providing access to novel searches for dark matter and new forces beyond the Standard Model. These tests leverage the enhanced sensitivity of an inner-shell clock transition to the 4f¹³5d6s² (J = 2) state."
+            ]
+          },
+          {
+            "title": "",
+            "image": "assets/research/ydfc-stability-transfer.jpg",
+            "caption": "Schematic of the stability-transfer setup.",
+            "paragraphs": [
+              "In order to achieve high-precision spectroscopy on multiple clock transitions in Yb, we are setting up a frequency comb that is stabilized to an ultrastable reference at 1542 nm. To this end we set up a laser system that is referenced to an ultrastable cavity that is placed in a box which shields the cavity from acoustic noise, vibrations and thermal fluctuations. The stability is then transferred to the various clock transitions by locking the different clock laser systems to the frequency comb."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Experimental progress",
+        "subs": [
+          {
+            "title": "",
+            "image": "assets/research/ydfc-mot.jpg",
+            "wide": true,
+            "caption": "After moving we quickly got our first 3D MOT of bosonic ¹⁷⁴Yb and fermionic ¹⁷¹Yb!",
+            "paragraphs": [
+              "Since August 2025, our new lab space has been ready and we started setting up the infrastructure. Shortly after moving we obtained our first 3D magneto-optical trap of bosonic ¹⁷⁴Yb and fermionic ¹⁷¹Yb."
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "theory",

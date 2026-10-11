@@ -1135,6 +1135,20 @@
       "projects": [
         "k-hexagonal"
       ]
+    },
+    {
+      "name": "Max Richter",
+      "role": "Student assistant",
+      "projects": [
+        "ydfc"
+      ]
+    },
+    {
+      "name": "Alessandro Masella Moralejo",
+      "role": "Student assistant",
+      "projects": [
+        "ydfc"
+      ]
     }
   ]
 }
