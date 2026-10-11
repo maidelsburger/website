@@ -622,32 +622,6 @@
       "bio": ""
     },
     {
-      "id": "leonardo-razzai",
-      "name": "Leonardo Razzai",
-      "degree": "",
-      "category": "Guests",
-      "role": "Guest Research Assistant",
-      "affiliation": "LMU",
-      "email": "l.razzai@physik.uni-muenchen.de",
-      "phone": "",
-      "office": "H230",
-      "lab_phone": "",
-      "lab": "H216",
-      "projects": [
-        "ryd-yb"
-      ],
-      "photo": "",
-      "education": "",
-      "origin": "",
-      "joined": "",
-      "thesis_pdf": "",
-      "cv_pdf": "",
-      "google_scholar": "",
-      "orcid": "",
-      "website": "",
-      "bio": ""
-    },
-    {
       "id": "reinhard-grottenthaler",
       "name": "Reinhard Grottenthaler",
       "degree": "Dipl.-Ing.",
@@ -755,6 +729,17 @@
       ],
       "left": "2025",
       "now": "Postdoc"
+    },
+    {
+      "id": "leonardo-razzai",
+      "name": "Leonardo Razzai",
+      "degree": "",
+      "role": "Guest Research Assistant",
+      "projects": [
+        "ryd-yb"
+      ],
+      "left": "2026",
+      "now": ""
     }
   ]
 }
