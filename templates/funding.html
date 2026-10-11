@@ -9,9 +9,10 @@
   {% if f.logo %}<img class="logo" src="{{ rel }}{{ f.logo }}" alt="{{ f.name }}">{% endif %}
   <h2>{% if f.url %}<a href="{{ f.url }}" rel="noopener">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}</h2>
   <p>{{ f.description }}</p>
+  {% if f.links %}<p class="refs">{% for l in f.links %}<a href="{{ l.url }}" rel="noopener">{{ l.label }}</a>{% if not loop.last %}<br>{% endif %}{% endfor %}</p>{% endif %}
 </div>
 {% endfor %}
 </div>
 <h2>We also gratefully acknowledge support from</h2>
-<ul>{% for a in funding.acknowledgements %}<li>{{ a }}</li>{% endfor %}</ul>
+<ul>{% for a in funding.acknowledgements %}<li>{% if a.url %}<a href="{{ a.url }}" rel="noopener">{{ a.label }}</a>{% else %}{{ a.label or a }}{% endif %}</li>{% endfor %}</ul>
 {% endblock %}

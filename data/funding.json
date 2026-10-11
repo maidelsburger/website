@@ -3,87 +3,132 @@
   "projects": [
     {
       "name": "DigiAnaQsim",
-      "description": "Aims to make quantum simulators more powerful, flexible and useful for understanding complex quantum systems.",
+      "description": "// DigiAnaQsim aims to make quantum simulators more powerful, flexible, and useful for understanding complex quantum systems. Many important materials and molecules are governed by quantum effects that are extremely difficult to calculate with conventional computers. Quantum simulators offer an alternative route: they realize key quantum behaviour in a controlled laboratory system, such as ultracold atoms…",
       "url": "",
+      "links": [],
       "logo": ""
     },
     {
       "name": "QUASIMODO",
-      "description": "QuantERA project studying novel forms of matter using ultracold atoms (dysprosium, potassium, ytterbium) across six European institutions.",
+      "description": "// QUASIMODO is a QuantERA project that brings together six leading research groups across Europe: the University of Konstanz, the Max Planck Institute of Quantum Optics, Vilnius University, ICFO Barcelona, IF PAN Warsaw, and LKB Paris.",
+      "url": "https://www.zilberberg.uni-konstanz.de/home/quasimodo/",
+      "links": [
+        {
+          "label": "https://www.vu.lt/en/all-news/vu-scientists-and-partners-to-",
+          "url": "https://www.vu.lt/en/all-news/vu-scientists-and-partners-to-develop-next-generation-quantum-simulators"
+        }
+      ],
+      "logo": ""
+    },
+    {
+      "name": "ISF-DFG: Extremely sub-wavelength arrays with Yb atoms in optical lattices",
+      "description": "Joint Israel Science Foundation / DFG project on extremely sub-wavelength atomic arrays with Yb atoms in optical lattices, in collaboration with the Hebrew University of Jerusalem.",
       "url": "",
+      "links": [],
       "logo": ""
     },
     {
-      "name": "ISF-DFG Program",
-      "description": "Joint Israel Science Foundation / DFG grant on sub-wavelength atomic arrays in optical lattices (collaboration with Hebrew University).",
+      "name": "FOR5919: Machine Learning for Complex Quantum States",
+      "description": "// “Machine Learning for Complex Quantum States” is a DFG-funded Research Unit (FOR 5919), coordinated by Dr. Markus Schmitt (University of Regensburg). The consortium brings together experimental and theoretical researchers from Augsburg, Dortmund, Erlangen, Jena, Cologne, Lausanne, Munich, Regensburg, and Zurich.Within this framework, our group contributes to two subprojects: \"Machine Learning for Qutrit-Based…",
+      "url": "https://for5919.github.io/",
+      "links": [],
+      "logo": ""
+    },
+    {
+      "name": "FOR5688: Driven-dissipative many-body systems of ultracold atoms",
+      "description": "This Research Unit is dedicated towards developing a better understanding of driven-dissipative quantum many-body systems with the goal of using dissipation as a novel tool for engineering complex low-entropy many-body states via cooling or projective measurements.",
+      "url": "https://www.tu.berlin/quantum/for-5688/for-5688",
+      "links": [],
+      "logo": ""
+    },
+    {
+      "name": "FOR5522: Quantum thermalization, localization, and constrained dynamics with interacting ultracold atoms",
+      "description": "More information about our Research Unit, its members and planned events can be found on our website.",
+      "url": "https://www.uni-goettingen.de/en/675761.html",
+      "links": [],
+      "logo": ""
+    },
+    {
+      "name": "PASQuanS2.1: Programmable atomic large-scale quantum simulation",
+      "description": "// Funding program for the development of programmable quantum simulators. Regarding the development of optical-lattice quantum simulators, the goal is to increase the programmabiliy, stability and size of current experimental platforms and to identify pathways towards demonstrating practical quantum advantage with analog quantum simulators.",
+      "url": "https://www.pasquans2.eu/",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/showcase/pasquans2/"
+        }
+      ],
+      "logo": ""
+    },
+    {
+      "name": "DYNAMITE: Next Generation Quantum Simulators: From Dynamical Gauge Fields to Lattice Gauge Theory",
+      "description": "// Quantum Simulators can address and deepen our understanding of complex quantum many-body systems with applications ranging from condensed matter physics to nuclear physics, high energy physics and material science. Within this projects, we will develop novel methods for the realization of lattice gauge theories using present-day capabilities of cold-atom quantum simulators. Starting with implementations of…",
+      "url": "https://dynamite-project.eu/",
+      "links": [
+        {
+          "label": "Quantera",
+          "url": "https://quantera.eu/dynamite/"
+        }
+      ],
+      "logo": ""
+    },
+    {
+      "name": "Munich Quantum Valley: Trapped Atom Quantum Computer (TAQC)",
+      "description": "// Neutral atoms trapped in optical lattices are a promising quantum-computing platform. Its main advantage is the potential of scaling to larger numbers of qubits already in the coming years.",
+      "url": "https://www.munich-quantum-valley.de/",
+      "links": [],
+      "logo": ""
+    },
+    {
+      "name": "MCQST: Munich Center for Quantum Science and Technology",
+      "description": "// The cluster of excellence MCQST comprises seven research units within disciplines such as physics, mathematics, computer science, electrical engineering, material science, and chemistry, covering all areas of Quantum Science and Technology (QST) from basic research to applications. We are contributing to two research units: RU-B on Quantum Simulation and RU-G on Explorative Research Directions.",
+      "url": "https://www.mcqst.de/",
+      "links": [],
+      "logo": ""
+    },
+    {
+      "name": "FermiQP: Joint Project on Fermion Quantum Processors",
+      "description": "// This project aims at realizing a new and scalable hybrid platform for analogue quantum simulation and digital quantum computing with ultracold fermion, thus combining the advantages of both concepts in one machine. Within this project we are developing new techniques for improving the coherence time, data rate and initial-state fidelity, which will boost both analogue and digital applications of this hybrid…",
       "url": "",
+      "links": [],
       "logo": ""
     },
     {
-      "name": "FOR5919",
-      "description": "DFG Research Unit on machine-learning applications to complex quantum states, coordinated by the University of Regensburg.",
+      "name": "LaGaTYb: Exploring lattice gauge theories with fermionic Ytterbium atoms",
+      "description": "// Gauge theories establish a connection between seemingly different physical areas, ranging from high-energy to condensed matter physics. Very often gauge theories are difficult to study theoretically in particular in the strongly-interacting regime, where perturbative methods are not reliable. This motivates the search for alternative approaches using quantum simulation. Ultracold atoms in optical lattices have…",
       "url": "",
+      "links": [],
       "logo": ""
     },
     {
-      "name": "FOR5688",
-      "description": "DFG Research Unit on driven-dissipative quantum systems to engineer low-entropy many-body states.",
-      "url": "",
-      "logo": ""
-    },
-    {
-      "name": "FOR5522",
-      "description": "DFG Research Unit on out-of-equilibrium quantum many-body physics and thermalization with ultracold atoms.",
-      "url": "",
-      "logo": ""
-    },
-    {
-      "name": "PASQuanS2.1",
-      "description": "EU Quantum Flagship project developing programmable quantum simulators with enhanced optical-lattice capabilities.",
-      "url": "",
-      "logo": ""
-    },
-    {
-      "name": "DYNAMITE",
-      "description": "Next-generation quantum simulators for lattice gauge theories.",
-      "url": "",
-      "logo": ""
-    },
-    {
-      "name": "Munich Quantum Valley (TAQC)",
-      "description": "Trapped-atom quantum computer development using Rydberg states.",
-      "url": "https://www.munich-quantum-valley.de",
-      "logo": ""
-    },
-    {
-      "name": "MCQST",
-      "description": "Munich Center for Quantum Science and Technology – excellence cluster spanning physics, mathematics, computer science and materials science.",
-      "url": "https://www.mcqst.de",
-      "logo": ""
-    },
-    {
-      "name": "FermiQP",
-      "description": "Hybrid platform combining analogue quantum simulation with digital quantum computing.",
-      "url": "",
-      "logo": ""
-    },
-    {
-      "name": "LaGaTYb",
-      "description": "ERC project on lattice gauge theories with fermionic ytterbium atoms.",
-      "url": "",
-      "logo": ""
-    },
-    {
-      "name": "FOR2414",
-      "description": "DFG Research Unit on artificial gauge fields and topological phases in ultracold atoms.",
-      "url": "",
+      "name": "FOR2414: Artificial Gauge Fields and Interacting Topological Phases in Ultracold Atoms",
+      "description": "// Gauge fields can dramatically change the properties of a material. A seminal example is the one of electrons subjected to an external magnetic field, leading to the quantum Hall effect. Here, a variety of exotic quantum phenomena arise, where topology plays a fundamental role: from the existence of topological invariants and topologically protected edge currents to the emergence of quasiparticles with exotic…",
+      "url": "https://www.uni-frankfurt.de/84540498/DFG_Research",
+      "links": [
+        {
+          "label": "website.",
+          "url": "https://www.uni-frankfurt.de/84540498/DFG_Research_Unit_2414___DFG_Forschungsgruppe_2414"
+        }
+      ],
       "logo": ""
     }
   ],
   "acknowledgements": [
-    "Alfried Krupp von Bohlen und Halbach Foundation",
-    "Max Planck Institute of Quantum Optics",
-    "Ludwig-Maximilians-Universität München",
-    "Munich Quantum Center"
+    {
+      "label": "Alfried Krupp von Bohlen und Halbach Foundation",
+      "url": "https://www.krupp-stiftung.de/"
+    },
+    {
+      "label": "Max Planck Institute of Quantum Optics",
+      "url": "https://www.mpq.mpg.de/"
+    },
+    {
+      "label": "Ludwig-Maximilians-Universität München",
+      "url": "https://www.lmu.de/"
+    },
+    {
+      "label": "Munich Quantum Center",
+      "url": "https://www.munich-quantum-center.de/"
+    }
   ]
 }
