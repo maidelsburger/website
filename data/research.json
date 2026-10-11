@@ -34,7 +34,8 @@
             "paragraphs": [
               "We explore the intersection of quantum information science and analog quantum simulation — an exciting frontier for studying complex quantum many-body systems, both in and out of equilibrium. By integrating digital control elements into our analog quantum simulator, we are developing new experimental techniques that allow us to probe novel observables and prepare advanced initial states beyond simple product states in the occupation basis."
             ],
-            "links": []
+            "links": [],
+            "image": "assets/research/cs-digital-analog.png"
           },
           {
             "title": "Subsystem return probabilities",
@@ -47,7 +48,9 @@
                 "label": "Recent preprint: S. Karch et al., arXiv:2501.16995",
                 "url": "https://arxiv.org/abs/2501.16995"
               }
-            ]
+            ],
+            "image": "assets/research/cs-srp.png",
+            "caption": "Illustration of the initial state |*{ψ}_{0}⟩ and time-evolved state |*{ψ}(*{t})⟩. The SRP measures the probability of finding the initial state bitstring of length *{N} in the time-evolved state snapshots."
           },
           {
             "title": "Arbitrary nearest-neighbor orbital operators",
@@ -64,7 +67,9 @@
                 "label": "Viewpoint in Physics: Visualizing Atom Currents in Optical Lattices",
                 "url": "https://physics.aps.org/articles/v17/120"
               }
-            ]
+            ],
+            "image": "assets/research/cs-double-wells.png",
+            "caption": "Schematic drawing of the projection of the many-body wave function onto isolated double wells using a superlattice potential and the corresponding representation of the double-well manipulations on a Bloch sphere."
           }
         ]
       },
@@ -130,7 +135,7 @@
     "id": "ryd-yb",
     "title": "Ryd-Yb tweezer array",
     "short": "Ryd-Yb",
-    "image": "assets/research/ryd-yb.jpg",
+    "image": "assets/research/ryd-yb-array.svg",
     "summary": "Neutral-atom arrays have gained increasing importance in the development of quantum computing architectures. Alkaline-earth(-like) atoms such as Yb offer unique opportunities for high-fidelity detection via shelving, trapping of Rydberg states and high-fidelity single-photon Rydberg excitations.",
     "body": [
       "In this project we build a programmable array of individually trapped Yb atoms and use Rydberg interactions to implement high-fidelity entangling gates and analog quantum simulation of spin models."

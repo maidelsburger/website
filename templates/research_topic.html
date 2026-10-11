@@ -9,12 +9,12 @@
     {{ m.img(r.image, r.title, 'feature') }}
     <p class="lead">{{ r.summary }}</p>
     {% for p in r.body %}<p>{{ p }}</p>{% endfor %}
-    {% if r.location %}<p class="muted">Location: {{ site.affiliations[r.location].name }}</p>{% endif %}
 
     {% for sec in r.sections %}
     <h2>{{ sec.heading }}</h2>
     {% for sub in sec.subs %}
     {% if sub.title %}<h3>{{ sub.title }}</h3>{% endif %}
+    {% if sub.image %}<figure class="sub-fig"><img src="{{ rel }}{{ sub.image }}" alt="{{ sub.title or sec.heading }}" loading="lazy">{% if sub.caption %}<figcaption class="muted">{{ sub.caption|supsub }}</figcaption>{% endif %}</figure>{% endif %}
     {% for p in sub.paragraphs %}<p>{{ p }}</p>{% endfor %}
     {% if sub.links %}<p class="refs">{% for l in sub.links %}<a href="{{ l.url }}" rel="noopener">{{ l.label }}</a>{% if not loop.last %}<br>{% endif %}{% endfor %}</p>{% endif %}
     {% endfor %}

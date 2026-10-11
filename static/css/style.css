@@ -90,6 +90,9 @@ ul.plain { list-style: none; padding: 0; margin: 0; }
 .tag:hover { background: var(--accent); border-color: var(--accent); color: #fff; text-decoration: none; }
 .thumb { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--radius); background: var(--bg-alt); }
 .feature { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius); margin-bottom: 1.25rem; }
+.sub-fig { margin: 1.25rem 0; }
+.sub-fig img { width: 100%; height: auto; border-radius: var(--radius); background: #fff; border: 1px solid var(--border); padding: .75rem; box-sizing: border-box; }
+.sub-fig figcaption { font-size: .85rem; margin-top: .4rem; }
 h2.year, h2.cat { position: relative; padding-bottom: .45em; }
 h2.year::after, h2.cat::after { content: ""; position: absolute; left: 0; bottom: 0; width: 48px; height: 4px; background: var(--accent); border-radius: 2px; }
 
