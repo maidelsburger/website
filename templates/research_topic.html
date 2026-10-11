@@ -26,7 +26,7 @@
     <ul class="plain team-list">
     {% for mem in topic_people %}<li><a href="{{ rel }}group.html#{{ mem.id }}">{{ mem.name }}</a><br><span class="muted">{{ mem.role }}</span></li>{% endfor %}
     </ul>
-    {% if topic_alumni %}<h3>Alumni</h3><ul class="plain">{% for a in topic_alumni %}<li>{{ a.name }}</li>{% endfor %}</ul>{% endif %}
+    {% if topic_alumni %}<h3>Alumni</h3><ul class="plain">{% for a in topic_alumni %}<li>{% if a.link %}<a href="{{ a.link }}" rel="noopener">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}</li>{% endfor %}</ul>{% endif %}
   </aside>
 </div>
 {% endblock %}
