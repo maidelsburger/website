@@ -908,7 +908,8 @@
       "degree": "",
       "role": "Master student",
       "projects": [
-        "ryd-yb"
+        "ryd-yb",
+        "yb-hybrid"
       ],
       "left": "",
       "now": ""
@@ -945,6 +946,97 @@
       ],
       "left": "",
       "now": ""
+    },
+    {
+      "name": "Bharath Hebbe Madhusudhana",
+      "role": "Postdoc",
+      "projects": [
+        "yb-hybrid"
+      ]
+    },
+    {
+      "name": "Nelson Darkwah Oppong",
+      "role": "Postdoc",
+      "projects": [
+        "yb-hybrid"
+      ]
+    },
+    {
+      "name": "Etienne Staub",
+      "role": "PhD student",
+      "projects": [
+        "yb-hybrid"
+      ]
+    },
+    {
+      "name": "Tim Höhn",
+      "role": "PhD student",
+      "projects": [
+        "yb-hybrid"
+      ]
+    },
+    {
+      "name": "Clara Bachorz",
+      "role": "Master student",
+      "projects": [
+        "yb-hybrid"
+      ]
+    },
+    {
+      "name": "Guillaume Brochier",
+      "role": "Master student",
+      "projects": [
+        "yb-hybrid"
+      ]
+    },
+    {
+      "name": "Daniel Adler",
+      "role": "Master student",
+      "projects": [
+        "yb-hybrid"
+      ]
+    },
+    {
+      "name": "David Gröters",
+      "role": "Master student",
+      "projects": [
+        "yb-hybrid"
+      ]
+    },
+    {
+      "name": "Dalila Robledo",
+      "role": "Master student",
+      "projects": [
+        "yb-hybrid"
+      ]
+    },
+    {
+      "name": "Leonardo Bezzo",
+      "role": "Master student",
+      "projects": [
+        "yb-hybrid"
+      ]
+    },
+    {
+      "name": "Lin Qi",
+      "role": "Bachelor student",
+      "projects": [
+        "yb-hybrid"
+      ]
+    },
+    {
+      "name": "Semyon Zarutskiy",
+      "role": "Internship student",
+      "projects": [
+        "yb-hybrid"
+      ]
+    },
+    {
+      "name": "Tobias Marozsak",
+      "role": "Internship student",
+      "projects": [
+        "yb-hybrid"
+      ]
     }
   ]
 }

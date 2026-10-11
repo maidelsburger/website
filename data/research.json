@@ -116,6 +116,20 @@
           }
         ]
       }
+    ],
+    "theses": [
+      {
+        "name": "Etienne Staub",
+        "year": 2024,
+        "title": "A new hybrid lattice-tweezer experiment for quantum simulation with ytterbium atoms",
+        "url": "https://edoc.ub.uni-muenchen.de/34813/"
+      },
+      {
+        "name": "Tim Höhn",
+        "year": 2024,
+        "title": "State-dependent potentials and clock ground-state cooling in an ytterbium quantum simulator",
+        "url": "https://edoc.ub.uni-muenchen.de/34662/"
+      }
     ]
   },
   {
