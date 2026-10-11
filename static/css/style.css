@@ -110,8 +110,8 @@ h2.year::after, h2.cat::after { content: ""; position: absolute; left: 0; bottom
 .research-card h2 a { color: var(--text); }
 .research-list li { padding: .5rem 0; border-bottom: 1px solid var(--border); }
 .team-list li { padding: .4rem 0; }
-.alumni-list li { padding: .15rem 0; font-size: .92rem; }
-.alumni-list .muted { font-size: .85em; }
+.team-list li, .alumni-list li { padding: .15rem 0; font-size: .92rem; }
+.team-list .muted, .alumni-list .muted { font-size: .85em; }
 .team-photo { margin: 0 0 1.25rem; }
 .team-photo figcaption { font-size: .85rem; margin-top: .4rem; }
 .refs a { font-size: .92rem; font-weight: 600; }

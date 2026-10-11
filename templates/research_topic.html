@@ -40,7 +40,7 @@
     {% if r.team_photo %}<figure class="team-photo">{{ m.img(r.team_photo, r.title ~ ' team', 'thumb') }}{% if r.team_photo_caption %}<figcaption class="muted">{{ r.team_photo_caption }}</figcaption>{% endif %}</figure>{% endif %}
     <h2>Team</h2>
     <ul class="plain team-list">
-    {% for mem in topic_people %}<li><a href="{{ rel }}group.html#{{ mem.id }}">{{ mem.name }}</a><br><span class="muted">{{ mem.role }}</span></li>{% endfor %}
+    {% for mem in topic_people %}<li><a href="{{ rel }}group.html#{{ mem.id }}">{{ mem.name }}</a>{% if mem.role %} <span class="muted">· {{ mem.role }}</span>{% endif %}</li>{% endfor %}
     </ul>
     {% if topic_alumni %}<h3>Alumni</h3><ul class="plain alumni-list">{% for a in topic_alumni %}<li>{% if a.link %}<a href="{{ a.link }}" rel="noopener">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}{% if a.role %} <span class="muted">· {{ a.role }}</span>{% endif %}</li>{% endfor %}</ul>{% endif %}
   </aside>
