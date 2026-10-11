@@ -151,5 +151,18 @@
     ],
     "link": "https://www.mcqst.de/support/seed-funding/",
     "thumb": "assets/news/2026-10-06-tanlimco-mcqst-seed-thumb.jpg"
+  },
+  {
+    "id": "2026-10-02-prague-retreat",
+    "date": "2026-10-02",
+    "title": "Group retreat in Prague!",
+    "summary": "From September 30 to October 2 the whole group went on a retreat to Prague.",
+    "body": [
+      "From September 30 to October 2 the whole group went on a retreat to Prague — three days of science, discussions and exploring the city together."
+    ],
+    "image": "assets/news/2026-10-02-prague-retreat.jpg",
+    "topics": [],
+    "people": [],
+    "link": ""
   }
 ]
