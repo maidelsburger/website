@@ -166,7 +166,7 @@ def build():
 
     # Group
     cats = site["people_categories"]
-    grouped = [(c, [m for m in members if m["category"] == c]) for c in cats]
+    grouped = [(c, [m for m in members if m["category"] == c and m.get("group_page", True)]) for c in cats]
     grouped = [(c, ms) for c, ms in grouped if ms]
     unknown = [m["name"] for m in members if m["category"] not in cats]
     assert not unknown, f"members with unknown category: {unknown}"
