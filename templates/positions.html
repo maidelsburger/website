@@ -6,6 +6,7 @@
 {% if positions.openings %}<ul class="openings">
 {% for o in positions.openings %}<li><strong>{{ o.title }}</strong>{% if o.project %} — <a href="{{ rel }}research/{{ o.project }}.html">{{ research_by_id[o.project].title }}</a>{% endif %}<br>{{ o.description }}</li>{% endfor %}
 </ul>{% endif %}
+<p>Contact: <a href="mailto:{{ positions.contact_email }}">{{ positions.contact_email | obfuscate }}</a></p>
 {% if positions.links %}
 <h2>Apply at Stanford</h2>
 <ul class="openings">
@@ -14,5 +15,4 @@
 {% endif %}
 {% if positions.theses %}<h2>Bachelor and Master theses</h2>
 <p>{{ positions.theses }}</p>{% endif %}
-<p>Contact: <a href="mailto:{{ positions.contact_email }}">{{ positions.contact_email | obfuscate }}</a></p>
 {% endblock %}
