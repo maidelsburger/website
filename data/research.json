@@ -311,7 +311,9 @@
                 "label": "Probing disorder-driven topological phase transitions via topological edge modes, A. Hesse et al., arXiv:2508.20154 (2025)",
                 "url": "https://arxiv.org/abs/2508.20154"
               }
-            ]
+            ],
+            "image": "assets/research/k-disorder-transition.jpg",
+            "caption": "Disorder-induced shift of the topological phase transition between the anomalous Floquet (AF) and Haldane (H) regimes, measured via edge modes (experiment) and compared to numerics; the background shading encodes the Bott index."
           }
         ]
       }
