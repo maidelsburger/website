@@ -138,7 +138,7 @@
         }
       ],
       "logo": "",
-      "completed": false,
+      "completed": true,
       "slug": "dynamite-next-generation-quantum-simulat",
       "paragraphs": [
         "Quantum Simulators can address and deepen our understanding of complex quantum many-body systems with applications ranging from condensed matter physics to nuclear physics, high energy physics and material science. Within this projects, we will develop novel methods for the realization of lattice gauge theories using present-day capabilities of cold-atom quantum simulators. Starting with implementations of Abelian gauge theories we will work towards the realization of more complex non-Abelian lattice gauge theories.More information can be found on the DYNAMITE and Quantera website.",
