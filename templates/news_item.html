@@ -8,6 +8,7 @@
   <time datetime="{{ n.date }}">{{ n.date | pretty_date }}</time>
   {% if n.image %}{{ m.img(n.image, n.title, 'feature') }}{% endif %}
   {% for p in n.body %}<p>{{ p }}</p>{% endfor %}
+  {% if n.images %}<div class="gallery">{% for g in n.images %}<a href="{{ rel }}{{ g }}">{{ m.img(g, n.title, 'gallery-img') }}</a>{% endfor %}</div>{% endif %}
   {% if n.link %}<p><a href="{{ n.link }}" rel="noopener">Read more →</a></p>{% endif %}
   <p class="tags">{% for t in n.topics %}<a class="tag" href="{{ rel }}research/{{ t }}.html">{{ research_by_id[t].short }}</a>{% endfor %}
   {% for pid in n.people %}{% if pid in people_by_id %}<a class="tag" href="{{ rel }}group.html#{{ pid }}">{{ people_by_id[pid].name }}</a>{% endif %}{% endfor %}</p>
