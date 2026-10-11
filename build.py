@@ -74,8 +74,8 @@ def build():
 
     def alumni_rank(a):
         role = a.get("role", "").lower()
-        for rank, key in enumerate(["postdoc", "phd", "research assistant", "master",
-                                    "bachelor", "intern", "student assistant"]):
+        for rank, key in enumerate(["senior scientist", "postdoc", "phd", "research assistant",
+                                    "master", "bachelor", "intern", "student assistant"]):
             if key in role:
                 break
         else:
@@ -138,7 +138,8 @@ def build():
     render("research.html", "research.html", "research")
     for r in research:
         render("research_topic.html", f"research/{r['id']}.html", "research", r=r,
-               topic_people=[m for m in members if r["id"] in m.get("projects", [])],
+               topic_people=sorted([m for m in members if r["id"] in m.get("projects", [])],
+                                   key=alumni_rank),
                topic_alumni=sorted(
                    [dict(a, role=(a.get("roles") or {}).get(r["id"], a.get("role", "")))
                     for a in alumni if r["id"] in a.get("projects", [])],
