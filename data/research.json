@@ -469,6 +469,11 @@
     "teaser": "Alongside our experiments we collaborate closely with theory groups on quantum simulation, lattice gauge theories and out-of-equilibrium dynamics.",
     "collaborators": [
       {
+        "name": "Marin Bukov",
+        "affiliation": "MPI-PKS, Dresden",
+        "link": "https://www.pks.mpg.de/nqd/group-members"
+      },
+      {
         "name": "Marcello Dalmonte",
         "affiliation": "ICTP, Trieste",
         "link": "https://www.ictp.it/member/marcello-dalmonte"
@@ -527,6 +532,16 @@
         "name": "Frank Pollmann",
         "affiliation": "TU Munich",
         "link": "https://www.ph.nat.tum.de/cmt/"
+      },
+      {
+        "name": "Ana Maria Rey",
+        "affiliation": "JILA, University of Colorado Boulder",
+        "link": "https://jila.colorado.edu/arey"
+      },
+      {
+        "name": "Luis Santos",
+        "affiliation": "Leibniz Universität Hannover",
+        "link": "https://www.itp.uni-hannover.de/arbeitsgruppen/luis-santos"
       },
       {
         "name": "Norman Yao",
