@@ -156,5 +156,9 @@
   "announcement": {
     "text": "The group is moving to Stanford!",
     "link": ""
-  }
+  },
+  "hero_images": [
+    "assets/research/hero.jpg",
+    "assets/research/hero-2.jpg"
+  ]
 }

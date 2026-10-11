@@ -75,6 +75,9 @@ def build():
     news.sort(key=lambda n: n["date"], reverse=True)
     pubs.sort(key=lambda p: (p["year"], p.get("id")), reverse=True)
 
+    heroes = site.get("hero_images") or ([site["hero_image"]] if site.get("hero_image") else [])
+    site["hero_images"] = [h for h in heroes if (ROOT / h).exists()]
+
     out = ROOT / site.get("output_dir", "_site")
     if out.exists():
         shutil.rmtree(out)
