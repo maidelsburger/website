@@ -4,7 +4,7 @@
 
 {% macro news_card(n, show_topics=True) -%}
 <article class="news-card">
-  <a class="news-thumb" href="{{ rel }}news/{{ n.id }}.html">{{ img(n.image, n.title, 'thumb') }}</a>
+  <a class="news-thumb" href="{{ rel }}news/{{ n.id }}.html">{{ img(n.thumb or n.image, n.title, 'thumb') }}</a>
   <div class="news-body">
     <time datetime="{{ n.date }}">{{ n.date | pretty_date }}</time>
     <h3><a href="{{ rel }}news/{{ n.id }}.html">{{ n.title }}</a></h3>
