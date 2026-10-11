@@ -10,7 +10,7 @@
   },
   "about": [
     "We are an experimental team developing quantum simulators based on ultracold atoms in optical lattices and optical tweezer arrays. Our research focuses on topological physics, lattice gauge theories and out-of-equilibrium dynamics of strongly-interacting quantum many-body systems.",
-    "The group is jointly located at the Faculty of Physics of the Ludwig-Maximilians-Universität München (LMU) and the Max Planck Institute of Quantum Optics (MPQ) in Garching."
+    "The group is jointly located at the Max Planck Institute of Quantum Optics (MPQ) in Garching and the Faculty of Physics of the Ludwig-Maximilians-Universität München (LMU)."
   ],
   "hero_image": "assets/research/hero.jpg",
   "nav": [
@@ -103,16 +103,16 @@
     "intro": "Feel free to get in touch with us. The group is located at both LMU (Munich city centre) and MPQ (Garching).",
     "locations": [
       {
-        "key": "LMU",
-        "phone": "+49 89 2180-6143",
-        "email": "monika.aidelsburger@mpq.mpg.de",
-        "directions": "By underground (U-Bahn): lines U3 and U6, exit Universität."
-      },
-      {
         "key": "MPQ",
         "phone": "+49 89 32905-199",
         "email": "monika.aidelsburger@mpq.mpg.de",
         "directions": "By underground (U-Bahn): line U6 to Garching-Forschungszentrum."
+      },
+      {
+        "key": "LMU",
+        "phone": "+49 89 2180-6143",
+        "email": "monika.aidelsburger@mpq.mpg.de",
+        "directions": "By underground (U-Bahn): lines U3 and U6, exit Universität."
       }
     ],
     "assistant": {
