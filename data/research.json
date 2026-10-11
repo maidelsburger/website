@@ -474,6 +474,11 @@
         "link": "https://www.ictp.it/member/marcello-dalmonte"
       },
       {
+        "name": "Eugene Demler",
+        "affiliation": "ETH Zürich",
+        "link": "https://www.phys.ethz.ch/de/das-departement/personen/person-detail.edemler.html"
+      },
+      {
         "name": "André Eckardt",
         "affiliation": "TU Berlin",
         "link": "https://www.itp.tu-berlin.de/eckardt/"
@@ -492,6 +497,11 @@
         "name": "Philipp Hauke",
         "affiliation": "University of Trento",
         "link": "https://sites.google.com/unitn.it/haukegroup"
+      },
+      {
+        "name": "Fabian Heidrich-Meisner",
+        "affiliation": "University of Göttingen",
+        "link": "https://uni-goettingen.de/en/444185.html"
       },
       {
         "name": "Markus Heyl",
