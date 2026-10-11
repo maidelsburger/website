@@ -469,6 +469,11 @@
     "teaser": "Alongside our experiments we collaborate closely with theory groups on quantum simulation, lattice gauge theories and out-of-equilibrium dynamics.",
     "collaborators": [
       {
+        "name": "Immanuel Bloch",
+        "affiliation": "MPQ & LMU Munich",
+        "link": "https://www.quantum-munich.de/"
+      },
+      {
         "name": "Annabelle Bohrdt",
         "affiliation": "LMU Munich",
         "link": ""
