@@ -620,6 +620,32 @@
       "orcid": "",
       "website": "",
       "bio": ""
+    },
+    {
+      "id": "jeremy-tanlimco",
+      "name": "Jeremy Tanlimco",
+      "degree": "Dr.",
+      "category": "PostDocs",
+      "role": "PostDoc",
+      "affiliation": "MPQ",
+      "email": "jeremy.tanlimco@mpq.mpg.de",
+      "phone": "",
+      "office": "",
+      "lab_phone": "",
+      "lab": "",
+      "projects": [
+        "yb-hybrid"
+      ],
+      "photo": "",
+      "education": "",
+      "origin": "",
+      "joined": "",
+      "thesis_pdf": "",
+      "cv_pdf": "",
+      "google_scholar": "",
+      "orcid": "",
+      "website": "",
+      "bio": ""
     }
   ],
   "alumni": [
