@@ -294,7 +294,10 @@
                 "label": "Real-space detection and manipulation of topological edge modes with ultracold atoms, C. Braun et al., Nature Physics 20, 1306–1312 (2024)",
                 "url": "https://doi.org/10.1038/s41567-024-02506-z"
               }
-            ]
+            ],
+            "image": "assets/research/k-edge-modes.jpg",
+            "wide": true,
+            "caption": "Time evolution of a wave packet released at the edge of the repulsive disk-shaped potential (dashed circle): the atoms propagate chirally along the boundary, the hallmark of a topological edge mode."
           }
         ]
       },
