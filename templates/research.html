@@ -8,7 +8,7 @@
 <article class="research-card">
   <a href="{{ rel }}research/{{ r.id }}.html">{{ m.img(r.image, r.title, 'thumb') }}</a>
   <h2><a href="{{ rel }}research/{{ r.id }}.html">{{ r.title }}</a></h2>
-  <p>{{ r.summary }}</p>
+  <p>{{ r.teaser or r.summary }}</p>
   <p><a href="{{ rel }}research/{{ r.id }}.html">more →</a></p>
 </article>
 {% endfor %}

@@ -104,6 +104,10 @@ h2.year::after, h2.cat::after { content: ""; position: absolute; left: 0; bottom
 .research-card .thumb { transition: transform .35s ease; }
 .research-card a:first-child:hover .thumb { transform: scale(1.04); }
 .research-card h2 { font-size: 1.25rem; margin: 1rem 0 .4rem; }
+@media (min-width: 641px) {
+  .research-card h2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.25; min-height: 2.5em; }
+  .research-card h2 + p { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.5; min-height: 6em; }
+}
 .research-card h2 a { color: var(--text); }
 .research-list li { padding: .5rem 0; border-bottom: 1px solid var(--border); }
 .team-list li { padding: .4rem 0; }

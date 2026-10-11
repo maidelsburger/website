@@ -130,7 +130,8 @@
         "title": "State-dependent potentials and clock ground-state cooling in an ytterbium quantum simulator",
         "url": "https://edoc.ub.uni-muenchen.de/34662/"
       }
-    ]
+    ],
+    "teaser": "We are developing a novel platform for quantum simulation with fermionic Yb atoms, combining optical lattices with tweezer arrays for local control."
   },
   {
     "id": "cs-microscope",
@@ -243,7 +244,8 @@
         "title": "Quantum gas microscopy of interacting quantum matter with artificial gauge fields",
         "url": "https://edoc.ub.uni-muenchen.de/35437/"
       }
-    ]
+    ],
+    "teaser": "A quantum gas microscope for strongly interacting topological phases, with single-site resolution and digital-analog quantum simulation."
   },
   {
     "id": "k-hexagonal",
@@ -254,7 +256,8 @@
     "body": [
       "Periodic driving (Floquet engineering) allows us to realize topological band structures that have no static counterpart, such as anomalous Floquet topological insulators. Using fermionic potassium in a hexagonal optical lattice we study their bulk and edge properties."
     ],
-    "location": "LMU"
+    "location": "LMU",
+    "teaser": "We are developing novel experimental techniques to study genuine out-of-equilibrium topological phases of matter in periodically-driven optical lattices."
   },
   {
     "id": "ryd-yb",
@@ -267,7 +270,8 @@
     ],
     "location": "LMU",
     "team_photo": "assets/research/ryd-yb-team.jpg",
-    "team_photo_caption": "The Ryd-Yb team. Back row: Amin, Yilong and Vincent; front row: Christoph, Monika and Lorenzo"
+    "team_photo_caption": "The Ryd-Yb team. Back row: Amin, Yilong and Vincent; front row: Christoph, Monika and Lorenzo",
+    "teaser": "Neutral-atom arrays are a key quantum-computing platform. Yb atoms offer high-fidelity detection via shelving and single-photon Rydberg excitations."
   },
   {
     "id": "ydfc",
@@ -278,7 +282,8 @@
     "body": [
       "The experiment is located at MPQ in Garching and combines optical-lattice clock technology with tweezer-based control to search for physics beyond the Standard Model."
     ],
-    "location": "MPQ"
+    "location": "MPQ",
+    "teaser": "Launched in March 2024, this project combines neutral-atom quantum technologies with high-precision spectroscopy to study fundamental physics."
   },
   {
     "id": "theory",
@@ -289,6 +294,7 @@
     "body": [
       "This page collects joint theory works and proposals that are not tied to one specific experimental platform in the lab."
     ],
-    "location": ""
+    "location": "",
+    "teaser": "Alongside our experiments we collaborate closely with theory groups on quantum simulation, lattice gauge theories and out-of-equilibrium dynamics."
   }
 ]
