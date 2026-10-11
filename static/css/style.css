@@ -121,6 +121,12 @@ h2.year::after, h2.cat::after { content: ""; position: absolute; left: 0; bottom
 .news-card h3 a { color: var(--text); }
 .news-card h3 a:hover { color: var(--link); text-decoration: none; }
 .news-card p { font-size: .95rem; margin-bottom: .4rem; }
+/* uniform card heights in news grids: clamp title to 2 lines, summary to 3 */
+.news-grid .news-card h3 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden; line-height: 1.3; min-height: 2.6em; }
+.news-grid .news-card p:not(.tags) { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+  overflow: hidden; line-height: 1.5; min-height: 4.5em; }
+.news-grid .news-card .tags { height: 1.8rem; overflow: hidden; }
 .news-full time { display: block; color: var(--muted); margin-bottom: 1.25rem; }
 .prevnext { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid var(--border); font-size: .95rem; }
 
