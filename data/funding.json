@@ -6,7 +6,8 @@
       "description": "// DigiAnaQsim aims to make quantum simulators more powerful, flexible, and useful for understanding complex quantum systems. Many important materials and molecules are governed by quantum effects that are extremely difficult to calculate with conventional computers. Quantum simulators offer an alternative route: they realize key quantum behaviour in a controlled laboratory system, such as ultracold atoms…",
       "url": "",
       "links": [],
-      "logo": ""
+      "logo": "",
+      "completed": false
     },
     {
       "name": "QUASIMODO",
@@ -18,35 +19,40 @@
           "url": "https://www.vu.lt/en/all-news/vu-scientists-and-partners-to-develop-next-generation-quantum-simulators"
         }
       ],
-      "logo": ""
+      "logo": "",
+      "completed": false
     },
     {
       "name": "ISF-DFG: Extremely sub-wavelength arrays with Yb atoms in optical lattices",
       "description": "Joint Israel Science Foundation / DFG project on extremely sub-wavelength atomic arrays with Yb atoms in optical lattices, in collaboration with the Hebrew University of Jerusalem.",
       "url": "",
       "links": [],
-      "logo": ""
+      "logo": "",
+      "completed": false
     },
     {
       "name": "FOR5919: Machine Learning for Complex Quantum States",
       "description": "// “Machine Learning for Complex Quantum States” is a DFG-funded Research Unit (FOR 5919), coordinated by Dr. Markus Schmitt (University of Regensburg). The consortium brings together experimental and theoretical researchers from Augsburg, Dortmund, Erlangen, Jena, Cologne, Lausanne, Munich, Regensburg, and Zurich.Within this framework, our group contributes to two subprojects: \"Machine Learning for Qutrit-Based…",
       "url": "https://for5919.github.io/",
       "links": [],
-      "logo": ""
+      "logo": "",
+      "completed": false
     },
     {
       "name": "FOR5688: Driven-dissipative many-body systems of ultracold atoms",
       "description": "This Research Unit is dedicated towards developing a better understanding of driven-dissipative quantum many-body systems with the goal of using dissipation as a novel tool for engineering complex low-entropy many-body states via cooling or projective measurements.",
       "url": "https://www.tu.berlin/quantum/for-5688/for-5688",
       "links": [],
-      "logo": ""
+      "logo": "",
+      "completed": false
     },
     {
       "name": "FOR5522: Quantum thermalization, localization, and constrained dynamics with interacting ultracold atoms",
       "description": "More information about our Research Unit, its members and planned events can be found on our website.",
       "url": "https://www.uni-goettingen.de/en/675761.html",
       "links": [],
-      "logo": ""
+      "logo": "",
+      "completed": false
     },
     {
       "name": "PASQuanS2.1: Programmable atomic large-scale quantum simulation",
@@ -58,7 +64,8 @@
           "url": "https://www.linkedin.com/showcase/pasquans2/"
         }
       ],
-      "logo": ""
+      "logo": "",
+      "completed": false
     },
     {
       "name": "DYNAMITE: Next Generation Quantum Simulators: From Dynamical Gauge Fields to Lattice Gauge Theory",
@@ -70,35 +77,40 @@
           "url": "https://quantera.eu/dynamite/"
         }
       ],
-      "logo": ""
+      "logo": "",
+      "completed": false
     },
     {
       "name": "Munich Quantum Valley: Trapped Atom Quantum Computer (TAQC)",
       "description": "// Neutral atoms trapped in optical lattices are a promising quantum-computing platform. Its main advantage is the potential of scaling to larger numbers of qubits already in the coming years.",
       "url": "https://www.munich-quantum-valley.de/",
       "links": [],
-      "logo": ""
+      "logo": "",
+      "completed": false
     },
     {
       "name": "MCQST: Munich Center for Quantum Science and Technology",
       "description": "// The cluster of excellence MCQST comprises seven research units within disciplines such as physics, mathematics, computer science, electrical engineering, material science, and chemistry, covering all areas of Quantum Science and Technology (QST) from basic research to applications. We are contributing to two research units: RU-B on Quantum Simulation and RU-G on Explorative Research Directions.",
       "url": "https://www.mcqst.de/",
       "links": [],
-      "logo": ""
+      "logo": "",
+      "completed": false
     },
     {
       "name": "FermiQP: Joint Project on Fermion Quantum Processors",
       "description": "// This project aims at realizing a new and scalable hybrid platform for analogue quantum simulation and digital quantum computing with ultracold fermion, thus combining the advantages of both concepts in one machine. Within this project we are developing new techniques for improving the coherence time, data rate and initial-state fidelity, which will boost both analogue and digital applications of this hybrid…",
       "url": "",
       "links": [],
-      "logo": ""
+      "logo": "",
+      "completed": true
     },
     {
       "name": "LaGaTYb: Exploring lattice gauge theories with fermionic Ytterbium atoms",
       "description": "// Gauge theories establish a connection between seemingly different physical areas, ranging from high-energy to condensed matter physics. Very often gauge theories are difficult to study theoretically in particular in the strongly-interacting regime, where perturbative methods are not reliable. This motivates the search for alternative approaches using quantum simulation. Ultracold atoms in optical lattices have…",
       "url": "",
       "links": [],
-      "logo": ""
+      "logo": "",
+      "completed": true
     },
     {
       "name": "FOR2414: Artificial Gauge Fields and Interacting Topological Phases in Ultracold Atoms",
@@ -110,7 +122,8 @@
           "url": "https://www.uni-frankfurt.de/84540498/DFG_Research_Unit_2414___DFG_Forschungsgruppe_2414"
         }
       ],
-      "logo": ""
+      "logo": "",
+      "completed": true
     }
   ],
   "acknowledgements": [

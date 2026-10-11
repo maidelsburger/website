@@ -4,7 +4,7 @@
 <h1>Funding</h1>
 <p class="lead">{{ funding.intro }}</p>
 <div class="funding-grid">
-{% for f in funding.projects %}
+{% for f in funding.projects if not f.completed %}
 <div class="card">
   {% if f.logo %}<img class="logo" src="{{ rel }}{{ f.logo }}" alt="{{ f.name }}">{% endif %}
   <h2>{% if f.url %}<a href="{{ f.url }}" rel="noopener">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}</h2>
@@ -13,6 +13,20 @@
 </div>
 {% endfor %}
 </div>
+{% if funding.projects | selectattr('completed') | list %}
+<h2 class="cat">Completed projects</h2>
+<div class="funding-grid">
+{% for f in funding.projects if f.completed %}
+<div class="card">
+  {% if f.logo %}<img class="logo" src="{{ rel }}{{ f.logo }}" alt="{{ f.name }}">{% endif %}
+  <h2>{% if f.url %}<a href="{{ f.url }}" rel="noopener">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}</h2>
+  <p>{{ f.description }}</p>
+  {% if f.links %}<p class="refs">{% for l in f.links %}<a href="{{ l.url }}" rel="noopener">{{ l.label }}</a>{% if not loop.last %}<br>{% endif %}{% endfor %}</p>{% endif %}
+</div>
+{% endfor %}
+</div>
+{% endif %}
+
 <h2>We also gratefully acknowledge support from</h2>
 <ul>{% for a in funding.acknowledgements %}<li>{% if a.url %}<a href="{{ a.url }}" rel="noopener">{{ a.label }}</a>{% else %}{{ a.label or a }}{% endif %}</li>{% endfor %}</ul>
 {% endblock %}
