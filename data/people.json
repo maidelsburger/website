@@ -596,32 +596,6 @@
       "bio": ""
     },
     {
-      "id": "yunchu-li",
-      "name": "Yunchu Li",
-      "degree": "",
-      "category": "Student Assistants",
-      "role": "Student Assistant",
-      "affiliation": "MPQ",
-      "email": "yunchu.li@mpq.mpg.de",
-      "phone": "+49 89 32905-552",
-      "office": "A 0.28",
-      "lab_phone": "",
-      "lab": "C 1.37",
-      "projects": [
-        "ydfc"
-      ],
-      "photo": "",
-      "education": "",
-      "origin": "",
-      "joined": "",
-      "thesis_pdf": "",
-      "cv_pdf": "",
-      "google_scholar": "",
-      "orcid": "",
-      "website": "",
-      "bio": ""
-    },
-    {
       "id": "reinhard-grottenthaler",
       "name": "Reinhard Grottenthaler",
       "degree": "Dipl.-Ing.",
@@ -737,6 +711,17 @@
       "role": "Guest Research Assistant",
       "projects": [
         "ryd-yb"
+      ],
+      "left": "2026",
+      "now": ""
+    },
+    {
+      "id": "yunchu-li",
+      "name": "Yunchu Li",
+      "degree": "",
+      "role": "Student Assistant",
+      "projects": [
+        "ydfc"
       ],
       "left": "2026",
       "now": ""
