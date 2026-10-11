@@ -72,7 +72,7 @@
       "k-hexagonal"
     ],
     "image": "assets/publications/hesse-2025-probing-disorder-driven-topological.jpg",
-    "highlight": false,
+    "highlight": true,
     "type": "preprint"
   },
   {
@@ -165,7 +165,7 @@
       "yb-hybrid"
     ],
     "image": "",
-    "highlight": false,
+    "highlight": true,
     "type": "journal"
   },
   {
@@ -184,7 +184,7 @@
       "cs-microscope"
     ],
     "image": "",
-    "highlight": true,
+    "highlight": false,
     "type": "journal"
   },
   {
@@ -431,7 +431,7 @@
       "k-hexagonal"
     ],
     "image": "",
-    "highlight": true,
+    "highlight": false,
     "type": "journal"
   },
   {
