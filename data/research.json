@@ -469,9 +469,19 @@
     "teaser": "Alongside our experiments we collaborate closely with theory groups on quantum simulation, lattice gauge theories and out-of-equilibrium dynamics.",
     "collaborators": [
       {
+        "name": "Annabelle Bohrdt",
+        "affiliation": "University of Regensburg",
+        "link": ""
+      },
+      {
         "name": "Marin Bukov",
         "affiliation": "MPI-PKS, Dresden",
         "link": "https://www.pks.mpg.de/nqd/group-members"
+      },
+      {
+        "name": "Jean Dalibard",
+        "affiliation": "Collège de France & LKB, Paris",
+        "link": "https://www.college-de-france.fr/fr/chaire/jean-dalibard-atomes-et-rayonnement-chaire-statutaire"
       },
       {
         "name": "Marcello Dalmonte",
