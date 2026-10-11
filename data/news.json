@@ -968,7 +968,9 @@
       "A new path for quantum gas experiments with high resolution is a combination of the advantages of highly uniform optical lattices with the flexibility offered by optical tweezer arrays. Those hybrid tweezer lattices require performant microscope objectives that can simultaneously image individual atoms in the optical lattice and generate diffraction-limited optical tweezers for single-site addressing. In this thesis, David characterized the imaging performance for two custom made high-resolution objectives at 399 and 532 nm as well as the tweezer-generation capabilities with 532 nm light. To this end, he built and optimized an optical test setup that can perform automated focus scans with sub-wavelength axial step size to test the point spread function of the objective and optical tweezer generation. He was able to confirm diffraction-limited operation in both cases for each objective and in a field of view of 100x100 μm. Furthermore he generated 2D tweezer arrays using two acousto-optical deflectors in a crossed configuration and characterized their shape in 3D. An in-depth discussion on the error estimates and various compensation techniques used for analysis is presented in the thesis as well. Finally, together with the team he successfully integrated the objective into the main setup including the trapping and imaging of ultracold ytterbium atoms in a 5x5 optical tweezer array."
     ],
     "image": "assets/news/2023-05-25-david-groters-wins-mcqst-master-s-award.jpg",
-    "topics": [],
+    "topics": [
+      "yb-hybrid"
+    ],
     "people": [],
     "link": "",
     "thumb": "assets/news/2023-05-25-david-groters-wins-mcqst-master-s-award-thumb.jpg"
