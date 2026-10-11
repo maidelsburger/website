@@ -772,7 +772,7 @@
         "cs-microscope"
       ],
       "left": "",
-      "now": "Researcher, IGFAE, Universidade de Santiago de Compostela",
+      "now": "Group leader, IGFAE, Universidade de Santiago de Compostela",
       "link": "https://igfae.usc.es/igfae/en/cesar-cabrera-starting-grant-quantum-simulation/"
     },
     {
@@ -1182,6 +1182,13 @@
       "role": "Student assistant",
       "projects": [
         "ydfc"
+      ]
+    },
+    {
+      "name": "SeungJung Huh",
+      "role": "Postdoc",
+      "projects": [
+        "cs-microscope"
       ]
     }
   ]
