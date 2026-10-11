@@ -1,7 +1,13 @@
 {% extends "base.html" %}{% import "_macros.html" as m with context %}
-{% block title %}News{% endblock %}
+{% block title %}{% if topic %}News — {{ topic.title }}{% else %}News{% endif %}{% endblock %}
 {% block content %}
+{% if topic %}
+<p class="breadcrumb"><a href="{{ rel }}research/{{ topic.id }}.html">{{ topic.title }}</a> › News</p>
+<h1>News — {{ topic.title }}</h1>
+<p class="muted"><a href="{{ rel }}news.html">All group news →</a></p>
+{% else %}
 <h1>News</h1>
+{% endif %}
 {% for y, items in news_by_year %}
 <h2 class="year">{{ y }}</h2>
 <div class="news-list">{% for n in items %}{{ m.news_card(n) }}{% endfor %}</div>

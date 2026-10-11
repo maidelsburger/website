@@ -136,6 +136,14 @@ def build():
     for i, n in enumerate(news):
         render("news_item.html", f"news/{n['id']}.html", "news", n=n,
                prev=news[i + 1] if i + 1 < len(news) else None, next=news[i - 1] if i > 0 else None)
+    for r in research:
+        t_news = [n for n in news if r["id"] in n.get("topics", [])]
+        if t_news:
+            t_by_year = defaultdict(list)
+            for n in t_news:
+                t_by_year[n["date"][:4]].append(n)
+            render("news.html", f"news/topic-{r['id']}.html", "news",
+                   news_by_year=sorted(t_by_year.items(), reverse=True), topic=r)
 
     # Group
     cats = site["people_categories"]
