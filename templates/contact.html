@@ -14,7 +14,7 @@
 {% endfor %}
 </div>
 {% if site.contact.assistant %}
-<h2>Team assistant</h2>
-<p>{{ site.contact.assistant.name }}<br>Phone: {{ site.contact.assistant.phone }}<br>Email: <a href="mailto:{{ site.contact.assistant.email }}">{{ site.contact.assistant.email | obfuscate }}</a></p>
+<h2>Point of contact</h2>
+<p>{{ site.contact.assistant.name }}{% if site.contact.assistant.note %}<br><span class="muted">{{ site.contact.assistant.note }}</span>{% endif %}<br>Phone: {{ site.contact.assistant.phone }}<br>Email: <a href="mailto:{{ site.contact.assistant.email }}">{{ site.contact.assistant.email | obfuscate }}</a></p>
 {% endif %}
 {% endblock %}
