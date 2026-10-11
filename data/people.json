@@ -1030,7 +1030,9 @@
       "role": "PhD student",
       "projects": [
         "yb-hybrid"
-      ]
+      ],
+      "now": "QuEra Computing (after a postdoc at Harvard)",
+      "link": "https://www.quera.com/"
     },
     {
       "name": "Tim Höhn",
@@ -1189,7 +1191,9 @@
       "role": "Postdoc",
       "projects": [
         "cs-microscope"
-      ]
+      ],
+      "now": "DGIST, South Korea",
+      "link": "https://scholar.dgist.ac.kr/researcher/16b0484e-5f7c-4b87-936c-1652e0a672fc"
     }
   ]
 }
