@@ -90,9 +90,8 @@ ul.plain { list-style: none; padding: 0; margin: 0; }
 .tag:hover { background: var(--accent); border-color: var(--accent); color: #fff; text-decoration: none; }
 .thumb { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--radius); background: var(--bg-alt); }
 .feature { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius); margin-bottom: 1.25rem; }
-.banner { width: 100%; aspect-ratio: 3 / 1; object-fit: cover; object-position: center 35%; border-radius: var(--radius); margin: .25rem 0 1.75rem; }
-.banner-group { aspect-ratio: 5 / 2; object-position: center 68%; }
-@media (max-width: 800px) { .banner { aspect-ratio: 16 / 9; } .banner-group { aspect-ratio: 16 / 10; } }
+.banner { width: 100vw; margin: .5rem calc(50% - 50vw) 1.75rem; height: clamp(220px, 26vw, 360px); object-fit: cover; object-position: center 35%; }
+.banner-group { height: clamp(260px, 32vw, 440px); object-position: center 68%; }
 .sub-fig { margin: 1.25rem 0; }
 .sub-fig img { width: 100%; height: auto; }
 .sub-fig figcaption { font-size: .85rem; margin-top: .4rem; }
