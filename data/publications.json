@@ -76,14 +76,14 @@
     "type": "preprint"
   },
   {
-    "id": "paciani-2025-quantum-simulation-of",
-    "year": 2025,
+    "id": "paciani-2026-quantum-simulation-of",
+    "year": 2026,
     "title": "Quantum simulation of fermionic non-Abelian lattice gauge theories in (2+1)D with built-in gauge protection",
     "authors": "Gaia De Paciani, Lukas Homeier, Jad C. Halimeh, Monika Aidelsburger, Fabian Grusdt",
-    "journal": "",
-    "volume": "",
-    "pages": "",
-    "doi": "",
+    "journal": "Phys. Rev. A",
+    "volume": "113",
+    "pages": "063327",
+    "doi": "10.1103/ngk1-9zy3",
     "arxiv": "2506.14747",
     "url": "",
     "pdf": "",
@@ -92,7 +92,7 @@
     ],
     "image": "",
     "highlight": false,
-    "type": "preprint"
+    "type": "journal"
   },
   {
     "id": "kroeze-2025-isotope-agnostic-motional-ground-state",
