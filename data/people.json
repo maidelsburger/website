@@ -501,10 +501,10 @@
       "role": "Student Assistant",
       "affiliation": "LMU",
       "email": "c.fuchs@physik.uni-muenchen.de",
-      "phone": "",
-      "office": "",
-      "lab_phone": "",
-      "lab": "",
+      "phone": "+49 89 2180-6134",
+      "office": "H230, LMU",
+      "lab_phone": "+49 89 2180-6135",
+      "lab": "H223, LMU",
       "projects": [
         "ryd-yb"
       ],
