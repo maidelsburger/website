@@ -819,9 +819,7 @@
       "Whether dissipation is a resource or a reality to be dealt with, it is crucial to have an accurate descriptionof an open many-body system. However, theoretical modeling and simulation are challenging and relyon approximations. It is, therefore, highly desirable to build quantum simulators for open systems, with awell characterized and tunable environment. We will pursue this goal using ultracold atoms. This will allowus to deepen our understanding also of other open systems, to design novel control schemes, and to testand develop suitable theoretical approaches. Ultracold atoms offer many opportunities. They are clean and can be manipulated and probed with high resolution both in space and time. Their high degree of isolation makes them excellent quantum simulators for closed systems. In close collaboration between theory and experiment, we will extend, explore, and exploit various possibilities for the controlled engineering of dissipation in these systems. We will pursue three major goals: (i) the design and experimental implementation of engineered dissipation, using atomic reservoirs, controlled 1-, 2-, and 3-particle loss, optical tweezer arrays, clock transitions, the coupling to a driven-dissipative cavity mode, as well as measurements and feedback; (ii) capitalize on the fact that the engineered reservoirs and dissipation will be well characterized and controllable, in order to use our systems as quantum simulators for open systems, e.g. for benchmarking theory or studying the impact of dissipation on transport; (iii) investigate novel approaches for the dissipative preparation of interesting target states, such as fractional quantum Hall states, cluster states, defect free Mott insulators, spontaneously formed dynamical lattices, self-driven spin pumps, and non-equilibrium Bose condensates."
     ],
     "image": "assets/news/2024-03-25-new-research-unit-for5688.jpg",
-    "topics": [
-      "ryd-yb"
-    ],
+    "topics": [],
     "people": [],
     "link": ""
   },

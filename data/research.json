@@ -259,7 +259,43 @@
     "location": "LMU",
     "teaser": "We are developing novel experimental techniques to study genuine out-of-equilibrium topological phases of matter in periodically-driven optical lattices.",
     "team_photo": "assets/research/k-team.jpg",
-    "team_photo_caption": "The K lattice team: Moritz, Christoph, Monika and Johannes (from left to right)"
+    "team_photo_caption": "The K lattice team: Moritz, Christoph, Monika and Johannes (from left to right)",
+    "sections": [
+      {
+        "heading": "Floquet topological phases & topological edge modes",
+        "subs": [
+          {
+            "title": "",
+            "image": "assets/research/k-driving-scheme.jpg",
+            "caption": "Schematic of the periodically-driven honeycomb lattice, where the tunneling bonds are varied in strength.",
+            "paragraphs": [
+              "Floquet engineering not only enables the realization of model Hamiltonians beyond static systems, but also the creation of novel phases of matter with no static analog. A striking example is 2D systems with zero Chern numbers that still host topologically protected chiral edge modes — known as anomalous Floquet topological systems. These are described by a generalized bulk-boundary correspondence that extends the static case, linking bulk topology to edge mode structure.",
+              "We developed a periodic driving protocol in hexagonal optical lattices by modulating the three tunnel couplings over time. This scheme hosts a variety of distinct Floquet topological regimes, including conventional and anomalous Floquet topological phases. To reveal their anomalous nature we developed a protocol to directly probe topological edge modes. To this end, we generate a topological interface by projecting a repulsive potential into the atomic plane. A tweezer trap, positioned near the interface, hosts a localized BEC, which after switching off the tweezer populates the edge mode, revealing the chiral dynamics characteristic of topological edge modes. Unlike in solid-state systems, we can precisely control boundary shape and sharpness, which allows for precise studies of edge mode properties. By combining edge-mode observations with bulk measurements, such as Chern numbers, we were able to directly demonstrate the existence of anomalous Floquet topological phases."
+            ]
+          }
+        ]
+      }
+    ],
+    "theses": [
+      {
+        "name": "Karen Wintersperger",
+        "year": 2020,
+        "title": "Realization of Floquet topological systems with ultracold atoms in optical honeycomb lattices",
+        "url": "https://edoc.ub.uni-muenchen.de/26989/"
+      },
+      {
+        "name": "Christoph Braun",
+        "year": 2024,
+        "title": "Real-space detection and manipulation of topological edge modes with ultracold atoms",
+        "url": "https://edoc.ub.uni-muenchen.de/33218/"
+      },
+      {
+        "name": "Alexander Hesse",
+        "year": 2025,
+        "title": "Probing disorder-driven topological phase transitions via topological edge modes in Floquet-engineered honeycomb lattices",
+        "url": "https://edoc.ub.uni-muenchen.de/36367/"
+      }
+    ]
   },
   {
     "id": "ryd-yb",

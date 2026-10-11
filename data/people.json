@@ -1041,6 +1041,66 @@
       "projects": [
         "yb-hybrid"
       ]
+    },
+    {
+      "name": "Raphaël Saint-Jalm",
+      "role": "Postdoc",
+      "projects": [
+        "k-hexagonal"
+      ],
+      "now": "Institut de Physique de Nice (INPHYNI)",
+      "link": "https://univ-cotedazur.fr/laboratoires/institut-de-physique-de-nice-inphyni"
+    },
+    {
+      "name": "Karen Wintersperger",
+      "role": "PhD student",
+      "projects": [
+        "k-hexagonal"
+      ],
+      "now": "Research Scientist Quantum Computing at Siemens"
+    },
+    {
+      "name": "Jakob Näger",
+      "role": "PhD student",
+      "projects": [
+        "k-hexagonal"
+      ]
+    },
+    {
+      "name": "Martin Reitter",
+      "role": "PhD student",
+      "projects": [
+        "k-hexagonal"
+      ]
+    },
+    {
+      "name": "Alexander Hesse",
+      "role": "PhD student",
+      "projects": [
+        "k-hexagonal"
+      ]
+    },
+    {
+      "name": "Valentin Weyerer",
+      "role": "Master student",
+      "projects": [
+        "k-hexagonal"
+      ]
+    },
+    {
+      "name": "Carlo Daniel",
+      "role": "Master student",
+      "projects": [
+        "k-hexagonal"
+      ]
+    },
+    {
+      "name": "Simon Karch",
+      "role": "Internship student",
+      "projects": [
+        "k-hexagonal"
+      ],
+      "now": "PhD student on the Cs quantum gas microscope in our group"
     }
   ]
 }
