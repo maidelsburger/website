@@ -27,9 +27,9 @@
 <!-- highlighted plaquette with circulating flux -->
 <rect x="600" y="150" width="225" height="250" fill="url(#flux)" opacity=".12"/>
 <g fill="none" stroke="url(#flux)" stroke-width="7" stroke-linecap="round">
-<path d="M 760 230 A 58 58 0 1 1 672 240"/>
+<path d="M 766.5 252.2 A 58 58 0 1 1 683 221.8"/>
 </g>
-<path d="M 668 212 L 666 248 L 696 232 Z" fill="#ffb871"/>
+<path d="M 700.3 211.8 L 671.8 214.4 L 683.8 235.2 Z" fill="#ffb871"/>
 
 <!-- atoms on lattice sites -->
 <g>
