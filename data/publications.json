@@ -152,7 +152,7 @@
   {
     "id": "hohn-2026-determining-the-3p0",
     "year": 2026,
-    "title": "Determining the 3P0 excited-state tune-out wavelength of 174Yb in a triple-magic lattice",
+    "title": "Determining the ^{3}P_{0} excited-state tune-out wavelength of ^{174}Yb in a triple-magic lattice",
     "authors": "Tim O. Höhn, René A. Villela, Er Zu, Leonardo Bezzo, Ronen M. Kroeze, Monika Aidelsburger",
     "journal": "PRX Quantum",
     "volume": "7",
@@ -399,7 +399,7 @@
   {
     "id": "hohn-2023-state-dependent-potentials-for",
     "year": 2023,
-    "title": "State-dependent potentials for the 1S0 and 3P0 clock states of neutral ytterbium atoms",
+    "title": "State-dependent potentials for the ^{1}S_{0} and ^{3}P_{0} clock states of neutral ytterbium atoms",
     "authors": "Tim O. Höhn, Etienne Staub, Guillaume Brochier, Nelson Darkwah Oppong, Monika Aidelsburger",
     "journal": "Phys. Rev. A",
     "volume": "108",
@@ -659,7 +659,7 @@
   {
     "id": "homeier-2021-z2-lattice-gauge",
     "year": 2021,
-    "title": "Z2 lattice gauge theories and Kitaev's toric code: A scheme for analog quantum simulation",
+    "title": "Z_{2} lattice gauge theories and Kitaev's toric code: A scheme for analog quantum simulation",
     "authors": "Lukas Homeier, Christian Schweizer, Monika Aidelsburger, Arkady Fedorov, Fabian Grusdt",
     "journal": "Phys. Rev. B",
     "volume": "104",
@@ -790,7 +790,7 @@
   {
     "id": "schweizer-2019-floquet-approach-to",
     "year": 2019,
-    "title": "Floquet approach to Z2 lattice gauge theories with ultracold atoms in optical lattices",
+    "title": "Floquet approach to Z_{2} lattice gauge theories with ultracold atoms in optical lattices",
     "authors": "Christian Schweizer, Fabian Grusdt, Moritz Berngruber, Luca Barbiero, Eugene Demler, Nathan Goldman, Immanuel Bloch, Monika Aidelsburger",
     "journal": "Nature Physics",
     "volume": "15",
@@ -826,7 +826,7 @@
   {
     "id": "barbiero-2019-coupling-ultracold-matter",
     "year": 2019,
-    "title": "Coupling ultracold matter to dynamical gauge fields in optical lattices: From flux-attachment to Z2 lattice gauge theories",
+    "title": "Coupling ultracold matter to dynamical gauge fields in optical lattices: From flux-attachment to Z_{2} lattice gauge theories",
     "authors": "L. Barbiero, C. Schweizer, M. Aidelsburger, E. Demler, N. Goldman, F. Grusdt",
     "journal": "Science Advances",
     "volume": "5",

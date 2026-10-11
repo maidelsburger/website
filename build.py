@@ -25,6 +25,16 @@ def pretty_date(s):
         return s
 
 
+def supsub(text):
+    """Render ^{...} as superscript and _{...} as subscript, escaping everything else."""
+    import re
+    from markupsafe import Markup, escape
+    t = str(escape(text))
+    t = re.sub(r"\^\{([^}]+)\}", r"<sup>\1</sup>", t)
+    t = re.sub(r"_\{([^}]+)\}", r"<sub>\1</sub>", t)
+    return Markup(t)
+
+
 def obfuscate(email):
     """Display form of an email: replaces @ with (at) to slow down scrapers."""
     return email.replace("@", " (at) ")
@@ -89,6 +99,7 @@ def build():
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=select_autoescape(["html"]))
     env.filters["pretty_date"] = pretty_date
     env.filters["obfuscate"] = obfuscate
+    env.filters["supsub"] = supsub
     common = dict(site=site, research=research, research_by_id=research_by_id,
                   people_by_id=people_by_id, year=datetime.date.today().year)
 

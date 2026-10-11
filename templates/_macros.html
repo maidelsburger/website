@@ -18,7 +18,7 @@
 <article class="pub" id="{{ p.id }}">
   {% if show_image %}<div class="pub-img">{{ img(p.image, p.title, 'thumb', 'static/img/placeholder-square.svg') }}</div>{% endif %}
   <div class="pub-body">
-    <h3 class="pub-title">{% if p.url or p.doi or p.arxiv %}<a href="{{ p.url or ('https://doi.org/' ~ p.doi if p.doi else 'https://arxiv.org/abs/' ~ p.arxiv) }}" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+    <h3 class="pub-title">{% if p.url or p.doi or p.arxiv %}<a href="{{ p.url or ('https://doi.org/' ~ p.doi if p.doi else 'https://arxiv.org/abs/' ~ p.arxiv) }}" rel="noopener">{{ p.title | supsub }}</a>{% else %}{{ p.title | supsub }}{% endif %}</h3>
     <p class="pub-authors">{{ p.authors }}</p>
     <p class="pub-ref">{% if p.journal %}<em>{{ p.journal }}</em>{% if p.volume %} <strong>{{ p.volume }}</strong>{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %} ({{ p.year }}){% elif p.arxiv %}arXiv:{{ p.arxiv }} ({{ p.year }}){% else %}({{ p.year }}){% endif %}</p>
     <p class="pub-links">
