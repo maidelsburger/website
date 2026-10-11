@@ -1056,7 +1056,8 @@
       "role": "Master student",
       "projects": [
         "yb-hybrid"
-      ]
+      ],
+      "now": "Master student, MPQ"
     },
     {
       "name": "Daniel Adler",
@@ -1072,7 +1073,8 @@
       "projects": [
         "yb-hybrid"
       ],
-      "now": "PhD student, MPQ"
+      "now": "PhD student, MPQ",
+      "link": "https://www.quantum-munich.de/person/137605"
     },
     {
       "name": "Dalila Robledo",
@@ -1086,7 +1088,9 @@
       "role": "Master student",
       "projects": [
         "yb-hybrid"
-      ]
+      ],
+      "now": "PhD student, Quantum Gases group (Tarruell), ICFO",
+      "link": "https://www.icfo.eu/about-icfo/people/directory/?id=2705"
     },
     {
       "name": "Lin Qi",
