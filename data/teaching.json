@@ -5,35 +5,35 @@
       "semester": "SoSe 2025",
       "type": "Lecture",
       "title": "Quantum computing and quantum simulation with atoms",
-      "description": "Applications of ultracold neutral atoms for quantum technologies. For Master students and IMPRS-QST students.",
+      "description": "This course covers applications of ultracold neutral atoms for quantum technologies, with the main focus on quantum simulation and quantum computation. Atoms provide many opportunities for the realization of high-fidelity qubits across different energy scales, ranging from the microwave to the optical domain.",
       "link": ""
     },
     {
       "semester": "ongoing",
       "type": "Lab course",
       "title": "Laser cooling of rubidium atoms in a magneto-optical trap",
-      "description": "Advanced practical course open to Master and Bachelor physics students.",
+      "description": "Practical lab course within the Master's Program Quantum Science & Technology, open to all Physics Master and Bachelor students.",
       "link": ""
     },
     {
       "semester": "WS 2024/25",
       "type": "Lecture",
       "title": "Quantum Optics",
-      "description": "For Master students from TU and LMU, plus IMPRS-QST students.",
+      "description": "Course within the Master's Program Quantum Science & Technology, open to all Physics Master students from TU and LMU, as well as IMPRS-QST students.",
       "link": ""
     },
     {
       "semester": "SoSe 2023",
       "type": "Lecture",
       "title": "Quantum computing and quantum simulation with atoms",
-      "description": "",
+      "description": "This course covers applications of ultracold neutral atoms for quantum technologies, with the main focus on quantum simulation and quantum computation. Atoms provide many opportunities for the realization of high-fidelity qubits across different energy scales, ranging from the microwave to the optical domain.",
       "link": ""
     },
     {
       "semester": "WS 2022/23",
       "type": "Lecture",
       "title": "Experimental Techniques in Quantum Optics",
-      "description": "",
+      "description": "Course within the Master's Program Quantum Science & Technology, open to all Physics Master students from TU and LMU, as well as IMPRS-QST students.",
       "link": ""
     }
   ]
