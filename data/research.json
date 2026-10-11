@@ -146,7 +146,7 @@
     "id": "theory",
     "title": "Theory collaborations",
     "short": "Theory",
-    "image": "assets/research/theory.jpg",
+    "image": "assets/research/theory.svg",
     "summary": "Alongside our experiments we collaborate closely with theory groups on quantum simulation, lattice gauge theories, topological phases and out-of-equilibrium dynamics.",
     "body": [
       "This page collects joint theory works and proposals that are not tied to one specific experimental platform in the lab."

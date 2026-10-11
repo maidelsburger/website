@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs>
+<radialGradient id="bg" cx="46%" cy="40%" r="80%">
+<stop offset="0%" stop-color="#361313"/><stop offset="55%" stop-color="#221010"/><stop offset="100%" stop-color="#150a0a"/>
+</radialGradient>
+<radialGradient id="atom" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#ffd9c9" stop-opacity=".95"/><stop offset="45%" stop-color="#d96a4e" stop-opacity=".6"/><stop offset="100%" stop-color="#8C1515" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="atomdim" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#e8a08c" stop-opacity=".7"/><stop offset="50%" stop-color="#a34434" stop-opacity=".35"/><stop offset="100%" stop-color="#8C1515" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="flux" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#ffb871"/><stop offset="100%" stop-color="#ff6a4d"/>
+</linearGradient>
+</defs>
+<rect width="1200" height="800" fill="url(#bg)"/>
+
+<!-- lattice links -->
+<g stroke="#8C1515" stroke-width="2" opacity=".55">
+<path d="M150 150 H1050 M150 400 H1050 M150 650 H1050"/>
+<path d="M150 150 V650 M375 150 V650 M600 150 V650 M825 150 V650 M1050 150 V650"/>
+</g>
+<!-- wavefunction ripple across the lattice -->
+<path d="M110 540 C 250 420, 340 640, 480 520 S 740 380, 880 500 S 1080 600, 1140 520"
+      fill="none" stroke="#e8b09a" stroke-width="3" opacity=".35"/>
+
+<!-- highlighted plaquette with circulating flux -->
+<rect x="600" y="150" width="225" height="250" fill="url(#flux)" opacity=".12"/>
+<g fill="none" stroke="url(#flux)" stroke-width="7" stroke-linecap="round">
+<path d="M 760 230 A 58 58 0 1 1 672 240"/>
+</g>
+<path d="M 668 212 L 666 248 L 696 232 Z" fill="#ffb871"/>
+
+<!-- atoms on lattice sites -->
+<g>
+<circle cx="150" cy="150" r="34" fill="url(#atomdim)"/><circle cx="375" cy="150" r="42" fill="url(#atom)"/>
+<circle cx="600" cy="150" r="36" fill="url(#atom)"/><circle cx="825" cy="150" r="44" fill="url(#atom)"/>
+<circle cx="1050" cy="150" r="32" fill="url(#atomdim)"/>
+<circle cx="150" cy="400" r="44" fill="url(#atom)"/><circle cx="375" cy="400" r="30" fill="url(#atomdim)"/>
+<circle cx="600" cy="400" r="46" fill="url(#atom)"/><circle cx="825" cy="400" r="38" fill="url(#atom)"/>
+<circle cx="1050" cy="400" r="42" fill="url(#atomdim)"/>
+<circle cx="150" cy="650" r="30" fill="url(#atomdim)"/><circle cx="375" cy="650" r="44" fill="url(#atom)"/>
+<circle cx="600" cy="650" r="34" fill="url(#atomdim)"/><circle cx="825" cy="650" r="40" fill="url(#atom)"/>
+<circle cx="1050" cy="650" r="36" fill="url(#atom)"/>
+</g>
+</svg>
