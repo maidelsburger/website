@@ -8,7 +8,10 @@
 {% if fig %}<img class="fund-fig" src="{{ rel }}{{ fig }}" alt="{{ p.name }}">{% endif %}
 {% for par in p.paragraphs %}<p>{{ par }}</p>{% endfor %}
 {% if p.partners %}<h2>Partners</h2><p>{{ p.partners }}</p>{% endif %}
-{% if p.funding_note %}<h2>Funding</h2><p>{{ p.funding_note }}</p>{% endif %}
+{% if p.funding_note or p.funders %}<h2>Funding</h2>
+{% if p.funding_note %}<p>{{ p.funding_note }}</p>{% endif %}
+{% if p.funders %}<p class="funder-logos">{% for a in p.funders %}<img src="{{ rel }}{{ a.logo }}" alt="{{ a.name }}" title="{{ a.name }}" loading="lazy">{% endfor %}</p>{% endif %}
+{% endif %}
 {% if p.url or p.links %}
 <h2>Links</h2>
 <p class="refs">

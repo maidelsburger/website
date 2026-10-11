@@ -18,7 +18,13 @@
       ],
       "teaser": "DigiAnaQsim aims to make quantum simulators more powerful, flexible, and useful for understanding complex quantum systems.",
       "imagefile": "assets/funding/digianaqsim-icon.jpg",
-      "funding_note": "The project is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – project number 583931419."
+      "funding_note": "The project is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – project number 583931419.",
+      "funders": [
+        {
+          "logo": "assets/funding/agencies/dfg.png",
+          "name": "Deutsche Forschungsgemeinschaft (DFG)"
+        }
+      ]
     },
     {
       "name": "QUASIMODO",
@@ -42,7 +48,13 @@
       "teaser": "QUASIMODO studies new forms of matter using \"building blocks\" made from multilevel ultracold atoms such as dysprosium (Dy), potassium (K), and ytterbium (Yb).",
       "imagefile": "assets/funding/quasimodo.jpg",
       "partners": "QUASIMODO is a QuantERA project that brings together six leading research groups across Europe: the University of Konstanz, the Max Planck Institute of Quantum Optics, Vilnius University, ICFO Barcelona, IF PAN Warsaw, and LKB Paris.",
-      "funding_note": "The project is funded within the QuantERA programme by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – project number 583931725."
+      "funding_note": "The project is funded within the QuantERA programme by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – project number 583931725.",
+      "funders": [
+        {
+          "logo": "assets/funding/agencies/dfg.png",
+          "name": "Deutsche Forschungsgemeinschaft (DFG)"
+        }
+      ]
     },
     {
       "name": "ISF-DFG",
@@ -53,7 +65,13 @@
       "completed": false,
       "teaser": "Joint Israel Science Foundation / DFG project on extremely sub-wavelength atomic arrays with Yb atoms in optical lattices, in collaboration with the Hebrew University of Jerusalem.",
       "slug": "",
-      "paragraphs": []
+      "paragraphs": [],
+      "funders": [
+        {
+          "logo": "assets/funding/agencies/dfg.png",
+          "name": "Deutsche Forschungsgemeinschaft (DFG)"
+        }
+      ]
     },
     {
       "name": "FOR5919",
@@ -68,7 +86,13 @@
       ],
       "teaser": "“Machine Learning for Complex Quantum States” is a DFG-funded Research Unit (FOR 5919), coordinated by Dr. Markus Schmitt (University of Regensburg).",
       "imagefile": "assets/funding/for5919-machine-learning-for-complex-qua.jpg",
-      "funding_note": "This project is funded via the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) via Research Unit FOR5919 under project number 550495627."
+      "funding_note": "This project is funded via the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) via Research Unit FOR5919 under project number 550495627.",
+      "funders": [
+        {
+          "logo": "assets/funding/agencies/dfg.png",
+          "name": "Deutsche Forschungsgemeinschaft (DFG)"
+        }
+      ]
     },
     {
       "name": "FOR5688",
@@ -87,7 +111,13 @@
       ],
       "teaser": "“Driven-dissipative many-body systems of ultracold atoms” is a DFG-funded Research Unit (FOR 5688), developing dissipation into a tool for engineering complex low-entropy many-body states.",
       "imagefile": "assets/funding/for5688-driven-dissipative-many-body-sys.jpg",
-      "funding_note": "This project is funded via the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) via Research Unit FOR5688 under project number 521530974."
+      "funding_note": "This project is funded via the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) via Research Unit FOR5688 under project number 521530974.",
+      "funders": [
+        {
+          "logo": "assets/funding/agencies/dfg.png",
+          "name": "Deutsche Forschungsgemeinschaft (DFG)"
+        }
+      ]
     },
     {
       "name": "FOR5522",
@@ -102,7 +132,13 @@
       ],
       "teaser": "“Quantum thermalization, localization, and constrained dynamics with interacting ultracold atoms” is a DFG-funded Research Unit (FOR 5522).",
       "imagefile": "assets/funding/for5522-quantum-thermalization-localizat.jpg",
-      "funding_note": "This project is funded via the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) via Research Unit FOR5522 under project number 499180199."
+      "funding_note": "This project is funded via the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) via Research Unit FOR5522 under project number 499180199.",
+      "funders": [
+        {
+          "logo": "assets/funding/agencies/dfg.png",
+          "name": "Deutsche Forschungsgemeinschaft (DFG)"
+        }
+      ]
     },
     {
       "name": "PASQuanS2.1",
@@ -124,7 +160,13 @@
       ],
       "teaser": "“Programmable Atomic Large-Scale Quantum Simulation” (PASQuanS 2.1) is an EU Quantum Flagship project advancing the development of programmable quantum simulators.",
       "imagefile": "assets/funding/pasquans2-1-programmable-atomic-large-sc.jpg",
-      "funding_note": "This project is funded by the European Research Council (ERC) under the Horizon Europe programme HORIZON-CL4-2022-QUANTUM-02-SGA via the project 101113690 (PASQuanS2.1)."
+      "funding_note": "This project is funded by the European Research Council (ERC) under the Horizon Europe programme HORIZON-CL4-2022-QUANTUM-02-SGA via the project 101113690 (PASQuanS2.1).",
+      "funders": [
+        {
+          "logo": "assets/funding/agencies/eu-funded.png",
+          "name": "Funded by the European Union"
+        }
+      ]
     },
     {
       "name": "DYNAMITE",
@@ -144,7 +186,13 @@
         "This project has received funding from the European Union's Horizon 2020 Research and Innovation Programme under Grant Agreement no. 731473 and 101017733."
       ],
       "teaser": "“Next Generation Quantum Simulators: From Dynamical Gauge Fields to Lattice Gauge Theory” (DYNAMITE) developed quantum simulators for complex many-body systems, from condensed matter to high-energy physics.",
-      "imagefile": "assets/funding/dynamite-next-generation-quantum-simulat.jpg"
+      "imagefile": "assets/funding/dynamite-next-generation-quantum-simulat.jpg",
+      "funders": [
+        {
+          "logo": "assets/funding/agencies/dfg.png",
+          "name": "Deutsche Forschungsgemeinschaft (DFG)"
+        }
+      ]
     },
     {
       "name": "Munich Quantum Valley",
@@ -160,7 +208,13 @@
       ],
       "teaser": "Within the Munich Quantum Valley initiative, the “Trapped Atom Quantum Computer” (TAQC) project develops neutral atoms in optical lattices into a scalable quantum-computing platform.",
       "imagefile": "assets/funding/munich-quantum-valley-trapped-atom-quant.jpg",
-      "funding_note": "This project is funded via the Initiative \"Munich Quantum Valley\" from the State Ministry for Science and the Arts as part of the High-Tech Agenda Plus of the Bavarian State Government"
+      "funding_note": "This project is funded via the Initiative \"Munich Quantum Valley\" from the State Ministry for Science and the Arts as part of the High-Tech Agenda Plus of the Bavarian State Government",
+      "funders": [
+        {
+          "logo": "assets/funding/agencies/hta.png",
+          "name": "Hightech Agenda Bavaria"
+        }
+      ]
     },
     {
       "name": "MCQST",
@@ -176,7 +230,13 @@
         "We acknowledge funding from the Deutsche Forschungsgemeinschaft (DFG) under Germany’s Excellence Strategy – EXC-2111 – 390814868"
       ],
       "teaser": "The cluster of excellence “Munich Center for Quantum Science and Technology” (MCQST) brings together seven research units across physics, mathematics, computer science, chemistry and materials science.",
-      "imagefile": "assets/funding/mcqst-munich-center-for-quantum-science.jpg"
+      "imagefile": "assets/funding/mcqst-munich-center-for-quantum-science.jpg",
+      "funders": [
+        {
+          "logo": "assets/funding/agencies/dfg.png",
+          "name": "Deutsche Forschungsgemeinschaft (DFG)"
+        }
+      ]
     },
     {
       "name": "FermiQP",
@@ -191,7 +251,13 @@
       ],
       "teaser": "The “Fermion Quantum Processor” (FermiQP) joint project aimed at a new scalable hybrid platform combining analog quantum simulation and digital quantum computing with fermionic atoms.",
       "imagefile": "assets/funding/fermiqp-joint-project-on-fermion-quantum.jpg",
-      "funding_note": "This project is funded via the German Federal Ministry of Education and Research via the funding program quantum technologies – from basic research to market (contract number 13N15895 FermiQP)"
+      "funding_note": "This project is funded via the German Federal Ministry of Education and Research via the funding program quantum technologies – from basic research to market (contract number 13N15895 FermiQP)",
+      "funders": [
+        {
+          "logo": "assets/funding/agencies/bmbf.png",
+          "name": "German Federal Ministry of Education and Research (BMBF)"
+        }
+      ]
     },
     {
       "name": "LaGaTYb",
@@ -206,7 +272,13 @@
       ],
       "teaser": "The ERC project “Exploring Lattice Gauge Theories with Fermionic Ytterbium Atoms” (LaGaTYb) developed quantum simulators for gauge theories, which connect physics from high-energy to condensed matter.",
       "imagefile": "assets/funding/lagatyb-exploring-lattice-gauge-theories.jpg",
-      "funding_note": "This project is funded via the European Union’s Horizon 2020 research and innovation program (grant agreement No. 803047)"
+      "funding_note": "This project is funded via the European Union’s Horizon 2020 research and innovation program (grant agreement No. 803047)",
+      "funders": [
+        {
+          "logo": "assets/funding/agencies/eu-funded.png",
+          "name": "Funded by the European Union"
+        }
+      ]
     },
     {
       "name": "FOR2414",
@@ -226,7 +298,13 @@
         "This project has received funding from the Deutsche Forschungsgemeinschaft (DFG) via Research Unit FOR 2414 under project number 277974659."
       ],
       "teaser": "“Artificial Gauge Fields and Interacting Topological Phases in Ultracold Atoms” is a DFG-funded Research Unit (FOR 2414). Gauge fields can dramatically change the properties of a material.",
-      "imagefile": "assets/funding/for2414-artificial-gauge-fields-and-inte.jpg"
+      "imagefile": "assets/funding/for2414-artificial-gauge-fields-and-inte.jpg",
+      "funders": [
+        {
+          "logo": "assets/funding/agencies/dfg.png",
+          "name": "Deutsche Forschungsgemeinschaft (DFG)"
+        }
+      ]
     }
   ],
   "acknowledgements": [
