@@ -37,10 +37,18 @@
   </div>
   <aside class="topic-side">
     {% if r.team_photo %}<figure class="team-photo">{{ m.img(r.team_photo, r.title ~ ' team', 'thumb') }}{% if r.team_photo_caption %}<figcaption class="muted">{{ r.team_photo_caption }}</figcaption>{% endif %}</figure>{% endif %}
+    {% if topic_people %}
     <h2>Team</h2>
     <ul class="plain team-list">
     {% for mem in topic_people %}<li>{% if mem.group_page is not defined or mem.group_page %}<a href="{{ rel }}group.html#{{ mem.id }}">{{ mem.name }}</a>{% else %}{{ mem.name }}{% endif %}{% if mem.role %} <span class="muted">· {{ mem.role }}</span>{% endif %}</li>{% endfor %}
     </ul>
+    {% endif %}
+    {% if r.collaborators %}
+    <h2>Main collaborators</h2>
+    <ul class="plain team-list">
+    {% for c in r.collaborators %}<li>{% if c.link %}<a href="{{ c.link }}" rel="noopener">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% if c.affiliation %} <span class="muted">· {{ c.affiliation }}</span>{% endif %}</li>{% endfor %}
+    </ul>
+    {% endif %}
     {% if topic_alumni %}<h3>Alumni</h3><ul class="plain alumni-list">{% for a in topic_alumni %}<li>{% if a.link %}<a href="{{ a.link }}" rel="noopener">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}{% if a.role %} <span class="muted">· {{ a.role }}</span>{% endif %}</li>{% endfor %}</ul>{% endif %}
   </aside>
 </div>
