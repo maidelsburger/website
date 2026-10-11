@@ -11,7 +11,7 @@
 {% if alumni %}
 <h2 class="cat">Alumni</h2>
 <ul class="alumni">
-{% for a in alumni %}<li><strong>{{ a.name }}</strong> — {{ a.role }}{% if a.projects %} ({% for t in a.projects %}<a href="{{ rel }}research/{{ t }}.html">{{ research_by_id[t].short }}</a>{% if not loop.last %}, {% endif %}{% endfor %}){% endif %}{% if a.left %}, until {{ a.left }}{% endif %}{% if a.now %} · now: {% if a.link %}<a href="{{ a.link }}" rel="noopener">{{ a.now }}</a>{% else %}{{ a.now }}{% endif %}{% endif %}</li>{% endfor %}
+{% for a in alumni %}<li><strong>{{ a.name }}</strong> — {{ a.role }}{% if a.projects %} ({% for t in a.projects %}<a href="{{ rel }}research/{{ t }}.html">{{ research_by_id[t].short }}</a>{% if not loop.last %}, {% endif %}{% endfor %}){% endif %}</li>{% endfor %}
 </ul>
 {% endif %}
 {% endblock %}
