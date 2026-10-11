@@ -9,9 +9,9 @@
       "affiliation": "LMU",
       "email": "monika.aidelsburger@mpq.mpg.de",
       "phone": "+49 89 2180-6143",
-      "office": "H229",
+      "office": "H229, LMU",
       "lab_phone": "+49 89 32905-199",
-      "lab": "MPQ office A 0.20",
+      "lab": "MPQ office A 0.20, LMU",
       "projects": [],
       "photo": "assets/people/monika-aidelsburger.jpg",
       "education": "",
@@ -22,7 +22,11 @@
       "google_scholar": "",
       "orcid": "",
       "website": "",
-      "bio": "Monika Aidelsburger is professor of experimental physics at LMU Munich and Max Planck Fellow at MPQ."
+      "bio": "Monika Aidelsburger is professor of experimental physics at LMU Munich and Max Planck Fellow at MPQ.",
+      "contact_lines": [
+        "+49 89 2180-6143 (Office H229, LMU)",
+        "+49 89 32905-199 (Office A 0.20, MPQ)"
+      ]
     },
     {
       "id": "christoph-braun",
@@ -33,9 +37,9 @@
       "affiliation": "LMU",
       "email": "ch.braun@physik.uni-muenchen.de",
       "phone": "+49 89 2180-6134",
-      "office": "H230",
+      "office": "H230, LMU",
       "lab_phone": "+49 89 2180-6135",
-      "lab": "H223",
+      "lab": "H223, LMU",
       "projects": [
         "k-hexagonal",
         "ryd-yb"
@@ -60,9 +64,9 @@
       "affiliation": "MPQ",
       "email": "moritz.berngruber@mpq.mpg.de",
       "phone": "+49 89 32905-552",
-      "office": "A 0.22",
+      "office": "A 0.22, MPQ",
       "lab_phone": "",
-      "lab": "C 1.37",
+      "lab": "C 1.37, MPQ",
       "projects": [
         "ydfc"
       ],
@@ -86,9 +90,9 @@
       "affiliation": "MPQ",
       "email": "fan.jia@mpq.mpg.de",
       "phone": "+49 89 32905-552",
-      "office": "A 0.22",
+      "office": "A 0.22, MPQ",
       "lab_phone": "",
-      "lab": "C 1.37",
+      "lab": "C 1.37, MPQ",
       "projects": [
         "ydfc"
       ],
@@ -112,9 +116,9 @@
       "affiliation": "LMU",
       "email": "n.liebster@physik.uni-muenchen.de",
       "phone": "+49 89 2180-6119",
-      "office": "H140",
+      "office": "H140, LMU",
       "lab_phone": "+49 89 2180-6127",
-      "lab": "H127",
+      "lab": "H127, LMU",
       "projects": [
         "cs-microscope"
       ],
@@ -138,9 +142,9 @@
       "affiliation": "LMU",
       "email": "johannes.arceri@physik.uni-muenchen.de",
       "phone": "+49 89 2180-6134",
-      "office": "H230",
+      "office": "H230, LMU",
       "lab_phone": "+49 89 2180-6135",
-      "lab": "H223",
+      "lab": "H223, LMU",
       "projects": [
         "k-hexagonal"
       ],
@@ -164,9 +168,9 @@
       "affiliation": "LMU",
       "email": "mo.hornung@physik.uni-muenchen.de",
       "phone": "+49 89 2180-6134",
-      "office": "H230",
+      "office": "H230, LMU",
       "lab_phone": "+49 89 2180-6135",
-      "lab": "H223",
+      "lab": "H223, LMU",
       "projects": [
         "k-hexagonal"
       ],
@@ -190,9 +194,9 @@
       "affiliation": "LMU",
       "email": "simon.karch@physik.uni-muenchen.de",
       "phone": "+49 89 2180-6119",
-      "office": "H140",
+      "office": "H140, LMU",
       "lab_phone": "+49 89 2180-6127",
-      "lab": "H127",
+      "lab": "H127, LMU",
       "projects": [
         "cs-microscope"
       ],
@@ -216,9 +220,9 @@
       "affiliation": "LMU",
       "email": "fabian.maier@physik.uni-muenchen.de",
       "phone": "+49 89 2180-3970",
-      "office": "H102",
+      "office": "H102, LMU",
       "lab_phone": "+49 89 2180-6128",
-      "lab": "H122",
+      "lab": "H122, LMU",
       "projects": [
         "yb-hybrid"
       ],
@@ -242,9 +246,9 @@
       "affiliation": "LMU",
       "email": "irene.prieto@physik.uni-muenchen.de",
       "phone": "+49 89 2180-6133",
-      "office": "H134",
+      "office": "H134, LMU",
       "lab_phone": "+49 89 2180-6127",
-      "lab": "H127",
+      "lab": "H127, LMU",
       "projects": [
         "cs-microscope"
       ],
@@ -268,9 +272,9 @@
       "affiliation": "MPQ",
       "email": "kunal.singh@mpq.mpg.de",
       "phone": "+49 89 32905-145",
-      "office": "A 0.26",
+      "office": "A 0.26, MPQ",
       "lab_phone": "",
-      "lab": "D 0.33",
+      "lab": "D 0.33, MPQ",
       "projects": [
         "ydfc"
       ],
@@ -294,9 +298,9 @@
       "affiliation": "LMU",
       "email": "re.villela@physik.uni-muenchen.de",
       "phone": "+49 89 2180-3970",
-      "office": "H102",
+      "office": "H102, LMU",
       "lab_phone": "+49 89 2180-6128",
-      "lab": "H122",
+      "lab": "H122, LMU",
       "projects": [
         "yb-hybrid"
       ],
@@ -320,9 +324,9 @@
       "affiliation": "LMU",
       "email": "yilong.yang@physik.uni-muenchen.de",
       "phone": "+49 89 2180-6137",
-      "office": "H232",
+      "office": "H232, LMU",
       "lab_phone": "+49 89 2180-6132",
-      "lab": "H216",
+      "lab": "H216, LMU",
       "projects": [
         "ryd-yb"
       ],
@@ -346,9 +350,9 @@
       "affiliation": "MPQ",
       "email": "zhichao.yuan@mpq.mpg.de",
       "phone": "+49 89 32905-551",
-      "office": "A 0.24",
+      "office": "A 0.24, MPQ",
       "lab_phone": "",
-      "lab": "D 0.33",
+      "lab": "D 0.33, MPQ",
       "projects": [
         "ydfc"
       ],
@@ -372,9 +376,9 @@
       "affiliation": "LMU",
       "email": "amin.zamani@physik.uni-muenchen.de",
       "phone": "+49 89 2180-6137",
-      "office": "H232",
+      "office": "H232, LMU",
       "lab_phone": "+49 89 2180-6132",
-      "lab": "H216",
+      "lab": "H216, LMU",
       "projects": [
         "ryd-yb"
       ],
@@ -398,9 +402,9 @@
       "affiliation": "LMU",
       "email": "er.zu@physik.uni-muenchen.de",
       "phone": "+49 89 2180-3970",
-      "office": "H102",
+      "office": "H102, LMU",
       "lab_phone": "+49 89 2180-6128",
-      "lab": "H122",
+      "lab": "H122, LMU",
       "projects": [
         "yb-hybrid"
       ],
@@ -424,9 +428,9 @@
       "affiliation": "LMU",
       "email": "",
       "phone": "+49 89 2180-6125",
-      "office": "H135",
+      "office": "H135, LMU",
       "lab_phone": "+49 89 2180-6128",
-      "lab": "H122",
+      "lab": "H122, LMU",
       "projects": [
         "yb-hybrid"
       ],
@@ -450,7 +454,7 @@
       "affiliation": "LMU",
       "email": "m.markley@physik.uni-muenchen.de",
       "phone": "+49 89 2180-6137",
-      "office": "H232",
+      "office": "H232, LMU",
       "lab_phone": "",
       "lab": "",
       "projects": [
@@ -476,7 +480,7 @@
       "affiliation": "MPQ",
       "email": "krishnabalaji.sogathur@mpq.mpg.de",
       "phone": "+49 89 2390-5670",
-      "office": "A 0.28",
+      "office": "A 0.28, MPQ",
       "lab_phone": "",
       "lab": "",
       "projects": [],
@@ -526,9 +530,9 @@
       "affiliation": "LMU",
       "email": "n.abzaoui@physik.uni-muenchen.de",
       "phone": "+49 89 2180-6137",
-      "office": "H232",
+      "office": "H232, LMU",
       "lab_phone": "+49 89 2180-6132",
-      "lab": "H216",
+      "lab": "H216, LMU",
       "projects": [
         "ryd-yb"
       ],
@@ -552,9 +556,9 @@
       "affiliation": "LMU",
       "email": "s.mollo@physik.uni-muenchen.de",
       "phone": "+49 89 2180-6119",
-      "office": "H140",
+      "office": "H140, LMU",
       "lab_phone": "+49 89 2180-6127",
-      "lab": "H127",
+      "lab": "H127, LMU",
       "projects": [
         "cs-microscope"
       ],

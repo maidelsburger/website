@@ -40,8 +40,10 @@
     {% if m.projects %}<p class="tags">{% for t in m.projects %}<a class="tag" href="{{ rel }}research/{{ t }}.html">{{ research_by_id[t].short }}</a>{% endfor %}</p>{% endif %}
     <ul class="contact-list">
       {% if m.email %}<li><a href="mailto:{{ m.email }}">{{ m.email | obfuscate }}</a></li>{% endif %}
+      {% if m.contact_lines %}{% for line in m.contact_lines %}<li>{{ line }}</li>{% endfor %}{% else %}
       {% if m.phone or m.office %}<li>{% if m.phone %}{{ m.phone }}{% endif %}{% if m.office %} (Office {{ m.office }}){% endif %}</li>{% endif %}
       {% if m.lab_phone or m.lab %}<li>{% if m.lab_phone %}{{ m.lab_phone }}{% endif %}{% if m.lab %} (Lab {{ m.lab }}){% endif %}</li>{% endif %}
+      {% endif %}
     </ul>
     <p class="person-links">
       {% if m.google_scholar %}<a href="{{ m.google_scholar }}" rel="noopener">Scholar</a>{% endif %}
