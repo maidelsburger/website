@@ -757,11 +757,12 @@
         "ryd-yb"
       ],
       "left": "2026",
-      "now": "",
+      "now": "Oxford Ionics",
       "roles": {
         "cs-microscope": "Bachelor student",
         "ryd-yb": "PhD student"
-      }
+      },
+      "link": "https://www.oxionics.com/"
     },
     {
       "id": "cesar-cabrera",
