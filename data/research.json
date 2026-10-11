@@ -9,7 +9,9 @@
       "Alkaline-earth-like atoms such as ytterbium offer a rich internal structure, including a long-lived metastable clock state and SU(N)-symmetric interactions, which make them a versatile resource for quantum simulation of lattice gauge theories and multi-orbital physics.",
       "By combining a large-scale optical lattice with programmable optical tweezer arrays we aim at site-resolved preparation, control and detection of fermionic many-body states."
     ],
-    "location": "LMU"
+    "location": "LMU",
+    "team_photo": "assets/research/yb-team.jpg",
+    "team_photo_caption": "The Yb hybrid team"
   },
   {
     "id": "cs-microscope",
