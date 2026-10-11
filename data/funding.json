@@ -71,7 +71,7 @@
       "funding_note": "This project is funded via the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) via Research Unit FOR5919 under project number 550495627."
     },
     {
-      "name": "FOR5688: Driven-dissipative many-body systems of ultracold atoms",
+      "name": "FOR5688",
       "description": "This Research Unit is dedicated towards developing a better understanding of driven-dissipative quantum many-body systems with the goal of using dissipation as a novel tool for engineering complex low-entropy many-body states via cooling or projective measurements.",
       "url": "https://www.tu.berlin/quantum/for-5688/for-5688",
       "links": [],
@@ -85,12 +85,12 @@
         "Ultracold atoms offer many opportunities. They are clean and can be manipulated and probed with high resolution both in space and time. Their high degree of isolation makes them excellent quantum simulators for closed systems. In close collaboration between theory and experiment, we will extend, explore, and exploit various possibilities for the controlled engineering of dissipation in these systems.",
         "More information about our Research Unit, its members and planned events can be found on our website"
       ],
-      "teaser": "This Research Unit is dedicated towards developing a better understanding of driven-dissipative quantum many-body systems with the goal of using dissipation as a novel tool for…",
+      "teaser": "“Driven-dissipative many-body systems of ultracold atoms” is a DFG-funded Research Unit (FOR 5688), dedicated to developing a better understanding of driven-dissipative quantum many-body systems, using dissipation as a novel tool for engineering complex low-entropy many-body states.",
       "imagefile": "assets/funding/for5688-driven-dissipative-many-body-sys.jpg",
       "funding_note": "This project is funded via the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) via Research Unit FOR5688 under project number 521530974."
     },
     {
-      "name": "FOR5522: Quantum thermalization, localization, and constrained dynamics with interacting ultracold atoms",
+      "name": "FOR5522",
       "description": "More information about our Research Unit, its members and planned events can be found on our website.",
       "url": "https://www.uni-goettingen.de/en/675761.html",
       "links": [],
@@ -100,7 +100,7 @@
       "paragraphs": [
         "More information about our Research Unit, its members and planned events can be found on our website."
       ],
-      "teaser": "DFG Research Unit on quantum thermalization, localization, and constrained dynamics with interacting ultracold atoms.",
+      "teaser": "“Quantum thermalization, localization, and constrained dynamics with interacting ultracold atoms” is a DFG-funded Research Unit (FOR 5522).",
       "imagefile": "assets/funding/for5522-quantum-thermalization-localizat.jpg",
       "funding_note": "This project is funded via the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) via Research Unit FOR5522 under project number 499180199."
     },
@@ -209,7 +209,7 @@
       "funding_note": "This project is funded via the European Union’s Horizon 2020 research and innovation program (grant agreement No. 803047)"
     },
     {
-      "name": "FOR2414: Artificial Gauge Fields and Interacting Topological Phases in Ultracold Atoms",
+      "name": "FOR2414",
       "description": "// Gauge fields can dramatically change the properties of a material. A seminal example is the one of electrons subjected to an external magnetic field, leading to the quantum Hall effect. Here, a variety of exotic quantum phenomena arise, where topology plays a fundamental role: from the existence of topological invariants and topologically protected edge currents to the emergence of quasiparticles with exotic…",
       "url": "https://www.uni-frankfurt.de/84540498/DFG_Research",
       "links": [
@@ -225,7 +225,7 @@
         "Gauge fields can dramatically change the properties of a material. A seminal example is the one of electrons subjected to an external magnetic field, leading to the quantum Hall effect. Here, a variety of exotic quantum phenomena arise, where topology plays a fundamental role: from the existence of topological invariants and topologically protected edge currents to the emergence of quasiparticles with exotic braiding statistics. These fascinating effects are at the focus of current theoretical and experimental research. Within this Research Unit we are developing experimental techniques for quantum simulation of topological phases of matter including paradigmatic condensed matter Hamilonians, such as the Hofstadter and Haldane model. Moreover, we are investigating genuine out-of-equilibrium phases without any static analogue, so-called anomalous Floquet topological systems.More information about this Research Unit can be found on our website.",
         "This project has received funding from the Deutsche Forschungsgemeinschaft (DFG) via Research Unit FOR 2414 under project number 277974659."
       ],
-      "teaser": "Gauge fields can dramatically change the properties of a material.",
+      "teaser": "“Artificial Gauge Fields and Interacting Topological Phases in Ultracold Atoms” is a DFG-funded Research Unit (FOR 2414). Gauge fields can dramatically change the properties of a material.",
       "imagefile": "assets/funding/for2414-artificial-gauge-fields-and-inte.jpg"
     }
   ],
