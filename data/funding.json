@@ -198,7 +198,7 @@
       "description": "// Gauge theories establish a connection between seemingly different physical areas, ranging from high-energy to condensed matter physics. Very often gauge theories are difficult to study theoretically in particular in the strongly-interacting regime, where perturbative methods are not reliable. This motivates the search for alternative approaches using quantum simulation. Ultracold atoms in optical lattices have…",
       "url": "",
       "links": [],
-      "logo": "",
+      "logo": "assets/funding/lagatyb-icon.jpg",
       "completed": true,
       "slug": "lagatyb-exploring-lattice-gauge-theories",
       "paragraphs": [
@@ -218,7 +218,7 @@
           "url": "https://www.uni-frankfurt.de/84540498/DFG_Research_Unit_2414___DFG_Forschungsgruppe_2414"
         }
       ],
-      "logo": "",
+      "logo": "assets/funding/for2414-icon.jpg",
       "completed": true,
       "slug": "for2414-artificial-gauge-fields-and-inte",
       "paragraphs": [
