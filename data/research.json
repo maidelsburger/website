@@ -11,7 +11,7 @@
     ],
     "location": "LMU",
     "team_photo": "assets/research/yb-team.jpg",
-    "team_photo_caption": "The Yb hybrid team: Fabian, Aki (Er Zu), Monika and Michael (from left to right)",
+    "team_photo_caption": "Fabian, Aki (Er Zu), Monika and Michael (from left to right)",
     "sections": [
       {
         "heading": "Quantum simulation of lattice gauge theories",
@@ -144,7 +144,7 @@
     ],
     "location": "LMU",
     "team_photo": "assets/research/cs-team.jpg",
-    "team_photo_caption": "The Cs team: Simon, Monika, Irene and Nikolas (from left to right)",
+    "team_photo_caption": "Simon, Monika, Irene and Nikolas (from left to right)",
     "sections": [
       {
         "heading": "Towards computational quantum simulation",
@@ -259,7 +259,7 @@
     "location": "LMU",
     "teaser": "We are developing novel experimental techniques to study genuine out-of-equilibrium topological phases of matter in periodically-driven optical lattices.",
     "team_photo": "assets/research/k-team.jpg",
-    "team_photo_caption": "The K lattice team: Moritz, Christoph, Monika and Johannes (from left to right)",
+    "team_photo_caption": "Moritz, Christoph, Monika and Johannes (from left to right)",
     "sections": [
       {
         "heading": "Floquet topological phases & topological edge modes",
@@ -308,7 +308,7 @@
     ],
     "location": "LMU",
     "team_photo": "assets/research/ryd-yb-team.jpg",
-    "team_photo_caption": "The Ryd-Yb team. Back row: Amin, Yilong and Vincent; front row: Christoph, Monika and Lorenzo",
+    "team_photo_caption": "Back row: Amin, Yilong and Vincent; front row: Christoph, Monika and Lorenzo",
     "teaser": "Neutral-atom arrays are a key quantum-computing platform. Yb atoms offer high-fidelity detection via shelving and single-photon Rydberg excitations."
   },
   {
