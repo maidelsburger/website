@@ -4,7 +4,6 @@
 {% block content %}
 <p class="breadcrumb"><a href="{{ rel }}research.html">Research</a> › {{ r.title }}</p>
 <h1>{{ r.title }}</h1>
-{{ m.img(r.banner or r.image, r.title, 'banner') }}
 <div class="topic-layout">
   <div class="topic-main">
     <p class="lead">{{ r.summary }}</p>
@@ -14,7 +13,7 @@
     <h2>{{ sec.heading }}</h2>
     {% for sub in sec.subs %}
     {% if sub.title %}<h3>{{ sub.title }}</h3>{% endif %}
-    {% if sub.image %}<figure class="sub-fig{% if sub.wide %} wide{% endif %}"><img src="{{ rel }}{{ sub.image }}" alt="{{ sub.title or sec.heading }}" loading="lazy">{% if sub.caption %}<figcaption class="muted">{{ sub.caption|supsub }}</figcaption>{% endif %}</figure>{% endif %}
+    {% if sub.image %}<figure class="sub-fig{% if sub.wide %} wide{% endif %}{% if sub.full %} full{% endif %}"{% if sub.width %} style="max-width:{{ sub.width }}px"{% endif %}><img src="{{ rel }}{{ sub.image }}" alt="{{ sub.title or sec.heading }}" loading="lazy">{% if sub.caption %}<figcaption class="muted">{{ sub.caption|supsub }}</figcaption>{% endif %}</figure>{% endif %}
     {% for p in sub.paragraphs %}<p>{{ p }}</p>{% endfor %}
     {% if sub.links %}<p class="refs">{% for l in sub.links %}<a href="{{ l.url }}" rel="noopener">{{ l.label }}</a>{% if not loop.last %}<br>{% endif %}{% endfor %}</p>{% endif %}
     {% endfor %}

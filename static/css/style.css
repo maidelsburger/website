@@ -90,8 +90,6 @@ ul.plain { list-style: none; padding: 0; margin: 0; }
 .tag:hover { background: var(--accent); border-color: var(--accent); color: #fff; text-decoration: none; }
 .thumb { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--radius); background: var(--bg-alt); }
 .feature { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius); margin-bottom: 1.25rem; }
-.banner { width: 100vw; max-width: none; margin: .5rem calc(50% - 50vw) 1.75rem; height: clamp(120px, 13vw, 190px); object-fit: cover; object-position: center 35%; }
-.banner-group { height: clamp(180px, 20vw, 280px); object-position: center 58%; }
 .sub-fig { margin: 1.25rem 0; }
 .sub-fig img { width: 100%; height: auto; }
 .sub-fig figcaption { font-size: .85rem; margin-top: .4rem; }
@@ -209,5 +207,6 @@ table.courses { width: 100%; border-collapse: collapse; margin-top: 1.25rem; }
   .topic-main h2, .topic-main h3 { clear: both; }
   .sub-fig { float: right; clear: right; width: min(420px, 48%); margin: .3rem 0 1rem 1.6rem; }
   .sub-fig.wide { float: none; clear: both; width: auto; max-width: 540px; margin: 1.25rem auto; }
+  .sub-fig.full { float: none; clear: both; width: auto; max-width: none; margin: 1.25rem 0; }
   .news-full .feature { max-height: 400px; margin-left: auto; margin-right: auto; }
 }

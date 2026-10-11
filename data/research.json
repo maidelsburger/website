@@ -141,7 +141,7 @@
             ],
             "links": [],
             "image": "assets/research/cs-digital-analog.png",
-            "wide": true
+            "full": true
           },
           {
             "title": "Subsystem return probabilities",
@@ -157,7 +157,8 @@
             ],
             "image": "assets/research/cs-srp.png",
             "caption": "Illustration of the initial state |*{ψ}_{0}⟩ and time-evolved state |*{ψ}(*{t})⟩. The SRP measures the probability of finding the initial state bitstring of length *{N} in the time-evolved state snapshots.",
-            "wide": true
+            "wide": true,
+            "width": 440
           },
           {
             "title": "Arbitrary nearest-neighbor orbital operators",
