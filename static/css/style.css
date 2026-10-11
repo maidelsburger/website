@@ -204,6 +204,8 @@ table.courses { width: 100%; border-collapse: collapse; margin-top: 1.25rem; }
 /* funder (agency) logos on funding cards and project pages */
 .fund-agencies { display: flex; align-items: center; gap: 1.1rem; margin-top: .8rem; padding-top: .65rem; border-top: 1px solid var(--border); }
 .fund-agencies img { height: 28px; width: auto; max-width: 70%; object-fit: contain; }
+.fund-agencies img[src*="bmbf"] { height: 48px; }
+.funder-logos img[src*="bmbf"] { height: 72px; }
 .funder-logos { display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; }
 .funder-logos img { height: 46px; width: auto; max-width: 100%; object-fit: contain; }
 
