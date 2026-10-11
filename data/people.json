@@ -883,6 +883,72 @@
       ],
       "left": "2026",
       "now": ""
+    },
+    {
+      "id": "hemanth-srinivasan",
+      "name": "Hemanth Srinivasan",
+      "degree": "",
+      "role": "Research Assistant",
+      "projects": [
+        "ryd-yb"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "johannes-obermeyer",
+      "name": "Johannes Obermeyer",
+      "degree": "",
+      "role": "Master student",
+      "projects": [
+        "ryd-yb"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "marti-cladera-rossello",
+      "name": "Martí Cladera Rosselló",
+      "degree": "",
+      "role": "Master student",
+      "projects": [
+        "ryd-yb"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "leon-schubert",
+      "name": "Leon Schubert",
+      "degree": "",
+      "role": "Student assistant",
+      "projects": [
+        "ryd-yb"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "sascha-benz",
+      "name": "Sascha Benz",
+      "degree": "",
+      "role": "Student assistant",
+      "projects": [
+        "ryd-yb"
+      ],
+      "left": "",
+      "now": ""
+    },
+    {
+      "id": "jingxin-crystal-deng",
+      "name": "JingXin (Crystal) Deng",
+      "degree": "",
+      "role": "Internship student (from Princeton)",
+      "projects": [
+        "ryd-yb"
+      ],
+      "left": "",
+      "now": ""
     }
   ]
 }
