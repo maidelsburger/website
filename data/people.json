@@ -518,32 +518,6 @@
       "bio": ""
     },
     {
-      "id": "timo-marx",
-      "name": "Timo Marx",
-      "degree": "",
-      "category": "Bachelor Students",
-      "role": "Bachelor Student",
-      "affiliation": "MPQ",
-      "email": "timo.marx@mpq.mpg.de",
-      "phone": "+49 89 32905-670",
-      "office": "A 0.28",
-      "lab_phone": "",
-      "lab": "D 0.33",
-      "projects": [
-        "ydfc"
-      ],
-      "photo": "",
-      "education": "",
-      "origin": "",
-      "joined": "",
-      "thesis_pdf": "",
-      "cv_pdf": "",
-      "google_scholar": "",
-      "orcid": "",
-      "website": "",
-      "bio": ""
-    },
-    {
       "id": "noel-gabriel-abzaoui",
       "name": "Noel-Gabriel Abzaoui",
       "degree": "",
@@ -648,6 +622,17 @@
       "name": "Yunchu Li",
       "degree": "",
       "role": "Student Assistant",
+      "projects": [
+        "ydfc"
+      ],
+      "left": "2026",
+      "now": ""
+    },
+    {
+      "id": "timo-marx",
+      "name": "Timo Marx",
+      "degree": "",
+      "role": "Bachelor Student",
       "projects": [
         "ydfc"
       ],
