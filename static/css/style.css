@@ -173,8 +173,9 @@ table.courses { width: 100%; border-collapse: collapse; margin-top: 1.25rem; }
 .courses th { color: var(--accent-dark); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
 .contact-grid, .funding-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 1.75rem; margin-top: 1.25rem; }
 .fund-card { display: flex; flex-direction: column; }
-.funding-grid .logo { height: 48px; width: auto; max-width: 100%; object-fit: contain; object-position: left center;
-  margin-top: 1rem; align-self: flex-start; background: #fff; padding: .35rem .6rem; border-radius: 6px; margin-bottom: 0; }
+.fund-card p { margin-bottom: 1.25rem; }
+.funding-grid .logo { margin-top: auto; height: 72px; width: 100%; object-fit: contain; object-position: center;
+  background: #fff; padding: .5rem .75rem; border-radius: 6px; }
 .fund-fig { float: right; width: min(300px, 45%); height: auto; margin: .3rem 0 1rem 1.5rem; border-radius: var(--radius); }
 @media (max-width: 600px) { .fund-fig { float: none; width: 100%; margin: 0 0 1rem; } }
 .inst-logo { max-height: 48px; max-width: 100%; width: auto; margin-bottom: 1rem; background: #fff; padding: .4rem .6rem; border-radius: 6px; }
