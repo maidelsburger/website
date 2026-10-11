@@ -80,7 +80,8 @@ def build():
         shutil.rmtree(out)
     out.mkdir()
     shutil.copytree(ROOT / "static", out / "static")
-    shutil.copytree(ROOT / "assets", out / "assets", ignore=shutil.ignore_patterns(".*"))
+    if (ROOT / "assets").exists():
+        shutil.copytree(ROOT / "assets", out / "assets", ignore=shutil.ignore_patterns(".*"))
 
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=select_autoescape(["html"]))
     env.filters["pretty_date"] = pretty_date
