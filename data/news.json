@@ -114,5 +114,23 @@
       "assets/news/2026-09-24-kaiser-defense-2.jpg",
       "assets/news/2026-09-24-kaiser-defense-3.jpg"
     ]
+  },
+  {
+    "id": "2026-08-15-welcome-jeremy",
+    "date": "2026-08-15",
+    "title": "Welcome Jeremy!",
+    "summary": "Jeremy Tanlimco joins our group as a postdoc on the Yb hybrid tweezer-lattice experiment.",
+    "body": [
+      "We are happy to welcome Jeremy Tanlimco, who joins our group as a postdoc on the Yb hybrid tweezer-lattice experiment. Jeremy comes to us from UC Santa Barbara, where he worked in the group of David Weld.",
+      "The Yb hybrid team celebrated his arrival properly — in the beer garden."
+    ],
+    "image": "assets/news/2026-08-15-welcome-jeremy.jpg",
+    "topics": [
+      "yb-hybrid"
+    ],
+    "people": [
+      "jeremy-tanlimco"
+    ],
+    "link": ""
   }
 ]
