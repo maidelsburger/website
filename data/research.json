@@ -16,12 +16,98 @@
     "title": "Cs Quantum Gas Microscope",
     "short": "Cs QGM",
     "image": "assets/research/cs-microscope.jpg",
-    "summary": "Quantum gas microscope with bosonic caesium atoms to study topological many-body phases of matter and out-of-equilibrium dynamics of strongly-interacting quantum systems. We have developed techniques to measure local kinetic operators to go beyond simple occupation measurements.",
+    "summary": "A quantum gas microscope for strongly interacting topological phases.",
     "body": [
-      "Caesium features a broad Feshbach resonance at low magnetic fields, allowing us to tune the interaction strength over a wide range. Combined with single-site resolved imaging this gives access to strongly-correlated phases in 2D optical superlattices.",
-      "Recent highlights include local readout and control of current and kinetic-energy operators, and the preparation of non-equilibrium quantum spin liquids."
+      "We have built a new quantum gas microscope experiment with bosonic caesium atoms. What is unique about our experiment is the tunability of interactions, a 2D superlattice potential and large homogeneous systems of more than 3000 atoms prepared in a repulsive box potential. We are broadly interested in studying complex quantum many-body systems in and out of equilibrium. More recently, we have started to combine our experimental setup with additional control capabilities towards hybrid digital-analog quantum simulation. Below we highlight some of our recent projects!"
     ],
-    "location": "LMU"
+    "location": "LMU",
+    "team_photo": "assets/research/cs-team.jpg",
+    "team_photo_caption": "The Cs team",
+    "sections": [
+      {
+        "heading": "Towards computational quantum simulation",
+        "subs": [
+          {
+            "title": "",
+            "paragraphs": [
+              "We explore the intersection of quantum information science and analog quantum simulation — an exciting frontier for studying complex quantum many-body systems, both in and out of equilibrium. By integrating digital control elements into our analog quantum simulator, we are developing new experimental techniques that allow us to probe novel observables and prepare advanced initial states beyond simple product states in the occupation basis."
+            ],
+            "links": []
+          },
+          {
+            "title": "Subsystem return probabilities",
+            "paragraphs": [
+              "The probability for a quantum many-body system to return to its initial state after dynamical evolution encodes rich information about the system’s underlying physics, with connections to quantum chaos, many-body dynamics, and high-energy physics. However, this global return probability is typically exponentially suppressed with system size, making it extremely challenging to measure experimentally.",
+              "To overcome this, we introduce the subsystem return probability — a quasi-local observable that captures key features of the global return probability while remaining experimentally accessible. In the short-time regime, we observe a dynamical quantum phase transition driven by genuine higher-order correlations. At long times, the subsystem return probability provides a direct quantitative measure of the effective dimension and structure of the accessible Hilbert space in the thermodynamic limit, which we demonstrate for fragmented Hamiltonians that emerge in the presence of kinetic constraints."
+            ],
+            "links": [
+              {
+                "label": "Recent preprint: S. Karch et al., arXiv:2501.16995",
+                "url": "https://arxiv.org/abs/2501.16995"
+              }
+            ]
+          },
+          {
+            "title": "Arbitrary nearest-neighbor orbital operators",
+            "paragraphs": [
+              "We have developed a novel technique for state preparation and readout based on optical superlattice potentials, enabling local manipulations at the level of individual bonds within an optical lattice.",
+              "Quantum gas microscopes have transformed quantum simulations with ultracold atoms by providing access to single-site resolved images of quantum many-body systems. However, most measurements so far have been limited to the occupation basis. In our recent work, we demonstrate how kinetic operators — such as kinetic energy and current operators — can be measured and controlled with single-bond resolution. Beyond simple expectation values, our single-shot measurements provide access to full counting statistics and higher-order correlation functions."
+            ],
+            "links": [
+              {
+                "label": "Original publication: A. Impertro et al., Phys. Rev. Lett. 133, 063401 (2024)",
+                "url": "https://doi.org/10.1103/PhysRevLett.133.063401"
+              },
+              {
+                "label": "Viewpoint in Physics: Visualizing Atom Currents in Optical Lattices",
+                "url": "https://physics.aps.org/articles/v17/120"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Quantum simulation of topological many-body phases",
+        "subs": [
+          {
+            "title": "",
+            "paragraphs": [
+              "Neutral atoms in optical lattices offer exceptional opportunities for exploring complex quantum many-body systems within a highly controlled environment. A natural class of models readily accessible in these systems are Hubbard models, where particle dynamics are governed by the interplay between tunneling and on-site interactions. In contrast, quantum simulation of strongly correlated topological phases of matter requires the development of novel engineering techniques, as the relevant microscopic interactions do not naturally arise in these systems.",
+              "In this context, Floquet engineering — also known as periodic driving — has emerged as a powerful method. Over the past decade, it has been successfully employed to realize a variety of lattice models with topological band structures. However, extending it to many-particle strongly-interacting systems remains a significant challenge, mainly due to heating induced by the periodic drive.",
+              "In a recent study, we were able to leverage the new capabilities of our caesium quantum gas microscope to realize a large Floquet-engineered many-body flux ladder with about 24 hard-core bosons at half filling in a low-entropy state, whose temperature we benchmarked to be on the order of the tunnel coupling. By tuning the coupling ratio K/J we explore the phase diagram, which exhibits a transition from a Meissner to a vortex regime. These results mark an exciting first step toward realizing large fractional Chern insulators with cold atoms, opening the door to studying topological order and exotic anyonic excitations with microscopic resolution and control."
+            ],
+            "links": [
+              {
+                "label": "A. Impertro et al., Nature Physics 21, 895 (2025)",
+                "url": "https://doi.org/10.1038/s41567-025-02890-0"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "theses": [
+      {
+        "name": "Till Klostermann",
+        "year": "2022",
+        "title": "Construction of a caesium quantum gas microscope"
+      },
+      {
+        "name": "Hendrik von Raven",
+        "year": "2022",
+        "title": "A new caesium quantum gas microscope with precise magnetic field control"
+      },
+      {
+        "name": "Julian Wienand",
+        "year": "2024",
+        "title": "Quantum gas microscopy of fluctuating hydrodynamics in optical ladders"
+      },
+      {
+        "name": "Alexander Impertro",
+        "year": "2025",
+        "title": "Quantum gas microscopy of interacting quantum matter with artificial gauge fields"
+      }
+    ]
   },
   {
     "id": "k-hexagonal",

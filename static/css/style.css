@@ -104,6 +104,10 @@ h2.year::after, h2.cat::after { content: ""; position: absolute; left: 0; bottom
 .research-card h2 a { color: var(--text); }
 .research-list li { padding: .5rem 0; border-bottom: 1px solid var(--border); }
 .team-list li { padding: .4rem 0; }
+.team-photo { margin: 0 0 1.25rem; }
+.team-photo figcaption { font-size: .85rem; margin-top: .4rem; }
+.refs a { font-size: .92rem; font-weight: 600; }
+ul.theses li { margin-bottom: .4rem; }
 
 /* ---------- News ---------- */
 .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.75rem; margin-top: 1rem; }

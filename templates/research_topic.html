@@ -11,6 +11,20 @@
     {% for p in r.body %}<p>{{ p }}</p>{% endfor %}
     {% if r.location %}<p class="muted">Location: {{ site.affiliations[r.location].name }}</p>{% endif %}
 
+    {% for sec in r.sections %}
+    <h2>{{ sec.heading }}</h2>
+    {% for sub in sec.subs %}
+    {% if sub.title %}<h3>{{ sub.title }}</h3>{% endif %}
+    {% for p in sub.paragraphs %}<p>{{ p }}</p>{% endfor %}
+    {% if sub.links %}<p class="refs">{% for l in sub.links %}<a href="{{ l.url }}" rel="noopener">{{ l.label }}</a>{% if not loop.last %}<br>{% endif %}{% endfor %}</p>{% endif %}
+    {% endfor %}
+    {% endfor %}
+
+    {% if r.theses %}
+    <h2>PhD theses from our team</h2>
+    <ul class="theses">{% for t in r.theses %}<li><strong>{{ t.name }}</strong> ({{ t.year }}): <em>{{ t.title }}</em></li>{% endfor %}</ul>
+    {% endif %}
+
     {% if topic_pubs %}
     <h2>Publications</h2>
     {% for p in topic_pubs %}{{ m.pub_entry(p, show_image=False) }}{% endfor %}
@@ -22,6 +36,7 @@
     {% endif %}
   </div>
   <aside class="topic-side">
+    {% if r.team_photo %}<figure class="team-photo">{{ m.img(r.team_photo, r.title ~ ' team', 'thumb') }}{% if r.team_photo_caption %}<figcaption class="muted">{{ r.team_photo_caption }}</figcaption>{% endif %}</figure>{% endif %}
     <h2>Team</h2>
     <ul class="plain team-list">
     {% for mem in topic_people %}<li><a href="{{ rel }}group.html#{{ mem.id }}">{{ mem.name }}</a><br><span class="muted">{{ mem.role }}</span></li>{% endfor %}
