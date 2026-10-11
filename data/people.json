@@ -609,7 +609,9 @@
       "office": "H232, LMU",
       "lab_phone": "+49 89 2180-6132",
       "lab": "H216, LMU",
-      "projects": [],
+      "projects": [
+        "ryd-yb"
+      ],
       "photo": "assets/people/vincent-koch.jpg",
       "education": "",
       "origin": "",

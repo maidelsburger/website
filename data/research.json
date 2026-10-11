@@ -135,7 +135,9 @@
     "body": [
       "In this project we build a programmable array of individually trapped Yb atoms and use Rydberg interactions to implement high-fidelity entangling gates and analog quantum simulation of spin models."
     ],
-    "location": "LMU"
+    "location": "LMU",
+    "team_photo": "assets/research/ryd-yb-team.jpg",
+    "team_photo_caption": "The Ryd-Yb team. Back row: Amin, Yilong and Vincent; front row: Christoph, Monika and Lorenzo"
   },
   {
     "id": "ydfc",
