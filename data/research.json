@@ -466,6 +466,63 @@
       "This page collects joint theory works and proposals that are not tied to one specific experimental platform in the lab."
     ],
     "location": "",
-    "teaser": "Alongside our experiments we collaborate closely with theory groups on quantum simulation, lattice gauge theories and out-of-equilibrium dynamics."
+    "teaser": "Alongside our experiments we collaborate closely with theory groups on quantum simulation, lattice gauge theories and out-of-equilibrium dynamics.",
+    "collaborators": [
+      {
+        "name": "Marcello Dalmonte",
+        "affiliation": "ICTP, Trieste",
+        "link": "https://www.ictp.it/member/marcello-dalmonte"
+      },
+      {
+        "name": "André Eckardt",
+        "affiliation": "TU Berlin",
+        "link": "https://www.itp.tu-berlin.de/eckardt/"
+      },
+      {
+        "name": "Nathan Goldman",
+        "affiliation": "ULB Brussels & LKB Paris",
+        "link": ""
+      },
+      {
+        "name": "Fabian Grusdt",
+        "affiliation": "LMU Munich",
+        "link": "https://www.sqm.physik.lmu.de/"
+      },
+      {
+        "name": "Philipp Hauke",
+        "affiliation": "University of Trento",
+        "link": "https://sites.google.com/unitn.it/haukegroup"
+      },
+      {
+        "name": "Markus Heyl",
+        "affiliation": "University of Augsburg",
+        "link": "https://www.uni-augsburg.de/en/fakultaet/mntf/physik/groups/theo3/"
+      },
+      {
+        "name": "Michael Knap",
+        "affiliation": "TU Munich",
+        "link": ""
+      },
+      {
+        "name": "Maciej Lewenstein",
+        "affiliation": "ICFO, Barcelona",
+        "link": "https://www.icfo.eu/research-group/11/qot/home/"
+      },
+      {
+        "name": "Anatoli Polkovnikov",
+        "affiliation": "Boston University",
+        "link": "https://www.bu.edu/physics/profile/anatoli-polkovnikov/"
+      },
+      {
+        "name": "Frank Pollmann",
+        "affiliation": "TU Munich",
+        "link": "https://www.ph.nat.tum.de/cmt/"
+      },
+      {
+        "name": "Norman Yao",
+        "affiliation": "Harvard University",
+        "link": "https://yao.physics.harvard.edu/"
+      }
+    ]
   }
 ]
