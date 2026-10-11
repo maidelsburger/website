@@ -1,22 +1,20 @@
 {
-  "intro": "We are always looking for motivated students and postdocs to join our labs. Please do not hesitate to contact us if you are interested in joining any one of our research projects.",
+  "intro": "The group is moving to Stanford University soon, and we are always looking for motivated students and postdocs to join us. Please do not hesitate to get in touch if you are interested in our research.",
   "contact_email": "monika.aidelsburger@mpq.mpg.de",
-  "openings": [
+  "openings": [],
+  "links": [
     {
-      "title": "PhD position",
-      "project": "cs-microscope",
-      "description": "PhD position at the Cs quantum gas microscope."
+      "label": "Bloch Postdoctoral Fellowship (Stanford Q-FARM)",
+      "url": "https://qfarm.stanford.edu/opportunities/bloch-fellowship"
     },
     {
-      "title": "PhD and postdoc positions",
-      "project": "ryd-yb",
-      "description": "PhD and postdoc positions at the Ryd-Yb tweezer array."
+      "label": "Stanford Science Fellows",
+      "url": "https://stanfordsciencefellows.stanford.edu/"
     },
     {
-      "title": "PhD and postdoc positions",
-      "project": "yb-hybrid",
-      "description": "PhD and postdoc positions at the Yb hybrid lattice-tweezer experiment."
+      "label": "Stanford Physics graduate admissions",
+      "url": "https://physics.stanford.edu/graduate/graduate-admissions"
     }
   ],
-  "theses": "Bachelor and Master theses are available in all of our experiments. Please contact the respective project leaders or Monika Aidelsburger directly."
+  "theses": ""
 }
