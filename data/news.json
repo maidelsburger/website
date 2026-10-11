@@ -248,8 +248,8 @@
     "summary": "Alex did his PhD on our Cs quantum gas microscope.",
     "body": [
       "Alex did his PhD on our Cs quantum gas microscope.",
-      "// Alex worked on our Cs quantum gas microscope. When he started there was no single-atom imaging in our group. One of the main challenges was the tiny lattice constant of only 383.5nm, which is extremely challenging to resolve even with a high-NA imaging objective with numerical aperture NA=0.8. His first main result was the development of an unsupervised machine learning algorithm for single-site reconstruction in this challenging regime, which enabled high-fidelity detection in this challenging regime (Commun. Phys. 2023)!",
-      "// Moreover, using superlattice potentials, Alex and the Cs team implemented arbitrary measurements of nearest-neighbor orbital operators, which enables local measurements of currents in a quantum many-body system (Phys. Rev. Lett. 2024). Not only does this method offer unique possibilities for initial state preparation and read-out, it provides a path towards measurements of complex correlators via local z-rotations, which we can realized via our high-NA objective.",
+      "Alex worked on our Cs quantum gas microscope. When he started there was no single-atom imaging in our group. One of the main challenges was the tiny lattice constant of only 383.5nm, which is extremely challenging to resolve even with a high-NA imaging objective with numerical aperture NA=0.8. His first main result was the development of an unsupervised machine learning algorithm for single-site reconstruction in this challenging regime, which enabled high-fidelity detection in this challenging regime (Commun. Phys. 2023)!",
+      "Moreover, using superlattice potentials, Alex and the Cs team implemented arbitrary measurements of nearest-neighbor orbital operators, which enables local measurements of currents in a quantum many-body system (Phys. Rev. Lett. 2024). Not only does this method offer unique possibilities for initial state preparation and read-out, it provides a path towards measurements of complex correlators via local z-rotations, which we can realized via our high-NA objective.",
       "The local current-measurement technique was finally applied to study strongly-interacting Meissner phases in optical ladders with artificial magnetic field (Nature Physics 2025). We managed to realize a low-temperature phase with ~24 strongly-interacting particles, marking a significant milestone for realizing large many-body systems in the presence of magnetic fields."
     ],
     "image": "assets/news/2025-06-05-alex-successfully-defended-his-phd-thesis.jpg",
@@ -263,9 +263,9 @@
     "id": "2025-06-02-moritz-joined-the-ydfc-team",
     "date": "2025-06-02",
     "title": "Moritz joined the YDFC team!",
-    "summary": "// Moritz Berngruber joined our new team at MPQ as a postdoc. Moritz did his PhD in Stuttgart in the group of Prof. Tilman Pfau.",
+    "summary": "Moritz Berngruber joined our new team at MPQ as a postdoc. Moritz did his PhD in Stuttgart in the group of Prof. Tilman Pfau.",
     "body": [
-      "// Moritz Berngruber joined our new team at MPQ as a postdoc. Moritz did his PhD in Stuttgart in the group of Prof. Tilman Pfau."
+      "Moritz Berngruber joined our new team at MPQ as a postdoc. Moritz did his PhD in Stuttgart in the group of Prof. Tilman Pfau."
     ],
     "image": "assets/news/2025-06-02-moritz-joined-the-ydfc-team.jpg",
     "topics": [
@@ -299,7 +299,7 @@
     "summary": "Digital book published by the German Physical Society",
     "body": [
       "Digital book published by the German Physical Society",
-      "// This digital book presents the multifaceted world of physics through contributions from a wide range of disciplines. Over 200 physicists contributed between autumn 2022 and winter 2024/25, selecting key content and authoring articles in their areas of expertise. The range is vast: from the study of the tiniest building blocks of matter to the expanses of the universe; from the search for new, functional materials to the understanding of biological cells; from the dynamics of swarms and traffic flows to the production of ever more powerful microchips, climate research, and energy supply.",
+      "This digital book presents the multifaceted world of physics through contributions from a wide range of disciplines. Over 200 physicists contributed between autumn 2022 and winter 2024/25, selecting key content and authoring articles in their areas of expertise. The range is vast: from the study of the tiniest building blocks of matter to the expanses of the universe; from the search for new, functional materials to the understanding of biological cells; from the dynamics of swarms and traffic flows to the production of ever more powerful microchips, climate research, and energy supply.",
       "Edited by Joachim Ullrich, Ulrich Bleyer, Sarah Köster,Claus Lämmerzahl, Dieter Meschede, and Lutz SchröterGerman Physical Society (DPG)",
       "Here is a link to the pdf (in german). Don’t forget to check-out page 212 :) !!"
     ],
@@ -333,7 +333,7 @@
     "summary": "Our experimental results have been published in Nature Physics!",
     "body": [
       "Our experimental results have been published in Nature Physics!",
-      "// Gauge theories constitute the basis of the Standard Model and provide useful descriptions of various phenomena in condensed matter. Realizing gauge theories on tunable tabletop quantum devices such as cold-atom quantum simulators offers the possibility to study their dynamics from first principles and to probe effects that are out of reach of dedicated particle colliders, such as deviations from gauge invariance. These quantum simulators can potentially provide insights into high-energy and nuclear physics questions, while also serving as a versatile tool for the exploration of topological phases and ergodicity-breaking mechanisms relevant to low-energy many-body physics. Recent years have seen substantial progress in the implementation of (1 + 1)D Abelian gauge theories using ultracold atoms. In this Review, we chronicle these advances, highlighting key developments in stabilizing gauge invariance and scaling up from basic building blocks to large-scale realizations where gauge-theory phenomena can be probed. We offer an outlook on future directions and the requirements for advancing this technology to the next level.",
+      "Gauge theories constitute the basis of the Standard Model and provide useful descriptions of various phenomena in condensed matter. Realizing gauge theories on tunable tabletop quantum devices such as cold-atom quantum simulators offers the possibility to study their dynamics from first principles and to probe effects that are out of reach of dedicated particle colliders, such as deviations from gauge invariance. These quantum simulators can potentially provide insights into high-energy and nuclear physics questions, while also serving as a versatile tool for the exploration of topological phases and ergodicity-breaking mechanisms relevant to low-energy many-body physics. Recent years have seen substantial progress in the implementation of (1 + 1)D Abelian gauge theories using ultracold atoms. In this Review, we chronicle these advances, highlighting key developments in stabilizing gauge invariance and scaling up from basic building blocks to large-scale realizations where gauge-theory phenomena can be probed. We offer an outlook on future directions and the requirements for advancing this technology to the next level.",
       "Original publication:Cold-atom quantum simulators of gauge theoriesJad C. Halimeh, Monika Aidelsburger, Fabian Grusdt, Philipp Hauke & Bing Yang"
     ],
     "image": "assets/news/2025-01-15-cold-atom-quantum-simulators-of-gauge-theories.jpg",
@@ -400,9 +400,9 @@
     "id": "2024-11-26-workshop-simulating-far-from-equilibrium-quantum-m",
     "date": "2024-11-26",
     "title": "Workshop: Simulating far-from-equilibrium quantum many-body dynamics (SimQuDyn)",
-    "summary": "// Simulation of far-from-equilibrium quantum many-body dynamics (SimQuDyn) is a conference bringing together researchers and students in the fields of numerical and quantum simula…",
+    "summary": "Simulation of far-from-equilibrium quantum many-body dynamics (SimQuDyn) is a conference bringing together researchers and students in the fields of numerical and quantum simula…",
     "body": [
-      "// Simulation of far-from-equilibrium quantum many-body dynamics (SimQuDyn) is a conference bringing together researchers and students in the fields of numerical and quantum simulation of far-from-equilibrium quantum many-body dynamics. The goal of this conference is the discussion and exchange of ideas related to the latest advances in these fields and to chart a path forward that includes collaborative efforts between them. A main point of discussion will be using far-from-equilibrium quantum many-body dynamics as a venue to achieve practical quantum advantage.",
+      "Simulation of far-from-equilibrium quantum many-body dynamics (SimQuDyn) is a conference bringing together researchers and students in the fields of numerical and quantum simulation of far-from-equilibrium quantum many-body dynamics. The goal of this conference is the discussion and exchange of ideas related to the latest advances in these fields and to chart a path forward that includes collaborative efforts between them. A main point of discussion will be using far-from-equilibrium quantum many-body dynamics as a venue to achieve practical quantum advantage.",
       "For further details click the link below:SimQuDyn",
       "Monika Aidelsburger (MPQ, LMU), Jad C. Halimeh (MPQ, LMU), and Pablo Sala (Caltech)",
       "Arnold Sommerfeld Center for Theoretical PhysicsTheresienstr. 3780333 München"
@@ -625,7 +625,7 @@
     "summary": "Congratulations and all the best for your new PostDoc position!",
     "body": [
       "Congratulations and all the best for your new PostDoc position!",
-      "// Etienne did his PhD in our Yb hybrid tweezer-lattice experiment. Together with Tim he started in an empty lab. Now we have a working machine with cold Yb atoms in a magic optical lattice with narrow-line spectroscopy on the ultranarrow optical clock transition and a tweezer array at 532nm!",
+      "Etienne did his PhD in our Yb hybrid tweezer-lattice experiment. Together with Tim he started in an empty lab. Now we have a working machine with cold Yb atoms in a magic optical lattice with narrow-line spectroscopy on the ultranarrow optical clock transition and a tweezer array at 532nm!",
       "Congratulations and all the best for your new position!!!"
     ],
     "image": "assets/news/2024-06-20-etienne-successfully-defended-his-phd-thesis.jpg",
@@ -658,7 +658,7 @@
     "summary": "Adam Kaufman from JILA is awarded the Friedrich Wilhelm Bessel Research Award",
     "body": [
       "Adam Kaufman from JILA is awarded the Friedrich Wilhelm Bessel Research Award",
-      "// JILA Fellow, NIST Physicist, and University of Colorado Boulder Physics Professor Adam Kaufman has been honored with a prestigious 2024 Friedrich Wilhelm Bessel Research Award by the Alexander von Humboldt Foundation.",
+      "JILA Fellow, NIST Physicist, and University of Colorado Boulder Physics Professor Adam Kaufman has been honored with a prestigious 2024 Friedrich Wilhelm Bessel Research Award by the Alexander von Humboldt Foundation.",
       "The Friedrich Wilhelm Bessel Research Award, named after the esteemed German astronomer and mathematician, is awarded annually to around 20 internationally renowned academics. It includes a €45,000 grant and the opportunity to conduct a research project of the recipient's choice at a German research institution. Kaufman will collaborate with our group, furthering his innovative work in quantum optics.",
       "Kaufman's research delves into manipulating individual particles, such as complex atoms, using the tools of atomic, molecular, and optical physics. Kaufman and his team utilize powerful beams of light called “optical tweezers” to hold and manipulate individual atoms with extreme precision. His work has profound implications for quantum simulation, information, and metrology."
     ],
@@ -739,9 +739,9 @@
     "id": "2024-05-16-research-visit-prof-norman-yao",
     "date": "2024-05-16",
     "title": "Research visit Prof. Norman Yao",
-    "summary": "// Prof. Norman Yao from Harvard is visiting our and other teams in the Munich area this summer! He will be around until the beginning of August for discussions and lab tours! You …",
+    "summary": "Prof. Norman Yao from Harvard is visiting our and other teams in the Munich area this summer! He will be around until the beginning of August for discussions and lab tours! You …",
     "body": [
-      "// Prof. Norman Yao from Harvard is visiting our and other teams in the Munich area this summer! He will be around until the beginning of August for discussions and lab tours! You can find him in our guest office or you can send him a message via e-mail to arrange a meeting!"
+      "Prof. Norman Yao from Harvard is visiting our and other teams in the Munich area this summer! He will be around until the beginning of August for discussions and lab tours! You can find him in our guest office or you can send him a message via e-mail to arrange a meeting!"
     ],
     "image": "assets/news/2024-05-16-research-visit-prof-norman-yao.jpg",
     "topics": [],
@@ -909,7 +909,7 @@
     "summary": "Our new proposal for the simulation of U(1) QLMs with Yb atoms was published in PRX Quantum!",
     "body": [
       "Our new proposal for the simulation of U(1) QLMs with Yb atoms was published in PRX Quantum!",
-      "// We introduce a method for quantum simulation of U(1) lattice gauge theories coupled to matter, utilizing alkaline-earth(-like) atoms in state-dependent optical lattices. The proposal enables the study of both gauge and fermionic matter fields without integrating out one of them in one and two dimensions. We focus on a realistic and robust implementation that utilizes the long-lived metastable clock state available in alkaline-earth(-like) atomic species. Starting from an ab initio modeling of the experimental setting, we systematically carry out a derivation of the target U(1) gauge theory. This approach allows us to identify and address conceptual and practical challenges for the implementation of lattice gauge theories that—while pivotal for a successful implementation—have never been rigorously addressed in the literature: those include the specific engineering of lattice potentials to achieve the desired structure of Wannier functions and the subtleties involved in realizing the proper separation of energy scales to enable gauge-invariant dynamics. We discuss realistic experiments that can be carried out within such a platform using the fermionic isotope 173Yb, addressing via simulations all key sources of imperfections, and provide concrete parameter estimates for relevant energy scales in both one- and two-dimensional settings.",
+      "We introduce a method for quantum simulation of U(1) lattice gauge theories coupled to matter, utilizing alkaline-earth(-like) atoms in state-dependent optical lattices. The proposal enables the study of both gauge and fermionic matter fields without integrating out one of them in one and two dimensions. We focus on a realistic and robust implementation that utilizes the long-lived metastable clock state available in alkaline-earth(-like) atomic species. Starting from an ab initio modeling of the experimental setting, we systematically carry out a derivation of the target U(1) gauge theory. This approach allows us to identify and address conceptual and practical challenges for the implementation of lattice gauge theories that—while pivotal for a successful implementation—have never been rigorously addressed in the literature: those include the specific engineering of lattice potentials to achieve the desired structure of Wannier functions and the subtleties involved in realizing the proper separation of energy scales to enable gauge-invariant dynamics. We discuss realistic experiments that can be carried out within such a platform using the fermionic isotope 173Yb, addressing via simulations all key sources of imperfections, and provide concrete parameter estimates for relevant energy scales in both one- and two-dimensional settings.",
       "Ab Initio Derivation of Lattice-Gauge-Theory Dynamics for Cold Gases in Optical LatticesFederica Maria Surace, Pierre Fromholz, Nelson Darkwah Oppong, Marcello Dalmonte, Monika Aidelsburger, PRX Quantum 4, 020330 (2023)"
     ],
     "image": "assets/news/2023-06-15-quantum-simulation-of-u-1-lgts.jpg",
