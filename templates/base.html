@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% block title %}{{ site.group_name }}{% endblock %} · {{ site.group_short }}</title>
+<title>{% filter replace(site.group_short ~ ' · ' ~ site.group_short, site.group_short) %}{% block title %}{{ site.group_name }}{% endblock %} · {{ site.group_short }}{% endfilter %}</title>
 <meta name="description" content="{% block description %}{{ site.tagline }}{% endblock %}">
 <link rel="canonical" href="{{ site.base_url }}/{{ page_path }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
