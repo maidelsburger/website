@@ -1044,5 +1044,29 @@
     ],
     "people": [],
     "link": ""
+  },
+  {
+    "id": "2026-01-30-when-atoms-lose-their-sense-of-colour",
+    "date": "2026-01-30",
+    "title": "When atoms lose their sense of colour",
+    "summary": "MPQ press release on our PRX Quantum paper: we identified a colour of light that is “invisible” to excited-state atoms while strongly trapping ground-state atoms — a powerful new tool for quantum simulation and computing.",
+    "body": [
+      "A newly identified colour of light is “invisible” to excited atoms, but still traps atoms in their ground state. Our team at MPQ and LMU has identified a colour of light at which atoms become selectively “colourblind”: at this wavelength, the light has no effect on excited-state atoms, but strongly confines atoms in the ground state. The results, published in PRX Quantum, provide a powerful new tool for analogue quantum simulation and novel computing architectures.",
+      "This phenomenon is known as a tune-out wavelength. At such a wavelength, the light-induced energy shift of a particular atomic state vanishes, even at high light intensity. While tune-out wavelengths have been measured for atoms in their ground state, accurately determining them for excited-state atoms has so far remained elusive — excited atoms typically have a short lifetime and are highly sensitive to their environment.",
+      "“To find this wavelength, we needed to measure tiny light-induced perturbations on fragile atoms,” explains Tim Höhn, the lead author of the study. “Any extra heating, collisions, or photon scattering immediately reduces the achievable precision.”",
+      "The team succeeded by trapping ultracold atoms in a two-dimensional optical lattice at the clock-magic wavelength and cooling them on the ultranarrow optical clock transition. The lattice isolates atoms from each other, suppressing detrimental collisions, and the ultralow temperatures allow the trapping light to be reduced, extending excited-state lifetimes from a few hundred milliseconds to over five seconds. Together, these advances enabled an accurate determination of the excited-state tune-out wavelength.",
+      "This form of state-dependent “colourblindness” opens new possibilities for designing tailored quantum systems: quantum simulation of many-body systems in which different internal states experience different potentials, fast and scalable assembly of dense atom arrays, and high-fidelity local addressing in neutral-atom quantum computers.",
+      "Original publication: Determining the ³P₀ excited-state tune-out wavelength of ¹⁷⁴Yb in a triple-magic lattice, T. O. Höhn, R. A. Villela, E. Zu, L. Bezzo, R. M. Kroeze, M. Aidelsburger, PRX Quantum 7, 010303 (2026)"
+    ],
+    "image": "assets/news/2026-01-30-when-atoms-lose-their-sense-of-colour.jpg",
+    "images": [
+      "assets/news/2026-01-30-when-atoms-lose-their-sense-of-colour-schematic.jpg",
+      "assets/news/2026-01-30-when-atoms-lose-their-sense-of-colour-response.jpg"
+    ],
+    "topics": [
+      "yb-hybrid"
+    ],
+    "people": [],
+    "link": "https://www.mpq.mpg.de/7221882/01-when-atoms-lose-their-sense-of-colour"
   }
 ]
