@@ -194,10 +194,24 @@ def build():
     for fp in funding["projects"]:
         if fp.get("slug") and fp.get("paragraphs"):
             render("funding_project.html", f"funding/{fp['slug']}.html", "funding", p=fp)
+    from markupsafe import Markup
     render("simple.html", "imprint.html", "imprint", title="Imprint",
-           paragraphs=["Responsible for content: " + site["pi"]["name"] + ".", "Please replace this text with the legally required imprint of your institution."])
+           paragraphs=[
+               Markup("<strong>Information in accordance with &sect; 5 DDG (German Digital Services Act)</strong>"),
+               Markup("Prof. Dr. Monika Aidelsburger<br>Max-Planck-Institut f&uuml;r Quantenoptik<br>Hans-Kopfermann-Stra&szlig;e 1<br>85748 Garching<br>Germany"),
+               "Phone: +49 89 32905-199 — Email: monika.aidelsburger (at) mpq.mpg.de",
+               Markup("<strong>Responsible for the content</strong> pursuant to &sect; 18 (2) MStV: Prof. Dr. Monika Aidelsburger (address as above)."),
+               "This is the personal research-group website of Monika Aidelsburger. It is not an official website of the Max Planck Institute of Quantum Optics, the Max Planck Society or Ludwig-Maximilians-Universität München, and these institutions assume no responsibility for its content.",
+               Markup("<strong>Liability for links:</strong> This website contains links to external websites. We have no influence on their content; the respective operators are solely responsible for it. At the time of linking, no legal violations were apparent."),
+           ])
     render("simple.html", "privacy.html", "privacy", title="Privacy policy",
-           paragraphs=["This website does not use cookies or tracking. Please replace with your institution's privacy policy."])
+           paragraphs=[
+               "This is a purely informational website. It does not use cookies, tracking, analytics tools or social-media plug-ins, and it does not collect personal data through forms or user accounts.",
+               Markup("<strong>Hosting:</strong> The website is hosted by GitHub Pages, a service of GitHub, Inc. (USA). When you visit the site, GitHub automatically processes technical connection data (such as your IP address) in server logs to the extent necessary to deliver the pages. The legal basis is Art. 6 (1) (f) GDPR (legitimate interest in providing this website securely and reliably). Details can be found in the <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\" rel=\"noopener\">GitHub General Privacy Statement</a>."),
+               Markup("<strong>Contact by email:</strong> If you contact us by email, your email address and the contents of your message are used solely to handle your enquiry and are not shared with third parties."),
+               Markup("<strong>Controller:</strong> Prof. Dr. Monika Aidelsburger, Max-Planck-Institut f&uuml;r Quantenoptik, Hans-Kopfermann-Stra&szlig;e 1, 85748 Garching, Germany — monika.aidelsburger (at) mpq.mpg.de"),
+               Markup("<strong>Your rights:</strong> Under the GDPR you have the right to access, rectification, erasure, restriction of processing and objection regarding your personal data, as well as the right to lodge a complaint with a data protection supervisory authority."),
+           ])
 
     n_pages = sum(1 for _ in out.rglob("*.html"))
     print(f"Built {n_pages} pages into {out.relative_to(ROOT)}/")
