@@ -117,7 +117,14 @@
         "email": "monika.aidelsburger@mpq.mpg.de",
         "directions": "By underground (U-Bahn): lines U3 and U6, exit Universität."
       }
-    ]
+    ],
+    "assistant": {
+      "heading": "Group administration",
+      "name": "Marianne Kargl",
+      "phone": "+49 89 32905-712",
+      "email": "marianne.kargl@mpq.mpg.de",
+      "note": "Office C 1.32, MPQ"
+    }
   },
   "external_links": [
     {
