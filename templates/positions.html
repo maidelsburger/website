@@ -7,7 +7,15 @@
 {% for o in positions.openings %}<li><strong>{{ o.title }}</strong>{% if o.project %} — <a href="{{ rel }}research/{{ o.project }}.html">{{ research_by_id[o.project].title }}</a>{% endif %}<br>{{ o.description }}</li>{% endfor %}
 </ul>{% endif %}
 <p>Contact: <a href="mailto:{{ positions.contact_email }}">{{ positions.contact_email | obfuscate }}</a></p>
-{% if positions.links %}
+{% if positions.link_groups %}
+<h2>Apply at Stanford</h2>
+{% for g in positions.link_groups %}
+<h3>{{ g.heading }}</h3>
+<ul class="openings">
+{% for l in g.links %}<li><a href="{{ l.url }}" rel="noopener">{{ l.label }}</a></li>{% endfor %}
+</ul>
+{% endfor %}
+{% elif positions.links %}
 <h2>Apply at Stanford</h2>
 <ul class="openings">
 {% for l in positions.links %}<li><a href="{{ l.url }}" rel="noopener">{{ l.label }}</a></li>{% endfor %}

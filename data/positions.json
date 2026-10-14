@@ -2,30 +2,40 @@
   "intro": "The group is moving to Stanford University soon, and we are always looking for motivated students and postdocs to join us. Please do not hesitate to get in touch if you are interested in our research.",
   "contact_email": "monika.aidelsburger@mpq.mpg.de",
   "openings": [],
-  "links": [
+  "link_groups": [
     {
-      "label": "Bloch Postdoctoral Fellowship (Stanford Q-FARM)",
-      "url": "https://qfarm.stanford.edu/opportunities/bloch-fellowship"
+      "heading": "PhD students",
+      "links": [
+        {
+          "label": "Stanford Physics graduate admissions",
+          "url": "https://physics.stanford.edu/graduate/graduate-admissions"
+        },
+        {
+          "label": "Shoucheng Zhang Graduate Fellowship (quantum science & engineering, by departmental nomination)",
+          "url": "https://vpge.stanford.edu/fellowships-funding/shoucheng-zhang-fellowship"
+        },
+        {
+          "label": "Stanford Graduate Fellowship (SGF, by departmental nomination)",
+          "url": "https://vpge.stanford.edu/fellowships-funding/sgf"
+        },
+        {
+          "label": "Knight-Hennessy Scholars (apply directly, in parallel to PhD application)",
+          "url": "https://knight-hennessy.stanford.edu/"
+        }
+      ]
     },
     {
-      "label": "Stanford Science Fellows",
-      "url": "https://stanfordsciencefellows.stanford.edu/"
-    },
-    {
-      "label": "Stanford Physics graduate admissions",
-      "url": "https://physics.stanford.edu/graduate/graduate-admissions"
-    },
-    {
-      "label": "Shoucheng Zhang Graduate Fellowship (quantum science & engineering, by departmental nomination)",
-      "url": "https://vpge.stanford.edu/fellowships-funding/shoucheng-zhang-fellowship"
-    },
-    {
-      "label": "Stanford Graduate Fellowship (SGF, by departmental nomination)",
-      "url": "https://vpge.stanford.edu/fellowships-funding/sgf"
-    },
-    {
-      "label": "Knight-Hennessy Scholars (apply directly, in parallel to PhD application)",
-      "url": "https://knight-hennessy.stanford.edu/"
+      "heading": "Postdocs",
+      "links": [
+        {
+          "label": "Bloch Postdoctoral Fellowship (Stanford Q-FARM)",
+          "url": "https://qfarm.stanford.edu/opportunities/bloch-fellowship"
+        },
+        {
+          "label": "Stanford Science Fellows",
+          "url": "https://stanfordsciencefellows.stanford.edu/"
+        }
+      ]
     }
   ],
   "theses": ""
