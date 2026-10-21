@@ -20,7 +20,7 @@
   <div class="pub-body">
     <h3 class="pub-title">{% if p.url or p.doi or p.arxiv %}<a href="{{ p.url or ('https://doi.org/' ~ p.doi if p.doi else 'https://arxiv.org/abs/' ~ p.arxiv) }}" rel="noopener">{{ p.title | supsub }}</a>{% else %}{{ p.title | supsub }}{% endif %}</h3>
     <p class="pub-authors">{{ p.authors }}</p>
-    <p class="pub-ref">{% if p.journal %}<em>{{ p.journal }}</em>{% if p.volume %} <strong>{{ p.volume }}</strong>{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %} ({{ p.year }}){% elif p.arxiv %}arXiv:{{ p.arxiv }} ({{ p.year }}){% else %}({{ p.year }}){% endif %}</p>
+    <p class="pub-ref">{% if p.journal %}<em>{{ p.journal }}</em>{% if p.volume %} <strong>{{ p.volume }}</strong>{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %} ({{ p.year }}){% elif p.arxiv %}arXiv:{{ p.arxiv }} ({{ p.year }}){% else %}({{ p.year }}){% endif %}{% if p.note %} — <span class="muted">{{ p.note }}</span>{% endif %}</p>
     <p class="pub-links">
       {% if p.doi %}<a href="https://doi.org/{{ p.doi }}" rel="noopener">DOI</a>{% endif %}
       {% if p.arxiv %}<a href="https://arxiv.org/abs/{{ p.arxiv }}" rel="noopener">arXiv</a>{% endif %}
