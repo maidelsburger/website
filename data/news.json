@@ -1,5 +1,20 @@
 [
   {
+    "id": "2026-10-22-the-lab-is-moving-to-stanford",
+    "date": "2026-10-22",
+    "title": "The lab is moving to Stanford!",
+    "summary": "In 2027 our group will move to Stanford University, where we will continue our research on quantum simulation with ultracold atoms. Until then, research in Munich continues at full pace.",
+    "body": [
+      "Big news: in 2027 our group will move from Munich to Stanford University, where we will continue our research on quantum simulation with ultracold atoms in optical lattices and tweezer arrays.",
+      "Until then it is business as usual at MPQ and LMU — the experiments in Garching and Munich keep running at full pace.",
+      "We are already looking for motivated PhD students and postdocs who would like to join the new lab in California. Have a look at our open positions or get in touch directly."
+    ],
+    "image": "assets/news/2026-10-22-moving-to-stanford.jpg",
+    "link": "https://aidelsburgerlab.com/positions.html",
+    "topics": [],
+    "people": []
+  },
+  {
     "id": "2026-07-23-liebster-haxel",
     "date": "2026-07-23",
     "title": "Nikolas Liebster receives Otto-Haxel-Award for Physics",
