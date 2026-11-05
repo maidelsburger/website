@@ -723,6 +723,30 @@
       "orcid": "",
       "website": "",
       "bio": ""
+    },
+    {
+      "id": "norman-yao",
+      "name": "Norman Yao",
+      "degree": "Prof.",
+      "category": "Guests",
+      "role": "Guest Professor",
+      "affiliation": "Harvard University",
+      "email": "",
+      "phone": "+49 89 2180-6552",
+      "office": "H 212, LMU",
+      "lab_phone": "",
+      "lab": "",
+      "projects": [],
+      "photo": "assets/people/norman-yao.jpg",
+      "education": "",
+      "origin": "",
+      "joined": "",
+      "thesis_pdf": "",
+      "cv_pdf": "",
+      "google_scholar": "",
+      "orcid": "",
+      "website": "https://yao.physics.harvard.edu/",
+      "bio": ""
     }
   ],
   "alumni": [
