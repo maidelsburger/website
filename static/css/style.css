@@ -20,6 +20,7 @@
 * { box-sizing: border-box; }
 html { font-size: 18px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 body { margin: 0; font-family: var(--font); color: var(--text); background: var(--bg); line-height: 1.65; }
+sup, sub { font-size: .72em; line-height: 0; font-variant-numeric: lining-nums; }
 img { max-width: 100%; height: auto; display: block; }
 a { color: var(--link); text-decoration: none; transition: color .15s; }
 a:hover { text-decoration: underline; }

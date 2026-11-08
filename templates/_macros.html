@@ -4,11 +4,11 @@
 
 {% macro news_card(n, show_topics=True) -%}
 <article class="news-card">
-  <a class="news-thumb" href="{{ rel }}news/{{ n.id }}.html">{{ img(n.thumb or n.image, n.title, 'thumb') }}</a>
+  <a class="news-thumb" href="{{ rel }}news/{{ n.id }}.html">{{ img(n.thumb or n.image, n.title|plain, 'thumb') }}</a>
   <div class="news-body">
     <time datetime="{{ n.date }}">{{ n.date | pretty_date }}</time>
-    <h3><a href="{{ rel }}news/{{ n.id }}.html">{{ n.title }}</a></h3>
-    <p>{{ n.summary }}</p>
+    <h3><a href="{{ rel }}news/{{ n.id }}.html">{{ n.title|supsub }}</a></h3>
+    <p>{{ n.summary|supsub }}</p>
     {% if show_topics and n.topics %}<p class="tags">{% for t in n.topics %}<a class="tag" href="{{ rel }}research/{{ t }}.html">{{ research_by_id[t].short }}</a>{% endfor %}</p>{% endif %}
   </div>
 </article>
@@ -16,7 +16,7 @@
 
 {% macro pub_entry(p, show_image=True) -%}
 <article class="pub" id="{{ p.id }}" data-topics="{{ p.topics|join(' ') }}">
-  {% if show_image %}<div class="pub-img">{{ img(p.image, p.title, 'thumb', 'static/img/placeholder-square.svg') }}</div>{% endif %}
+  {% if show_image %}<div class="pub-img">{{ img(p.image, p.title|plain, 'thumb', 'static/img/placeholder-square.svg') }}</div>{% endif %}
   <div class="pub-body">
     <h3 class="pub-title">{% if p.url or p.doi or p.arxiv %}<a href="{{ p.url or ('https://doi.org/' ~ p.doi if p.doi else 'https://arxiv.org/abs/' ~ p.arxiv) }}" rel="noopener">{{ p.title | supsub }}</a>{% else %}{{ p.title | supsub }}{% endif %}</h3>
     <p class="pub-authors">{{ p.authors }}</p>

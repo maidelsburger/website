@@ -37,6 +37,12 @@ def supsub(text):
     return Markup(t)
 
 
+def plain_fmt(text):
+    """Strip ^{...}/_{...}/*{...}/!{...} markup for plain-text contexts (title tags, alt attributes)."""
+    import re
+    return re.sub(r"[\^_*!]\{([^}]+)\}", r"\1", str(text))
+
+
 def obfuscate(email):
     """Display form of an email: replaces @ with (at) to slow down scrapers."""
     return email.replace("@", " (at) ")
@@ -117,6 +123,7 @@ def build():
     env.filters["pretty_date"] = pretty_date
     env.filters["obfuscate"] = obfuscate
     env.filters["supsub"] = supsub
+    env.filters["plain"] = plain_fmt
     import hashlib
     css_v = hashlib.md5((ROOT / "static/css/style.css").read_bytes()).hexdigest()[:10]
     common_css_v = css_v

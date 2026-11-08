@@ -39,10 +39,10 @@
           {
             "title": "",
             "image": "assets/research/yb-levels.jpg",
-            "caption": "Simplified energy-level spectrum of neutral Yb atoms (left). Clock-spectroscopy signal obtained after loading a laser-cooled cloud of ¹⁷⁴Yb atoms into a 1D magic-wavelength optical lattice at 759 nm (right).",
+            "caption": "Simplified energy-level spectrum of neutral Yb atoms (left). Clock-spectroscopy signal obtained after loading a laser-cooled cloud of ^{174}Yb atoms into a 1D magic-wavelength optical lattice at 759 nm (right).",
             "paragraphs": [
               "Alkaline-earth(-like) atoms such as Yb offer unique opportunities for state-dependent potentials with low scattering rates, high-precision spectroscopy techniques using the ultra-narrow optical clock transition and exotic SU(N)-symmetric interactions.",
-              "Yb offers several convenient isotopes. We work with the bosonic isotope ¹⁷⁴Yb and the two fermionic isotopes ¹⁷¹Yb and ¹⁷³Yb. While the bosonic isotopes have a nuclear spin I=0, the two fermionic ones have I=1/2 and I=5/2, respectively, which offer unique opportunities for quantum simulation. Yb has two valence electrons, so the internal level structure splits into singlet- and triplet-energy states as shown in the simplified spectrum. The broad transition at 399 nm, which connects the states ¹S₀ and ¹P₁, is used for slowing the atoms and transverse cooling in a 2D magneto-optical trap. The narrow intercombination line ¹S₀–³P₁ at 556 nm is used to cool the atoms further in a 3D magneto-optical trap. Since this transition is rather narrow, we use additional slowing beams at 399 nm to increase the number of atoms that can be cooled in the green 3D MOT. The excited clock state ³P₀ has an extremely long lifetime on the order of 20 s, which enables a variety of quantum simulation schemes, where the ³P₀ state plays the role of a second species that can experience largely different optical potentials compared to the ground state ¹S₀. The two states are connected by an ultra-narrow clock transition at 578 nm."
+              "Yb offers several convenient isotopes. We work with the bosonic isotope ^{174}Yb and the two fermionic isotopes ^{171}Yb and ^{173}Yb. While the bosonic isotopes have a nuclear spin I=0, the two fermionic ones have I=1/2 and I=5/2, respectively, which offer unique opportunities for quantum simulation. Yb has two valence electrons, so the internal level structure splits into singlet- and triplet-energy states as shown in the simplified spectrum. The broad transition at 399 nm, which connects the states ^{1}S_{0} and ^{1}P_{1}, is used for slowing the atoms and transverse cooling in a 2D magneto-optical trap. The narrow intercombination line ^{1}S_{0}–^{3}P_{1} at 556 nm is used to cool the atoms further in a 3D magneto-optical trap. Since this transition is rather narrow, we use additional slowing beams at 399 nm to increase the number of atoms that can be cooled in the green 3D MOT. The excited clock state ^{3}P_{0} has an extremely long lifetime on the order of 20 s, which enables a variety of quantum simulation schemes, where the ^{3}P_{0} state plays the role of a second species that can experience largely different optical potentials compared to the ground state ^{1}S_{0}. The two states are connected by an ultra-narrow clock transition at 578 nm."
             ]
           }
         ]
@@ -55,7 +55,7 @@
             "image": "assets/research/yb-setup.jpg",
             "caption": "Schematic of the main experimental setup.",
             "paragraphs": [
-              "The main source for our experimental setup is a commercial oven from AOSense with an integrated Zeeman slower and a 2D magneto-optical trap (MOT). The Zeeman-slowed atoms pass through a differential pumping section and enter the science cell, which is fully made of glass. In the glass cell the atoms are loaded into a 3D MOT that operates on the narrow ¹S₀–³P₁ transition. The capture efficiency of the MOT is enhanced using a set of crossed slowing beams on the ¹S₀–¹P₁ transition. We then load the atoms from the MOT directly into a 3D optical lattice at the clock-magic wavelength of 759.3 nm and cool them further using sideband cooling on the ultranarrow optical clock transition to reach the absolute ground state on each lattice site. We demonstrated efficient cooling for both ¹⁷¹Yb and ¹⁷⁴Yb via chirping the sideband frequency. This is required due to spatial inhomogeneities in 2D and 3D lattices, which persist even in lattices generated at a magic wavelength. With this chirped clock sideband cooling we reach an ultra-low average motional occupation of 0.015 for ¹⁷¹Yb and comparable performance for ¹⁷⁴Yb in 2D. We are currently extending this technique to a single plane in the 3D lattice for high-resolution imaging."
+              "The main source for our experimental setup is a commercial oven from AOSense with an integrated Zeeman slower and a 2D magneto-optical trap (MOT). The Zeeman-slowed atoms pass through a differential pumping section and enter the science cell, which is fully made of glass. In the glass cell the atoms are loaded into a 3D MOT that operates on the narrow ^{1}S_{0}–^{3}P_{1} transition. The capture efficiency of the MOT is enhanced using a set of crossed slowing beams on the ^{1}S_{0}–^{1}P_{1} transition. We then load the atoms from the MOT directly into a 3D optical lattice at the clock-magic wavelength of 759.3 nm and cool them further using sideband cooling on the ultranarrow optical clock transition to reach the absolute ground state on each lattice site. We demonstrated efficient cooling for both ^{171}Yb and ^{174}Yb via chirping the sideband frequency. This is required due to spatial inhomogeneities in 2D and 3D lattices, which persist even in lattices generated at a magic wavelength. With this chirped clock sideband cooling we reach an ultra-low average motional occupation of 0.015 for ^{171}Yb and comparable performance for ^{174}Yb in 2D. We are currently extending this technique to a single plane in the 3D lattice for high-resolution imaging."
             ],
             "links": [
               {
@@ -72,7 +72,7 @@
           {
             "title": "",
             "image": "assets/research/yb-array.jpg",
-            "caption": "Averaged fluorescence image of a 10×10 array of single ¹⁷⁴Yb atoms generated with 532 nm tweezers.",
+            "caption": "Averaged fluorescence image of a 10×10 array of single ^{174}Yb atoms generated with 532 nm tweezers.",
             "paragraphs": [
               "Traditionally, quantum simulation experiments with ultracold atoms start by preparing degenerate quantum gases in optical dipole traps, which are then adiabatically transferred into optical lattices. Typically, this results in rather long cycle times on the order of several tens of seconds. In our experiment we combine optical tweezer technology with optical lattices to load the atoms directly from the magneto-optical trap into the lattice, thereby reducing the cycle time by at least one order of magnitude. Moreover, the study of real-time dynamics in lattice gauge theories requires the preparation of certain initial states with specific local density distributions, which can be prepared directly with high fidelity using the assembly technique."
             ]
@@ -85,14 +85,14 @@
           {
             "title": "",
             "image": "assets/research/yb-polarizability.jpg",
-            "caption": "Empirical model of the AC polarizability of the two clock states ¹S₀ and ³P₀. Special points, such as magic and tune-out wavelengths, are highlighted.",
+            "caption": "Empirical model of the AC polarizability of the two clock states ^{1}S_{0} and ^{3}P_{0}. Special points, such as magic and tune-out wavelengths, are highlighted.",
             "paragraphs": [
-              "A key ingredient for the quantum simulation experiments planned with Yb atoms is the large variety of state-dependent manipulations that can be realized with rather low scattering rates. However, since the AC polarizabilities for the ¹S₀–³P₀ clock transition are not easy to predict using ab-initio theoretical calculations, measurements of distinctive points greatly aid the accuracy of theoretical models.",
-              "We performed several measurements to determine the precise location of distinctive state-(in)dependent wavelengths for ¹⁷⁴Yb atoms. Specifically, we determined two magic wavelengths at 652.281(21) THz and 542.50205(19) THz, where the differential light shift on the ¹S₀–³P₀ clock transition vanishes, and one tune-out wavelength at 541.8325(4) THz, where the polarizability of the ¹S₀ ground state exhibits a zero crossing. The two new magic wavelengths were identified by spectroscopically interrogating cold ¹⁷⁴Yb atoms on the clock transition in a one-dimensional optical lattice. The ground-state tune-out wavelength was determined via a parametric heating scheme. With a simple empirical model, we then extrapolated the ground- and excited-state polarizability over a broad range of wavelengths in the visible spectrum. This model now allows us to predict other wavelengths of interest, such as the location of the ³P₀ excited-state tune-out, which is relevant for realizing our proposal on lattice gauge theories."
+              "A key ingredient for the quantum simulation experiments planned with Yb atoms is the large variety of state-dependent manipulations that can be realized with rather low scattering rates. However, since the AC polarizabilities for the ^{1}S_{0}–^{3}P_{0} clock transition are not easy to predict using ab-initio theoretical calculations, measurements of distinctive points greatly aid the accuracy of theoretical models.",
+              "We performed several measurements to determine the precise location of distinctive state-(in)dependent wavelengths for ^{174}Yb atoms. Specifically, we determined two magic wavelengths at 652.281(21) THz and 542.50205(19) THz, where the differential light shift on the ^{1}S_{0}–^{3}P_{0} clock transition vanishes, and one tune-out wavelength at 541.8325(4) THz, where the polarizability of the ^{1}S_{0} ground state exhibits a zero crossing. The two new magic wavelengths were identified by spectroscopically interrogating cold ^{174}Yb atoms on the clock transition in a one-dimensional optical lattice. The ground-state tune-out wavelength was determined via a parametric heating scheme. With a simple empirical model, we then extrapolated the ground- and excited-state polarizability over a broad range of wavelengths in the visible spectrum. This model now allows us to predict other wavelengths of interest, such as the location of the ^{3}P_{0} excited-state tune-out, which is relevant for realizing our proposal on lattice gauge theories."
             ],
             "links": [
               {
-                "label": "State-dependent potentials for the ¹S₀ and ³P₀ clock states of neutral ytterbium atoms, T. O. Höhn*, E. Staub*, G. Brochier, N. Darkwah Oppong, M. Aidelsburger (* equal contribution), Phys. Rev. A 108, 053325 (2023)",
+                "label": "State-dependent potentials for the ^{1}S_{0} and ^{3}P_{0} clock states of neutral ytterbium atoms, T. O. Höhn*, E. Staub*, G. Brochier, N. Darkwah Oppong, M. Aidelsburger (* equal contribution), Phys. Rev. A 108, 053325 (2023)",
                 "url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.108.053325"
               }
             ]
@@ -105,11 +105,11 @@
           {
             "title": "",
             "paragraphs": [
-              "The measurement of a tune-out wavelength for the metastable excited state ³P₀ had remained elusive so far, as it was hindered by inelastic collisions and Raman losses. In a recent work we demonstrated the first such measurement by determining this tune-out wavelength for ¹⁷⁴Yb at 576.6 nm. This was achieved by isolating individual atoms in a clock-magic lattice at 759 nm and implementing resolved sideband cooling to extend atom lifetimes beyond 5 s. We further enhanced the measurement precision using fluorescence imaging in a triple-magic configuration by identifying a new magic angle for the ³P₁ state. Moreover, we have used all these results to refine our empirical model for the AC polarizability of all three states ¹S₀, ³P₀ and ³P₁."
+              "The measurement of a tune-out wavelength for the metastable excited state ^{3}P_{0} had remained elusive so far, as it was hindered by inelastic collisions and Raman losses. In a recent work we demonstrated the first such measurement by determining this tune-out wavelength for ^{174}Yb at 576.6 nm. This was achieved by isolating individual atoms in a clock-magic lattice at 759 nm and implementing resolved sideband cooling to extend atom lifetimes beyond 5 s. We further enhanced the measurement precision using fluorescence imaging in a triple-magic configuration by identifying a new magic angle for the ^{3}P_{1} state. Moreover, we have used all these results to refine our empirical model for the AC polarizability of all three states ^{1}S_{0}, ^{3}P_{0} and ^{3}P_{1}."
             ],
             "links": [
               {
-                "label": "Determining the ³P₀ excited-state tune-out wavelength of ¹⁷⁴Yb in a triple-magic lattice, T. O. Höhn, R. A. Villela, E. Zu, L. Bezzo, R. M. Kroeze, M. Aidelsburger, PRX Quantum 7, 010303 (2026)",
+                "label": "Determining the ^{3}P_{0} excited-state tune-out wavelength of ^{174}Yb in a triple-magic lattice, T. O. Höhn, R. A. Villela, E. Zu, L. Bezzo, R. M. Kroeze, M. Aidelsburger, PRX Quantum 7, 010303 (2026)",
                 "url": "https://journals.aps.org/prxquantum/abstract/10.1103/32q9-j82c"
               }
             ]
@@ -358,39 +358,39 @@
     "teaser": "Neutral-atom arrays are a key quantum-computing platform. Yb atoms offer high-fidelity detection via shelving and single-photon Rydberg excitations.",
     "sections": [
       {
-        "heading": "Quantum computing and quantum simulation with fermionic ¹⁷¹Yb",
+        "heading": "Quantum computing and quantum simulation with fermionic ^{171}Yb",
         "subs": [
           {
             "title": "",
             "paragraphs": [
-              "Neutral-atom arrays have gained increasing importance in the development of quantum computing architectures. More recently, high-fidelity single- and two-qubit operations have also been demonstrated with alkaline-earth(-like) atoms (AELA), which offer unique opportunities for high-fidelity detection via shelving, trapping of Rydberg states and high-fidelity single-photon Rydberg excitations. As part of the Munich Quantum Valley (MQV) we are currently building a new tweezer-array platform, where single fermionic ¹⁷¹Yb atoms are trapped in optical tweezers and interactions are induced via highly-excited Rydberg states."
+              "Neutral-atom arrays have gained increasing importance in the development of quantum computing architectures. More recently, high-fidelity single- and two-qubit operations have also been demonstrated with alkaline-earth(-like) atoms (AELA), which offer unique opportunities for high-fidelity detection via shelving, trapping of Rydberg states and high-fidelity single-photon Rydberg excitations. As part of the Munich Quantum Valley (MQV) we are currently building a new tweezer-array platform, where single fermionic ^{171}Yb atoms are trapped in optical tweezers and interactions are induced via highly-excited Rydberg states."
             ]
           }
         ]
       },
       {
-        "heading": "Qubit encodings in ¹⁷¹Yb — the “omg” architecture",
+        "heading": "Qubit encodings in ^{171}Yb — the “omg” architecture",
         "subs": [
           {
             "title": "",
             "image": "assets/research/ryd-omg-levels.jpg",
-            "caption": "Possible qubit encodings in ¹⁷¹Yb: ground-state nuclear-spin qubit |g⟩, metastable qubit |m⟩, optical qubit |o⟩ and the Rydberg state |r⟩ used to induce interactions.",
+            "caption": "Possible qubit encodings in ^{171}Yb: ground-state nuclear-spin qubit |g⟩, metastable qubit |m⟩, optical qubit |o⟩ and the Rydberg state |r⟩ used to induce interactions.",
             "paragraphs": [
-              "Neutral Yb atoms have two valence electrons, hence the level structure decomposes into singlet and triplet states. The absolute ground state ¹S₀ is labeled |g⟩ and the excited clock state ³P₀ |m⟩. The optical transition connecting the two clock states is weakly allowed for the fermionic isotopes with an ultranarrow linewidth, which is used in optical lattice clocks, forming the optical qubit |o⟩. The unique feature of the fermionic isotope ¹⁷¹Yb is that it has a nuclear spin I=1/2, which supports multiple qubit encodings."
+              "Neutral Yb atoms have two valence electrons, hence the level structure decomposes into singlet and triplet states. The absolute ground state ^{1}S_{0} is labeled |g⟩ and the excited clock state ^{3}P_{0} |m⟩. The optical transition connecting the two clock states is weakly allowed for the fermionic isotopes with an ultranarrow linewidth, which is used in optical lattice clocks, forming the optical qubit |o⟩. The unique feature of the fermionic isotope ^{171}Yb is that it has a nuclear spin I=1/2, which supports multiple qubit encodings."
             ]
           }
         ]
       },
       {
-        "heading": "Our atom array of individual ¹⁷¹Yb atoms",
+        "heading": "Our atom array of individual ^{171}Yb atoms",
         "subs": [
           {
             "title": "",
             "image": "assets/research/ryd-pair-array.jpg",
             "wide": true,
-            "caption": "Averaged fluorescence image of individual ¹⁷¹Yb atoms confined in a 2D array of 64 optical tweezers arranged in pairs, generated using crossed acousto-optic deflectors (AODs).",
+            "caption": "Averaged fluorescence image of individual ^{171}Yb atoms confined in a 2D array of 64 optical tweezers arranged in pairs, generated using crossed acousto-optic deflectors (AODs).",
             "paragraphs": [
-              "In order to achieve high-fidelity control on the optical clock transition, we work with tweezer traps at the clock-magic wavelength of 759 nm, where the differential light shift for that transition vanishes. The atoms are loaded from a magneto-optical trap operating on the ¹S₀ → ³P₁ transition, with enhanced loading fidelities of about 80%."
+              "In order to achieve high-fidelity control on the optical clock transition, we work with tweezer traps at the clock-magic wavelength of 759 nm, where the differential light shift for that transition vanishes. The atoms are loaded from a magneto-optical trap operating on the ^{1}S_{0} → ^{3}P_{1} transition, with enhanced loading fidelities of about 80%."
             ]
           },
           {
@@ -427,7 +427,7 @@
             "image": "assets/research/ydfc-clock-states.jpg",
             "caption": "Available clock states in neutral Yb.",
             "paragraphs": [
-              "Alkaline-earth(-like) atoms, such as Yb, constitute the most precise optical clocks we have today. Combining high-precision spectroscopy with quantum information protocols opens exciting new ways for quantum metrology and sensing. At the same time Yb is a particularly interesting candidate for searches of new physics. This is enabled by a number of additional clock transitions that have been proposed for tests of local position invariance, local Lorentz invariance and α-variation, potentially providing access to novel searches for dark matter and new forces beyond the Standard Model. These tests leverage the enhanced sensitivity of an inner-shell clock transition to the 4f¹³5d6s² (J = 2) state."
+              "Alkaline-earth(-like) atoms, such as Yb, constitute the most precise optical clocks we have today. Combining high-precision spectroscopy with quantum information protocols opens exciting new ways for quantum metrology and sensing. At the same time Yb is a particularly interesting candidate for searches of new physics. This is enabled by a number of additional clock transitions that have been proposed for tests of local position invariance, local Lorentz invariance and α-variation, potentially providing access to novel searches for dark matter and new forces beyond the Standard Model. These tests leverage the enhanced sensitivity of an inner-shell clock transition to the 4f^{13}5d6s^{2} (J = 2) state."
             ]
           },
           {
@@ -447,9 +447,9 @@
             "title": "",
             "image": "assets/research/ydfc-mot.jpg",
             "wide": true,
-            "caption": "After moving we quickly got our first 3D MOT of bosonic ¹⁷⁴Yb and fermionic ¹⁷¹Yb!",
+            "caption": "After moving we quickly got our first 3D MOT of bosonic ^{174}Yb and fermionic ^{171}Yb!",
             "paragraphs": [
-              "Since August 2025, our new lab space has been ready and we started setting up the infrastructure. Shortly after moving we obtained our first 3D magneto-optical trap of bosonic ¹⁷⁴Yb and fermionic ¹⁷¹Yb."
+              "Since August 2025, our new lab space has been ready and we started setting up the infrastructure. Shortly after moving we obtained our first 3D magneto-optical trap of bosonic ^{174}Yb and fermionic ^{171}Yb."
             ]
           }
         ]

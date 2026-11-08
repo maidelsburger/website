@@ -1,20 +1,20 @@
 {% extends "base.html" %}{% import "_macros.html" as m with context %}
-{% block title %}{{ n.title }}{% endblock %}
-{% block description %}{{ n.summary }}{% endblock %}
+{% block title %}{{ n.title|plain }}{% endblock %}
+{% block description %}{{ n.summary|plain }}{% endblock %}
 {% block content %}
 <p class="breadcrumb"><a href="{{ rel }}news.html">News</a> › {{ n.date | pretty_date }}</p>
 <article class="news-full">
-  <h1>{{ n.title }}</h1>
+  <h1>{{ n.title|supsub }}</h1>
   <time datetime="{{ n.date }}">{{ n.date | pretty_date }}</time>
-  {% if n.image %}{{ m.img(n.image, n.title, 'feature') }}{% endif %}
-  {% for p in n.body %}<p>{{ p }}</p>{% endfor %}
+  {% if n.image %}{{ m.img(n.image, n.title|plain, 'feature') }}{% endif %}
+  {% for p in n.body %}<p>{{ p|supsub }}</p>{% endfor %}
   {% if n.images %}<div class="gallery">{% for g in n.images %}<a href="{{ rel }}{{ g }}">{{ m.img(g, n.title, 'gallery-img') }}</a>{% endfor %}</div>{% endif %}
   {% if n.link %}<p><a href="{{ n.link }}" rel="noopener">Read more →</a></p>{% endif %}
   <p class="tags">{% for t in n.topics %}<a class="tag" href="{{ rel }}research/{{ t }}.html">{{ research_by_id[t].short }}</a>{% endfor %}
   {% for pid in n.people %}{% if pid in people_by_id %}<a class="tag" href="{{ rel }}group.html#{{ pid }}">{{ people_by_id[pid].name }}</a>{% endif %}{% endfor %}</p>
 </article>
 <nav class="prevnext">
-  {% if prev %}<a href="{{ rel }}news/{{ prev.id }}.html">← {{ prev.title }}</a>{% else %}<span></span>{% endif %}
-  {% if next %}<a href="{{ rel }}news/{{ next.id }}.html">{{ next.title }} →</a>{% endif %}
+  {% if prev %}<a href="{{ rel }}news/{{ prev.id }}.html">← {{ prev.title|supsub }}</a>{% else %}<span></span>{% endif %}
+  {% if next %}<a href="{{ rel }}news/{{ next.id }}.html">{{ next.title|supsub }} →</a>{% endif %}
 </nav>
 {% endblock %}

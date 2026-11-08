@@ -6,22 +6,22 @@
 <h1>{{ r.title }}</h1>
 <div class="topic-layout">
   <div class="topic-main">
-    <p class="lead">{{ r.summary }}</p>
-    {% for p in r.body %}<p>{{ p }}</p>{% endfor %}
+    <p class="lead">{{ r.summary|supsub }}</p>
+    {% for p in r.body %}<p>{{ p|supsub }}</p>{% endfor %}
 
     {% for sec in r.sections %}
-    <h2>{{ sec.heading }}</h2>
+    <h2>{{ sec.heading|supsub }}</h2>
     {% for sub in sec.subs %}
-    {% if sub.title %}<h3>{{ sub.title }}</h3>{% endif %}
-    {% if sub.image %}<figure class="sub-fig{% if sub.wide %} wide{% endif %}{% if sub.full %} full{% endif %}{% if sub.align == 'left' %} left{% endif %}"{% if sub.width %} style="max-width:{{ sub.width }}px"{% endif %}><img src="{{ rel }}{{ sub.image }}" alt="{{ sub.title or sec.heading }}" loading="lazy">{% if sub.caption %}<figcaption class="muted">{{ sub.caption|supsub }}</figcaption>{% endif %}</figure>{% endif %}
-    {% for p in sub.paragraphs %}<p>{{ p }}</p>{% endfor %}
-    {% if sub.links %}<p class="refs">{% for l in sub.links %}<a href="{{ l.url }}" rel="noopener">{{ l.label }}</a>{% if not loop.last %}<br>{% endif %}{% endfor %}</p>{% endif %}
+    {% if sub.title %}<h3>{{ sub.title|supsub }}</h3>{% endif %}
+    {% if sub.image %}<figure class="sub-fig{% if sub.wide %} wide{% endif %}{% if sub.full %} full{% endif %}{% if sub.align == 'left' %} left{% endif %}"{% if sub.width %} style="max-width:{{ sub.width }}px"{% endif %}><img src="{{ rel }}{{ sub.image }}" alt="{{ (sub.title or sec.heading)|plain }}" loading="lazy">{% if sub.caption %}<figcaption class="muted">{{ sub.caption|supsub }}</figcaption>{% endif %}</figure>{% endif %}
+    {% for p in sub.paragraphs %}<p>{{ p|supsub }}</p>{% endfor %}
+    {% if sub.links %}<p class="refs">{% for l in sub.links %}<a href="{{ l.url }}" rel="noopener">{{ l.label|supsub }}</a>{% if not loop.last %}<br>{% endif %}{% endfor %}</p>{% endif %}
     {% endfor %}
     {% endfor %}
 
     {% if r.theses %}
     <h2>PhD theses from our team</h2>
-    <ul class="theses">{% for t in r.theses %}<li><strong>{{ t.name }}</strong> ({{ t.year }}): {% if t.url %}<a href="{{ t.url }}" rel="noopener"><em>{{ t.title }}</em></a>{% else %}<em>{{ t.title }}</em>{% endif %}</li>{% endfor %}</ul>
+    <ul class="theses">{% for t in r.theses %}<li><strong>{{ t.name }}</strong> ({{ t.year }}): {% if t.url %}<a href="{{ t.url }}" rel="noopener"><em>{{ t.title|supsub }}</em></a>{% else %}<em>{{ t.title|supsub }}</em>{% endif %}</li>{% endfor %}</ul>
     {% endif %}
 
     {% if topic_pubs %}
