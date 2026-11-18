@@ -245,7 +245,15 @@
         "url": "https://edoc.ub.uni-muenchen.de/35437/"
       }
     ],
-    "teaser": "A quantum gas microscope for strongly interacting topological phases, with single-site resolution and digital-analog quantum simulation."
+    "teaser": "A quantum gas microscope for strongly interacting topological phases, with single-site resolution and digital-analog quantum simulation.",
+    "collaborators_heading": "Collaboration",
+    "collaborators": [
+      {
+        "name": "Immanuel Bloch",
+        "affiliation": "MPQ & LMU Munich",
+        "link": "https://www.quantum-munich.de/"
+      }
+    ]
   },
   {
     "id": "k-hexagonal",

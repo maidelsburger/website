@@ -44,7 +44,7 @@
     </ul>
     {% endif %}
     {% if r.collaborators %}
-    <h2>Main collaborators</h2>
+    <h2>{{ r.collaborators_heading or "Main collaborators" }}</h2>
     <ul class="plain team-list">
     {% for c in r.collaborators %}<li>{% if c.link %}<a href="{{ c.link }}" rel="noopener">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% if c.affiliation %} <span class="muted">· {{ c.affiliation }}</span>{% endif %}</li>{% endfor %}
     </ul>
