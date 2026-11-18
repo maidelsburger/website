@@ -41,7 +41,7 @@
     <h2>Team</h2>
     <ul class="plain team-list">
     {% for mem in topic_people %}<li>{% if mem.group_page is not defined or mem.group_page %}<a href="{{ rel }}group.html#{{ mem.id }}">{{ mem.name }}</a>{% else %}{{ mem.name }}{% endif %}{% if mem.role %} <span class="muted">· {{ mem.role }}</span>{% endif %}</li>{% endfor %}
-    {% for c in r.collaborators %}<li><span class="muted">Collaboration –</span> {% if c.link %}<a href="{{ c.link }}" rel="noopener">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}</li>{% endfor %}
+    {% for c in r.collaborators %}<li><strong>Collaboration –</strong> {% if c.link %}<a href="{{ c.link }}" rel="noopener">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}</li>{% endfor %}
     </ul>
     {% endif %}
     {% if r.collaborators and not topic_people %}
