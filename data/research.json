@@ -131,7 +131,14 @@
         "url": "https://edoc.ub.uni-muenchen.de/34662/"
       }
     ],
-    "teaser": "We are developing a novel platform for quantum simulation with fermionic Yb atoms, combining optical lattices with tweezer arrays for local control."
+    "teaser": "We are developing a novel platform for quantum simulation with fermionic Yb atoms, combining optical lattices with tweezer arrays for local control.",
+    "collaborators": [
+      {
+        "name": "Immanuel Bloch",
+        "affiliation": "MPQ & LMU Munich",
+        "link": "https://www.quantum-munich.de/"
+      }
+    ]
   },
   {
     "id": "cs-microscope",
@@ -246,7 +253,6 @@
       }
     ],
     "teaser": "A quantum gas microscope for strongly interacting topological phases, with single-site resolution and digital-analog quantum simulation.",
-    "collaborators_heading": "Collaboration",
     "collaborators": [
       {
         "name": "Immanuel Bloch",
