@@ -11,6 +11,7 @@
 <h2>Apply at Stanford</h2>
 {% for g in positions.link_groups %}
 <h3>{{ g.heading }}</h3>
+{% if g.note %}<p>{{ g.note }}</p>{% endif %}
 <ul class="openings">
 {% for l in g.links %}<li><a href="{{ l.url }}" rel="noopener">{{ l.label }}</a></li>{% endfor %}
 </ul>
