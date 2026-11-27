@@ -1,13 +1,13 @@
 [
  {
-  "id": "2026-11-27-yao-humboldt-award",
-  "date": "2026-11-27",
+  "id": "2026-11-19-yao-humboldt-award",
+  "date": "2026-11-19",
   "title": "Norman Yao receives a Humboldt Research Award!",
   "summary": "Congratulations Norm! The Alexander von Humboldt Foundation has awarded him a Humboldt Research Award.",
   "body": [
    "We are thrilled to announce that Prof. Norman Yao has been awarded a Humboldt Research Award by the Alexander von Humboldt Foundation. The award honors his outstanding research achievements and supports his research stay in our group in Munich. Congratulations, Norm!"
   ],
-  "image": "assets/news/2026-11-27-yao-humboldt-award.jpg",
+  "image": "assets/news/2026-11-19-yao-humboldt-award.jpg",
   "topics": [],
   "people": [
    "norman-yao"
@@ -30,6 +30,75 @@
   "people": []
  },
  {
+  "id": "2026-10-06-tanlimco-mcqst-seed",
+  "date": "2026-10-06",
+  "title": "Jeremy wins an MCQST Seed Funding Award!",
+  "summary": "Jeremy received an MCQST Seed Funding Award for his research proposal “Continuous Quantum Gas Microscopy”.",
+  "body": [
+   "Congratulations to Jeremy, who won an MCQST Seed Funding Award for his research proposal “Continuous Quantum Gas Microscopy”! The Seed Funding program of the Munich Center for Quantum Science and Technology (MCQST) supports exceptional and emergent research ideas."
+  ],
+  "image": "assets/news/2026-10-06-tanlimco-mcqst-seed.jpg",
+  "topics": [
+   "yb-hybrid"
+  ],
+  "people": [
+   "jeremy-tanlimco"
+  ],
+  "link": "https://www.mcqst.de/support/seed-funding/",
+  "thumb": "assets/news/2026-10-06-tanlimco-mcqst-seed-thumb.jpg"
+ },
+ {
+  "id": "2026-10-02-prague-retreat",
+  "date": "2026-10-02",
+  "title": "Group retreat in Prague!",
+  "summary": "From September 30 to October 2 the whole group went on a retreat to Prague.",
+  "body": [
+   "From September 30 to October 2 the whole group went on a retreat to Prague — three days of science, discussions and exploring the city together."
+  ],
+  "image": "assets/news/2026-10-02-prague-retreat.jpg",
+  "topics": [],
+  "people": [],
+  "link": ""
+ },
+ {
+  "id": "2026-09-24-maier-macke-award",
+  "date": "2026-09-24",
+  "title": "Fabian Maier receives the Wilhelm Macke Award",
+  "summary": "Congratulations to Fabian! He received the Wilhelm Macke Award of the Johannes Kepler University Linz for his outstanding Master's thesis.",
+  "body": [
+   "Congratulations to Fabian, who received the Wilhelm Macke Award of the Johannes Kepler University Linz (JKU) for his outstanding Master's thesis. The award is presented by the Wilhelm Macke Stipendienstiftung, and the finalists present their work in a public talk with the audience acting as the jury — Fabian won them over with his talk \"Bessere Mikroskope für Quantenforschung\" (\"Better microscopes for quantum research\").",
+   "Fabian is a PhD student on our Yb hybrid tweezer-lattice experiment."
+  ],
+  "image": "assets/news/2026-09-24-maier-macke-award.jpg",
+  "topics": [
+   "yb-hybrid"
+  ],
+  "people": [
+   "fabian-maier"
+  ],
+  "link": "https://www.jku.at/news-events/presse/detail/news/einblicke-in-quantenforschung-jku-macke-award-fuer-fabian-maier/"
+ },
+ {
+  "id": "2026-09-24-kaiser-defense",
+  "date": "2026-09-24",
+  "title": "Bodo Kaiser successfully defended his PhD thesis!",
+  "summary": "Bodo successfully defended his PhD thesis. He did his doctoral work on the Ryd-Yb tweezer array experiment.",
+  "body": [
+   "Bodo successfully defended his PhD thesis “Nuclear-spin qubits and Rydberg interactions in ytterbium-171” — congratulations, Bodo! As the first PhD student on the Ryd-Yb machine, he set up the experiment from an empty lab: the entire infrastructure, the vacuum chamber, and the design of the magnetic-field coils. He was then joined by Yilong and later Amin to reinforce the team."
+  ],
+  "image": "assets/news/2026-09-24-kaiser-defense.jpg",
+  "topics": [
+   "ryd-yb"
+  ],
+  "people": [],
+  "link": "",
+  "images": [
+   "assets/news/2026-09-24-kaiser-defense-2.jpg",
+   "assets/news/2026-09-24-kaiser-defense-3.jpg",
+   "assets/news/2026-09-24-kaiser-defense-4.jpg"
+  ]
+ },
+ {
   "id": "2026-08-31-norman-yao-sabbatical",
   "date": "2026-08-31",
   "title": "Welcome Norman!",
@@ -41,6 +110,24 @@
   "topics": [],
   "people": [
    "norman-yao"
+  ],
+  "link": ""
+ },
+ {
+  "id": "2026-08-15-welcome-jeremy",
+  "date": "2026-08-15",
+  "title": "Welcome Jeremy!",
+  "summary": "Jeremy Tanlimco joins our group as a postdoc on the Yb hybrid tweezer-lattice experiment.",
+  "body": [
+   "We are happy to welcome Jeremy Tanlimco, who joins our group as a postdoc on the Yb hybrid tweezer-lattice experiment. Jeremy comes to us from UC Santa Barbara, where he worked in the group of David Weld.",
+   "Group celebration with traditional Bavarian food!"
+  ],
+  "image": "assets/news/2026-08-15-welcome-jeremy.jpg",
+  "topics": [
+   "yb-hybrid"
+  ],
+  "people": [
+   "jeremy-tanlimco"
   ],
   "link": ""
  },
@@ -95,6 +182,30 @@
   "link": ""
  },
  {
+  "id": "2026-01-30-when-atoms-lose-their-sense-of-colour",
+  "date": "2026-01-30",
+  "title": "When atoms lose their sense of colour",
+  "summary": "MPQ press release on our PRX Quantum paper: we identified a colour of light that is “invisible” to excited-state atoms while strongly trapping ground-state atoms — a powerful new tool for quantum simulation and computing.",
+  "body": [
+   "A newly identified colour of light is “invisible” to excited atoms, but still traps atoms in their ground state. Our team at MPQ and LMU has identified a colour of light at which atoms become selectively “colourblind”: at this wavelength, the light has no effect on excited-state atoms, but strongly confines atoms in the ground state. The results, published in PRX Quantum, provide a powerful new tool for analogue quantum simulation and novel computing architectures.",
+   "This phenomenon is known as a tune-out wavelength. At such a wavelength, the light-induced energy shift of a particular atomic state vanishes, even at high light intensity. While tune-out wavelengths have been measured for atoms in their ground state, accurately determining them for excited-state atoms has so far remained elusive — excited atoms typically have a short lifetime and are highly sensitive to their environment.",
+   "“To find this wavelength, we needed to measure tiny light-induced perturbations on fragile atoms,” explains Tim Höhn, the lead author of the study. “Any extra heating, collisions, or photon scattering immediately reduces the achievable precision.”",
+   "The team succeeded by trapping ultracold atoms in a two-dimensional optical lattice at the clock-magic wavelength and cooling them on the ultranarrow optical clock transition. The lattice isolates atoms from each other, suppressing detrimental collisions, and the ultralow temperatures allow the trapping light to be reduced, extending excited-state lifetimes from a few hundred milliseconds to over five seconds. Together, these advances enabled an accurate determination of the excited-state tune-out wavelength.",
+   "This form of state-dependent “colourblindness” opens new possibilities for designing tailored quantum systems: quantum simulation of many-body systems in which different internal states experience different potentials, fast and scalable assembly of dense atom arrays, and high-fidelity local addressing in neutral-atom quantum computers.",
+   "Original publication: Determining the ^{3}P_{0} excited-state tune-out wavelength of ^{174}Yb in a triple-magic lattice, T. O. Höhn, R. A. Villela, E. Zu, L. Bezzo, R. M. Kroeze, M. Aidelsburger, PRX Quantum 7, 010303 (2026)"
+  ],
+  "image": "assets/news/2026-01-30-when-atoms-lose-their-sense-of-colour.jpg",
+  "images": [
+   "assets/news/2026-01-30-when-atoms-lose-their-sense-of-colour-schematic.jpg",
+   "assets/news/2026-01-30-when-atoms-lose-their-sense-of-colour-response.jpg"
+  ],
+  "topics": [
+   "yb-hybrid"
+  ],
+  "people": [],
+  "link": "https://www.mpq.mpg.de/7221882/01-when-atoms-lose-their-sense-of-colour"
+ },
+ {
   "id": "2025-11-07-yb-microscope",
   "date": "2025-11-07",
   "title": "Fast microscopy of cold Yb at LMU!",
@@ -122,93 +233,6 @@
   "topics": [
    "ydfc"
   ],
-  "people": [],
-  "link": ""
- },
- {
-  "id": "2026-09-24-maier-macke-award",
-  "date": "2026-09-24",
-  "title": "Fabian Maier receives the Wilhelm Macke Award",
-  "summary": "Congratulations to Fabian! He received the Wilhelm Macke Award of the Johannes Kepler University Linz for his outstanding Master's thesis.",
-  "body": [
-   "Congratulations to Fabian, who received the Wilhelm Macke Award of the Johannes Kepler University Linz (JKU) for his outstanding Master's thesis. The award is presented by the Wilhelm Macke Stipendienstiftung, and the finalists present their work in a public talk with the audience acting as the jury — Fabian won them over with his talk \"Bessere Mikroskope für Quantenforschung\" (\"Better microscopes for quantum research\").",
-   "Fabian is a PhD student on our Yb hybrid tweezer-lattice experiment."
-  ],
-  "image": "assets/news/2026-09-24-maier-macke-award.jpg",
-  "topics": [
-   "yb-hybrid"
-  ],
-  "people": [
-   "fabian-maier"
-  ],
-  "link": "https://www.jku.at/news-events/presse/detail/news/einblicke-in-quantenforschung-jku-macke-award-fuer-fabian-maier/"
- },
- {
-  "id": "2026-09-24-kaiser-defense",
-  "date": "2026-09-24",
-  "title": "Bodo Kaiser successfully defended his PhD thesis!",
-  "summary": "Bodo successfully defended his PhD thesis. He did his doctoral work on the Ryd-Yb tweezer array experiment.",
-  "body": [
-   "Bodo successfully defended his PhD thesis “Nuclear-spin qubits and Rydberg interactions in ytterbium-171” — congratulations, Bodo! As the first PhD student on the Ryd-Yb machine, he set up the experiment from an empty lab: the entire infrastructure, the vacuum chamber, and the design of the magnetic-field coils. He was then joined by Yilong and later Amin to reinforce the team."
-  ],
-  "image": "assets/news/2026-09-24-kaiser-defense.jpg",
-  "topics": [
-   "ryd-yb"
-  ],
-  "people": [],
-  "link": "",
-  "images": [
-   "assets/news/2026-09-24-kaiser-defense-2.jpg",
-   "assets/news/2026-09-24-kaiser-defense-3.jpg",
-   "assets/news/2026-09-24-kaiser-defense-4.jpg"
-  ]
- },
- {
-  "id": "2026-08-15-welcome-jeremy",
-  "date": "2026-08-15",
-  "title": "Welcome Jeremy!",
-  "summary": "Jeremy Tanlimco joins our group as a postdoc on the Yb hybrid tweezer-lattice experiment.",
-  "body": [
-   "We are happy to welcome Jeremy Tanlimco, who joins our group as a postdoc on the Yb hybrid tweezer-lattice experiment. Jeremy comes to us from UC Santa Barbara, where he worked in the group of David Weld.",
-   "Group celebration with traditional Bavarian food!"
-  ],
-  "image": "assets/news/2026-08-15-welcome-jeremy.jpg",
-  "topics": [
-   "yb-hybrid"
-  ],
-  "people": [
-   "jeremy-tanlimco"
-  ],
-  "link": ""
- },
- {
-  "id": "2026-10-06-tanlimco-mcqst-seed",
-  "date": "2026-10-06",
-  "title": "Jeremy wins an MCQST Seed Funding Award!",
-  "summary": "Jeremy received an MCQST Seed Funding Award for his research proposal “Continuous Quantum Gas Microscopy”.",
-  "body": [
-   "Congratulations to Jeremy, who won an MCQST Seed Funding Award for his research proposal “Continuous Quantum Gas Microscopy”! The Seed Funding program of the Munich Center for Quantum Science and Technology (MCQST) supports exceptional and emergent research ideas."
-  ],
-  "image": "assets/news/2026-10-06-tanlimco-mcqst-seed.jpg",
-  "topics": [
-   "yb-hybrid"
-  ],
-  "people": [
-   "jeremy-tanlimco"
-  ],
-  "link": "https://www.mcqst.de/support/seed-funding/",
-  "thumb": "assets/news/2026-10-06-tanlimco-mcqst-seed-thumb.jpg"
- },
- {
-  "id": "2026-10-02-prague-retreat",
-  "date": "2026-10-02",
-  "title": "Group retreat in Prague!",
-  "summary": "From September 30 to October 2 the whole group went on a retreat to Prague.",
-  "body": [
-   "From September 30 to October 2 the whole group went on a retreat to Prague — three days of science, discussions and exploring the city together."
-  ],
-  "image": "assets/news/2026-10-02-prague-retreat.jpg",
-  "topics": [],
   "people": [],
   "link": ""
  },
@@ -1089,29 +1113,5 @@
   ],
   "people": [],
   "link": ""
- },
- {
-  "id": "2026-01-30-when-atoms-lose-their-sense-of-colour",
-  "date": "2026-01-30",
-  "title": "When atoms lose their sense of colour",
-  "summary": "MPQ press release on our PRX Quantum paper: we identified a colour of light that is “invisible” to excited-state atoms while strongly trapping ground-state atoms — a powerful new tool for quantum simulation and computing.",
-  "body": [
-   "A newly identified colour of light is “invisible” to excited atoms, but still traps atoms in their ground state. Our team at MPQ and LMU has identified a colour of light at which atoms become selectively “colourblind”: at this wavelength, the light has no effect on excited-state atoms, but strongly confines atoms in the ground state. The results, published in PRX Quantum, provide a powerful new tool for analogue quantum simulation and novel computing architectures.",
-   "This phenomenon is known as a tune-out wavelength. At such a wavelength, the light-induced energy shift of a particular atomic state vanishes, even at high light intensity. While tune-out wavelengths have been measured for atoms in their ground state, accurately determining them for excited-state atoms has so far remained elusive — excited atoms typically have a short lifetime and are highly sensitive to their environment.",
-   "“To find this wavelength, we needed to measure tiny light-induced perturbations on fragile atoms,” explains Tim Höhn, the lead author of the study. “Any extra heating, collisions, or photon scattering immediately reduces the achievable precision.”",
-   "The team succeeded by trapping ultracold atoms in a two-dimensional optical lattice at the clock-magic wavelength and cooling them on the ultranarrow optical clock transition. The lattice isolates atoms from each other, suppressing detrimental collisions, and the ultralow temperatures allow the trapping light to be reduced, extending excited-state lifetimes from a few hundred milliseconds to over five seconds. Together, these advances enabled an accurate determination of the excited-state tune-out wavelength.",
-   "This form of state-dependent “colourblindness” opens new possibilities for designing tailored quantum systems: quantum simulation of many-body systems in which different internal states experience different potentials, fast and scalable assembly of dense atom arrays, and high-fidelity local addressing in neutral-atom quantum computers.",
-   "Original publication: Determining the ^{3}P_{0} excited-state tune-out wavelength of ^{174}Yb in a triple-magic lattice, T. O. Höhn, R. A. Villela, E. Zu, L. Bezzo, R. M. Kroeze, M. Aidelsburger, PRX Quantum 7, 010303 (2026)"
-  ],
-  "image": "assets/news/2026-01-30-when-atoms-lose-their-sense-of-colour.jpg",
-  "images": [
-   "assets/news/2026-01-30-when-atoms-lose-their-sense-of-colour-schematic.jpg",
-   "assets/news/2026-01-30-when-atoms-lose-their-sense-of-colour-response.jpg"
-  ],
-  "topics": [
-   "yb-hybrid"
-  ],
-  "people": [],
-  "link": "https://www.mpq.mpg.de/7221882/01-when-atoms-lose-their-sense-of-colour"
  }
 ]
